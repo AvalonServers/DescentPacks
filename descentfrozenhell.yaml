@@ -1,0 +1,215 @@
+#===========#
+# Pack Info #
+#===========#
+name: descentfrozenhell
+title: Descent Frozen Hell
+authors: ["CitadelCore"]
+version: 1.0.1.0
+mcVersion: 1.12.2
+forge: 2759
+minecraftDir: descentfrozenhell/src
+
+#================#
+# Client Configs #
+#================#
+userFiles:
+  include: []
+  exclude: []
+
+#===========#
+# Core Pack #
+#===========#
+root:
+#==============#
+# Version Info #
+#==============#
+  provider: CURSE
+  validMcVersions: [1.12.1, '1.12']
+  curseOptionalDependencies: false
+  curseReleaseTypes: [ alpha, beta, release ]
+
+#==============#
+# Pack Content #
+#==============#
+
+#===============================#
+# Mods (Core) Client and Server #
+#===============================#
+
+  entries:
+  - Wearable Backpacks
+
+  # Glitchfiend
+  - Tough As Nails
+
+  # CovertJaguar
+  - Timberjack
+
+  # Beeto
+  - Better With Mods
+
+  # primetoxins
+  - Better With Engineering
+
+  # shadowfactsmc
+  - Shadowfacts' Forgelin
+
+  # BluSunrize
+  - Immersive Engineering
+
+  # Flaxbeard
+  - Immersive Petroleum
+
+  # FerroO2000
+  - Immersive Tech
+
+  # capitalthree
+  - Lingering Loot
+
+  # Mr_TJP
+  - MrTJPCore
+  - Project Red - Base
+  - Project Red - Compat
+  - Project Red - Fabrication
+  - Project Red - Integration
+  - Project Red - Lighting
+
+  # chicken_bones
+  - CodeChicken Lib 1.8.+ 
+  - Forge MultiPart CBE
+
+  # Vazkii
+  - AutoRegLib 
+
+  # chiselTeam
+  - Chisel
+
+  # AlgorithmX2
+  - Chisels & Bits
+
+  # jaredlll08
+  - MTLib
+
+  # jaredlll08
+  - CraftTweaker
+  - ModTweaker
+
+  # mezz
+  - Just Enough Items (JEI)
+
+  # Team CoFH
+  - CoFH Core
+  - CoFH World
+  - Redstone Flux
+  - Thermal Foundation
+  - Thermal Expansion
+
+  # azanor
+  - Thaumcraft
+  - Thaumic Computers
+  - Baubles
+
+  # p455w0rd
+  - p455w0rd's Library
+  - Tough Expansion
+
+  # asie
+  - Charset Lib
+  - Charset Tweaks
+  - Charset Immersion
+  - Charset Audio
+  - FoamFix for Minecraft
+  - Charset Tablet
+  - Charset Tools
+  - Charset Crafting
+  - Charset Block Carrying
+  - CharsetPatches
+  - Charset Storage - Locks
+  - OpenComputers
+  - Zetta Industries
+
+  # Direct Downloads
+  - provider: DIRECT
+    entries:
+      - url: http://files.vexatos.com/Computronics/Computronics-1.12.1-1.6.5.jar
+        name: Computronics
+
+#============#
+# Serverside #
+#============#
+
+  - side: SERVER
+    entries:
+    - "BTFU continuous rsync incremental backup"
+    - SwingThroughGrass
+    #- ColorChat
+    #- MatterLink
+
+#===================#
+# Common - Optional #
+#===================#
+
+  - side: BOTH
+    feature:
+      selected: false
+    entries:
+ 
+    - name: LagGoggles
+      description: "***Admin/diagnostic tool. Leave off unless asked to help test performance issues."
+
+    - name: Sampler
+      description: "***Admin/diagnostic tool. Leave off unless asked to help test performance issues."
+
+    - name: OpenEye
+      description: "Automatically collects and submits crash reports. Enable if asked or wish to help sort issues with the pack."
+
+#============#
+# Clientside #
+#============#
+
+  - side: CLIENT
+    entries:
+    - Hwyla
+    - Hardcore Darkness
+    - ConnectedTexturesMod
+
+#=======================#
+# Clientside - Optional #
+#=======================#
+
+    # OPT-OUT
+    - feature:
+        selected: true
+        recommendation: starred
+      entries:
+        - name: Dynamic Surroundings
+          description: "Caution: Resource heavy. Quite nice, has a lot of configurable features that add immersive sound/visual effects. Includes light-level overlay. (Defaults set to remove some sounds and generally be better.)"
+        - name: Dynamic Lights
+          description: "Caution: Resource heavy. Turn this off if your computer isn't powerful enough."
+        - name: JourneyMap
+          description: "Mod-compatible mini-map."
+        - name: Client Tweaks
+          description: "Various client related fixes and tweaks, all in a handy menu."
+        - name: Thaumic JEI
+          description: "JEI Integration for Thaumcraft."
+        - name: Just Enough Resources (JER)
+          description: "JEI Integration that gives drop-rates for mobs, dungeonloot, etc."
+        - name: Inventory Tweaks
+          description: Adds small changes to invetory handling to minor conviniences.
+
+    # OPT-IN
+    - feature:
+        selected: false
+      entries:
+        - name: Better Foliage
+          description: "Caution: Resource heavy. Disabled by default because there are a few render bugs."
+        - name: Fancy Block Particles
+          description: "Caution: Resource heavy. Adds some flair to particle effects and animations. Highly configurable, costs fps. (Defaults set to be less intrusive.)"
+        - name: Faster Ladder Climbing
+          description: "Helps you control ladder climb speed and allows you to go a bit faster."
+        - name: NBTEdit
+          description: Can be used to view NBT trees. Developer use only.
+
+#================#
+# Resource Packs #
+#================#
