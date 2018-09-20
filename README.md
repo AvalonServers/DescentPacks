@@ -17,3 +17,9 @@ Run your test instance (MultiMC must be installed): \
 `java -jar voodoo.jar test mmc descentfrozenhell.lock.json`
 
 Please note if you're not updating mods in the pack (for example to test with new config), there is no need to flatten and lock a new JSON.
+
+Packing for web server upload (Admin use only): \
+`java -jar voodoo.jar pack sk descentfrozenhell.lock.json`
+
+Packing for Minecraft server upload (Admin use only): \
+`java -jar voodoo.jar pack server descentfrozenhell.lock.json`
