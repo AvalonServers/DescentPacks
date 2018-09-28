@@ -42,9 +42,6 @@ root:
   # Glitchfiend
   - Tough As Nails
 
-  # CovertJaguar
-  - Timberjack
-
   # Beeto
   - Better With Mods
 
@@ -130,6 +127,18 @@ root:
 
   # GotoLink
   - RecipeHandler
+  
+  #TeamDmfMM
+  - Catwalks-4
+  
+  #ondrejduchon
+  - TreeChopper
+  
+  #malte0811
+  - IndustrialWires
+  
+  #PC-Logix
+  - OpenFM
     
   # Direct Downloads
   - provider: DIRECT
