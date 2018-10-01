@@ -137,10 +137,6 @@ root:
   
   #PC-Logix
   - OpenFM
-    
-  #WanionCane
-  - UniDict
-  - WanionLib
   
   # Direct Downloads
   - provider: DIRECT
