@@ -4,9 +4,9 @@
 name: descentfrozenhell
 title: Descent Frozen Hell
 authors: ["CitadelCore"]
-version: 1.0.1.0
+version: 1.0.2.0
 mcVersion: 1.12.2
-forge: 2759
+forge: 2765
 minecraftDir: descentfrozenhell/src
 
 #================#
@@ -122,9 +122,6 @@ root:
   - Charset Storage - Locks
   - OpenComputers
   - Zetta Industries
-
-  # GotoLink
-  - RecipeHandler
   
   #TeamDmfMM
   - Catwalks-4
