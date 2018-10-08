@@ -1,0 +1,8 @@
+{
+  provider: CURSE,
+  id: better-foliage,
+  side: CLIENT,
+  projectID: 228529,
+  fileID: 2478147,
+  name: "Better Foliage"
+}

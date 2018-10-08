@@ -1,0 +1,8 @@
+{
+  provider: CURSE,
+  id: btfu-continuous-rsync-incremental-backup,
+  side: SERVER,
+  projectID: 246105,
+  fileID: 2535073,
+  name: "BTFU continuous rsync incremental backup"
+}
