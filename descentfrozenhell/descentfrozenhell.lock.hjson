@@ -1,0 +1,134 @@
+{
+    id: descentfrozenhell,
+    mcVersion: 1.12.2,
+    title: "Descent Frozen Hell",
+    version: 1.0.4.0,
+    authors: [
+        CitadelCore
+    ],
+    forge: 2765,
+    launch: {
+        flags: [
+        ]
+    },
+    userFiles: {
+        include: [
+            
+        ],
+        exclude: [
+            
+        ]
+    },
+    features: [
+        {
+            entries: [
+                better-foliage
+            ],
+            feature: {
+                name: "Better Foliage",
+                selected: false,
+                description: "Caution: Resource heavy. Disabled by default because there are a few render bugs."
+            },
+            files: {
+            }
+        },
+        {
+            entries: [
+                dynamic-lights
+            ],
+            feature: {
+                name: "Dynamic Lights",
+                selected: true,
+                description: "Caution: Resource heavy. Turn this off if your computer isn't powerful enough.",
+                recommendation: starred
+            },
+            files: {
+            }
+        },
+        {
+            entries: [
+                dynamic-surroundings
+            ],
+            feature: {
+                name: "Dynamic Surroundings",
+                selected: true,
+                description: "Caution: Resource heavy. Quite nice, has a lot of configurable features that add immersive sound/visual effects. Includes light-level overlay. (Defaults set to remove some sounds and generally be better.)",
+                recommendation: starred
+            },
+            files: {
+            }
+        },
+        {
+            entries: [
+                fancy-block-particles
+            ],
+            feature: {
+                name: "Fancy Block Particles",
+                selected: false,
+                description: "Caution: Resource heavy. Adds some flair to particle effects and animations. Highly configurable, costs fps. (Defaults set to be less intrusive.)"
+            },
+            files: {
+            }
+        },
+        {
+            entries: [
+                faster-ladder-climbing
+            ],
+            feature: {
+                name: "Faster Ladder Climbing",
+                selected: false,
+                description: "Helps you control ladder climb speed and allows you to go a bit faster."
+            },
+            files: {
+            }
+        },
+        {
+            entries: [
+                laggoggles
+            ],
+            feature: {
+                name: LagGoggles,
+                selected: false,
+                description: "***Admin/diagnostic tool. Leave off unless asked to help test performance issues."
+            },
+            files: {
+            }
+        },
+        {
+            entries: [
+                nbtedit
+            ],
+            feature: {
+                name: NBTEdit,
+                selected: false,
+                description: "Can be used to view NBT trees. Developer use only."
+            },
+            files: {
+            }
+        },
+        {
+            entries: [
+                openeye
+            ],
+            feature: {
+                name: OpenEye,
+                selected: false,
+                description: "Automatically collects and submits crash reports. Enable if asked or wish to help sort issues with the pack."
+            },
+            files: {
+            }
+        },
+        {
+            entries: [
+                sampler
+            ],
+            feature: {
+                name: Sampler,
+                selected: false,
+                description: "***Admin/diagnostic tool. Leave off unless asked to help test performance issues."
+            },
+            files: {
+            }
+        }
+    ]
+}

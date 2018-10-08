@@ -1,0 +1,6 @@
+{
+  provider: DIRECT,
+  id: computronics,
+  url: "http://files.vexatos.com/Computronics/Computronics-1.12.1-1.6.5.jar",
+  name: computronics
+}

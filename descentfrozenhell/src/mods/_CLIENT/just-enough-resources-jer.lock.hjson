@@ -1,0 +1,8 @@
+{
+  provider: CURSE,
+  id: just-enough-resources-jer,
+  side: CLIENT,
+  projectID: 240630,
+  fileID: 2603567,
+  name: "Just Enough Resources (JER)"
+}
