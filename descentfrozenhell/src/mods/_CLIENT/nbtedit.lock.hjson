@@ -1,0 +1,8 @@
+{
+  provider: CURSE,
+  id: nbtedit,
+  side: CLIENT,
+  projectID: 247580,
+  fileID: 2448708,
+  name: NBTEdit
+}

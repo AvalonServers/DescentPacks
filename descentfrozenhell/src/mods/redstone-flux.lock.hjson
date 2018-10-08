@@ -1,0 +1,7 @@
+{
+  provider: CURSE,
+  id: redstone-flux,
+  projectID: 270789,
+  fileID: 2623090,
+  name: "Redstone Flux"
+}
