@@ -1,0 +1,8 @@
+{
+  provider: CURSE,
+  id: dynamic-lights,
+  side: CLIENT,
+  projectID: 227874,
+  fileID: 2563244,
+  name: "Dynamic Lights"
+}
