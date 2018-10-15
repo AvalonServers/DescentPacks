@@ -23,13 +23,13 @@ fun main(args: Array<String>) = withDefaultMain(
     arguments = args,
     root = Constants.rootDir.resolve("descentfrozenhell")
 ) {
-    NestedPack(
+    nestedPack(
         id = "descentfrozenhell",
         title = "Descent Frozen Hell",
         authors = listOf("CitadelCore"),
         version = "1.0.4.0",
         mcVersion = "1.12.2",
-        forge = Forge.mc1_12_2.build2765,
+        forge = Forge.mc1_12_2.build2769,
         icon = root.resolve("icon.png"),
 
         sourceDir = "src",
@@ -49,111 +49,111 @@ fun main(args: Array<String>) = withDefaultMain(
                 // or just look into the generated constants in `.voodoo/Mod.kt`
 
                 // InsomniaKitten
-                id(Mod.wearableBackpacks)
+                add(Mod.wearableBackpacks)
 
                 // Glitchfiend
-                id(Mod.toughAsNails)
+                add(Mod.toughAsNails)
 
                 // Beeto
-                id(Mod.betterWithMods)
+                add(Mod.betterWithMods)
                 // primetoxins
-                id(Mod.betterWithEngineering)
+                add(Mod.betterWithEngineering)
 
                 // shadowfactsmc
-                id(Mod.shadowfactsForgelin)
+                add(Mod.shadowfactsForgelin)
 
                 // BluSunrize
-                id(Mod.immersiveEngineering)
+                add(Mod.immersiveEngineering)
                 // Flaxbeard
-                id(Mod.immersivePetroleum)
+                add(Mod.immersivePetroleum)
                 // FerroO2000
-                id(Mod.immersiveTech)
+                add(Mod.immersiveTech)
 
                 // Mr_TJP
-                id(Mod.mrtjpcore)
-                id(Mod.projectRedBase)
-                id(Mod.projectRedCompat)
-                id(Mod.projectRedFabrication)
-                id(Mod.projectRedIntegration)
-                id(Mod.projectRedLighting)
+                add(Mod.mrtjpcore)
+                add(Mod.projectRedBase)
+                add(Mod.projectRedCompat)
+                add(Mod.projectRedFabrication)
+                add(Mod.projectRedIntegration)
+                add(Mod.projectRedLighting)
 
                 // chicken_bones
-                id(Mod.codechickenLib18)
-                id(Mod.forgeMultipartCbe)
+                add(Mod.codechickenLib18)
+                add(Mod.forgeMultipartCbe)
 
                 // Vazkii
-                id(Mod.autoreglib)
+                add(Mod.autoreglib)
 
                 // chiselTeam
-                id(Mod.chisel)
+                add(Mod.chisel)
                 // AlgorithmX2
-                id(Mod.chiselsBits)
+                add(Mod.chiselsBits)
 
                 // jaredlll08
-                id(Mod.mtlib)
-                id(Mod.crafttweaker)
-                id(Mod.modtweaker)
+                add(Mod.mtlib)
+                add(Mod.crafttweaker)
+                add(Mod.modtweaker)
 
                 // mezz
-                id(Mod.jei)
+                add(Mod.jei)
 
                 // Team CoFH
-                id(Mod.cofhcore)
-                id(Mod.cofhWorld)
-                id(Mod.redstoneFlux)
-                id(Mod.thermalDynamics)
-                id(Mod.thermalexpansion)
+                add(Mod.cofhcore)
+                add(Mod.cofhWorld)
+                add(Mod.redstoneFlux)
+                add(Mod.thermalDynamics)
+                add(Mod.thermalexpansion)
 
                 // azanor
-                id(Mod.thaumcraft)
-                id(Mod.thaumicComputers)
-                id(Mod.baubles)
+                add(Mod.thaumcraft)
+                add(Mod.thaumicComputers)
+                add(Mod.baubles)
 
                 // p455w0rd
-                id(Mod.p455w0rdsLibrary)
-                id(Mod.toughExpansion)
+                add(Mod.p455w0rdsLibrary)
+                add(Mod.toughExpansion)
 
                 // asie
                 // Charset Modules
-                id(Mod.charsetLib)
-                id(Mod.charsetTweaks)
-                id(Mod.charsetImmersion)
-                id(Mod.charsetAudio)
-                id(Mod.charsetTablet)
-                id(Mod.charsetTools)
-                id(Mod.charsetBlockCarrying)
-                id(Mod.charsetpatches)
-                id(Mod.charsetStorageLocks)
+                add(Mod.charsetLib)
+                add(Mod.charsetTweaks)
+                add(Mod.charsetImmersion)
+                add(Mod.charsetAudio)
+                add(Mod.charsetTablet)
+                add(Mod.charsetTools)
+                add(Mod.charsetBlockCarrying)
+                add(Mod.charsetpatches)
+                add(Mod.charsetStorageLocks)
 
                 // Other
-                id(Mod.foamfixForMinecraft)
-                id(Mod.opencomputers)
-                id(Mod.zettaIndustries)
+                add(Mod.foamfixForMinecraft)
+                add(Mod.opencomputers)
+                add(Mod.zettaIndustries)
 
                 // TeamDmfMM
-                id(Mod.catwalks4)
+                add(Mod.catwalks4)
 
                 // ondrejduchon
-                id(Mod.treeChopper)
+                add(Mod.treeChopper)
 
                 // malte0811
-                id(Mod.industrialWires)
+                add(Mod.industrialWires)
 
                 // PC-Logix
-                id(Mod.openfm)
+                add(Mod.openfm)
 
                 // Direct download (URL)
                 withProvider(DirectProvider).list {
-                    id("computronics") url "http://files.vexatos.com/Computronics/Computronics-1.12.1-1.6.5.jar"
-                    id("railcraft") url "https://launcher.towerdevs.xyz/store/Railcraft_1.12.2-10.4.0-beta-2-unofficial.jar"
+                    add("computronics") url "http://files.vexatos.com/Computronics/Computronics-1.12.1-1.6.5.jar"
+                    add("railcraft") url "https://launcher.towerdevs.xyz/store/Railcraft_1.12.2-10.4.0-beta-2-unofficial.jar"
                 }
 
                 // Server-side mods
                 group {
                     side = Side.SERVER
                 }.list {
-                    id("btfu-continuous-rsync-incremental-backup")
-                    id("swingthroughgrass")
+                    add("btfu-continuous-rsync-incremental-backup")
+                    add("swingthroughgrass")
                 }
 
                 // Specific-side mods
@@ -165,15 +165,15 @@ fun main(args: Array<String>) = withDefaultMain(
                         selected = false
                     }
                 }.list {
-                    id(Mod.laggoggles) {
+                    add(Mod.laggoggles) {
                         description = "***Admin/diagnostic tool. Leave off unless asked to help test performance issues."
                     }
 
-                    id(Mod.sampler) {
+                    add(Mod.sampler) {
                         description = "***Admin/diagnostic tool. Leave off unless asked to help test performance issues."
                     }
 
-                    id(Mod.openeye) {
+                    add(Mod.openeye) {
                         description = "Automatically collects and submits crash reports. Enable if asked or wish to help sort issues with the pack."
                     }
                 }
@@ -182,11 +182,11 @@ fun main(args: Array<String>) = withDefaultMain(
                 group {
                     side = Side.CLIENT
                 }.list {
-                    id(Mod.journeymap)
-                    id(Mod.thaumicJei)
-                    id(Mod.justEnoughResourcesJer)
-                    id(Mod.inventoryTweaks)
-                    id(Mod.betterAdvancements)
+                    add(Mod.journeymap)
+                    add(Mod.thaumicJei)
+                    add(Mod.justEnoughResourcesJer)
+                    add(Mod.inventoryTweaks)
+                    add(Mod.betterAdvancements)
 
                     group {
                         feature {
@@ -194,10 +194,10 @@ fun main(args: Array<String>) = withDefaultMain(
                             recommendation = Recommendation.starred
                         }
                     }.list {
-                        id(Mod.dynamicSurroundings) {
+                        add(Mod.dynamicSurroundings) {
                             description = "Caution: Resource heavy. Quite nice, has a lot of configurable features that add immersive sound/visual effects. Includes light-level overlay. (Defaults set to remove some sounds and generally be better.)"
                         }
-                        id(Mod.dynamicLights) {
+                        add(Mod.dynamicLights) {
                             description = "Caution: Resource heavy. Turn this off if your computer isn't powerful enough."
                         }
                     }
@@ -207,16 +207,16 @@ fun main(args: Array<String>) = withDefaultMain(
                             selected = false
                         }
                     }.list {
-                        id(Mod.betterFoliage) {
+                        add(Mod.betterFoliage) {
                             description = "Caution: Resource heavy. Disabled by default because there are a few render bugs."
                         }
-                        id(Mod.fancyBlockParticles) {
+                        add(Mod.fancyBlockParticles) {
                             description = "Caution: Resource heavy. Adds some flair to particle effects and animations. Highly configurable, costs fps. (Defaults set to be less intrusive.)"
                         }
-                        id(Mod.fasterLadderClimbing) {
+                        add(Mod.fasterLadderClimbing) {
                             description = "Helps you control ladder climb speed and allows you to go a bit faster."
                         }
-                        id(Mod.nbtedit) {
+                        add(Mod.nbtedit) {
                             description = "Can be used to view NBT trees. Developer use only."
                         }
                     }
