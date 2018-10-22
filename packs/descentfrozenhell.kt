@@ -1,15 +1,3 @@
-@file:DependsOn("moe.nikky.voodoo:dsl:0.4.2-SNAPSHOT")
-@file:MavenRepository("kotlinx", "https://kotlin.bintray.com/kotlinx")
-@file:MavenRepository("elytradev", "https://repo.elytradev.com")
-@file:KotlinOpts("-J-Xmx4G")
-@file:KotlinOpts("-J-server")
-@file:Include("../.voodoo/Mod.kt")
-@file:Include("../.voodoo/TexturePack.kt")
-@file:Include("../.voodoo/Forge.kt")
-@file:Include("../.voodoo/Constants.kt")
-
-//COMPILER_OPTS -jvm-target 1.8 -J-Xmx5g
-
 import com.skcraft.launcher.model.modpack.Recommendation
 import voodoo.data.Side
 import voodoo.data.UserFiles
