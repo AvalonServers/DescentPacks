@@ -1,4 +1,4 @@
-@file:DependsOn("moe.nikky.voodoo:dsl:0.4.0-SNAPSHOT")
+@file:DependsOn("moe.nikky.voodoo:dsl:0.4.2-SNAPSHOT")
 @file:MavenRepository("kotlinx", "https://kotlin.bintray.com/kotlinx")
 @file:MavenRepository("elytradev", "https://repo.elytradev.com")
 @file:KotlinOpts("-J-Xmx4G")
@@ -14,7 +14,6 @@ import com.skcraft.launcher.model.modpack.Recommendation
 import voodoo.data.Side
 import voodoo.data.UserFiles
 import voodoo.data.curse.FileType
-import voodoo.data.nested.NestedPack
 import voodoo.provider.CurseProvider
 import voodoo.provider.DirectProvider
 import voodoo.withDefaultMain
@@ -24,136 +23,138 @@ fun main(args: Array<String>) = withDefaultMain(
     root = Constants.rootDir.resolve("descentfrozenhell")
 ) {
     nestedPack(
-        id = "descentfrozenhell",
-        title = "Descent Frozen Hell",
-        authors = listOf("CitadelCore"),
-        version = "1.0.4.0",
-        mcVersion = "1.12.2",
-        forge = Forge.mc1_12_2.build2769,
-        icon = root.resolve("icon.png"),
+            id = "descentfrozenhell",
+            mcVersion = "1.12.2"
+    )
+    {
+        title = "Descent Frozen Hell"
+        authors = listOf("CitadelCore")
+        version = "1.0.5.0"
 
-        sourceDir = "src",
+        forge = Forge.mc1_12_2.build2769
+        icon = rootDir.resolve("icon.png")
+
+        sourceDir = "src"
         userFiles = UserFiles(
-            include = listOf(""),
-            exclude = listOf("")
-        ),
+                include = listOf(""),
+                exclude = listOf("")
+        )
 
         root = rootEntry(CurseProvider) {
             releaseTypes = setOf(FileType.RELEASE, FileType.BETA, FileType.ALPHA)
             validMcVersions = setOf("1.12.2", "1.12")
             metaUrl = "https://curse.nikky.moe/api"
-            optionals = false
             list {
                 // The way these mods are parsed, the Curse URL is taken,
                 // hyphens are removed and made camel case.
                 // or just look into the generated constants in `.voodoo/Mod.kt`
 
                 // InsomniaKitten
-                add(Mod.wearableBackpacks)
+                + (Mod.wearableBackpacks)
 
                 // Glitchfiend
-                add(Mod.toughAsNails)
+                + (Mod.toughAsNails)
 
                 // Beeto
-                add(Mod.betterWithMods)
+                + (Mod.betterWithMods)
                 // primetoxins
-                add(Mod.betterWithEngineering)
+                + (Mod.betterWithEngineering)
 
                 // shadowfactsmc
-                add(Mod.shadowfactsForgelin)
+                + (Mod.shadowfactsForgelin)
 
                 // BluSunrize
-                add(Mod.immersiveEngineering)
+                + (Mod.immersiveEngineering)
                 // Flaxbeard
-                add(Mod.immersivePetroleum)
+                + (Mod.immersivePetroleum)
                 // FerroO2000
-                add(Mod.immersiveTech)
+                + (Mod.immersiveTech)
 
                 // Mr_TJP
-                add(Mod.mrtjpcore)
-                add(Mod.projectRedBase)
-                add(Mod.projectRedCompat)
-                add(Mod.projectRedFabrication)
-                add(Mod.projectRedIntegration)
-                add(Mod.projectRedLighting)
+                + (Mod.mrtjpcore)
+                + (Mod.projectRedBase)
+                + (Mod.projectRedCompat)
+                + (Mod.projectRedFabrication)
+                + (Mod.projectRedIntegration)
+                + (Mod.projectRedLighting)
 
                 // chicken_bones
-                add(Mod.codechickenLib18)
-                add(Mod.forgeMultipartCbe)
+                + (Mod.codechickenLib18)
+                + (Mod.forgeMultipartCbe)
 
                 // Vazkii
-                add(Mod.autoreglib)
+                + (Mod.autoreglib)
 
                 // chiselTeam
-                add(Mod.chisel)
+                + (Mod.chisel)
                 // AlgorithmX2
-                add(Mod.chiselsBits)
+                + (Mod.chiselsBits)
 
                 // jaredlll08
-                add(Mod.mtlib)
-                add(Mod.crafttweaker)
-                add(Mod.modtweaker)
+                + (Mod.mtlib)
+                + (Mod.crafttweaker)
+                + (Mod.modtweaker)
 
                 // mezz
-                add(Mod.jei)
+                + (Mod.jei)
 
                 // Team CoFH
-                add(Mod.cofhcore)
-                add(Mod.cofhWorld)
-                add(Mod.redstoneFlux)
-                add(Mod.thermalDynamics)
-                add(Mod.thermalexpansion)
+                + (Mod.cofhcore)
+                + (Mod.cofhWorld)
+                + (Mod.redstoneFlux)
+                + (Mod.thermalDynamics)
+                + (Mod.thermalexpansion)
 
                 // azanor
-                add(Mod.thaumcraft)
-                add(Mod.thaumicComputers)
-                add(Mod.baubles)
+                + (Mod.thaumcraft)
+                + (Mod.thaumicComputers)
+                + (Mod.baubles)
 
                 // p455w0rd
-                add(Mod.p455w0rdsLibrary)
-                add(Mod.toughExpansion)
+                + (Mod.p455w0rdsLibrary)
+                + (Mod.toughExpansion)
 
                 // asie
                 // Charset Modules
-                add(Mod.charsetLib)
-                add(Mod.charsetTweaks)
-                add(Mod.charsetImmersion)
-                add(Mod.charsetAudio)
-                add(Mod.charsetTablet)
-                add(Mod.charsetTools)
-                add(Mod.charsetBlockCarrying)
-                add(Mod.charsetpatches)
-                add(Mod.charsetStorageLocks)
+                + (Mod.charsetLib)
+                + (Mod.charsetTweaks)
+                + (Mod.charsetImmersion)
+                + (Mod.charsetAudio)
+                + (Mod.charsetTablet)
+                + (Mod.charsetTools)
+                + (Mod.charsetBlockCarrying)
+                + (Mod.charsetpatches)
+                + (Mod.charsetStorageLocks)
 
                 // Other
-                add(Mod.foamfixForMinecraft)
-                add(Mod.opencomputers)
-                add(Mod.zettaIndustries)
+                + (Mod.foamfixForMinecraft)
+                + (Mod.opencomputers)
+                + (Mod.zettaIndustries)
 
                 // TeamDmfMM
-                add(Mod.catwalks4)
+                + (Mod.catwalks4)
 
                 // ondrejduchon
-                add(Mod.treeChopper)
+                + (Mod.treeChopper)
 
                 // malte0811
-                add(Mod.industrialWires)
+                + (Mod.industrialWires)
 
                 // PC-Logix
-                add(Mod.openfm)
+                + (Mod.openfm)
 
                 // Direct download (URL)
                 withProvider(DirectProvider).list {
-                    add("computronics") url "http://files.vexatos.com/Computronics/Computronics-1.12.1-1.6.5.jar"
-                    add("railcraft") url "https://launcher.towerdevs.xyz/store/Railcraft_1.12.2-10.4.0-beta-2-unofficial.jar"
+                    + ("computronics") url "http://files.vexatos.com/Computronics/Computronics-1.12.1-1.6.5.jar"
+                    + ("railcraft") url "https://launcher.towerdevs.xyz/store/Railcraft_1.12.2-10.4.0-beta-2-unofficial.jar"
                 }
 
                 // Server-side mods
                 group {
                     side = Side.SERVER
                 }.list {
-                    add("btfu-continuous-rsync-incremental-backup")
-                    add("swingthroughgrass")
+                    + (Mod.btfuContinuousRsyncIncrementalBackup)
+                    + (Mod.swingthroughgrass)
                 }
 
                 // Specific-side mods
@@ -165,15 +166,15 @@ fun main(args: Array<String>) = withDefaultMain(
                         selected = false
                     }
                 }.list {
-                    add(Mod.laggoggles) {
+                    + (Mod.laggoggles) configure {
                         description = "***Admin/diagnostic tool. Leave off unless asked to help test performance issues."
                     }
 
-                    add(Mod.sampler) {
+                    + (Mod.sampler) configure {
                         description = "***Admin/diagnostic tool. Leave off unless asked to help test performance issues."
                     }
 
-                    add(Mod.openeye) {
+                    + (Mod.openeye) configure {
                         description = "Automatically collects and submits crash reports. Enable if asked or wish to help sort issues with the pack."
                     }
                 }
@@ -182,11 +183,11 @@ fun main(args: Array<String>) = withDefaultMain(
                 group {
                     side = Side.CLIENT
                 }.list {
-                    add(Mod.journeymap)
-                    add(Mod.thaumicJei)
-                    add(Mod.justEnoughResourcesJer)
-                    add(Mod.inventoryTweaks)
-                    add(Mod.betterAdvancements)
+                    + (Mod.journeymap)
+                    + (Mod.thaumicJei)
+                    + (Mod.justEnoughResourcesJer)
+                    + (Mod.inventoryTweaks)
+                    + (Mod.betterAdvancements)
 
                     group {
                         feature {
@@ -194,10 +195,10 @@ fun main(args: Array<String>) = withDefaultMain(
                             recommendation = Recommendation.starred
                         }
                     }.list {
-                        add(Mod.dynamicSurroundings) {
+                        + (Mod.dynamicSurroundings) configure {
                             description = "Caution: Resource heavy. Quite nice, has a lot of configurable features that add immersive sound/visual effects. Includes light-level overlay. (Defaults set to remove some sounds and generally be better.)"
                         }
-                        add(Mod.dynamicLights) {
+                        + (Mod.dynamicLights) configure {
                             description = "Caution: Resource heavy. Turn this off if your computer isn't powerful enough."
                         }
                     }
@@ -207,21 +208,21 @@ fun main(args: Array<String>) = withDefaultMain(
                             selected = false
                         }
                     }.list {
-                        add(Mod.betterFoliage) {
+                        + (Mod.betterFoliage) configure {
                             description = "Caution: Resource heavy. Disabled by default because there are a few render bugs."
                         }
-                        add(Mod.fancyBlockParticles) {
+                        + (Mod.fancyBlockParticles) configure {
                             description = "Caution: Resource heavy. Adds some flair to particle effects and animations. Highly configurable, costs fps. (Defaults set to be less intrusive.)"
                         }
-                        add(Mod.fasterLadderClimbing) {
+                        + (Mod.fasterLadderClimbing) configure {
                             description = "Helps you control ladder climb speed and allows you to go a bit faster."
                         }
-                        add(Mod.nbtedit) {
+                        + (Mod.nbtedit) configure {
                             description = "Can be used to view NBT trees. Developer use only."
                         }
                     }
                 }
             }
         }
-    )
+    }
 }
