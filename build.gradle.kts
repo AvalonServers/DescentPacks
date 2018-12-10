@@ -1,13 +1,16 @@
 plugins {
-    id("voodoo") version "0.4.2-SNAPSHOT"
+    wrapper
+    id("voodoo") version "0.4.4-SNAPSHOT"
 }
 
 voodoo {
-//    generatedSource = project.file(".voodoo")
-//    packDirectory = project.file("packs")
+    addTask(name = "build", parameters = listOf("build"))
+    addTask(name = "sk", parameters = listOf("pack sk"))
+    addTask(name = "server", parameters = listOf("pack server"))
+    addTask(name = "buildAndPackAll", parameters = listOf("build", "pack sk", "pack server", "pack mmc"))
 }
 
 tasks.withType<Wrapper> {
-    gradleVersion = "5.0-milestone-1"
+    gradleVersion = "5.0-rc-1"
     distributionType = Wrapper.DistributionType.ALL
 }

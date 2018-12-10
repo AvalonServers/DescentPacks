@@ -1,8 +1,15 @@
 pluginManagement {
     repositories {
-        maven { url = uri("https://repo.elytradev.com") }
-        maven { url = uri("https://kotlin.bintray.com/kotlinx") }
-        maven { url = uri("https://dl.bintray.com/kotlin/kotlin-eap") }
+        mavenCentral()
+        maven(url = "https://repo.elytradev.com/") {
+            name = "elytradev"
+        }
+
+        maven(url = "https://kotlin.bintray.com/kotlinx") {
+            name = "kotlinX"
+        }
+
+        maven(url = "https://jitpack.io")
         gradlePluginPortal()
     }
 }
