@@ -4,13 +4,14 @@ plugins {
 }
 
 voodoo {
+    addTask(name = "test", parameters = listOf("test mmc"))
     addTask(name = "build", parameters = listOf("build"))
-    addTask(name = "sk", parameters = listOf("pack sk"))
+    addTask(name = "buildAndTest", parameters = listOf("build", "test mmc"))
     addTask(name = "server", parameters = listOf("pack server"))
-    addTask(name = "buildAndPackAll", parameters = listOf("build", "pack sk", "pack server", "pack mmc"))
+    addTask(name = "buildAndPackAll", parameters = listOf("build", "pack server", "pack mmc"))
 }
 
 tasks.withType<Wrapper> {
-    gradleVersion = "5.0-rc-1"
+    gradleVersion = "5.0"
     distributionType = Wrapper.DistributionType.ALL
 }
