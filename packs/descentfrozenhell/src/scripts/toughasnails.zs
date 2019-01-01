@@ -1,5 +1,3 @@
-val purifiedBucket = <forge:bucketfilled>.withTag({FluidName: "purified_water", Amount: 1000});
-
 // Removals
 recipes.remove(<toughasnails:rain_collector>);
 recipes.remove(<toughasnails:temperature_coil:1>);
@@ -11,8 +9,6 @@ recipes.remove(<toughasnails:charcoal_filter>);
 recipes.remove(<tanaddons:thirst_quencher>);
 recipes.remove(<tanaddons:portable_temp_regulator>);
 recipes.remove(<tanaddons:temp_regulator>);
-
-furnace.remove(purifiedBucket);
 
 // Additions
 // Rain Collector
@@ -34,4 +30,4 @@ recipes.addShaped(<tanaddons:portable_temp_regulator>, [[<ore:ingotSteel>, <toug
 // TE Temp Regulator (now mid tier)
 recipes.addShaped(<tanaddons:temp_regulator>, [[<toughasnails:magma_shard>, <ore:oc:materialCU>, <toughasnails:magma_shard>], [<toughasnails:temperature_coil>, <ore:blockSteel>, <toughasnails:temperature_coil:1>], [<toughasnails:ice_cube>, <ore:oc:materialALU>, <toughasnails:ice_cube>]]);
 
-recipes.addShapeless(purifiedBucket, [<minecraft:water_bucket>.noReturn(), <toughasnails:charcoal_filter>]);
+//recipes.addShapeless(purifiedBucket, [<minecraft:water_bucket>.noReturn(), <toughasnails:charcoal_filter>]);
