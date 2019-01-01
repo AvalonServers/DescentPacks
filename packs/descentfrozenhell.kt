@@ -8,7 +8,7 @@ import voodoo.withDefaultMain
 
 fun main(args: Array<String>) = withDefaultMain(
     arguments = args,
-    root = Constants.rootDir.resolve("descentfrozenhell")
+    root = Constants.rootDir.resolve("packs/descentfrozenhell")
 ) {
     nestedPack(
             id = "descentfrozenhell",
@@ -44,6 +44,7 @@ fun main(args: Array<String>) = withDefaultMain(
                 +Mod.toughAsNails
 
                 // Beeto
+                +Mod.betterwithlib
                 +Mod.betterWithMods
                 // primetoxins
                 +Mod.betterWithEngineering
@@ -118,6 +119,9 @@ fun main(args: Array<String>) = withDefaultMain(
                 +Mod.foamfixForMinecraft
                 +Mod.opencomputers
                 +Mod.zettaIndustries
+                +Mod.hwyla
+                +Mod.stacksize
+                +Mod.railcraft
 
                 // TeamDmfMM
                 +Mod.catwalks4
@@ -131,17 +135,29 @@ fun main(args: Array<String>) = withDefaultMain(
                 // PC-Logix
                 +Mod.openfm
 
+                // jaquadro
+                +Mod.chameleon
+                +Mod.storageDrawers
+
+                // AlgorithmX2
+                +Mod.appliedEnergistics2
+                +Mod.extracells2
+
+                // SanAndreasP
+                +Mod.immersiveCables
+
+                // better builder's wands
+                +Mod.betterBuildersWands
+
                 // Direct download (URL)
                 withProvider(DirectProvider).list {
                     +"computronics" url "http://files.vexatos.com/Computronics/Computronics-1.12.1-1.6.5.jar"
-                    +"railcraft" url "https://launcher.towerdevs.xyz/store/Railcraft_1.12.2-10.4.0-beta-2-unofficial.jar"
                 }
 
                 // Server-side mods
                 group {
                     side = Side.SERVER
                 }.list {
-                    +Mod.btfuContinuousRsyncIncrementalBackup
                     +Mod.swingthroughgrass
                 }
 
@@ -176,6 +192,11 @@ fun main(args: Array<String>) = withDefaultMain(
                     +Mod.justEnoughResourcesJer
                     +Mod.inventoryTweaks
                     +Mod.betterAdvancements
+
+                    // Direct download (URL)
+                    withProvider(DirectProvider).list {
+                        +"jecalculation" url "https://launcher.towerdevs.xyz/store/jecalculation-1.12.2-3.0.0.jar"
+                    }
 
                     group {
                         feature {

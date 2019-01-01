@@ -17,7 +17,7 @@ recipes.addShaped(<microblockcbe:saw_diamond>, [[null, null, null],[<ore:stickWo
 recipes.addShaped(<projectred-core:resource_item:410> * 2, [[null, <ore:stickSteel>, null],[<ore:stone>, <projectred-core:resource_item:400>, <ore:stone>], [<ore:stone>, <projectred-core:resource_item:400>, <ore:stone>]]);
 // Sandy Coal
 recipes.addShaped(<projectred-core:resource_item:250>, [[<ore:sand>, <ore:sand>, <ore:sand>],[<ore:sand>, <ore:blockFuelCoke>, <ore:sand>], [<ore:sand>, <ore:sand>, <ore:sand>]]);
-AlloySmelter.addRecipe(<projectred-core:resource_item:300> * 2, <ore:sand>, <ore:blockFuelCoke>, 60000);
+AlloySmelter.addRecipe(<projectred-core:resource_item:300> * 2, <ore:sand>, <ore:blockFuelCoke>, 6000);
 
 // Fabrication
 recipes.addShaped(<projectred-fabrication:ic_machine>, [[<ore:blockSteel>, <ore:blockSteel>, <ore:blockSteel>],[<ore:plankWood>,<ore:plankWood>,<ore:plankWood>],[<ore:plankWood>,<ore:plankWood>,<ore:plankWood>]]);
