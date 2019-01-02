@@ -34,7 +34,7 @@ recipes.remove(fluixSeed);
 Inscriber.addRecipe(logic, <opencomputers:component:1>, false, <appliedenergistics2:material:18>, silicon);
 Inscriber.addRecipe(calculation, <opencomputers:component:2>, false, <appliedenergistics2:material:16>, silicon);
 Inscriber.addRecipe(engineering, <opencomputers:component:2>, false, <appliedenergistics2:material:17>, silicon);
-Inscriber.addRecipe(silicon, <appliedenergistics2:material:19>, true, <projectred-core:resource_item:301>);
+Inscriber.addRecipe(silicon, <projectred-core:resource_item:301>, true, <appliedenergistics2:material:19>);
 
 // Make AE blocks a bit more expensive
 // controller now needs 2x enderium blocks, 2x soulforged steel blocks, 4x fluix blocks
