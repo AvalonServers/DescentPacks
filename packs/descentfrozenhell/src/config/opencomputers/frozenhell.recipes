@@ -298,7 +298,7 @@ cuttingwire {
 # TODO: modify to make realistic acid
 acid {
   type: shapeless
-  input: [bucketWater, sugar, "toughasnails:jelled_slime", itemBiomass, crystalSlag]
+  input: [bucketWater, sugar, "toughasnails:jelled_slime", dyeGreen, crystalSlag]
 }
 disk {
   input: [["", nuggetSteel, ""]

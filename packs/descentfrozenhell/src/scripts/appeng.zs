@@ -45,6 +45,9 @@ recipes.addShaped(store1x, [[comp, <ore:crystalCertusQuartz>, <storagedrawers:co
 recipes.addShapeless(certusSeed, [<ore:sand>, <ore:dustCertusQuartz>, <ore:dustCryotheum>]);
 recipes.addShapeless(fluixSeed, [<ore:sand>, <ore:dustFluix>, <ore:dustPetrotheum>]);
 
+// Make Cores a bit more expensive
+
+
 //insane magic shit
 //Infusion.registerRecipe("dustMana", "", <thermalfoundation:material:1028>, 25, [<aspect:perditio>, <aspect:machina>], <ore:dustEnderium>, [<thaumcraft:primordial_pearl>, <thaumcraft:causality_collapser>, <thaumcraft:causality_collapser>, <thaumcraft:void_seed>, <thaumcraft:ingot:1>]);
 //recipes.addShapeless(<thermalfoundation:material:72> * 2, [<ore:dustMana>, <ore:dustSteel>, <ore:dustEnder>, <appliedenergistics2:material:45>]);
