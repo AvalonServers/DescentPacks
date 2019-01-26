@@ -10,6 +10,10 @@ recipes.remove(<tanaddons:thirst_quencher>);
 recipes.remove(<tanaddons:portable_temp_regulator>);
 recipes.remove(<tanaddons:temp_regulator>);
 
+// Pulveriser recipe for ice cubes and magma fragments
+mods.thermalexpansion.Pulverizer.addRecipe(<toughasnails:ice_cube> * 4, <minecraft:ice>, 1000, <minecraft:snowball>, 15);
+mods.thermalexpansion.Pulverizer.addRecipe(<toughasnails:magma_shard> * 4, <minecraft:magma>, 1000, <betterwithmods:material:15>, 15);
+
 // Additions
 // Rain Collector
 recipes.addShaped(<toughasnails:rain_collector>, [[<ore:ingotIron>, <toughasnails:charcoal_filter>, <ore:ingotIron>],[<ore:ingotIron>, <minecraft:bucket>, <ore:ingotIron>], [<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>]]);

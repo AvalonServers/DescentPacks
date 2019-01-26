@@ -1,6 +1,7 @@
 {
-  provider: DIRECT,
+  provider: CURSE,
   id: railcraft,
-  url: "https://launcher.towerdevs.xyz/store/Railcraft_1.12.2-10.4.0-beta-2-unofficial.jar",
-  name: railcraft
+  projectID: 51195,
+  fileID: 2652392,
+  name: Railcraft
 }

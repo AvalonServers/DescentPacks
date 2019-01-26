@@ -5,7 +5,11 @@ import mods.immersiveengineering.Mixer;
 val purifiedBucket = <forge:bucketfilled>.withTag({FluidName: "purified_water", Amount: 1000});
 val purifiedBottle = <toughasnails:purified_water_bottle>;
 var steelGlass = <thermalfoundation:glass_alloy:0>;
+var electrumGlass = <thermalfoundation:glass_alloy:1>;
+var silverGlass = <thermalfoundation:glass_alloy:2>;
+var bronzeGlass = <thermalfoundation:glass_alloy:3>;
 var signalumGlass = <thermalfoundation:glass_alloy:5>;
+var lumiumGlass = <thermalfoundation:glass_alloy:6>;
 
 // Make Distilled water -> Purified water // not going to work
 //mods.immersivepetroleum.Distillation.addRecipe([<liquid:purified_water> * 100], [], <liquid:dist_water>, 200, 200, []);
@@ -17,15 +21,29 @@ Mixer.addRecipe(<liquid:purified_water>, <liquid:dist_water>, [<ore:dustAluminum
 Transposer.addExtractRecipe(<liquid:purified_water> * 250, purifiedBottle, 100);
 Transposer.addFillRecipe(purifiedBottle, <minecraft:glass_bottle>, <liquid:purified_water> * 250, 100);
 
-// Machine frame is harder
+// Machine frame is slightly harder
 val machineFrame = <thermalexpansion:frame:0>;
 recipes.remove(machineFrame);
-recipes.addShaped(machineFrame, [[<ore:ingotSteel>, steelGlass, <ore:ingotSteel>], [steelGlass, <ore:gearSteel>, steelGlass], [<ore:ingotSteel>, <opencomputers:component:0>, <ore:ingotSteel>]]);
+recipes.addShaped(machineFrame, [[<ore:ingotSteel>, steelGlass, <ore:ingotSteel>], [steelGlass, <ore:gearSteel>, steelGlass], [<ore:ingotSteel>, <opencomputers:material:11>, <ore:ingotSteel>]]);
 
-// Device frame is harder
-//val deviceFrame = <thermalexpansion:frame:64>;
-//recipes.remove(deviceFrame);
-//recipes.addShaped(deviceFrame, [[<ore:ingotSteel>, steelGlass, <ore:ingotSteel>], [steelGlass, <ore:gearSteel>, steelGlass], [<ore:ingotSteel>, steelGlass, <ore:ingotSteel>]]);
+// Device frame is slightly harder
+val deviceFrame = <thermalexpansion:frame:64>;
+recipes.remove(deviceFrame);
+recipes.addShaped(deviceFrame, [[<ore:ingotSteel>, steelGlass, <ore:ingotSteel>], [steelGlass, <ore:gearSteel>, steelGlass], [<ore:ingotSteel>, <opencomputers:material:11>, <ore:ingotSteel>]]);
+
+// Upgrades are progressively harder
+var hardenedKit = <thermalfoundation:upgrade:0>;
+var reinforcedKit = <thermalfoundation:upgrade:1>;
+var signalumKit = <thermalfoundation:upgrade:2>;
+var resonantKit = <thermalfoundation:upgrade:3>;
+recipes.remove(hardenedKit);
+recipes.remove(reinforcedKit);
+recipes.remove(signalumKit);
+recipes.remove(resonantKit);
+recipes.addShaped(hardenedKit, [[bronzeGlass, <ore:ingotInvar>, bronzeGlass], [<ore:ingotInvar>, <ore:gearBronze>, <ore:ingotInvar>], [bronzeGlass, <ore:ingotInvar>, bronzeGlass]]);
+recipes.addShaped(reinforcedKit, [[silverGlass, <ore:ingotElectrum>, silverGlass], [<ore:ingotElectrum>, <ore:gearSilver>, <ore:ingotElectrum>], [silverGlass, <ore:ingotElectrum>, silverGlass]]);
+recipes.addShaped(signalumKit, [[electrumGlass, <ore:ingotSignalum>, electrumGlass], [<ore:ingotSignalum>, <ore:gearElectrum>, <ore:ingotSignalum>], [electrumGlass, <ore:ingotSignalum>, electrumGlass]]);
+recipes.addShaped(resonantKit, [[lumiumGlass, <ore:ingotEnderium>, lumiumGlass], [<ore:ingotEnderium>, <ore:gearLumium>, <ore:ingotEnderium>], [lumiumGlass, <ore:ingotEnderium>, lumiumGlass]]);
 
 // Morbs are harder
 var morb = <thermalexpansion:morb:0>;
