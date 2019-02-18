@@ -1,8 +1,0 @@
-{
-  provider: CURSE,
-  id: inventory-tweaks,
-  side: CLIENT,
-  projectID: 223094,
-  fileID: 2650625,
-  name: "Inventory Tweaks"
-}

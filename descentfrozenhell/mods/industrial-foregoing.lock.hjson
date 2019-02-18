@@ -1,0 +1,10 @@
+{
+    provider: CURSE,
+    dependencies: {
+        REQUIRED: [
+            tesla-core-lib
+        ]
+    },
+    projectID: 266515,
+    fileID: 2668016
+}
