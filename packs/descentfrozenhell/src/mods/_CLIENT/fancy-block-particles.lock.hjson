@@ -1,8 +1,0 @@
-{
-  provider: CURSE,
-  id: fancy-block-particles,
-  side: CLIENT,
-  projectID: 254441,
-  fileID: 2632107,
-  name: "Fancy Block Particles"
-}

@@ -1,0 +1,10 @@
+{
+    provider: CURSE,
+    dependencies: {
+        REQUIRED: [
+            applied-energistics-2
+        ]
+    },
+    projectID: 229218,
+    fileID: 2653854
+}
