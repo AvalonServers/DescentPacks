@@ -1,8 +1,0 @@
-{
-  provider: CURSE,
-  id: faster-ladder-climbing,
-  side: CLIENT,
-  projectID: 258881,
-  fileID: 2512758,
-  name: "Faster Ladder Climbing"
-}
