@@ -1,0 +1,12 @@
+{
+    provider: CURSE,
+    dependencies: {
+        REQUIRED: [
+            tough-as-nails,
+            p455w0rds-library,
+            redstone-flux
+        ]
+    },
+    projectID: 257225,
+    fileID: 2556034
+}
