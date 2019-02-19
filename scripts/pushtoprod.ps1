@@ -23,9 +23,9 @@ Write-Host "Successfully verified.";
 Write-Host "Uploading pack to game server.";
 wsl rsync -a "$wsldir/server_$packName/" "$username@$gameServer`:/opt/descent/$packName-installer/";
 Write-Host "Stopping existing server instance."
-ssh "$username@$gameServer" "screen -X stuff `"^C`"";
+ssh "$username@$gameServer" "screen -r descentvtu/descentFrozenHell -X `"^C`"";
 Write-Host "Installing new server instance."
 ssh "$username@$gameServer" "cd /opt/descent/$packName-installer; java -jar ./server-installer.jar /opt/descent/$packName" | Out-Null;
 Write-Host "Starting new server instance."
-ssh "$username@$gameServer" "screen -X stuff `"/opt/descent/$packName/start.sh^M`"" | Out-Null;
+ssh "$username@$gameServer" "screen -r descentvtu/descentFrozenHell -X `"/opt/descent/$packName/start.sh^M`"" | Out-Null;
 Write-Host "All tasks completed."
