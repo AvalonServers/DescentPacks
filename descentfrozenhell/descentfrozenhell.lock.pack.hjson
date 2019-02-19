@@ -3,11 +3,11 @@
     mcVersion: 1.12.2,
     title: "Descent Frozen Hell",
     version: 1.0.6.0,
-    icon: "D:\\dev\\DescentPacks\\icon.png",
+    icon: "N:\\Projects\\DescentPacks\\icon.png",
     authors: [
         CitadelCore
     ],
-    forge: 14.23.5.2806,
+    forge: 1.12.2-14.23.5.2806,
     userFiles: {
         include: [
             
