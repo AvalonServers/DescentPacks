@@ -14,8 +14,9 @@ mcVersion = "1.12.2"
 title = "Descent Frozen Hell"
 authors = listOf("CitadelCore")
 version = "1.0.6.0"
+sourceDir = "src"
 
-forge = Forge.mc1_12_2.forge_14_23_5_2806
+forge = Forge.mc1_12_2_latest
 icon = rootDir.resolve("icon.png")
 
 userFiles = UserFiles(
@@ -28,6 +29,7 @@ pack {
         skPackUrl = "https://launcher.towerdevs.xyz/descentfrozenhell.json"
     }
 }
+
 root(CurseProvider) {
     releaseTypes = setOf(FileType.RELEASE, FileType.BETA, FileType.ALPHA)
     validMcVersions = setOf("1.12.2", "1.12")
@@ -174,7 +176,7 @@ root(CurseProvider) {
         // Both (optional)
         group {
             side = Side.BOTH
-            feature {
+            optional {
                 selected = false
             }
         }.list {
@@ -206,9 +208,9 @@ root(CurseProvider) {
             }
 
             group {
-                feature {
+                optional {
                     selected = true
-                    recommendation = Recommendation.starred
+                    skRecommendation = Recommendation.starred
                 }
             }.list {
                 +Mod.dynamicSurroundings configure {
@@ -220,7 +222,7 @@ root(CurseProvider) {
             }
 
             group {
-                feature {
+                optional {
                     selected = false
                 }
             }.list {
