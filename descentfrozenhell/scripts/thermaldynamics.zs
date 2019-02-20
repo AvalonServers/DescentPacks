@@ -29,7 +29,7 @@ recipes.addShaped(machineFrame, [[<ore:ingotSteel>, steelGlass, <ore:ingotSteel>
 // Device frame is slightly harder
 val deviceFrame = <thermalexpansion:frame:64>;
 recipes.remove(deviceFrame);
-recipes.addShaped(deviceFrame, [[<ore:ingotSteel>, steelGlass, <ore:ingotSteel>], [steelGlass, <ore:gearSteel>, steelGlass], [<ore:ingotSteel>, <opencomputers:material:11>, <ore:ingotSteel>]]);
+recipes.addShaped(deviceFrame, [[<ore:ingotSteel>, <minecraft:glass>, <ore:ingotSteel>], [<minecraft:glass>, <ore:gearSteel>, <minecraft:glass>], [<ore:ingotSteel>, <opencomputers:material:11>, <ore:ingotSteel>]]);
 
 // Upgrades are progressively harder
 var hardenedKit = <thermalfoundation:upgrade:0>;
