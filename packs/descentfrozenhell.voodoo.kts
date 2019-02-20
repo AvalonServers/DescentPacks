@@ -25,7 +25,7 @@ userFiles = UserFiles(
 
 pack {
     multimc {
-        skPackUrl = "https://launcher.towerdevs.xyz/descentfrozenhell.json"
+        skPackUrl = "https://skyem.co.uk/minecraft/frozenhell/voodoo/sk/descentfrozenhell/descentfrozenhell.json"
     }
 }
 
