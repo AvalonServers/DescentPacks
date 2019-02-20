@@ -13,7 +13,6 @@ version = "1.0.6.0"
 forge = Forge.recommended
 icon = rootDir.resolve("icon.png")
 
-sourceDir = "src"
 userFiles = UserFiles(
 include = listOf(""),
 exclude = listOf("")

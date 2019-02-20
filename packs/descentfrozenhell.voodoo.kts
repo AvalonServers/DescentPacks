@@ -14,7 +14,6 @@ mcVersion = "1.12.2"
 title = "Descent Frozen Hell"
 authors = listOf("CitadelCore")
 version = "1.0.6.0"
-sourceDir = "src"
 
 forge = Forge.mc1_12_2_latest
 icon = rootDir.resolve("icon.png")
