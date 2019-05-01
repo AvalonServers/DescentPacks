@@ -1,0 +1,25 @@
+[
+  {
+    "names": [
+      "toughasnails:jelled_slime_helmet",
+      "toughasnails:jelled_slime_chestplate",
+      "toughasnails:jelled_slime_leggings",
+      "toughasnails:jelled_slime_boots",
+
+      "immersiveengineering:faraday_suit_head",
+      "immersiveengineering:faraday_suit_chest",
+      "immersiveengineering:faraday_suit_legs",
+      "immersiveengineering:faraday_suit_feet"
+    ],
+    "modifier": -1
+  },
+  {
+    "names": [
+      "toughasnails:wool_helmet",
+      "toughasnails:wool_chestplate",
+      "toughasnails:wool_leggings",
+      "toughasnails:wool_boots"
+    ],
+    "modifier": 1
+  }
+]

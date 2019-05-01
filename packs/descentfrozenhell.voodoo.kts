@@ -18,10 +18,10 @@ version = "1.0.6.0"
 forge = Forge.mc1_12_2_latest
 icon = rootDir.resolve("icon.png")
 
-userFiles = UserFiles(
-    include = listOf(""),
-    exclude = listOf("")
-)
+//userFiles = UserFiles(
+//    include = listOf(""),
+//    exclude = listOf("")
+//)
 
 pack {
     multimc {
