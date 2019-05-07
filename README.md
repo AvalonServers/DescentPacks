@@ -34,3 +34,5 @@ or to package for webserver and mc server \
 recommended IDE: [intellij idea CE](https://www.jetbrains.com/idea/download/)
 
 open the folder or the file `build.gradle.kts` in idea and choose `Open as project`
+
+Hello world!
