@@ -4,13 +4,9 @@ This is the pack repository for Descent Frozen Hell, used by Loiste Community, w
 If you intend to modify configuration for this pack, create a pull request.
 I will merge it after approval; and it will go live on the server at the next maintenance window.
 
-[![Build Status](https://dev.azure.com/josephmarsden/DescentPacks/_apis/build/status/CitadelCore.DescentPacks?branchName=master)](https://dev.azure.com/josephmarsden/DescentPacks/_build/latest?definitionId=1&branchName=master)
+Build Status: [![Build Status](https://dev.azure.com/josephmarsden/DescentPacks/_apis/build/status/CitadelCore.DescentPacks?branchName=master)](https://dev.azure.com/josephmarsden/DescentPacks/_build/latest?definitionId=1&branchName=master)
 
-You can build the pack for testing in three easy steps:
-
-if you are building this for the first time \
-`./gradlew poet`
-this task generates a few files and ensures that are up-to-date
+You can build the pack for testing in two easy steps:
 
 Build/Update the pack \
 `./gradlew descentfrozenhell --args "build"`
