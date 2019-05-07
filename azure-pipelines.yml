@@ -13,10 +13,10 @@ steps:
 - task: Gradle@2
   inputs: 
     gradleWrapperFile: 'gradlew'
-    gradleOptions: '-Xmx3072m --args="build"'
+    gradleOptions: '-Xmx3072m'
     javaHomeOption: 'JDKVersion'
     jdkVersionOption: '1.8'
     jdkArchitectureOption: 'x64'
     publishJUnitResults: false
     testResultsFiles: '**/TEST-*.xml'
-    tasks: 'descentFrozenHell'
+    tasks: 'descentFrozenHell --args="build"'
