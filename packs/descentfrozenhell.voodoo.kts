@@ -121,7 +121,6 @@ root(CurseProvider) {
         +Mod.opencomputers
         +Mod.zettaIndustries
         +Mod.hwyla
-        +Mod.stacksize
         +Mod.railcraft
         +Mod.spawnerImbuer
         +Mod.teslaCoreLib
