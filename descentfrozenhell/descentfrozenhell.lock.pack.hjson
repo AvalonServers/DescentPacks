@@ -2,11 +2,12 @@
     id: descentfrozenhell,
     mcVersion: 1.12.2,
     title: "Descent Frozen Hell",
-    version: 1.0.6.0,
+    version: 1.0.7.0,
     authors: [
-        CitadelCore
+        CitadelCore,
+        Skye
     ],
-    forge: 1.12.2-14.23.5.2836,
+    forge: 1.12.2-14.23.5.2838,
     packOptions: {
         multimcOptions: {
             skPackUrl: "https://skyem.co.uk/minecraft/frozenhell/voodoo/sk/descentfrozenhell/descentfrozenhell.json"

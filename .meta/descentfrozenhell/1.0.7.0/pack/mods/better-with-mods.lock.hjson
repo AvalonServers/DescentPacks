@@ -1,0 +1,10 @@
+{
+    provider: CURSE,
+    dependencies: {
+        REQUIRED: [
+            betterwithlib
+        ]
+    },
+    projectID: 246760,
+    fileID: 2650398
+}
