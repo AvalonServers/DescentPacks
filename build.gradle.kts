@@ -34,8 +34,8 @@ repositories {
 }
 
 dependencies {
-    implementation(group = "moe.nikky.voodoo", name = "dsl", version = "0.4.5+")
-    implementation(group = "moe.nikky.voodoo", name = "voodoo", version = "0.4.5+")
+    implementation(group = "moe.nikky.voodoo", name = "dsl", version = "0.4.6+")
+    implementation(group = "moe.nikky.voodoo", name = "voodoo", version = "0.4.6+")
     implementation(kotlin("stdlib-jdk8"))
 }
 
