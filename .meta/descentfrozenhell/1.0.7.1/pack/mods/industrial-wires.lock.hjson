@@ -1,0 +1,10 @@
+{
+    provider: CURSE,
+    dependencies: {
+        REQUIRED: [
+            immersive-engineering
+        ]
+    },
+    projectID: 251121,
+    fileID: 2664750
+}
