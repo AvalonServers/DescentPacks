@@ -2,7 +2,7 @@
     id: descentfrozenhell,
     mcVersion: 1.12.2,
     title: "Descent Frozen Hell",
-    version: 1.0.7.0,
+    version: 1.0.7.1,
     authors: [
         CitadelCore,
         Skye
