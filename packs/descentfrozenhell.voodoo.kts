@@ -38,6 +38,9 @@ root(CurseProvider) {
         // hyphens are removed and made camel case.
         // or just look into the generated constants in `.voodoo/Mod.kt`
 
+        // RWTema
+        +Mod.extraUtilities
+
         // InsomniaKitten
         +Mod.wearableBackpacks
 
