@@ -9,3 +9,5 @@ out/
 run/
 
 workspace/
+
+.meta/
