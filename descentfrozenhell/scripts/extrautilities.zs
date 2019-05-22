@@ -40,11 +40,24 @@ recipes.addShaped(<extrautils2:trashcanenergy>, [
     [<ore:plateSteel>, <immersiveengineering:connector:*>, <ore:plateSteel>],
     [null            , <ore:plateSteel>                  , null            ]
 ]);
+val receptionCoil = <thermalfoundation:material:513>;
 recipes.addShaped(<extrautils2:trashcanenergy>, [
     [null            , <ore:plateIron>                   , null            ],
-    [<ore:plateSteel>, <thermalfoundation:material:513>  , <ore:plateSteel>],
+    [<ore:plateSteel>, receptionCoil                     , <ore:plateSteel>],
     [null            , <ore:plateSteel>                  , null            ]
 ]);
+
+# New Climograph Base Unit recipie
+recipes.removeByRecipeName("extrautils2:terraformer_base");
+
+val computerALU = <opencomputers:material:10>;
+val machineFrame = <thermalexpansion:frame:0>;
+recipes.addShapedMirrored(<extrautils2:terraformer:9>, [
+    [null, computerALU, null],
+    [<ore:treeSapling>, machineFrame, <ore:treeSapling>],
+    [null, <ore:gemDiamond>, null]
+]);
+
 
 # Keep angel block recipie as default
 
