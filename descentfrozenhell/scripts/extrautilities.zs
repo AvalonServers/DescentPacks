@@ -13,3 +13,5 @@ recipes.addShapedMirrored(<extrautils2:wateringcan:1000>,
 [<ore:nuggetIron>, <minecraft:bucket>, <ore:nuggetIron>], 
 [null, <ore:nuggetIron>, null]]);
 
+# Keep angel block recipie as default
+
