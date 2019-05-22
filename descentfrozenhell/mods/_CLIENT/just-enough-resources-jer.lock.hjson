@@ -2,7 +2,7 @@
     provider: CURSE,
     side: CLIENT,
     dependencies: {
-        REQUIRED: [
+        RequiredDependency: [
             jei
         ]
     },

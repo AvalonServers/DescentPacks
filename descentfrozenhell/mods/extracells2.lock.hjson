@@ -1,7 +1,7 @@
 {
     provider: CURSE,
     dependencies: {
-        REQUIRED: [
+        RequiredDependency: [
             applied-energistics-2
         ]
     },

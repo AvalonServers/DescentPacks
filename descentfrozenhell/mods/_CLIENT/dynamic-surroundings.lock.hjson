@@ -7,7 +7,7 @@
         skRecommendation: starred
     },
     dependencies: {
-        REQUIRED: [
+        RequiredDependency: [
             orelib
         ]
     },

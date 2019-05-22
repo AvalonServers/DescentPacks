@@ -1,7 +1,7 @@
 {
     provider: CURSE,
     dependencies: {
-        REQUIRED: [
+        RequiredDependency: [
             tough-as-nails,
             p455w0rds-library,
             redstone-flux

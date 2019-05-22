@@ -1,9 +1,9 @@
 {
     provider: CURSE,
     dependencies: {
-        REQUIRED: [
-            cofhcore,
-            cofh-world
+        RequiredDependency: [
+            cofh-world,
+            cofhcore
         ]
     },
     projectID: 222880,
