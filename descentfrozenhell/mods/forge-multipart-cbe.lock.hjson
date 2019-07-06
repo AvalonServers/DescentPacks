@@ -1,7 +1,7 @@
 {
     provider: CURSE,
     dependencies: {
-        RequiredDependency: [
+        REQUIRED: [
             codechicken-lib-1-8
         ]
     },

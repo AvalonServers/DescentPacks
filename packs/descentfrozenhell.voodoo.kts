@@ -5,7 +5,6 @@
 
 import com.skcraft.launcher.model.modpack.Recommendation
 import voodoo.data.Side
-import voodoo.data.UserFiles
 import voodoo.data.curse.FileType
 import voodoo.provider.CurseProvider
 import voodoo.provider.DirectProvider
@@ -32,7 +31,7 @@ pack {
 root(CurseProvider) {
     releaseTypes = setOf(FileType.Release, FileType.Beta, FileType.Alpha)
     validMcVersions = setOf("1.12.2", "1.12")
-    metaUrl = "https://curse.nikky.moe/api"
+    //metaUrl = "https://curse.nikky.moe/api"
     list {
         // The way these mods are parsed, the Curse URL is taken,
         // hyphens are removed and made camel case.
@@ -41,17 +40,15 @@ root(CurseProvider) {
         // RWTema
         +Mod.extraUtilities
 
+        // Better with mods stuff
+        +Mod.betterWithEngineering
+        +Mod.bwmSuite
+
         // InsomniaKitten
         +Mod.wearableBackpacks
 
         // Glitchfiend
         +Mod.toughAsNails
-
-        // Beeto
-        +Mod.betterwithlib
-        +Mod.betterWithMods
-        // primetoxins
-        +Mod.betterWithEngineering
 
         // shadowfactsmc
         +Mod.shadowfactsForgelin
@@ -92,11 +89,11 @@ root(CurseProvider) {
         +Mod.jei
 
         // Team CoFH
-        +Mod.cofhcore
+        +Mod.cofhCore
         +Mod.cofhWorld
         +Mod.redstoneFlux
         +Mod.thermalDynamics
-        +Mod.thermalexpansion
+        +Mod.thermalExpansion
 
         // azanor
         +Mod.thaumcraft

@@ -5,7 +5,7 @@
     optionalData: {
     },
     dependencies: {
-        RequiredDependency: [
+        REQUIRED: [
             shadowfacts-forgelin
         ]
     },

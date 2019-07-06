@@ -1,8 +1,8 @@
 {
     provider: CURSE,
     dependencies: {
-        RequiredDependency: [
-            better-with-mods
+        REQUIRED: [
+            bwm-suite
         ]
     },
     projectID: 279887,

@@ -1,6 +1,6 @@
 plugins {
     wrapper
-    id("voodoo") version "0.4.7-SNAPSHOT"
+    id("voodoo") version "0.4.8-SNAPSHOT"
 }
 
 voodoo {

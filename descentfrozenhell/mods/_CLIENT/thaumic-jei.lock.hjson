@@ -2,7 +2,7 @@
     provider: CURSE,
     side: CLIENT,
     dependencies: {
-        RequiredDependency: [
+        REQUIRED: [
             thaumcraft,
             jei
         ]
