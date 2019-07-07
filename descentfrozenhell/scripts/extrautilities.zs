@@ -44,6 +44,11 @@ recipes.addShaped(<extrautils2:trashcanenergy>, [
     [<ore:plateSteel>, receptionCoil                     , <ore:plateSteel>],
     [null            , <ore:plateSteel>                  , null            ]
 ]);
+recipes.addShaped(<extrautils2:trashcanenergy>, [
+    [null            , <ore:plateIron>                   , null            ],
+    [<ore:plateSteel>, <immersiveengineering:connector:*>, <ore:plateSteel>],
+    [null            , <ore:plateSteel>                  , null            ]
+]);
 
 # Keep angel block recipie as default
 
