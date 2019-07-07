@@ -159,7 +159,7 @@ root(CurseProvider) {
 
         // Direct download (URL)
         withProvider(DirectProvider).list {
-            +"computronics" url "http://files.vexatos.com/Computronics/Computronics-1.12.1-1.6.5.jar"
+            +"computronics" url "http://files.vexatos.com/Computronics/Computronics-1.12.2-1.6.6.jar"
         }
 
         // Server-side mods
