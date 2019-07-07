@@ -1,0 +1,12 @@
+{
+    provider: CURSE,
+    side: CLIENT,
+    dependencies: {
+        REQUIRED: [
+            thaumcraft,
+            jei
+        ]
+    },
+    projectID: 285492,
+    fileID: 2705304
+}
