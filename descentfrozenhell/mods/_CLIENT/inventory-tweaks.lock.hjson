@@ -2,5 +2,6 @@
     provider: CURSE,
     side: CLIENT,
     projectID: 223094,
-    fileID: 2670367
+    fileID: 2670367,
+    useUrlTxt: false
 }

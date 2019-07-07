@@ -1,5 +1,6 @@
 {
     provider: DIRECT,
     side: CLIENT,
-    url: "https://launcher.towerdevs.xyz/store/jecalculation-1.12.2-3.0.0.jar"
+    url: "https://launcher.towerdevs.xyz/store/jecalculation-1.12.2-3.0.0.jar",
+    useUrlTxt: false
 }
