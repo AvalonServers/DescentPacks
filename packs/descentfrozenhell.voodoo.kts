@@ -32,6 +32,7 @@ root(CurseProvider) {
     releaseTypes = setOf(FileType.Release, FileType.Beta, FileType.Alpha)
     validMcVersions = setOf("1.12.2", "1.12")
     //metaUrl = "https://curse.nikky.moe/api"
+    useUrlTxt = false
     list {
         // The way these mods are parsed, the Curse URL is taken,
         // hyphens are removed and made camel case.

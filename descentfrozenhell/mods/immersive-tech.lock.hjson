@@ -1,5 +1,6 @@
 {
     provider: CURSE,
     projectID: 274159,
-    fileID: 2568579
+    fileID: 2568579,
+    useUrlTxt: false
 }
