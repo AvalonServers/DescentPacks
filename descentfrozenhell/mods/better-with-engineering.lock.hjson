@@ -1,0 +1,10 @@
+{
+    provider: CURSE,
+    dependencies: {
+        REQUIRED: [
+            bwm-suite
+        ]
+    },
+    projectID: 279887,
+    fileID: 2549624
+}

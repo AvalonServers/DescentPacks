@@ -12,7 +12,7 @@ import voodoo.provider.DirectProvider
 mcVersion = "1.12.2"
 title = "Descent Frozen Hell"
 authors = listOf("CitadelCore", "Skye")
-version = "1.0.8.0"
+version = "1.1"
 
 forge = Forge.mc1_12_2_latest
 icon = rootDir.resolve("icon.png")
@@ -37,6 +37,10 @@ root(CurseProvider) {
         // hyphens are removed and made camel case.
         // or just look into the generated constants in `.voodoo/Mod.kt`
 
+        // RWTema
+        +Mod.extraUtilities
+
+        // Better with mods stuff
         +Mod.betterWithEngineering
         +Mod.bwmSuite
 
@@ -155,7 +159,7 @@ root(CurseProvider) {
 
         // Direct download (URL)
         withProvider(DirectProvider).list {
-            +"computronics" url "http://files.vexatos.com/Computronics/Computronics-1.12.1-1.6.5.jar"
+            +"computronics" url "http://files.vexatos.com/Computronics/Computronics-1.12.2-1.6.6.jar"
         }
 
         // Server-side mods
