@@ -38,6 +38,9 @@ root(CurseProvider) {
         // hyphens are removed and made camel case.
         // or just look into the generated constants in `.voodoo/Mod.kt`
 
+        // BrisingrAerowing - OpenComputers Book Converter
+        +ProjectID(326890)
+
         // RWTema
         +Mod.extraUtilities
 
