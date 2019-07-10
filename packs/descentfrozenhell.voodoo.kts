@@ -12,7 +12,7 @@ import voodoo.provider.DirectProvider
 mcVersion = "1.12.2"
 title = "Descent Frozen Hell"
 authors = listOf("CitadelCore", "Skye")
-version = "1.1"
+version = "1.1.1"
 
 forge = Forge.mc1_12_2_latest
 icon = rootDir.resolve("icon.png")
@@ -37,6 +37,9 @@ root(CurseProvider) {
         // The way these mods are parsed, the Curse URL is taken,
         // hyphens are removed and made camel case.
         // or just look into the generated constants in `.voodoo/Mod.kt`
+
+        // BrisingrAerowing - OpenComputers Book Converter
+        +ProjectID(326890)
 
         // RWTema
         +Mod.extraUtilities
