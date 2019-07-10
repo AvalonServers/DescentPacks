@@ -10,6 +10,7 @@ var silverGlass = <thermalfoundation:glass_alloy:2>;
 var bronzeGlass = <thermalfoundation:glass_alloy:3>;
 var signalumGlass = <thermalfoundation:glass_alloy:5>;
 var lumiumGlass = <thermalfoundation:glass_alloy:6>;
+val hardenedGlass = <ore:blockGlassHardened>
 
 // Make Distilled water -> Purified water // not going to work
 //mods.immersivepetroleum.Distillation.addRecipe([<liquid:purified_water> * 100], [], <liquid:dist_water>, 200, 200, []);
@@ -24,7 +25,7 @@ Transposer.addFillRecipe(purifiedBottle, <minecraft:glass_bottle>, <liquid:purif
 // Machine frame is slightly harder
 val machineFrame = <thermalexpansion:frame:0>;
 recipes.remove(machineFrame);
-recipes.addShaped(machineFrame, [[<ore:ingotSteel>, steelGlass, <ore:ingotSteel>], [steelGlass, <ore:gearSteel>, steelGlass], [<ore:ingotSteel>, <opencomputers:material:11>, <ore:ingotSteel>]]);
+recipes.addShaped(machineFrame, [[<ore:ingotSteel>, hardenedGlass, <ore:ingotSteel>], [hardenedGlass, <ore:gearSteel>, hardenedGlass], [<ore:ingotSteel>, <opencomputers:material:11>, <ore:ingotSteel>]]);
 
 // Device frame is slightly harder
 val deviceFrame = <thermalexpansion:frame:64>;
