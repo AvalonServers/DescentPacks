@@ -10,7 +10,7 @@ var silverGlass = <thermalfoundation:glass_alloy:2>;
 var bronzeGlass = <thermalfoundation:glass_alloy:3>;
 var signalumGlass = <thermalfoundation:glass_alloy:5>;
 var lumiumGlass = <thermalfoundation:glass_alloy:6>;
-val hardenedGlass = <ore:blockGlassHardened>
+val hardenedGlass = <ore:blockGlassHardened>;
 
 // Make Distilled water -> Purified water // not going to work
 //mods.immersivepetroleum.Distillation.addRecipe([<liquid:purified_water> * 100], [], <liquid:dist_water>, 200, 200, []);
