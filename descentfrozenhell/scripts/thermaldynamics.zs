@@ -1,16 +1,52 @@
 import mods.thermalexpansion.Transposer;
 import mods.thermalexpansion.Centrifuge;
 import mods.immersiveengineering.Mixer;
+import mods.immersiveengineering.AlloySmelter;
 
 val purifiedBucket = <forge:bucketfilled>.withTag({FluidName: "purified_water", Amount: 1000});
 val purifiedBottle = <toughasnails:purified_water_bottle>;
+
+// hardened glass types
+var copperGlass = <thermalfoundation:glass:0>;
+var tinGlass = <thermalfoundation:glass:1>;
+var silverGlass = <thermalfoundation:glass:2>;
+var leadGlass = <thermalfoundation:glass:3>;
+var aluminiumGlass = <thermalfoundation:glass:4>;
+var nickelGlass = <thermalfoundation:glass:5>;
+var platinumGlass = <thermalfoundation:glass:6>;
+var iridiumGlass = <thermalfoundation:glass:7>;
+var manaInfusedGlass = <thermalfoundation:glass:8>;
+
 var steelGlass = <thermalfoundation:glass_alloy:0>;
 var electrumGlass = <thermalfoundation:glass_alloy:1>;
-var silverGlass = <thermalfoundation:glass_alloy:2>;
+var invarGlass = <thermalfoundation:glass_alloy:2>;
 var bronzeGlass = <thermalfoundation:glass_alloy:3>;
+var constantanGlass = <thermalfoundation:glass_alloy:4>;
 var signalumGlass = <thermalfoundation:glass_alloy:5>;
 var lumiumGlass = <thermalfoundation:glass_alloy:6>;
+var enderiumGlass = <thermalfoundation:glass_alloy:7>;
+
 val hardenedGlass = <ore:blockGlassHardened>;
+
+// Add glass recipies to IE Alloy Smelter (fixes #35)
+AlloySmelter.addRecipe(copperGlass * 2, <ore:dustCopper>, <ore:blockGlassHardened> * 2, 2000);
+AlloySmelter.addRecipe(tinGlass * 2, <ore:dustTin>, <ore:blockGlassHardened> * 2, 2000);
+AlloySmelter.addRecipe(silverGlass * 2, <ore:dustSilver>, <ore:blockGlassHardened> * 2, 2000);
+AlloySmelter.addRecipe(leadGlass * 2, <ore:dustLead>, <ore:dustObsidian> * 4, 2000);
+AlloySmelter.addRecipe(aluminiumGlass * 2, <ore:dustAluminum>, <ore:blockGlassHardened> * 2, 2000);
+AlloySmelter.addRecipe(nickelGlass * 2, <ore:dustNickel>, <ore:blockGlassHardened> * 2, 2000);
+AlloySmelter.addRecipe(platinumGlass * 2, <ore:dustPlatinum>, <ore:blockGlassHardened> * 2, 2000);
+AlloySmelter.addRecipe(iridiumGlass * 2, <ore:dustIridium>, <ore:blockGlassHardened> * 2, 2000);
+AlloySmelter.addRecipe(manaInfusedGlass * 2, <ore:dustMithril>, <ore:blockGlassHardened> * 2, 2000);
+
+AlloySmelter.addRecipe(steelGlass * 2, <ore:dustSteel>, <ore:blockGlassHardened> * 2, 2000);
+AlloySmelter.addRecipe(electrumGlass * 2, <ore:dustElectrum>, <ore:blockGlassHardened> * 2, 2000);
+AlloySmelter.addRecipe(invarGlass * 2, <ore:dustInvar>, <ore:blockGlassHardened> * 2, 2000);
+AlloySmelter.addRecipe(bronzeGlass * 2, <ore:dustBronze>, <ore:blockGlassHardened> * 2, 2000);
+AlloySmelter.addRecipe(constantanGlass * 2, <ore:dustConstantan>, <ore:blockGlassHardened> * 2, 2000);
+AlloySmelter.addRecipe(signalumGlass * 2, <ore:dustSignalum>, <ore:blockGlassHardened> * 2, 2000);
+AlloySmelter.addRecipe(lumiumGlass * 2, <ore:dustLumium>, <ore:blockGlassHardened> * 2, 2000);
+AlloySmelter.addRecipe(enderiumGlass * 2, <ore:dustEnderium>, <ore:blockGlassHardened> * 2, 2000);
 
 // Make Distilled water -> Purified water // not going to work
 //mods.immersivepetroleum.Distillation.addRecipe([<liquid:purified_water> * 100], [], <liquid:dist_water>, 200, 200, []);
