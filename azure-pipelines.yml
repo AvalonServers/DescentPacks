@@ -11,6 +11,7 @@ pool:
 
 steps:
 - task: Gradle@2
+  displayName: Test pack build
   inputs: 
     gradleWrapperFile: 'gradlew'
     gradleOptions: '-Xmx3072m'
@@ -19,24 +20,55 @@ steps:
     jdkArchitectureOption: 'x64'
     publishJUnitResults: false
     testResultsFiles: '**/TEST-*.xml'
-    tasks: 'descentFrozenHell_buildAndPackAll'
+    tasks: 'descentFrozenHell_build'
+- task: Bash@3
+  displayName: Git hard reset to HEAD
+  inputs:
+    targetType: 'inline'
+    script: 'git reset --hard HEAD'
+    workingDirectory: '$(Build.SourcesDirectory)'
+- task: Gradle@2
+  displayName: Pack all artifacts
+  inputs: 
+    gradleWrapperFile: 'gradlew'
+    gradleOptions: '-Xmx3072m'
+    javaHomeOption: 'JDKVersion'
+    jdkVersionOption: '1.8'
+    jdkArchitectureOption: 'x64'
+    publishJUnitResults: false
+    testResultsFiles: '**/TEST-*.xml'
+    tasks: 'descentFrozenHell_packAll'
+    
 - task: CopyFiles@2
   displayName: Copy server artifacts to staging directory
   inputs:
-    SourceFolder: '$(Build.SourcesDirectory)/build/_upload/server/descentfrozenhell'
+    SourceFolder: '/build/_upload/server/descentfrozenhell'
     Contents: '**/*'
     TargetFolder: '$(Build.ArtifactStagingDirectory)/server'
+- task: CopyFiles@2
+  displayName: Copy client artifacts to staging directory
+  inputs:
+    SourceFolder: '$(Build.SourcesDirectory)/workspace/_upload'
+    Contents: '**/*'
+    TargetFolder: '$(Build.ArtifactStagingDirectory)/client'
 - task: CopyFiles@2
   displayName: Copy launcher artifacts to staging directory
   inputs:
     SourceFolder: '$(Build.SourcesDirectory)/build/_upload/multimc-sk'
     Contents: 'descentfrozenhell.zip'
     TargetFolder: '$(Build.ArtifactStagingDirectory)/launcher'
+
 - task: PublishBuildArtifacts@1
   displayName: Publish server artifacts
   inputs:
     PathtoPublish: '$(Build.ArtifactStagingDirectory)/server'
     ArtifactName: 'server'
+    publishLocation: 'Container'
+- task: PublishBuildArtifacts@1
+  displayName: Publish client artifacts
+  inputs:
+    PathtoPublish: '$(Build.ArtifactStagingDirectory)/client'
+    ArtifactName: 'client'
     publishLocation: 'Container'
 - task: PublishBuildArtifacts@1
   displayName: Publish launcher artifacts
