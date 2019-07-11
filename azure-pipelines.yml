@@ -20,3 +20,27 @@ steps:
     publishJUnitResults: false
     testResultsFiles: '**/TEST-*.xml'
     tasks: 'descentFrozenHell_buildAndPackAll'
+- task: CopyFiles@2
+  displayName: Copy server artifacts to staging directory
+  inputs:
+    SourceFolder: '$(Build.SourcesDirectory)/build/_upload/server/descentFrozenHell'
+    Contents: '**/*'
+    TargetFolder: '$(Build.ArtifactStagingDirectory)/server'
+- task: CopyFiles@2
+  displayName: Copy launcher artifacts to staging directory
+  inputs:
+    SourceFolder: '$(Build.SourcesDirectory)/build/_upload/multimc-sk'
+    Contents: 'descentfrozenhell.zip'
+    TargetFolder: '$(Build.ArtifactStagingDirectory)/launcher'
+- task: PublishBuildArtifacts@1
+  displayName: Publish server artifacts
+  inputs:
+    PathtoPublish: '$(Build.ArtifactStagingDirectory)/server'
+    ArtifactName: 'server'
+    publishLocation: 'Container'
+- task: PublishBuildArtifacts@1
+  displayName: Publish launcher artifacts
+  inputs:
+    PathtoPublish: '$(Build.ArtifactStagingDirectory)/launcher'
+    ArtifactName: 'server'
+    publishLocation: 'Container'
