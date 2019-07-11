@@ -23,7 +23,7 @@ steps:
 - task: CopyFiles@2
   displayName: Copy server artifacts to staging directory
   inputs:
-    SourceFolder: '$(Build.SourcesDirectory)/build/_upload/server/descentFrozenHell'
+    SourceFolder: '$(Build.SourcesDirectory)/build/_upload/server/descentfrozenhell'
     Contents: '**/*'
     TargetFolder: '$(Build.ArtifactStagingDirectory)/server'
 - task: CopyFiles@2
