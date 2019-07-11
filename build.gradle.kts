@@ -8,7 +8,8 @@ voodoo {
     addTask(name = "build", parameters = listOf("build"))
     addTask(name = "buildAndTest", parameters = listOf("build", "test mmc"))
     addTask(name = "packServer", parameters = listOf("pack server"))
-    addTask(name = "buildAndPackAll", parameters = listOf("build", "pack server", "pack mmc"))
+    addTask(name = "packAll", parameters = listOf("pack server", "pack sk", "pack mmc"))
+    addTask(name = "buildAndPackAll", parameters = listOf("build", "pack server", "pack sk", "pack mmc"))
 }
 
 repositories {
