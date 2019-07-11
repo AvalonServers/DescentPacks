@@ -42,5 +42,5 @@ steps:
   displayName: Publish launcher artifacts
   inputs:
     PathtoPublish: '$(Build.ArtifactStagingDirectory)/launcher'
-    ArtifactName: 'server'
+    ArtifactName: 'launcher'
     publishLocation: 'Container'
