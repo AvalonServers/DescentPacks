@@ -48,7 +48,7 @@ steps:
 - task: CopyFiles@2
   displayName: Copy client artifacts to staging directory
   inputs:
-    SourceFolder: '$(Build.SourcesDirectory)/workspace/_upload'
+    SourceFolder: '$(Build.SourcesDirectory)/build/_upload/sk'
     Contents: '**/*'
     TargetFolder: '$(Build.ArtifactStagingDirectory)/client'
 - task: CopyFiles@2
