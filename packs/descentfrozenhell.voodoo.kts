@@ -204,11 +204,6 @@ root(CurseProvider) {
             +Mod.inventoryTweaks
             +Mod.betterAdvancements
 
-            // Direct download (URL)
-            withProvider(DirectProvider).list {
-                +"jecalculation" url "https://launcher.towerdevs.xyz/store/jecalculation-1.12.2-3.0.0.jar"
-            }
-
             group {
                 optional {
                     selected = true
