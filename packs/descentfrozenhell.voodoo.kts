@@ -24,7 +24,7 @@ icon = rootDir.resolve("icon.png")
 
 pack {
     multimc {
-        skPackUrl = "https://skyem.co.uk/minecraft/frozenhell/voodoo/sk/descentfrozenhell/descentfrozenhell.json"
+        skPackUrl = "https://launcher.towerdevs.xyz/descentfrozenhell.json"
     }
 }
 
@@ -203,6 +203,11 @@ root(CurseProvider) {
             +Mod.justEnoughResourcesJer
             +Mod.inventoryTweaks
             +Mod.betterAdvancements
+
+            // Direct download (URL)
+            withProvider(DirectProvider).list {
+                +"jecalculation" url "https://launcher.towerdevs.xyz/store/jecalculation-1.12.2-3.0.0.jar"
+            }
 
             group {
                 optional {
