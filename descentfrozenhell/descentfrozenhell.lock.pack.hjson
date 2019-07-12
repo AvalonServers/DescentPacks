@@ -10,7 +10,7 @@
     forge: 1.12.2-14.23.5.2838,
     packOptions: {
         multimcOptions: {
-            skPackUrl: "https://skyem.co.uk/minecraft/frozenhell/voodoo/sk/descentfrozenhell/descentfrozenhell.json"
+            skPackUrl: "https://launcher.towerdevs.xyz/descentfrozenhell.json"
         }
     }
 }
