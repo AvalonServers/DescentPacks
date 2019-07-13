@@ -12,7 +12,7 @@ import voodoo.provider.DirectProvider
 mcVersion = "1.12.2"
 title = "Descent Frozen Hell"
 authors = listOf("CitadelCore", "Skye")
-version = "1.1.1"
+version = "1.1.2"
 
 forge = Forge.mc1_12_2_latest
 icon = rootDir.resolve("icon.png")
@@ -203,11 +203,6 @@ root(CurseProvider) {
             +Mod.justEnoughResourcesJer
             +Mod.inventoryTweaks
             +Mod.betterAdvancements
-
-            // Direct download (URL)
-            withProvider(DirectProvider).list {
-                +"jecalculation" url "https://launcher.towerdevs.xyz/store/jecalculation-1.12.2-3.0.0.jar"
-            }
 
             group {
                 optional {
