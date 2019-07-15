@@ -11,7 +11,7 @@ import voodoo.provider.DirectProvider
 
 mcVersion = "1.12.2"
 title = "Descent Frozen Hell"
-authors = listOf("CitadelCore", "Skye")
+authors = listOf("CitadelCore", "Skye", "ThePiGuy24")
 version = "1.1.3"
 
 forge = Forge.mc1_12_2_latest
