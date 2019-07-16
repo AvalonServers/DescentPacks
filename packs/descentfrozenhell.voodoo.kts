@@ -12,7 +12,7 @@ import voodoo.provider.DirectProvider
 mcVersion = "1.12.2"
 title = "Descent Frozen Hell"
 authors = listOf("CitadelCore", "Skye")
-version = "1.1.2.1"
+version = "1.1.2.2"
 
 forge = Forge.mc1_12_2_latest
 icon = rootDir.resolve("icon.png")
@@ -236,6 +236,13 @@ root(CurseProvider) {
                     description = "Can be used to view NBT trees. Developer use only."
                 }
             }
+        }
+
+        // Server side
+        group {
+            side = Side.SERVER
+        }.list {
+            +Mod.matterlink
         }
     }
 }

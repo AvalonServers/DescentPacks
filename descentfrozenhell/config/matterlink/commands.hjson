@@ -1,0 +1,61 @@
+{ 
+	/* Your run off the mill tps commands, change it to /sampler tps or /cofh tps if you like
+make sure to disable defaultCommand if you want your edits to have any effect */ 
+	"tps": { 
+		"type": "EXECUTE",
+		"execute": "forge tps",
+		"help": "Print platform tps",
+		"timeout": 200,
+		"defaultCommand": true
+	},
+	/* lists all the players, this is just a straight pass-through */ 
+	"list": { 
+		"type": "EXECUTE",
+		"execute": "list",
+		"help": "List online players",
+		"defaultCommand": true
+	},
+	/* another straight pass-through */ 
+	"seed": { 
+		"type": "EXECUTE",
+		"execute": "seed",
+		"help": "Print platform world seed",
+		"defaultCommand": true
+	},
+	/* this is a reponse command, it uses the uptime function, time since the mod was first loaded */ 
+	"uptime": { 
+		"response": "{uptime}",
+		"help": "Print platform uptime",
+		"defaultCommand": true
+	},
+	/* this shows you some of the other response macros */ 
+	"whoami": { 
+		"response": "name: `{user}` userid: `{userid}` platform: `{platform}` username: `{username}` uuid: `{uuid}`",
+		"help": "Print debug user data",
+		"timeout": 200,
+		"defaultCommand": true
+	},
+	/* are you out of date huh ? */ 
+	"version": { 
+		"response": "{version}",
+		"help": "are you out of date huh ?",
+		"timeout": 200,
+		"defaultCommand": true
+	},
+	/* this uses arguments in a passed-through command, you could restrict the arguments with a regex */ 
+	"exec": { 
+		"type": "EXECUTE",
+		"execute": "{args}",
+		"permLevel": 50.0,
+		"help": "Execute any command as OP, be careful with this one",
+		"defaultCommand": true,
+		"execOp": true,
+		"argumentsRegex": { 
+			"_options": null,
+			"nativePattern": { 
+				"pattern": ".*",
+				"flags": 0
+			}
+		}
+	}
+}
