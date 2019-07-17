@@ -102,11 +102,11 @@ Formatting options:
 Available variables: {username}, {text}, {gateway}, {channel}, {protocol}, {username:antiping} */ 
 	"incoming": { 
 		/* Generic chat event, just talking */ 
-		"chat": "<{username:antiping}> {text}",
+		"chat": "<{username}> {text}",
 		/* Join and part events from other gateways */ 
-		"joinPart": "§6-- {username:antiping} {text}",
+		"joinPart": "§6-- {username} {text}",
 		/* User actions (/me) sent by users from other gateways */ 
-		"action": "§5* {username:antiping} {text}",
+		"action": "§5* {username} {text}",
 		/* strip colors from incoming text */ 
 		"stripColors": true
 	},
