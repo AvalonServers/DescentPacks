@@ -46,7 +46,7 @@
 			/* location label for identification */ 
 			"label": "default",
 			/* matterbridge gateway identifier */ 
-			"gateway": "minecraft",
+			"gateway": "production",
 			"area": { 
 				/* Area type identifier */ 
 				"type": "INFINITE",
