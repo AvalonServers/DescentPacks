@@ -123,7 +123,7 @@ root(CurseProvider) {
         // Other
         +Mod.foamfixForMinecraft
         +Mod.opencomputers
-        +Mod.openPrinter
+        +Mod.openprinter
         +Mod.zettaIndustries
         +Mod.hwyla
         +Mod.railcraft

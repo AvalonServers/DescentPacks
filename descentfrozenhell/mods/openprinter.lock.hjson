@@ -1,0 +1,11 @@
+{
+    provider: CURSE,
+    dependencies: {
+        REQUIRED: [
+            opencomputers
+        ]
+    },
+    projectID: 225127,
+    fileID: 2739655,
+    useUrlTxt: false
+}
