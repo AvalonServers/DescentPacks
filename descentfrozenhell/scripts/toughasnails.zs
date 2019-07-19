@@ -6,10 +6,6 @@ recipes.remove(<toughasnails:thermometer>);
 recipes.remove(<toughasnails:canteen>);
 recipes.remove(<toughasnails:charcoal_filter>);
 
-recipes.remove(<tanaddons:thirst_quencher>);
-recipes.remove(<tanaddons:portable_temp_regulator>);
-recipes.remove(<tanaddons:temp_regulator>);
-
 // Pulveriser recipe for ice cubes and magma fragments
 mods.thermalexpansion.Pulverizer.addRecipe(<toughasnails:ice_cube> * 4, <minecraft:ice>, 1000, <minecraft:snowball>, 15);
 mods.thermalexpansion.Pulverizer.addRecipe(<toughasnails:magma_shard> * 4, <minecraft:magma>, 1000, <betterwithmods:material:15>, 15);
@@ -26,12 +22,5 @@ recipes.addShaped(<toughasnails:thermometer>, [[null, <ore:paneGlass>, null],[<o
 recipes.addShaped(<toughasnails:canteen>, [[<ore:string>, <ore:leather>, <ore:string>], [<ore:leather>, <minecraft:glass_bottle>, <ore:leather>], [<ore:leather>, <ore:leather>, <ore:leather>]]);
 // Charcoal Filter (reduced to only outputting one, and buffed)
 recipes.addShaped(<toughasnails:charcoal_filter>, [[<ore:paper>, <ore:paper>, <ore:paper>], [<ore:dustCharcoal>, <ore:dustCharcoal>, <ore:dustCharcoal>], [<ore:paper>, <ore:paper>, <ore:paper>]]);
-
-// TE Thirst Quencher (now mid tier)
-recipes.addShaped(<tanaddons:thirst_quencher>, [[<ore:ingotSteel>, <toughasnails:charcoal_filter>, <ore:ingotSteel>], [<ore:ingotSteel>, <toughasnails:canteen>, <ore:ingotSteel>], [<ore:ingotSteel>, <ore:oc:materialCU>, <ore:ingotSteel>]]);
-// TE Portable Temp Regulator (now mid tier)
-recipes.addShaped(<tanaddons:portable_temp_regulator>, [[<ore:ingotSteel>, <toughasnails:temperature_coil>, <ore:ingotSteel>], [<ore:ingotSteel>, <tanaddons:temp_regulator>, <ore:ingotSteel>], [<ore:ingotSteel>, <toughasnails:temperature_coil:1>, <ore:ingotSteel>]]);
-// TE Temp Regulator (now mid tier)
-recipes.addShaped(<tanaddons:temp_regulator>, [[<toughasnails:magma_shard>, <ore:oc:materialCU>, <toughasnails:magma_shard>], [<toughasnails:temperature_coil>, <ore:blockSteel>, <toughasnails:temperature_coil:1>], [<toughasnails:ice_cube>, <ore:oc:materialALU>, <toughasnails:ice_cube>]]);
 
 //recipes.addShapeless(purifiedBucket, [<minecraft:water_bucket>.noReturn(), <toughasnails:charcoal_filter>]);

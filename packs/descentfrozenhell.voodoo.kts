@@ -104,10 +104,6 @@ root(CurseProvider) {
         +Mod.thaumicComputers
         +Mod.baubles
 
-        // p455w0rd
-        +Mod.p455w0rdsLibrary
-        +Mod.toughExpansion
-
         // asie
         // Charset Modules
         +Mod.charsetLib
