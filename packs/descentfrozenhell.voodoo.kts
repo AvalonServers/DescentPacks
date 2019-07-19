@@ -158,6 +158,9 @@ root(CurseProvider) {
         // better builder's wands
         +Mod.betterBuildersWands
 
+        // alternating flux
+        +Mod.alternatingFlux
+
         // Direct download (URL)
         withProvider(DirectProvider).list {
             +"computronics" url "http://files.vexatos.com/Computronics/Computronics-1.12.2-1.6.6.jar"
