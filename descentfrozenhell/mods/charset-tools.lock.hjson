@@ -1,11 +1,6 @@
 {
     provider: CURSE,
-    dependencies: {
-        REQUIRED: [
-            charset-lib
-        ]
-    },
     projectID: 301054,
-    fileID: 2606994,
+    fileID: 2745010,
     useUrlTxt: false
 }

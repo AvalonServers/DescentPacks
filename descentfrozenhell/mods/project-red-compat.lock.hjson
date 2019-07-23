@@ -2,11 +2,11 @@
     provider: CURSE,
     dependencies: {
         REQUIRED: [
-            project-red-base,
-            mrtjpcore
+            mrtjpcore,
+            project-red-base
         ]
     },
     projectID: 229050,
-    fileID: 2734747,
+    fileID: 2745546,
     useUrlTxt: false
 }
