@@ -94,7 +94,7 @@ recipes.addShaped(<extrautils2:terraformer:1>, [
 # humidifier
 recipes.remove(<extrautils2:terraformer:2>);
 recipes.addShaped(<extrautils2:terraformer:2>, [
-    [<minecraft:water_bucket>, <tanaddons:temp_regulator>, <minecraft:water_bucket>], 
+    [<minecraft:water_bucket>, <ore:blockCopper>, <minecraft:water_bucket>], 
     [<minecraft:water_bucket>, <extrautils2:terraformer:9>, <minecraft:water_bucket>],
     [null, <ore:oc:materialCU>, null]
 ]);
@@ -102,7 +102,7 @@ recipes.addShaped(<extrautils2:terraformer:2>, [
 # dehumidifier
 recipes.remove(<extrautils2:terraformer:3>);
 recipes.addShaped(<extrautils2:terraformer:3>, [
-    [<ore:sand>, <tanaddons:temp_regulator>, <ore:sand>], 
+    [<ore:sand>, <ore:blockCopper>, <ore:sand>], 
     [<ore:sand>, <extrautils2:terraformer:9>, <ore:sand>],
     [null, <ore:oc:materialCU>, null]
 ]);
@@ -110,7 +110,7 @@ recipes.addShaped(<extrautils2:terraformer:3>, [
 # heater
 recipes.remove(<extrautils2:terraformer:4>);
 recipes.addShaped(<extrautils2:terraformer:4>, [
-    [<minecraft:lava_bucket>, <tanaddons:temp_regulator>, <minecraft:lava_bucket>], 
+    [<minecraft:lava_bucket>, <ore:blockCopper>, <minecraft:lava_bucket>], 
     [<minecraft:lava_bucket>, <extrautils2:terraformer:9>, <minecraft:lava_bucket>],
     [null, <ore:oc:materialCU>, null]
 ]);
@@ -118,7 +118,7 @@ recipes.addShaped(<extrautils2:terraformer:4>, [
 # cooler
 recipes.remove(<extrautils2:terraformer:5>);
 recipes.addShaped(<extrautils2:terraformer:5>, [
-    [<minecraft:snowball>, <tanaddons:temp_regulator>, <minecraft:snowball>], 
+    [<minecraft:snowball>, <ore:blockCopper>, <minecraft:snowball>], 
     [<minecraft:snowball>, <extrautils2:terraformer:9>, <minecraft:snowball>],
     [null, <ore:oc:materialCU>, null]
 ]);
