@@ -38,7 +38,7 @@ Inscriber.addRecipe(silicon, <projectred-core:resource_item:301>, true, <applied
 
 // Make AE blocks a bit more expensive
 // controller now needs 2x enderium blocks, 2x soulforged steel blocks, 4x fluix blocks
-recipes.addShaped(controller, [[<ore:blockEnderium>, <appliedenergistics2:fluix_block>, <ore:blockEnderium>], [<appliedenergistics2:fluix_block>, engineering, <appliedenergistics2:fluix_block>], [<ore:blockSoulforgedSteel>, <appliedenergistics2:fluix_block>, <ore:blockSoulforgedSteel>]]);
+recipes.addShaped(controller, [[<ore:blockEnderium>, <ore:plateFluix>, <ore:blockEnderium>], [<ore:plateFluix>, engineering, <ore:plateFluix>], [<ore:blockSoulforgedSteel>, <ore:plateFluix>, <ore:blockSoulforgedSteel>]]);
 recipes.addShaped(grindstone, [[<ore:stone>, <ore:gearSteel>, <ore:stone>], [<ore:gemQuartz>, <betterwithmods:single_machine:0>, <ore:gemQuartz>], [<ore:cobblestone>, <ore:gemQuartz>, <ore:cobblestone>]]);
 recipes.addShaped(inscriber, [[<ore:blockSteel>, <ore:craftingPiston>, <ore:blockSteel>], [<ore:crystalFluix>, null, null], [<ore:blockSteel>, <ore:craftingPiston>, <ore:blockSteel>]]);
 recipes.addShaped(store1x, [[comp, <ore:crystalCertusQuartz>, <storagedrawers:controller>], [<ore:crystalCertusQuartz>, logic, <ore:crystalCertusQuartz>], [comp, <ore:crystalCertusQuartz>, comp]]);
