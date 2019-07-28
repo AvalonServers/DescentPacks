@@ -2,10 +2,10 @@
     provider: CURSE,
     dependencies: {
         REQUIRED: [
-            charset-lib
+            industrial-foregoing
         ]
     },
-    projectID: 278527,
-    fileID: 2748288,
+    projectID: 277938,
+    fileID: 2676458,
     useUrlTxt: false
 }

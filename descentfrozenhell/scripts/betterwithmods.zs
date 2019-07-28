@@ -2,7 +2,7 @@ import mods.betterwithmods.Crucible;
 import mods.betterwithmods.Mill;
 
 // Removals
-recipes.removeByRecipeName("betterwithmods:decompress/material.diamond/diamond_ingot_compress");
+recipes.removeByRecipeName("betterwithmods:decompress/material.diamond_ingot_compress");
 
 // Additions
 Mill.addRecipe([<ore:stone>], [<minecraft:cobblestone>]);
