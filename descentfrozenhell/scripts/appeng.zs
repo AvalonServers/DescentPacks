@@ -18,9 +18,9 @@ val certusSeed = <appliedenergistics2:crystal_seed:0>;
 val fluixSeed = <appliedenergistics2:crystal_seed:1200>;
 
 // Removals
-Inscriber.removeRecipe(logic); // Logic Processor
-Inscriber.removeRecipe(calculation);
-Inscriber.removeRecipe(engineering);
+//Inscriber.removeRecipe(logic); // Logic Processor
+//Inscriber.removeRecipe(calculation);
+//Inscriber.removeRecipe(engineering);
 Inscriber.removeRecipe(silicon);
 recipes.remove(controller);
 recipes.remove(grindstone);
@@ -31,9 +31,9 @@ recipes.remove(fluixSeed);
 
 // Additions
 // Replace with OpenComputers processor items
-Inscriber.addRecipe(logic, <opencomputers:component:1>, false, <appliedenergistics2:material:18>, silicon);
-Inscriber.addRecipe(calculation, <opencomputers:component:2>, false, <appliedenergistics2:material:16>, silicon);
-Inscriber.addRecipe(engineering, <opencomputers:component:2>, false, <appliedenergistics2:material:17>, silicon);
+//Inscriber.addRecipe(logic, <opencomputers:component:1>, false, <appliedenergistics2:material:18>, silicon);
+//Inscriber.addRecipe(calculation, <opencomputers:component:2>, false, <appliedenergistics2:material:16>, silicon);
+//Inscriber.addRecipe(engineering, <opencomputers:component:2>, false, <appliedenergistics2:material:17>, silicon);
 Inscriber.addRecipe(silicon, <projectred-core:resource_item:301>, true, <appliedenergistics2:material:19>);
 
 // Make AE blocks a bit more expensive

@@ -12,7 +12,7 @@ import voodoo.provider.DirectProvider
 mcVersion = "1.12.2"
 title = "Descent Frozen Hell"
 authors = listOf("CitadelCore", "Skye", "ThePiGuy24")
-version = "1.1.5.1"
+version = "1.1.5.2"
 
 forge = Forge.mc1_12_2_latest
 icon = rootDir.resolve("icon.png")
@@ -71,6 +71,7 @@ root(CurseProvider) {
         +Mod.projectRedFabrication
         +Mod.projectRedIntegration
         +Mod.projectRedLighting
+        +Mod.projectRedWorld
 
         // chicken_bones
         +Mod.codechickenLib18
@@ -126,6 +127,7 @@ root(CurseProvider) {
         +Mod.spawnerImbuer
         +Mod.teslaCoreLib
         +Mod.industrialForegoing
+        +Mod.integrationForegoing
         +Mod.colytra
         +Mod.hardcoreDarkness
         +Mod.moreplates
