@@ -54,30 +54,6 @@ recipes.addShaped(<extrautils2:trashcanenergy>, [
 
 # Redstone clock recipie is good enough
 
-# ethereal glass
-#val quartzGlass = <appliedenergistics2:quartz_glass>;
-#recipes.remove(<extrautils2:ineffableglass:0>);
-#recipes.addShaped(<extrautils2:ineffableglass:0>, [
-#    [quartzGlass, quartzGlass, quartzGlass],
-#    [quartzGlass, null, quartzGlass],
-#    [quartzGlass, quartzGlass, quartzGlass]
-#]);
-
-# ineffable glass
-#recipes.remove(<extrautils2:ineffableglass:2>);
-#recipes.addShaped(<extrautils2:ineffableglass:2>, [
-#    [quartzGlass, quartzGlass, quartzGlass],
-#    [quartzGlass, <ore:dustVoid>, quartzGlass],
-#    [quartzGlass, quartzGlass, quartzGlass]
-#]);
-
-# dark ineffable glass
-#recipes.remove(<extrautils2:ineffableglass:3>);
-#recipes.addShapeless(<extrautils2:ineffableglass:3>, [<extrautils2:ineffableglass:2>, <ore:dyeBlack>]);
-
-# evil infused iron - YEET tier
-recipes.addShapeless(<extrautils2:ingredients:17>, [<ore:ingotDemonicMetal>, <ore:ingotUnstable>, <ore:ingotVoid>, <industrialforegoing:pink_slime_ingot>, <ore:ingotSoulforgedSteel>, <ore:ingotEnderium>, <ore:ingotUranium>]);
-
 # terraformer
 recipes.remove(<extrautils2:terraformer:0>);
 recipes.addShaped(<extrautils2:terraformer:0>, [
