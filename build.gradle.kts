@@ -13,7 +13,7 @@ voodoo {
 }
 
 repositories {
-    maven(url = "http://maven.modmuss50.me/") {
+    maven(url = "https://maven.modmuss50.me/") {
         name = "modmuss50"
     }
 
@@ -35,8 +35,8 @@ repositories {
 }
 
 dependencies {
-    implementation(group = "moe.nikky.voodoo", name = "dsl", version = "0.4.7+")
-    implementation(group = "moe.nikky.voodoo", name = "voodoo", version = "0.4.7+")
+    implementation(group = "moe.nikky.voodoo", name = "dsl", version = "0.4.8+")
+    implementation(group = "moe.nikky.voodoo", name = "voodoo", version = "0.4.8+")
     implementation(kotlin("stdlib-jdk8"))
 }
 
@@ -46,6 +46,6 @@ tasks.withType<Wrapper> {
 }
 
 dependencies {
-    implementation(group = "moe.nikky.voodoo", name = "dsl", version = "0.4.7+")
-    implementation(group = "moe.nikky.voodoo", name = "voodoo", version = "0.4.7+")
+    implementation(group = "moe.nikky.voodoo", name = "dsl", version = "0.4.8+")
+    implementation(group = "moe.nikky.voodoo", name = "voodoo", version = "0.4.8+")
 }
