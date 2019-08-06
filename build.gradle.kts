@@ -1,6 +1,6 @@
 plugins {
     wrapper
-    id("voodoo") version "0.4.8-SNAPSHOT"
+    id("voodoo") version "0.4.9-SNAPSHOT"
 }
 
 voodoo {
@@ -35,8 +35,8 @@ repositories {
 }
 
 dependencies {
-    implementation(group = "moe.nikky.voodoo", name = "dsl", version = "0.4.8+")
-    implementation(group = "moe.nikky.voodoo", name = "voodoo", version = "0.4.8+")
+    implementation(group = "moe.nikky.voodoo", name = "dsl", version = "0.4.9+")
+    implementation(group = "moe.nikky.voodoo", name = "voodoo", version = "0.4.9+")
     implementation(kotlin("stdlib-jdk8"))
 }
 
@@ -46,6 +46,6 @@ tasks.withType<Wrapper> {
 }
 
 dependencies {
-    implementation(group = "moe.nikky.voodoo", name = "dsl", version = "0.4.8+")
-    implementation(group = "moe.nikky.voodoo", name = "voodoo", version = "0.4.8+")
+    implementation(group = "moe.nikky.voodoo", name = "dsl", version = "0.4.9+")
+    implementation(group = "moe.nikky.voodoo", name = "voodoo", version = "0.4.9+")
 }
