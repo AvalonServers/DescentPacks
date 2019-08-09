@@ -2,11 +2,11 @@
     provider: CURSE,
     dependencies: {
         REQUIRED: [
-            project-red-base,
-            project-red-integration
+            project-red-integration,
+            project-red-base
         ]
     },
     projectID: 230111,
-    fileID: 2734748,
+    fileID: 2745547,
     useUrlTxt: false
 }

@@ -71,6 +71,7 @@ root(CurseProvider) {
         +Mod.projectRedFabrication
         +Mod.projectRedIntegration
         +Mod.projectRedLighting
+        +Mod.projectRedWorld
 
         // chicken_bones
         +Mod.codechickenLib18
@@ -131,6 +132,7 @@ root(CurseProvider) {
         +Mod.moreplates
         +Mod.journeymap
         +Mod.gravestoneMod
+        +Mod.techguns
 
         // TeamDmfMM
         +Mod.catwalks4

@@ -2,10 +2,10 @@
     provider: CURSE,
     dependencies: {
         REQUIRED: [
-            charset-lib
+            project-red-base
         ]
     },
-    projectID: 278527,
-    fileID: 2748288,
+    projectID: 229049,
+    fileID: 2745551,
     useUrlTxt: false
 }
