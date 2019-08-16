@@ -12,7 +12,7 @@ import voodoo.provider.DirectProvider
 mcVersion = "1.12.2"
 title = "Descent Frozen Hell"
 authors = listOf("CitadelCore", "Skye", "ThePiGuy24")
-version = "1.2"
+version = "1.2.1"
 
 forge = Forge.mc1_12_2_latest
 icon = rootDir.resolve("icon.png")
@@ -136,7 +136,7 @@ root(CurseProvider) {
         +Mod.journeymap
         +Mod.gravestoneMod
 
-        +Mod.techguns
+        +Mod.redstoneArsenal
         +Mod.icbmClassic
         +Mod.avaritia110
         +Mod.avaritiaComplement
