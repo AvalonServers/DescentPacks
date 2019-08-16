@@ -12,7 +12,7 @@ import voodoo.provider.DirectProvider
 mcVersion = "1.12.2"
 title = "Descent Frozen Hell"
 authors = listOf("CitadelCore", "Skye", "ThePiGuy24")
-version = "1.1.7"
+version = "1.2"
 
 forge = Forge.mc1_12_2_latest
 icon = rootDir.resolve("icon.png")
@@ -102,7 +102,10 @@ root(CurseProvider) {
 
         // azanor
         +Mod.thaumcraft
+        +Mod.thaumicTinkerer
         +Mod.thaumicComputers
+        +Mod.thaumicEnergistics
+        +Mod.thaumicAugmentation
         +Mod.baubles
 
         // asie
@@ -129,10 +132,15 @@ root(CurseProvider) {
         +Mod.industrialForegoing
         +Mod.integrationForegoing
         +Mod.colytra
-        +Mod.hardcoreDarkness
         +Mod.moreplates
         +Mod.journeymap
         +Mod.gravestoneMod
+
+        +Mod.techguns
+        +Mod.icbmClassic
+        +Mod.avaritia110
+        +Mod.avaritiaComplement
+        +Mod.moreAvaritia
 
         // TeamDmfMM
         +Mod.catwalks4
@@ -156,6 +164,7 @@ root(CurseProvider) {
 
         // SanAndreasP
         +Mod.immersiveCables
+        +Mod.alternatingFlux
 
         // better builder's wands
         +Mod.betterBuildersWands
