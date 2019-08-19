@@ -12,7 +12,7 @@ import voodoo.provider.DirectProvider
 mcVersion = "1.12.2"
 title = "Descent Frozen Hell"
 authors = listOf("CitadelCore", "Skye", "ThePiGuy24")
-version = "1.2.1"
+version = "1.2.2"
 
 forge = Forge.mc1_12_2_latest
 icon = rootDir.resolve("icon.png")
@@ -102,7 +102,6 @@ root(CurseProvider) {
 
         // azanor
         +Mod.thaumcraft
-        +Mod.thaumicTinkerer
         +Mod.thaumicComputers
         +Mod.thaumicEnergistics
         +Mod.thaumicAugmentation
@@ -138,6 +137,7 @@ root(CurseProvider) {
 
         +Mod.redstoneArsenal
         +Mod.icbmClassic
+        +Mod.atomicScience
         +Mod.avaritia110
         +Mod.avaritiaComplement
         +Mod.moreAvaritia
@@ -172,6 +172,7 @@ root(CurseProvider) {
         // Direct download (URL)
         withProvider(DirectProvider).list {
             +"computronics" url "http://files.vexatos.com/Computronics/Computronics-1.12.2-1.6.6.jar"
+            +"thaumictinkerer" url "https://launcher.towerdevs.xyz/external/thaumictinkerer-1.12.2-5.0-41d79cc.jar"
         }
 
         // Server-side mods

@@ -306,8 +306,8 @@ disk {
           ["", nuggetSteel, ""]]
 }
 chamelium {
-  input: [[gravel, materialNetherSludge, gravel],
-          [materialNetherSludge, {item=coal, subID=1}, materialNetherSludge],
+  input: [[gravel, "minecraft:clay_ball", gravel],
+          ["minecraft:clay_ball", {item=coal, subID=1}, "minecraft:clay_ball"],
           [gravel, {item="minecraft:water_bucket"}, gravel]]
   output: 16
 }
