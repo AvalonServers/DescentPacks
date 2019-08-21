@@ -13,7 +13,7 @@ Infusion.registerRecipe("dfhPrimordial", "", <thaumcraft:primordial_pearl>, 20, 
     <thaumcraft:void_seed>
 ]);
 
-Infusion.registerRecipe("dfhCrimsonPortal", "", <minecraft:spawn_egg>.withTag({EntityTag: {id: "thaumcraft:cultistportalgreater"}, display:{Name:'{"text":"Portal Catalyst"}', Lore:['{"text":"Dimensionally unstable"}']}}), 10, [<aspect:vitium>*250, <aspect:alienis>*250, <aspect:tenebrae>*250], <thaumcraft:causality_collapser>, [
+Infusion.registerRecipe("dfhCrimsonPortal", "", <minecraft:spawn_egg>.withTag({EntityTag: {id: "thaumcraft:cultistportalgreater"}, display:{Name:"Portal Catalyst", Lore:["Dimensionally unstable"]}}), 10, [<aspect:vitium>*250, <aspect:alienis>*250, <aspect:tenebrae>*250], <thaumcraft:causality_collapser>, [
     <thaumcraft:void_seed>,
     <thaumcraft:alumentum>,
     <thaumcraft:alumentum>,
