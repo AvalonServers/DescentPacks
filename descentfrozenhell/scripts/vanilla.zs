@@ -1,9 +1,3 @@
-// Removals
-recipes.remove(<minecraft:magma_cream>);
-//recipes.remove(<minecraft:flint_and_steel>);
-
-// Additions
-recipes.addShapeless(<minecraft:magma_cream>, [<ore:dustBlaze>, <ore:slimeball>, <ore:dustNetherrack>]);
 //recipes.addShapeless(<minecraft:flint_and_steel>, [<minecraft:flint>, <ore:nuggetSteel>]);
 
 // alternative clay recipe
