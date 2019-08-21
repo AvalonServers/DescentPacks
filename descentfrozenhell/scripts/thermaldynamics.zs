@@ -3,9 +3,6 @@ import mods.thermalexpansion.Centrifuge;
 import mods.immersiveengineering.Mixer;
 import mods.immersiveengineering.AlloySmelter;
 
-val purifiedBucket = <forge:bucketfilled>.withTag({FluidName: "purified_water", Amount: 1000});
-val purifiedBottle = <toughasnails:purified_water_bottle>;
-
 // hardened glass types
 var copperGlass = <thermalfoundation:glass:0>;
 var tinGlass = <thermalfoundation:glass:1>;
@@ -47,16 +44,6 @@ AlloySmelter.addRecipe(constantanGlass * 2, <ore:dustConstantan>, <ore:blockGlas
 AlloySmelter.addRecipe(signalumGlass * 2, <ore:dustSignalum>, <ore:blockGlassHardened> * 2, 2000);
 AlloySmelter.addRecipe(lumiumGlass * 2, <ore:dustLumium>, <ore:blockGlassHardened> * 2, 2000);
 AlloySmelter.addRecipe(enderiumGlass * 2, <ore:dustEnderium>, <ore:blockGlassHardened> * 2, 2000);
-
-// Make Distilled water -> Purified water // not going to work
-//mods.immersivepetroleum.Distillation.addRecipe([<liquid:purified_water> * 100], [], <liquid:dist_water>, 200, 200, []);
-
-// Make Distilled water + Aluminium dust -> Purified water
-Mixer.addRecipe(<liquid:purified_water>, <liquid:dist_water>, [<ore:dustAluminum>], 100);
-
-// add Purified Water recipe
-Transposer.addExtractRecipe(<liquid:purified_water> * 250, purifiedBottle, 100);
-Transposer.addFillRecipe(purifiedBottle, <minecraft:glass_bottle>, <liquid:purified_water> * 250, 100);
 
 // Machine frame is slightly harder
 val machineFrame = <thermalexpansion:frame:0>;
