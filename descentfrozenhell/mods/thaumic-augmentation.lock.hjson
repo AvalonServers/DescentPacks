@@ -2,10 +2,10 @@
     provider: CURSE,
     dependencies: {
         REQUIRED: [
-            chameleon
+            thaumcraft
         ]
     },
-    projectID: 223852,
-    fileID: 2777929,
+    projectID: 319441,
+    fileID: 2772617,
     useUrlTxt: false
 }
