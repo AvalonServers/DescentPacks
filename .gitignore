@@ -1,0 +1,13 @@
+build/
+out/
+
+.idea/
+*.iml
+.gradle/
+
+.voodoo/
+run/
+
+workspace/
+
+.meta/

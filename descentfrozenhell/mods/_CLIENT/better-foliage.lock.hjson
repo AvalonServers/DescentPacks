@@ -1,0 +1,15 @@
+{
+    provider: CURSE,
+    side: CLIENT,
+    description: "Caution: Resource heavy. Disabled by default because there are a few render bugs.",
+    optionalData: {
+    },
+    dependencies: {
+        REQUIRED: [
+            shadowfacts-forgelin
+        ]
+    },
+    projectID: 228529,
+    fileID: 2631951,
+    useUrlTxt: false
+}

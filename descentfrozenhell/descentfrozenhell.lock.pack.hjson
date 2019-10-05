@@ -1,0 +1,17 @@
+{
+    id: descentfrozenhell,
+    mcVersion: 1.12.2,
+    title: "Descent Frozen Hell",
+    version: 1.3,
+    authors: [
+        CitadelCore,
+        Skye,
+        ThePiGuy24
+    ],
+    forge: 1.12.2-14.23.5.2838,
+    packOptions: {
+        multimcOptions: {
+            skPackUrl: "https://launcher.towerdevs.xyz/descentfrozenhell.json"
+        }
+    }
+}

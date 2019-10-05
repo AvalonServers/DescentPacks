@@ -1,0 +1,13 @@
+{
+    provider: CURSE,
+    dependencies: {
+        REQUIRED: [
+            mrtjpcore,
+            codechicken-lib-1-8,
+            forge-multipart-cbe
+        ]
+    },
+    projectID: 228702,
+    fileID: 2745545,
+    useUrlTxt: false
+}
