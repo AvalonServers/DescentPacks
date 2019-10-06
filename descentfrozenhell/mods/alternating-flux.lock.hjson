@@ -2,10 +2,10 @@
     provider: CURSE,
     dependencies: {
         REQUIRED: [
-            chameleon
+            immersive-engineering
         ]
     },
-    projectID: 223852,
-    fileID: 2777929,
+    projectID: 285135,
+    fileID: 2693578,
     useUrlTxt: false
 }

@@ -2,10 +2,10 @@
     provider: CURSE,
     dependencies: {
         REQUIRED: [
-            chameleon
+            cofh-core
         ]
     },
-    projectID: 223852,
-    fileID: 2777929,
+    projectID: 70631,
+    fileID: 2715786,
     useUrlTxt: false
 }

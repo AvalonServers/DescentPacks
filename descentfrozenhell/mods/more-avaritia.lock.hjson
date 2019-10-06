@@ -2,10 +2,10 @@
     provider: CURSE,
     dependencies: {
         REQUIRED: [
-            chameleon
+            avaritia-1-10
         ]
     },
-    projectID: 223852,
-    fileID: 2777929,
+    projectID: 271236,
+    fileID: 2682668,
     useUrlTxt: false
 }
