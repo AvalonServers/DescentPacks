@@ -2,10 +2,10 @@
     provider: CURSE,
     dependencies: {
         REQUIRED: [
-            thaumcraft
+            opencomputers
         ]
     },
-    projectID: 319441,
-    fileID: 2811488,
+    projectID: 231687,
+    fileID: 2808550,
     useUrlTxt: false
 }
