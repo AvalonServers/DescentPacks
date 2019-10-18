@@ -12,7 +12,7 @@ import voodoo.provider.DirectProvider
 mcVersion = "1.12.2"
 title = "Descent Frozen Hell"
 authors = listOf("CitadelCore", "Skye", "ThePiGuy24")
-version = "1.3.0.3"
+version = "1.3.1.0"
 
 forge = Forge.mc1_12_2_latest
 icon = rootDir.resolve("icon.png")
@@ -169,6 +169,11 @@ root(CurseProvider) {
         // better builder's wands
         +Mod.betterBuildersWands
 
+	+Mod.inventoryTweaks
+	+Mod.opensecurity
+	//+Mod.buildcraft
+	+Mod.architecturecraftTridev
+
         // Direct download (URL)
         withProvider(DirectProvider).list {
             +"computronics" url "http://files.vexatos.com/Computronics/Computronics-1.12.2-1.6.6.jar"
@@ -210,7 +215,6 @@ root(CurseProvider) {
         }.list {
             +Mod.thaumicJei
             +Mod.justEnoughResourcesJer
-            +Mod.inventoryTweaks
             +Mod.betterAdvancements
 
             group {
