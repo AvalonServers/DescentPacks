@@ -160,7 +160,10 @@ root(CurseProvider) {
 
         // AlgorithmX2
         +Mod.appliedEnergistics2
-        +Mod.extracells2
+        +Mod.extracells2 configure {
+            // pin 2.6.2 since latest is broken
+            fileID = FileID(2653854)
+        }
 
         // SanAndreasP
         +Mod.immersiveCables

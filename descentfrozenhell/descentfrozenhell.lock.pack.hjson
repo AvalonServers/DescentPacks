@@ -8,7 +8,7 @@
         Skye,
         ThePiGuy24
     ],
-    forge: 1.12.2-14.23.5.2838,
+    forge: 1.12.2-14.23.5.2847,
     packOptions: {
         multimcOptions: {
             skPackUrl: "https://launcher.towerdevs.xyz/descentfrozenhell.json"
