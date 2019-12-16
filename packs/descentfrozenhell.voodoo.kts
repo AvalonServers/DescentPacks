@@ -44,15 +44,8 @@ root(CurseProvider) {
         // RWTema
         +Mod.extraUtilities
 
-        // Better with mods stuff
-        +Mod.betterWithEngineering
-        +Mod.bwmSuite
-
         // InsomniaKitten
         +Mod.wearableBackpacks
-
-        // Glitchfiend
-        +Mod.toughAsNails
 
         // shadowfactsmc
         +Mod.shadowfactsForgelin
