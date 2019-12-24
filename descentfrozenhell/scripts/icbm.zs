@@ -19,18 +19,20 @@ recipes.addShaped(<icbmclassic:explosives:15>, [
 ]);
 
 # antimatter
-recipes.addShaped(<icbmclassic:explosives:22>, [
-    [<icbmclassic:explosives:21>, <icbmclassic:explosives:15>, <icbmclassic:explosives:21>],
-    [antimatter, antimatter, antimatter],
-    [<ore:blockElectrumFlux>, <icbmclassic:explosives:15>, <ore:blockElectrumFlux>]
-]);
+# CC: disable for now as overpowered
+#recipes.addShaped(<icbmclassic:explosives:22>, [
+#    [<icbmclassic:explosives:21>, <icbmclassic:explosives:15>, <icbmclassic:explosives:21>],
+#    [antimatter, antimatter, antimatter],
+#    [<ore:blockElectrumFlux>, <icbmclassic:explosives:15>, <ore:blockElectrumFlux>]
+#]);
 
 # redmatter
-recipes.addShaped(<icbmclassic:explosives:23>, [
-    [<icbmclassic:explosives:20>, <icbmclassic:explosives:22>, <icbmclassic:explosives:20>],
-    [strangematter, strangematter, strangematter],
-    [<ore:blockCrystalFlux>, <icbmclassic:explosives:22>, <ore:blockCrystalFlux>]
-]);
+# CC: disable for now as overpowered
+#recipes.addShaped(<icbmclassic:explosives:23>, [
+#    [<icbmclassic:explosives:20>, <icbmclassic:explosives:22>, <icbmclassic:explosives:20>],
+#    [strangematter, strangematter, strangematter],
+#    [<ore:blockCrystalFlux>, <icbmclassic:explosives:22>, <ore:blockCrystalFlux>]
+#]);
 
 var module = <icbmclassic:missile:24>;
 var conventional = <icbmclassic:missile:0>;

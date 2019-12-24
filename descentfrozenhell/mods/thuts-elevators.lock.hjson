@@ -2,10 +2,10 @@
     provider: CURSE,
     dependencies: {
         REQUIRED: [
-            bwm-core
+            thutcore
         ]
     },
-    projectID: 246760,
-    fileID: 2752301,
+    projectID: 224375,
+    fileID: 2712805,
     useUrlTxt: false
 }

@@ -85,16 +85,16 @@ var lumiumBlend = <thermalfoundation:material:102>;
 var enderBlend = <thermalfoundation:material:103>;
 
 recipes.remove(bronzeBlend);
-recipes.remove(signalumBlend);
+//recipes.remove(signalumBlend);
 recipes.remove(lumiumBlend);
 recipes.remove(enderBlend);
 recipes.addShapeless(bronzeBlend * 8, [<ore:dustCopper>, <ore:dustCopper>, <ore:dustCopper>, <ore:dustCopper>, <ore:dustTin>, <ore:dustTin>, <ore:dustNickel>, <ore:dustAluminum>]);
-recipes.addShapeless(signalumBlend * 4, [<ore:dustHellfire>, <ore:dustHellfire>, <ore:dustHellfire>, <ore:dustSilver>, <forge:bucketfilled>.withTag({FluidName: "redstone", Amount: 1000})]);
+//recipes.addShapeless(signalumBlend * 4, [<todo>, <todo>, <todo>, <ore:dustSilver>, <forge:bucketfilled>.withTag({FluidName: "redstone", Amount: 1000})]);
 recipes.addShapeless(lumiumBlend * 8, [<ore:dustTin>, <ore:dustTin>, <ore:dustTin>, <ore:dustSilver>, <forge:bucketfilled>.withTag({FluidName: "glowstone", Amount: 1000})]);
 recipes.addShapeless(enderBlend * 4, [<ore:dustVoid>, <ore:dustVoid>, <ore:dustVoid>, <ore:dustPlatinum>, <forge:bucketfilled>.withTag({FluidName: "ender", Amount: 1000})]);
 
 Centrifuge.removeRecipe(bronzeBlend);
-Centrifuge.removeRecipe(signalumBlend);
+//Centrifuge.removeRecipe(signalumBlend);
 Centrifuge.removeRecipe(lumiumBlend);
 Centrifuge.removeRecipe(enderBlend);
 // TODO: new ones here

@@ -537,7 +537,7 @@ rack {
           ["oc:relay", "oc:materialCircuitBoardPrinted","oc:powerDistributor"]]
 }
 redstone {
-  input: [[ingotSteel, "oc:circuitChip3", ingotSteel]
+  input: [[ingotSteel, "oc:circuitChip1", ingotSteel]
           [{item="immersiveengineering:metal_decoration0", subID=3}, "oc:redstoneCard1", {item="immersiveengineering:metal_decoration0", subID=3}]
           [ingotSteel, "oc:materialCircuitBoardPrinted", ingotSteel]]
 }

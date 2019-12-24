@@ -8,6 +8,8 @@ import voodoo.data.Side
 import voodoo.data.curse.FileType
 import voodoo.provider.CurseProvider
 import voodoo.provider.DirectProvider
+import voodoo.data.curse.ProjectID
+import voodoo.data.curse.FileID
 
 mcVersion = "1.12.2"
 title = "Descent Frozen Hell"
@@ -44,15 +46,8 @@ root(CurseProvider) {
         // RWTema
         +Mod.extraUtilities
 
-        // Better with mods stuff
-        +Mod.betterWithEngineering
-        +Mod.bwmSuite
-
         // InsomniaKitten
         +Mod.wearableBackpacks
-
-        // Glitchfiend
-        +Mod.toughAsNails
 
         // shadowfactsmc
         +Mod.shadowfactsForgelin
@@ -171,6 +166,9 @@ root(CurseProvider) {
 
         // better builder's wands
         +Mod.betterBuildersWands
+
+        // thots elevators
+        +Mod.thutsElevators
 
 	+Mod.inventoryTweaks
 	+Mod.opensecurity
