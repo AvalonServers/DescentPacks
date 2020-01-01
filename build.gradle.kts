@@ -1,6 +1,6 @@
 plugins {
     wrapper
-    id("voodoo") version "0.4.9-dev"
+    id("voodoo") version "0.4.9-SNAPSHOT"
 }
 
 voodoo {
@@ -10,7 +10,7 @@ voodoo {
     addTask(name = "packServer", parameters = listOf("pack server"))
     addTask(name = "packAll", parameters = listOf("pack server", "pack sk", "pack mmc"))
     addTask(name = "buildAndPackAll", parameters = listOf("build", "pack server", "pack sk", "pack mmc"))
-    local = true
+    //local = true
 }
 
 repositories {
