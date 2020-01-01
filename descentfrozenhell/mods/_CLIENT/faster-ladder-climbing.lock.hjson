@@ -3,6 +3,8 @@
     side: CLIENT,
     description: "Helps you control ladder climb speed and allows you to go a bit faster.",
     optionalData: {
+        selected: true,
+        skRecommendation: starred
     },
     projectID: 258881,
     fileID: 2512758,

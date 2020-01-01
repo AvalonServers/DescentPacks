@@ -10,18 +10,13 @@ title = "Ascent Infinity"
 authors = listOf("CitadelCore")
 version = "1.0.6.0"
 
-forge = Forge.recommended
+forge = Forge.mc1_12_2_latest
 icon = rootDir.resolve("icon.png")
 
-userFiles = UserFiles(
-include = listOf(""),
-exclude = listOf("")
-)
-
 root(CurseProvider) {
-    releaseTypes = setOf(FileType.RELEASE, FileType.BETA, FileType.ALPHA)
+    releaseTypes = setOf(FileType.Release, FileType.Beta, FileType.Alpha)
     validMcVersions = setOf("1.12.2", "1.12")
-    metaUrl = "https://curse.nikky.moe/api"
+    //metaUrl = "https://curse.nikky.moe/api"
     list {
         // The way these mods are parsed, the Curse URL is taken,
         // hyphens are removed and made camel case.
