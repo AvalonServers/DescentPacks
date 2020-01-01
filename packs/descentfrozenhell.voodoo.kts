@@ -14,7 +14,7 @@ import voodoo.data.curse.FileID
 mcVersion = "1.12.2"
 title = "Descent Frozen Hell"
 authors = listOf("CitadelCore", "Skye", "ThePiGuy24")
-version = "1.3.2.0"
+version = "1.5.0.0"
 
 forge = Forge.mc1_12_2_latest
 icon = rootDir.resolve("icon.png")
@@ -171,9 +171,9 @@ root(CurseProvider) {
         // thots elevators
         +Mod.thutsElevators
       
-	      +Mod.inventoryTweaks
-	      +Mod.opensecurity
-	      +Mod.architecturecraftTridev
+        +Mod.inventoryTweaks
+        +Mod.opensecurity
+        +Mod.architecturecraftTridev
 
         +Mod.buildcraft
         +Mod.engineersDecor
