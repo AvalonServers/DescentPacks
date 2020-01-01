@@ -3,8 +3,6 @@
     side: CLIENT,
     description: "Caution: Resource heavy. Turn this off if your computer isn't powerful enough.",
     optionalData: {
-        selected: true,
-        skRecommendation: starred
     },
     projectID: 227874,
     fileID: 2563244,

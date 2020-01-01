@@ -14,7 +14,7 @@ import voodoo.data.curse.FileID
 mcVersion = "1.12.2"
 title = "Descent Frozen Hell"
 authors = listOf("CitadelCore", "Skye", "ThePiGuy24")
-version = "1.3.1.0"
+version = "1.5.0.0"
 
 forge = Forge.mc1_12_2_latest
 icon = rootDir.resolve("icon.png")
@@ -118,8 +118,9 @@ root(CurseProvider) {
         +Mod.foamfixForMinecraft
         +Mod.opencomputers
         +Mod.openprinter
+        +Mod.ocdevices
         +Mod.zettaIndustries
-        +Mod.hwyla
+        +Mod.theOneProbe
         +Mod.railcraft
         +Mod.spawnerImbuer
         +Mod.teslaCoreLib
@@ -169,16 +170,28 @@ root(CurseProvider) {
 
         // thots elevators
         +Mod.thutsElevators
+      
+        +Mod.inventoryTweaks
+        +Mod.opensecurity
+        +Mod.architecturecraftTridev
 
-	+Mod.inventoryTweaks
-	+Mod.opensecurity
-	//+Mod.buildcraft
-	+Mod.architecturecraftTridev
+        +Mod.buildcraft
+        +Mod.engineersDecor
+        +Mod.engineersTools
+        +Mod.engineersDoors
+        +Mod.immersiveFloofs
+        +Mod.immersiveEnergy
+        +Mod.immersiveposts
+        +Mod.tails // brötherfursed
+        +Mod.justEnoughPetroleum
+        +Mod.redstoneGaugesAndSwitches
+        +Mod.thaumcraftInventoryScanning
 
         // Direct download (URL)
         withProvider(DirectProvider).list {
             +"computronics" url "http://files.vexatos.com/Computronics/Computronics-1.12.2-1.6.6.jar"
             +"thaumictinkerer" url "https://launcher.towerdevs.xyz/external/thaumictinkerer-1.12.2-5.0-41d79cc.jar"
+            //+"ascension" url "https://launcher.towerdevs.xyz/external/ascension-1.0.jar"
         }
 
         // Server-side mods
@@ -224,11 +237,8 @@ root(CurseProvider) {
                     skRecommendation = Recommendation.starred
                 }
             }.list {
-                +Mod.dynamicSurroundings configure {
-                    description = "Caution: Resource heavy. Quite nice, has a lot of configurable features that add immersive sound/visual effects. Includes light-level overlay. (Defaults set to remove some sounds and generally be better.)"
-                }
-                +Mod.dynamicLights configure {
-                    description = "Caution: Resource heavy. Turn this off if your computer isn't powerful enough."
+                +Mod.fasterLadderClimbing configure {
+                    description = "Helps you control ladder climb speed and allows you to go a bit faster."
                 }
             }
 
@@ -237,14 +247,17 @@ root(CurseProvider) {
                     selected = false
                 }
             }.list {
+                +Mod.dynamicSurroundings configure {
+                    description = "Caution: Resource heavy. Quite nice, has a lot of configurable features that add immersive sound/visual effects. Includes light-level overlay. (Defaults set to remove some sounds and generally be better.)"
+                }
+                +Mod.dynamicLights configure {
+                    description = "Caution: Resource heavy. Turn this off if your computer isn't powerful enough."
+                }
                 +Mod.betterFoliage configure {
                     description = "Caution: Resource heavy. Disabled by default because there are a few render bugs."
                 }
                 +Mod.fancyBlockParticles configure {
                     description = "Caution: Resource heavy. Adds some flair to particle effects and animations. Highly configurable, costs fps. (Defaults set to be less intrusive.)"
-                }
-                +Mod.fasterLadderClimbing configure {
-                    description = "Helps you control ladder climb speed and allows you to go a bit faster."
                 }
                 +Mod.nbtedit configure {
                     description = "Can be used to view NBT trees. Developer use only."

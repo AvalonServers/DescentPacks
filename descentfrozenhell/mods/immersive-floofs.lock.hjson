@@ -1,0 +1,12 @@
+{
+    provider: CURSE,
+    dependencies: {
+        REQUIRED: [
+            tails,
+            immersive-engineering
+        ]
+    },
+    projectID: 250718,
+    fileID: 2606613,
+    useUrlTxt: false
+}
