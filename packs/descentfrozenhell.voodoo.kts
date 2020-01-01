@@ -170,10 +170,10 @@ root(CurseProvider) {
 
         // thots elevators
         +Mod.thutsElevators
-
-	    +Mod.inventoryTweaks
-	    +Mod.opensecurity
-	    +Mod.architecturecraftTridev
+      
+	      +Mod.inventoryTweaks
+	      +Mod.opensecurity
+	      +Mod.architecturecraftTridev
 
         +Mod.buildcraft
         +Mod.engineersDecor
