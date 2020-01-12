@@ -1,0 +1,11 @@
+{
+    provider: CURSE,
+    dependencies: {
+        REQUIRED: [
+            endercore
+        ]
+    },
+    projectID: 64578,
+    fileID: 2858816,
+    useUrlTxt: false
+}

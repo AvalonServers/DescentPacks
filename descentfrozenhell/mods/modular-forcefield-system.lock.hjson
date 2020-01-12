@@ -1,0 +1,12 @@
+{
+    provider: CURSE,
+    dependencies: {
+        REQUIRED: [
+            ender-io,
+            guide-api
+        ]
+    },
+    projectID: 59882,
+    fileID: 2581227,
+    useUrlTxt: false
+}

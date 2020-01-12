@@ -2,20 +2,13 @@ recipes.removeByRecipeName("icbmclassic:explosives/nuclear");
 recipes.removeByRecipeName("icbmclassic:explosives/antimatter");
 recipes.removeByRecipeName("icbmclassic:explosives/redmatter");
 
-var uranium = <ore:pelletUranium235>;
-var enrichedUranium = <atomicscience:uranium_235>.withTag({display:{Name: "Enriched Uranium 235", Lore:["Weapons Grade"]}});
-
-var antimatter = <atomicscience:powered_cell>.withTag({Fluid: {FluidName: "atomicscience:antimatter", Amount: 100}});
-var strangematter = <atomicscience:powered_cell>.withTag({Fluid: {FluidName: "atomicscience:strange_matter", Amount: 100}});
-
-# enriched uranium recipe
-recipes.addShapeless(enrichedUranium, [<ore:pelletUranium235>, <ore:pelletUranium235>, <ore:pelletUranium235>, <ore:pelletUranium235>, <ore:pelletUranium235>, <ore:pelletUranium235>, <ore:pelletUranium235>, <ore:pelletUranium235>, <ore:pelletUranium235>]);
+var plutonium = <ore:fuelHEP239>;
 
 # nuclear (force u235)
 recipes.addShaped(<icbmclassic:explosives:15>, [
-    [<icbmclassic:explosives:13>, enrichedUranium, <icbmclassic:explosives:13>],
-    [enrichedUranium, enrichedUranium, enrichedUranium],
-    [<icbmclassic:explosives:13>, enrichedUranium, <icbmclassic:explosives:13>]
+    [<icbmclassic:explosives:13>, plutonium, <icbmclassic:explosives:13>],
+    [plutonium, plutonium, plutonium],
+    [<icbmclassic:explosives:13>, plutonium, <icbmclassic:explosives:13>]
 ]);
 
 # antimatter
