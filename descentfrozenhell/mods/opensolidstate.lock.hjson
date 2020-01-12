@@ -1,5 +1,0 @@
-{
-    provider: DIRECT,
-    url: "https://launcher.towerdevs.xyz/external/opensolidstate-1.0.jar",
-    useUrlTxt: false
-}
