@@ -14,7 +14,7 @@ import voodoo.data.curse.FileID
 mcVersion = "1.12.2"
 title = "Descent Frozen Hell"
 authors = listOf("CitadelCore", "Skye", "ThePiGuy24")
-version = "1.5.0.1"
+version = "1.6.0.0"
 
 forge = Forge.mc1_12_2_latest
 icon = rootDir.resolve("icon.png")
@@ -26,7 +26,7 @@ icon = rootDir.resolve("icon.png")
 
 pack {
     multimc {
-        skPackUrl = "https://launcher.towerdevs.xyz/descentfrozenhell.json"
+        skPackUrl = "https://launcher.towerdevs.xyz/packs/descent/frozenhell/descentfrozenhell.json"
     }
 }
 
@@ -133,7 +133,6 @@ root(CurseProvider) {
 
         +Mod.redstoneArsenal
         +Mod.icbmClassic
-        +Mod.atomicScience
         +Mod.avaritia110
         +Mod.avaritiaComplement
         +Mod.moreAvaritia
@@ -184,11 +183,17 @@ root(CurseProvider) {
         +Mod.redstoneGaugesAndSwitches
         +Mod.thaumcraftInventoryScanning
 
+        +Mod.modularForcefieldSystem
+        +Mod.nuclearcraftMod
+        +Mod.enderIo
+        +Mod.sync
+
         // Direct download (URL)
         withProvider(DirectProvider).list {
             +"computronics" url "http://files.vexatos.com/Computronics/Computronics-1.12.2-1.6.6.jar"
             +"thaumictinkerer" url "https://launcher.towerdevs.xyz/external/thaumictinkerer-1.12.2-5.0-41d79cc.jar"
             //+"ascension" url "https://launcher.towerdevs.xyz/external/ascension-1.0.jar"
+            +"opensolidstate" url "https://launcher.towerdevs.xyz/external/opensolidstate-1.0.jar"
         }
 
         // Server-side mods
