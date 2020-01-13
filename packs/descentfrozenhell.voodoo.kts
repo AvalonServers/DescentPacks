@@ -188,6 +188,17 @@ root(CurseProvider) {
         +Mod.enderIo
         +Mod.sync
 
+        // Vöidmöbile maschines
+        +Mod.minecraftTransportSimulator // Immersive Vehicles
+        +Mod.transportSimulatorOfficialVehicleSet
+        +Mod.unuPartsPack // required for all UNU mods
+        +ProjectID(292897) // unu Civillian vehicles
+        +ProjectID(327245) // unu Millitary vehicles, oh yes
+        +Mod.trinPartPack // required for all Trin mods
+        +ProjectID(305830) // Immersive Vehicles Trin Civil Pack V2 (Extended version)
+        +Mod.mtsSeagullsMilitaryCarPack
+        +Mod.moonspireMetropolitanMotorsPackForMts // :b:us
+
         // Direct download (URL)
         withProvider(DirectProvider).list {
             +"computronics" url "http://files.vexatos.com/Computronics/Computronics-1.12.2-1.6.6.jar"

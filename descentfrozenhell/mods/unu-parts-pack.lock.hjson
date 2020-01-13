@@ -1,0 +1,12 @@
+{
+    provider: CURSE,
+    dependencies: {
+        REQUIRED: [
+            immersive-engineering,
+            minecraft-transport-simulator
+        ]
+    },
+    projectID: 302390,
+    fileID: 2828440,
+    useUrlTxt: false
+}

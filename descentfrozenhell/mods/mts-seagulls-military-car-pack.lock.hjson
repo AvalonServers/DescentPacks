@@ -1,0 +1,12 @@
+{
+    provider: CURSE,
+    dependencies: {
+        REQUIRED: [
+            trin-part-pack,
+            minecraft-transport-simulator
+        ]
+    },
+    projectID: 305715,
+    fileID: 2753419,
+    useUrlTxt: false
+}
