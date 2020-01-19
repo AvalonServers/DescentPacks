@@ -2,10 +2,11 @@
     provider: CURSE,
     dependencies: {
         REQUIRED: [
-            immersive-engineering
+            ftblib,
+            ftb-backups
         ]
     },
-    projectID: 314645,
-    fileID: 2861716,
+    projectID: 237102,
+    fileID: 2835289,
     useUrlTxt: false
 }
