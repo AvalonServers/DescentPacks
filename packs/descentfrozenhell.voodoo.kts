@@ -14,7 +14,7 @@ import voodoo.data.curse.FileID
 mcVersion = "1.12.2"
 title = "Descent Frozen Hell"
 authors = listOf("CitadelCore", "Skye", "ThePiGuy24")
-version = "1.6.0.2"
+version = "1.6.0.1"
 
 forge = Forge.mc1_12_2_latest
 icon = rootDir.resolve("icon.png")
@@ -187,8 +187,6 @@ root(CurseProvider) {
         +Mod.nuclearcraftMod
         +Mod.enderIo
         +Mod.sync
-
-        +Mod.ftbUtilities
 
         // Direct download (URL)
         withProvider(DirectProvider).list {
