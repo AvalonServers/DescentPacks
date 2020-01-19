@@ -14,7 +14,7 @@ import voodoo.data.curse.FileID
 mcVersion = "1.12.2"
 title = "Descent Frozen Hell"
 authors = listOf("CitadelCore", "Skye", "ThePiGuy24")
-version = "1.6.0.1"
+version = "1.6.0.2"
 
 forge = Forge.mc1_12_2_latest
 icon = rootDir.resolve("icon.png")
@@ -187,7 +187,8 @@ root(CurseProvider) {
         +Mod.nuclearcraftMod
         +Mod.enderIo
         +Mod.sync
-
+        +Mod.ftbUtilities
+        
         // Vöidmöbile maschines
         +Mod.minecraftTransportSimulator // Immersive Vehicles
         +Mod.transportSimulatorOfficialVehicleSet
@@ -198,7 +199,7 @@ root(CurseProvider) {
         +ProjectID(305830) // Immersive Vehicles Trin Civil Pack V2 (Extended version)
         +Mod.mtsSeagullsMilitaryCarPack
         +Mod.moonspireMetropolitanMotorsPackForMts // :b:us
-
+        
         // Direct download (URL)
         withProvider(DirectProvider).list {
             +"computronics" url "http://files.vexatos.com/Computronics/Computronics-1.12.2-1.6.6.jar"
