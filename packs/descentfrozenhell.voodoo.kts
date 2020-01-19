@@ -14,7 +14,7 @@ import voodoo.data.curse.FileID
 mcVersion = "1.12.2"
 title = "Descent Frozen Hell"
 authors = listOf("CitadelCore", "Skye", "ThePiGuy24")
-version = "1.6.0.2"
+version = "1.6.1"
 
 forge = Forge.mc1_12_2_latest
 icon = rootDir.resolve("icon.png")
@@ -194,7 +194,7 @@ root(CurseProvider) {
         +Mod.transportSimulatorOfficialVehicleSet
         +Mod.unuPartsPack // required for all UNU mods
         +ProjectID(292897) // unu Civillian vehicles
-        +ProjectID(327245) // unu Millitary vehicles, oh yes
+        //+ProjectID(327245) // unu Millitary vehicles, Removed due to client crash when creating vehicles with tank tracks
         +Mod.trinPartPack // required for all Trin mods
         +ProjectID(305830) // Immersive Vehicles Trin Civil Pack V2 (Extended version)
         +Mod.mtsSeagullsMilitaryCarPack
