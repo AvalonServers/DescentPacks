@@ -1,0 +1,11 @@
+{
+    provider: CURSE,
+    dependencies: {
+        REQUIRED: [
+            minecraft-transport-simulator
+        ]
+    },
+    projectID: 305830,
+    fileID: 2859295,
+    useUrlTxt: false
+}

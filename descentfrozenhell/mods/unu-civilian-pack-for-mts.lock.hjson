@@ -1,0 +1,12 @@
+{
+    provider: CURSE,
+    dependencies: {
+        REQUIRED: [
+            minecraft-transport-simulator,
+            unu-parts-pack
+        ]
+    },
+    projectID: 292897,
+    fileID: 2862821,
+    useUrlTxt: false
+}
