@@ -14,7 +14,7 @@ import voodoo.data.curse.FileID
 mcVersion = "1.12.2"
 title = "Descent Frozen Hell"
 authors = listOf("CitadelCore", "Skye", "ThePiGuy24")
-version = "1.6.1"
+version = "1.6.1.1"
 
 forge = Forge.mc1_12_2_latest
 icon = rootDir.resolve("icon.png")
