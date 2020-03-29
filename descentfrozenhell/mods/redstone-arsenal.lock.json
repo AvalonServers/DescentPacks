@@ -1,0 +1,13 @@
+{
+    "type": "voodoo.data.lock.LockEntry.Curse",
+    "common": {
+        "dependencies": {
+            "REQUIRED": [
+                "cofh-core"
+            ]
+        }
+    },
+    "projectID": 70631,
+    "fileID": 2715786,
+    "useUrlTxt": false
+}

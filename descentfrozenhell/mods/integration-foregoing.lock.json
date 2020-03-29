@@ -1,0 +1,14 @@
+{
+    "type": "voodoo.data.lock.LockEntry.Curse",
+    "common": {
+        "dependencies": {
+            "REQUIRED": [
+                "gunpowderlib",
+                "industrial-foregoing"
+            ]
+        }
+    },
+    "projectID": 277938,
+    "fileID": 2904594,
+    "useUrlTxt": false
+}

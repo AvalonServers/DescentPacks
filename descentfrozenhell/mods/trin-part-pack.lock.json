@@ -1,0 +1,13 @@
+{
+    "type": "voodoo.data.lock.LockEntry.Curse",
+    "common": {
+        "dependencies": {
+            "REQUIRED": [
+                "minecraft-transport-simulator"
+            ]
+        }
+    },
+    "projectID": 309911,
+    "fileID": 2887993,
+    "useUrlTxt": false
+}

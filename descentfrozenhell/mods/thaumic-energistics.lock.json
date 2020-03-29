@@ -1,0 +1,14 @@
+{
+    "type": "voodoo.data.lock.LockEntry.Curse",
+    "common": {
+        "dependencies": {
+            "REQUIRED": [
+                "applied-energistics-2",
+                "thaumcraft"
+            ]
+        }
+    },
+    "projectID": 223666,
+    "fileID": 2915506,
+    "useUrlTxt": false
+}

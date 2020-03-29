@@ -1,0 +1,13 @@
+{
+    "type": "voodoo.data.lock.LockEntry.Curse",
+    "common": {
+        "dependencies": {
+            "REQUIRED": [
+                "tesla-core-lib"
+            ]
+        }
+    },
+    "projectID": 266515,
+    "fileID": 2745321,
+    "useUrlTxt": false
+}

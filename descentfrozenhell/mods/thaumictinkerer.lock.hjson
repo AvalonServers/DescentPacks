@@ -1,5 +1,0 @@
-{
-    provider: DIRECT,
-    url: "https://launcher.towerdevs.xyz/external/thaumictinkerer-1.12.2-5.0-41d79cc.jar",
-    useUrlTxt: false
-}

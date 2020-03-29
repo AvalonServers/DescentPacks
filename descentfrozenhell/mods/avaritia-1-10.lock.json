@@ -1,0 +1,13 @@
+{
+    "type": "voodoo.data.lock.LockEntry.Curse",
+    "common": {
+        "dependencies": {
+            "REQUIRED": [
+                "codechicken-lib-1-8"
+            ]
+        }
+    },
+    "projectID": 261348,
+    "fileID": 2660801,
+    "useUrlTxt": false
+}
