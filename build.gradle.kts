@@ -4,13 +4,13 @@ plugins {
 }
 
 voodoo {
+    //local = true
     addTask(name = "test", parameters = listOf("test mmc"))
     addTask(name = "build", parameters = listOf("build"))
     addTask(name = "buildAndTest", parameters = listOf("build", "test mmc"))
     addTask(name = "packServer", parameters = listOf("pack server"))
     addTask(name = "packAll", parameters = listOf("pack server", "pack sk", "pack mmc"))
     addTask(name = "buildAndPackAll", parameters = listOf("build", "pack server", "pack sk", "pack mmc"))
-    //local = true
 
     generateCurseforgeMods("Mod", "1.12", "1.12.1", "1.12.2")
     generateCurseforgeTexturepacks("TexturePack", "1.12", "1.12.1", "1.12.2")
@@ -45,11 +45,6 @@ dependencies {
 }
 
 tasks.withType<Wrapper> {
-    gradleVersion = "5.2"
+    gradleVersion = "6.3"
     distributionType = Wrapper.DistributionType.ALL
 }
-/*
-dependencies {
-    implementation(group = "moe.nikky.voodoo", name = "dsl", version = "0.5.0+")
-    implementation(group = "moe.nikky.voodoo", name = "voodoo", version = "0.5.0+")
-}*/
