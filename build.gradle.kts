@@ -9,8 +9,8 @@ voodoo {
     addTask(name = "build", parameters = listOf("build"))
     addTask(name = "buildAndTest", parameters = listOf("build", "test mmc"))
     addTask(name = "packServer", parameters = listOf("pack server"))
-    addTask(name = "packAll", parameters = listOf("pack server", "pack sk", "pack mmc"))
-    addTask(name = "buildAndPackAll", parameters = listOf("build", "pack server", "pack sk", "pack mmc"))
+    addTask(name = "packAll", parameters = listOf("pack server", "pack sk", "pack mmc-sk"))
+    addTask(name = "buildAndPackAll", parameters = listOf("build", "pack server", "pack sk", "pack mmc-sk"))
 
     generateCurseforgeMods("Mod", "1.12", "1.12.1", "1.12.2")
     generateCurseforgeTexturepacks("TexturePack", "1.12", "1.12.1", "1.12.2")
