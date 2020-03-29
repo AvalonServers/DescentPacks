@@ -1,0 +1,12 @@
+{
+    "type": "voodoo.data.lock.LockEntry.Curse",
+    "common": {
+        "side": "CLIENT",
+        "description": "Can be used to view NBT trees. Developer use only.",
+        "optionalData": {
+        }
+    },
+    "projectID": 247580,
+    "fileID": 2448708,
+    "useUrlTxt": false
+}

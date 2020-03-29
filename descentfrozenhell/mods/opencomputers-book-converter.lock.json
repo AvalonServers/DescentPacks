@@ -1,0 +1,13 @@
+{
+    "type": "voodoo.data.lock.LockEntry.Curse",
+    "common": {
+        "dependencies": {
+            "REQUIRED": [
+                "opencomputers"
+            ]
+        }
+    },
+    "projectID": 326890,
+    "fileID": 2738502,
+    "useUrlTxt": false
+}

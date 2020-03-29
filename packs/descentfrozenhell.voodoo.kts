@@ -1,7 +1,3 @@
-@file:GenerateMods(name = "Mod", mc = "1.12.2")
-@file:GenerateMods(name = "Mod", mc = "1.12.1")
-@file:GenerateMods(name = "Mod", mc = "1.12")
-@file:GenerateForge(name = "Forge", mc = "1.12.2")
 
 import com.skcraft.launcher.model.modpack.Recommendation
 import voodoo.data.Side
@@ -16,7 +12,7 @@ title = "Descent Frozen Hell"
 authors = listOf("CitadelCore", "Skye", "ThePiGuy24")
 version = "1.6.1.1"
 
-forge = Forge.mc1_12_2_latest
+forge = Forge_12_2.mc1_12_2_latest
 icon = rootDir.resolve("icon.png")
 
 //userFiles = UserFiles(
@@ -24,18 +20,19 @@ icon = rootDir.resolve("icon.png")
 //    exclude = listOf("")
 //)
 
+
 pack {
     multimc {
         skPackUrl = "https://launcher.towerdevs.xyz/packs/descent/frozenhell/descentfrozenhell.json"
     }
 }
 
-root(CurseProvider) {
+root<Curse> {
     releaseTypes = setOf(FileType.Release, FileType.Beta, FileType.Alpha)
     validMcVersions = setOf("1.12.2", "1.12")
     //metaUrl = "https://curse.nikky.moe/api"
     useUrlTxt = false
-    list {
+    it.list {
         // The way these mods are parsed, the Curse URL is taken,
         // hyphens are removed and made camel case.
         // or just look into the generated constants in `.voodoo/Mod.kt`
@@ -115,7 +112,8 @@ root(CurseProvider) {
         +Mod.charsetStorageLocks
 
         // Other
-        +Mod.foamfixForMinecraft
+        //+Mod.foamfixForMinecraft
+        +ProjectID(278494) // FoamFix
         +Mod.opencomputers
         +Mod.openprinter
         +Mod.ocdevices
@@ -201,9 +199,9 @@ root(CurseProvider) {
         +Mod.moonspireMetropolitanMotorsPackForMts // :b:us
         
         // Direct download (URL)
-        withProvider(DirectProvider).list {
-            +"computronics" url "http://files.vexatos.com/Computronics/Computronics-1.12.2-1.6.6.jar"
-            +"thaumictinkerer" url "https://launcher.towerdevs.xyz/external/thaumictinkerer-1.12.2-5.0-41d79cc.jar"
+        withTypeClass(Direct::class).list {
+            +"computronics" configure { url = "http://files.vexatos.com/Computronics/Computronics-1.12.2-1.6.6.jar" }
+            +"thaumictinkerer" configure { url = "https://launcher.towerdevs.xyz/external/thaumictinkerer-1.12.2-5.0-41d79cc.jar" }
             //+"ascension" url "https://launcher.towerdevs.xyz/external/ascension-1.0.jar"
             //+"opensolidstate" url "https://launcher.towerdevs.xyz/external/opensolidstate-1.0.jar"
         }

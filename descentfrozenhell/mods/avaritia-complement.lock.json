@@ -1,0 +1,13 @@
+{
+    "type": "voodoo.data.lock.LockEntry.Curse",
+    "common": {
+        "dependencies": {
+            "REQUIRED": [
+                "avaritia-1-10"
+            ]
+        }
+    },
+    "projectID": 323553,
+    "fileID": 2723768,
+    "useUrlTxt": false
+}

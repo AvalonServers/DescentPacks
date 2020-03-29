@@ -1,0 +1,13 @@
+{
+    "type": "voodoo.data.lock.LockEntry.Curse",
+    "common": {
+        "dependencies": {
+            "REQUIRED": [
+                "immersive-petroleum"
+            ]
+        }
+    },
+    "projectID": 291727,
+    "fileID": 2549332,
+    "useUrlTxt": false
+}
