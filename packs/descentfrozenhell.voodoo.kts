@@ -218,7 +218,7 @@ root<Curse> {
         // Both (optional)
         group {
             side = Side.BOTH
-            optional {
+            it.optional {
                 selected = false
             }
         }.list {
@@ -244,7 +244,7 @@ root<Curse> {
             +Mod.betterAdvancements
 
             group {
-                optional {
+                it.optional {
                     selected = true
                     skRecommendation = Recommendation.starred
                 }
@@ -255,7 +255,7 @@ root<Curse> {
             }
 
             group {
-                optional {
+                it.optional {
                     selected = false
                 }
             }.list {

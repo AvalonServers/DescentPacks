@@ -12,6 +12,10 @@ voodoo {
     addTask(name = "packAll", parameters = listOf("pack server", "pack sk", "pack mmc-sk"))
     addTask(name = "buildAndPackAll", parameters = listOf("build", "pack server", "pack sk", "pack mmc-sk"))
 
+    addTask(name = "pack_experimental") {
+        pack().experimental()
+    }
+
     generateCurseforgeMods("Mod", "1.12", "1.12.1", "1.12.2")
     generateCurseforgeTexturepacks("TexturePack", "1.12", "1.12.1", "1.12.2")
     generateForge("Forge_12_2", "1.12.2")

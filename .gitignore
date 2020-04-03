@@ -12,3 +12,5 @@ workspace/
 
 .meta/
 reports/
+
+logs/

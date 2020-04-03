@@ -1,6 +1,10 @@
 {
     "id": "descentfrozenhell",
     "mcVersion": "1.12.2",
+    "modloader": {
+        "type": "Modloader.Forge",
+        "version": "1.12.2-14.23.5.2847"
+    },
     "title": "Descent Frozen Hell",
     "version": "1.6.1.1",
     "authors": [
@@ -8,7 +12,6 @@
         "Skye",
         "ThePiGuy24"
     ],
-    "forge": "1.12.2-14.23.5.2847",
     "packOptions": {
         "multimcOptions": {
             "skPackUrl": "https://launcher.towerdevs.xyz/packs/descent/frozenhell/descentfrozenhell.json"
