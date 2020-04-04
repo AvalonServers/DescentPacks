@@ -5,13 +5,30 @@ plugins {
 
 voodoo {
     //local = true
-    addTask(name = "test", parameters = listOf("test mmc"))
-    addTask(name = "build", parameters = listOf("build"))
-    addTask(name = "buildAndTest", parameters = listOf("build", "test mmc"))
-    addTask(name = "packServer", parameters = listOf("pack server"))
-    addTask(name = "packAll", parameters = listOf("pack server", "pack sk", "pack mmc-sk"))
-    addTask(name = "buildAndPackAll", parameters = listOf("build", "pack server", "pack sk", "pack mmc-sk"))
-
+    addTask("test") {
+        test().multimc()
+    }
+    addTask("build") {
+        build()
+    }
+    addTask("buildAndTest") {
+        build()
+        test().multimc()
+    }
+    addTask("packServer") {
+        pack().server()
+    }
+    addTask("packAll") {
+        pack().server()
+        pack().sklauncher()
+        pack().multimcSk()
+    }
+    addTask("buildAndPackAll") {
+        build()
+        pack().server()
+        pack().sklauncher()
+        pack().multimcSk()
+    }
     addTask(name = "pack_experimental") {
         pack().experimental()
     }
@@ -41,11 +58,12 @@ repositories {
 }
 
 dependencies {
-    implementation(group = "moe.nikky.voodoo", name = "dsl", version = "0.5.0+")
+    kotlinScriptDef(group = "moe.nikky.voodoo", name = "voodoo", version = "0.5.0+")
+    kotlinScriptDef(group = "moe.nikky.voodoo", name = "dsl", version = "0.5.0+")
     implementation(group = "moe.nikky.voodoo", name = "voodoo", version = "0.5.0+")
-    kotlinScriptDef(group = "moe.nikky.voodoo", name = "dsl", version = "0.5.0-dev")
-    implementation(kotlin("stdlib-jdk8"))
-    implementation(kotlin("script-runtime"))
+    implementation(group = "moe.nikky.voodoo", name = "dsl", version = "0.5.0+")
+//    implementation(kotlin("stdlib-jdk8"))
+//    implementation(kotlin("script-runtime"))
 }
 
 tasks.withType<Wrapper> {

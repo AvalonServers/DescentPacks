@@ -12,7 +12,9 @@ title = "Descent Frozen Hell"
 authors = listOf("CitadelCore", "Skye", "ThePiGuy24")
 version = "1.6.1.1"
 
-forge = Forge_12_2.mc1_12_2_latest
+modloader {
+    forge(Forge_12_2.mc1_12_2_latest)
+}
 icon = rootDir.resolve("icon.png")
 
 //userFiles = UserFiles(
@@ -30,15 +32,13 @@ pack {
 root<Curse> {
     releaseTypes = setOf(FileType.Release, FileType.Beta, FileType.Alpha)
     validMcVersions = setOf("1.12.2", "1.12")
-    //metaUrl = "https://curse.nikky.moe/api"
-    useUrlTxt = false
     it.list {
         // The way these mods are parsed, the Curse URL is taken,
         // hyphens are removed and made camel case.
         // or just look into the generated constants in `.voodoo/Mod.kt`
 
         // BrisingrAerowing - OpenComputers Book Converter
-        +ProjectID(326890)
+        +Mod.opencomputersBookConverter // ProjectID(326890)
 
         // RWTema
         +Mod.extraUtilities
@@ -112,8 +112,7 @@ root<Curse> {
         +Mod.charsetStorageLocks
 
         // Other
-        //+Mod.foamfixForMinecraft
-        +ProjectID(278494) // FoamFix
+        +Mod.foamfixOptimizationMod
         +Mod.opencomputers
         +Mod.openprinter
         +Mod.ocdevices
@@ -153,7 +152,7 @@ root<Curse> {
 
         // AlgorithmX2
         +Mod.appliedEnergistics2
-        +Mod.extracells2 configure {
+        +Mod.extracells2 {
             // pin 2.6.2 since latest is broken
             fileID = FileID(2653854)
         }
@@ -191,19 +190,30 @@ root<Curse> {
         +Mod.minecraftTransportSimulator // Immersive Vehicles
         +Mod.transportSimulatorOfficialVehicleSet
         +Mod.unuPartsPack // required for all UNU mods
-        +ProjectID(292897) // unu Civillian vehicles
+        +Mod.unuCivilianPackForMts//ProjectID(292897) // unu Civillian vehicles
         //+ProjectID(327245) // unu Millitary vehicles, Removed due to client crash when creating vehicles with tank tracks
         +Mod.trinPartPack // required for all Trin mods
-        +ProjectID(305830) // Immersive Vehicles Trin Civil Pack V2 (Extended version)
+        +Mod.immersiveVehiclesTrinCivilPackV2Extended // ProjectID(305830) // Immersive Vehicles Trin Civil Pack V2 (Extended version)
         +Mod.mtsSeagullsMilitaryCarPack
         +Mod.moonspireMetropolitanMotorsPackForMts // :b:us
         
         // Direct download (URL)
         withTypeClass(Direct::class).list {
-            +"computronics" configure { url = "http://files.vexatos.com/Computronics/Computronics-1.12.2-1.6.6.jar" }
-            +"thaumictinkerer" configure { url = "https://launcher.towerdevs.xyz/external/thaumictinkerer-1.12.2-5.0-41d79cc.jar" }
+            +"computronics" {
+                useUrlTxt = false
+                url = "http://files.vexatos.com/Computronics/Computronics-1.12.2-1.6.6.jar"
+            }
+            // +"thaumictinkerer" {
+            //     url = "https://launcher.towerdevs.xyz/external/thaumictinkerer-1.12.2-5.0-41d79cc.jar"
+            // }
             //+"ascension" url "https://launcher.towerdevs.xyz/external/ascension-1.0.jar"
             //+"opensolidstate" url "https://launcher.towerdevs.xyz/external/opensolidstate-1.0.jar"
+        }
+
+        withTypeClass(Local::class).list {
+            +"thaumictinkerer" {
+                fileSrc = "thaumictinkerer-1.12.2-5.0-41d79cc.jar"
+            }
         }
 
         // Server-side mods
@@ -218,19 +228,19 @@ root<Curse> {
         // Both (optional)
         group {
             side = Side.BOTH
-            it.optional {
+            optional {
                 selected = false
             }
         }.list {
-            +Mod.laggoggles configure {
+            +Mod.laggoggles {
                 description = "***Admin/diagnostic tool. Leave off unless asked to help test performance issues."
             }
 
-            +Mod.sampler configure {
+            +Mod.sampler {
                 description = "***Admin/diagnostic tool. Leave off unless asked to help test performance issues."
             }
 
-            +Mod.openeye configure {
+            +Mod.openeye {
                 description = "Automatically collects and submits crash reports. Enable if asked or wish to help sort issues with the pack."
             }
         }
@@ -244,34 +254,34 @@ root<Curse> {
             +Mod.betterAdvancements
 
             group {
-                it.optional {
+                optional {
                     selected = true
                     skRecommendation = Recommendation.starred
                 }
             }.list {
-                +Mod.fasterLadderClimbing configure {
+                +Mod.fasterLadderClimbing {
                     description = "Helps you control ladder climb speed and allows you to go a bit faster."
                 }
             }
 
             group {
-                it.optional {
+                optional {
                     selected = false
                 }
             }.list {
-                +Mod.dynamicSurroundings configure {
+                +Mod.dynamicSurroundings {
                     description = "Caution: Resource heavy. Quite nice, has a lot of configurable features that add immersive sound/visual effects. Includes light-level overlay. (Defaults set to remove some sounds and generally be better.)"
                 }
-                +Mod.dynamicLights configure {
+                +Mod.dynamicLights {
                     description = "Caution: Resource heavy. Turn this off if your computer isn't powerful enough."
                 }
-                +Mod.betterFoliage configure {
+                +Mod.betterFoliage {
                     description = "Caution: Resource heavy. Disabled by default because there are a few render bugs."
                 }
-                +Mod.fancyBlockParticles configure {
+                +Mod.fancyBlockParticles {
                     description = "Caution: Resource heavy. Adds some flair to particle effects and animations. Highly configurable, costs fps. (Defaults set to be less intrusive.)"
                 }
-                +Mod.nbtedit configure {
+                +Mod.nbtedit {
                     description = "Can be used to view NBT trees. Developer use only."
                 }
             }
