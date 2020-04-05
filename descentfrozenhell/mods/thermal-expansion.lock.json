@@ -3,12 +3,11 @@
     "common": {
         "dependencies": {
             "REQUIRED": [
-                "thermal-foundation",
-                "codechicken-lib-1-8"
+                "codechicken-lib-1-8",
+                "thermal-foundation"
             ]
         }
     },
     "projectID": 69163,
-    "fileID": 2715789,
-    "useUrlTxt": false
+    "fileID": 2920438
 }
