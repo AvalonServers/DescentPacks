@@ -197,9 +197,6 @@ root<Curse> {
         +Mod.mtsSeagullsMilitaryCarPack
         +Mod.moonspireMetropolitanMotorsPackForMts // :b:us
         
-		// flags
-		+Mod.flagged
-		
         // Direct download (URL)
         withTypeClass(Direct::class).list {
             +"computronics" {
@@ -213,9 +210,12 @@ root<Curse> {
             //+"opensolidstate" url "https://launcher.towerdevs.xyz/external/opensolidstate-1.0.jar"
         }
 
-        withTypeClass(Local::class).list {
+               withTypeClass(Local::class).list {
             +"thaumictinkerer" {
                 fileSrc = "thaumictinkerer-1.12.2-5.0-41d79cc.jar"
+            }
+            +"flagged" {
+                fileSrc = "flagged-1.12.2-0.1.1.jar"
             }
         }
 
