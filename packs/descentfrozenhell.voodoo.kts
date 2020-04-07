@@ -214,6 +214,9 @@ root<Curse> {
             +"thaumictinkerer" {
                 fileSrc = "thaumictinkerer-1.12.2-5.0-41d79cc.jar"
             }
+            +"flagged" {
+                fileSrc = "flagged-1.12.2-0.1.1.jar"
+            }
         }
 
         // Server-side mods
