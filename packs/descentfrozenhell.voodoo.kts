@@ -197,6 +197,9 @@ root<Curse> {
         +Mod.mtsSeagullsMilitaryCarPack
         +Mod.moonspireMetropolitanMotorsPackForMts // :b:us
         
+		// flags
+		+Mod.flagged
+		
         // Direct download (URL)
         withTypeClass(Direct::class).list {
             +"computronics" {
