@@ -1,5 +1,4 @@
 {
-    "type": "voodoo.data.lock.LockEntry.Curse",
-    "projectID": 280243,
-    "fileID": 2493340
+    "type": "voodoo.data.lock.LockEntry.Local",
+    "fileSrc": "flagged-1.12.2-0.1.1.jar"
 }
