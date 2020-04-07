@@ -210,7 +210,7 @@ root<Curse> {
             //+"opensolidstate" url "https://launcher.towerdevs.xyz/external/opensolidstate-1.0.jar"
         }
 
-               withTypeClass(Local::class).list {
+        withTypeClass(Local::class).list {
             +"thaumictinkerer" {
                 fileSrc = "thaumictinkerer-1.12.2-5.0-41d79cc.jar"
             }
