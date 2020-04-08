@@ -123,6 +123,7 @@ root<Curse> {
         +Mod.ocdevices
         +Mod.zettaIndustries
         +Mod.theOneProbe
+        +Mod.topAddons
         +Mod.railcraft
         +Mod.spawnerImbuer
         +Mod.teslaCoreLib
