@@ -26,7 +26,6 @@ recipes.remove(controller);
 recipes.remove(grindstone);
 recipes.remove(inscriber);
 recipes.remove(store1x);
-recipes.remove(certusSeed);
 recipes.remove(fluixSeed);
 
 // Additions
@@ -42,7 +41,6 @@ recipes.addShaped(controller, [[<ore:blockEnderium>, <ore:plateFluix>, <ore:bloc
 recipes.addShaped(grindstone, [[<ore:stone>, <ore:gearSteel>, <ore:stone>], [<ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>], [<ore:cobblestone>, <ore:gemQuartz>, <ore:cobblestone>]]);
 recipes.addShaped(inscriber, [[<ore:blockSteel>, <ore:craftingPiston>, <ore:blockSteel>], [<ore:crystalFluix>, null, null], [<ore:blockSteel>, <ore:craftingPiston>, <ore:blockSteel>]]);
 recipes.addShaped(store1x, [[comp, <ore:crystalCertusQuartz>, <storagedrawers:controller>], [<ore:crystalCertusQuartz>, logic, <ore:crystalCertusQuartz>], [comp, <ore:crystalCertusQuartz>, comp]]);
-recipes.addShapeless(certusSeed, [<ore:sand>, <ore:dustCertusQuartz>, <ore:sand>]);
 recipes.addShapeless(fluixSeed, [<ore:sand>, <ore:dustFluix>, <ore:dustPetrotheum>]);
 
 // Make Cores a bit more expensive
