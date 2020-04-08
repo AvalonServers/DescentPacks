@@ -56,5 +56,5 @@ recipes.addShapeless(fluixSeed, [<ore:sand>, <ore:dustFluix>, <ore:dustPetrotheu
 // Convert AE silicon to ProjectRed silicon!
 recipes.addShapeless(<projectred-core:resource_item:301>, [<appliedenergistics2:material:5>]);
 
-// remove old silicon recpipe???
+// remove old silicon recipe 
 furnace.remove(<appliedenergistics2:material:5>);
