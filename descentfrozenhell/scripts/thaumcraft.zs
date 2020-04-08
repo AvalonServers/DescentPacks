@@ -29,10 +29,8 @@ Infusion.registerRecipe("dfhCrimsonPortal", "", <minecraft:spawn_egg>.withTag({E
 Crucible.registerRecipe("dfhManaInfusedIngot", "", <thermalfoundation:material:136>, <ore:ingotThaumium>, [<aspect:praecantatio>*20, <aspect:instrumentum>*20]);
 recipes.addShapeless(<thermalfoundation:material:1028>, [<ore:dustBlizz>, <ore:dustBlizz>, <ore:dustRedstone>, <ore:dustMithril>]);
 
-// Ancient Rock
-recipes.addShaped(<thaumcraft:stone_ancient_rock> * 8, [[<ore:cobblestone>, <ore:cobblestone>, <ore:cobblestone>], [<ore:cobblestone>, <thaumcraft:crystal_essence>, <ore:cobblestone>], [<ore:cobblestone>, <ore:cobblestone>, <ore:cobblestone>]]);
 // Ancient Stone
-recipes.addShaped(<thaumcraft:stone_ancient> * 8, [[<thaumcraft:stone_ancient_rock>, <thaumcraft:stone_ancient_rock>, <thaumcraft:stone_ancient_rock>], [<thaumcraft:stone_ancient_rock>, <thaumcraft:crystal_essence>, <thaumcraft:stone_ancient_rock>], [<thaumcraft:stone_ancient_rock>, <thaumcraft:stone_ancient_rock>, <thaumcraft:stone_ancient_rock>]]);
+recipes.addShaped(<thaumcraft:stone_ancient> * 8, [[<ore:cobblestone>, <ore:cobblestone>, <ore:cobblestone>], [<ore:cobblestone>, <thaumcraft:crystal_essence>, <ore:cobblestone>], [<ore:cobblestone>, <ore:cobblestone>, <ore:cobblestone>]]);
 // Eldritch stone
 recipes.addShaped(<thaumcraft:stone_eldritch_tile> * 8, [[<ore:stoneVoid>, <ore:stoneVoid>, <ore:stoneVoid>], [<ore:stoneVoid>, <thaumcraft:crystal_essence>, <ore:stoneVoid>], [<ore:stoneVoid>, <ore:stoneVoid>, <ore:stoneVoid>]]);
 
