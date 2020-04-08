@@ -103,6 +103,8 @@ root<Curse> {
         +Mod.baubles
         // mangoose3039 
         +Mod.thaumicPeriphery
+        +Mod.engineeredGolems
+        +Mod.expandedArcanum
 
         // asie
         // Charset Modules

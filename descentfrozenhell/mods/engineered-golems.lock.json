@@ -1,0 +1,13 @@
+{
+    "type": "voodoo.data.lock.LockEntry.Curse",
+    "common": {
+        "dependencies": {
+            "REQUIRED": [
+                "thaumcraft",
+                "immersive-engineering"
+            ]
+        }
+    },
+    "projectID": 307407,
+    "fileID": 2697745
+}
