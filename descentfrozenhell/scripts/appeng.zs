@@ -37,7 +37,7 @@ recipes.remove(fluixSeed);
 Inscriber.addRecipe(silicon, <projectred-core:resource_item:301>, true, <appliedenergistics2:material:19>);
 
 // Make AE blocks a bit more expensive
-// controller now needs 2x enderium blocks, 2x soulforged steel blocks, 4x fluix blocks
+// controller now needs 2x enderium blocks, 2x steel blocks, 4x fluix blocks
 recipes.addShaped(controller, [[<ore:blockEnderium>, <ore:plateFluix>, <ore:blockEnderium>], [<ore:plateFluix>, engineering, <ore:plateFluix>], [<ore:blockSteel>, <ore:plateFluix>, <ore:blockSteel>]]);
 recipes.addShaped(grindstone, [[<ore:stone>, <ore:gearSteel>, <ore:stone>], [<ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>], [<ore:cobblestone>, <ore:gemQuartz>, <ore:cobblestone>]]);
 recipes.addShaped(inscriber, [[<ore:blockSteel>, <ore:craftingPiston>, <ore:blockSteel>], [<ore:crystalFluix>, null, null], [<ore:blockSteel>, <ore:craftingPiston>, <ore:blockSteel>]]);
