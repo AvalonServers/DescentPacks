@@ -24,7 +24,7 @@
 			"chunk-chance": 12,
 			"min-height": 0,
 			"max-height": 20,
-			"retrogen": "false",
+			"retrogen": "true",
 			"biome": "all",
 			"dimension": {
 				"restriction": "blacklist",
@@ -57,7 +57,7 @@
 			"chunk-chance": 12,
 			"min-height": 10,
 			"max-height": 40,
-			"retrogen": "false",
+			"retrogen": "true",
 			"biome": {
 				"restriction": "whitelist",
 				"value": [
@@ -85,7 +85,7 @@
 			"chunk-chance": 4,
 			"min-height": 10,
 			"max-height": 80,
-			"retrogen": "false",
+			"retrogen": "true",
 			"biome": {
 				"restriction": "whitelist",
 				"value": [

@@ -22,7 +22,7 @@
 			"min-height": 10,
 			"max-height": 80,
 			"in-village": "false",
-			"retrogen": "false",
+			"retrogen": "true",
 			"biome": {
 				"restriction": "whitelist",
 				"value": [
@@ -62,7 +62,7 @@
 			"min-height": 10,
 			"max-height": 80,
 			"in-village": "false",
-			"retrogen": "false",
+			"retrogen": "true",
 			"biome": {
 				"restriction": "whitelist",
 				"value": [
@@ -117,7 +117,7 @@
 			"min-height": 30,
 			"max-height": 60,
 			"in-village": "false",
-			"retrogen": "false",
+			"retrogen": "true",
 			"biome": {
 				"restriction": "whitelist",
 				"value": [
@@ -166,7 +166,7 @@
 			"min-height": 20,
 			"max-height": 60,
 			"in-village": "false",
-			"retrogen": "false",
+			"retrogen": "true",
 			"biome": "all",
 			"dimension": {
 				"restriction": "blacklist",
