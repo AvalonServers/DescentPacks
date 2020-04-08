@@ -51,3 +51,10 @@ recipes.addShapeless(fluixSeed, [<ore:sand>, <ore:dustFluix>, <ore:dustPetrotheu
 //insane magic shit
 //Infusion.registerRecipe("dustMana", "", <thermalfoundation:material:1028>, 25, [<aspect:perditio>, <aspect:machina>], <ore:dustEnderium>, [<thaumcraft:primordial_pearl>, <thaumcraft:causality_collapser>, <thaumcraft:causality_collapser>, <thaumcraft:void_seed>, <thaumcraft:ingot:1>]);
 //recipes.addShapeless(<thermalfoundation:material:72> * 2, [<ore:dustMana>, <ore:dustSteel>, <ore:dustEnder>, <appliedenergistics2:material:45>]);
+
+
+// Convert AE silicon to ProjectRed silicon!
+recipes.addShapeless(<projectred-core:resource_item:301>, [<appliedenergistics2:material:5>]);
+
+// remove old silicon recpipe???
+furnace.remove(<appliedenergistics2:material:5>);
