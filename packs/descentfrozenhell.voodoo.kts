@@ -136,6 +136,8 @@ root<Curse> {
         +Mod.journeymap
         +Mod.gravestoneMod
 
+        +Mod.littletiles
+
         +Mod.redstoneArsenal
         +Mod.icbmClassic
         +Mod.avaritia110
