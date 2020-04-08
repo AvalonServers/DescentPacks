@@ -37,6 +37,9 @@ root<Curse> {
         // hyphens are removed and made camel case.
         // or just look into the generated constants in `.voodoo/Mod.kt`
 
+        // StimmedCow
+        +Mod.stimmedcowNomorerecipeconflict
+
         // BrisingrAerowing - OpenComputers Book Converter
         +Mod.opencomputersBookConverter // ProjectID(326890)
 
