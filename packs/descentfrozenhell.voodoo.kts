@@ -9,8 +9,8 @@ import voodoo.data.curse.FileID
 
 mcVersion = "1.12.2"
 title = "Descent Frozen Hell"
-authors = listOf("CitadelCore", "Skye", "ThePiGuy24")
-version = "1.6.1.3"
+authors = listOf("CitadelCore", "Skye", "ThePiGuy24", "NickStalburg")
+version = "1.6.2"
 
 modloader {
     forge(Forge_12_2.mc1_12_2_latest)
@@ -98,6 +98,8 @@ root<Curse> {
         +Mod.thaumicEnergistics
         +Mod.thaumicAugmentation
         +Mod.baubles
+        // mangoose3039 
+        +Mod.thaumicPeriphery
 
         // asie
         // Charset Modules
@@ -203,9 +205,6 @@ root<Curse> {
                 useUrlTxt = false
                 url = "http://files.vexatos.com/Computronics/Computronics-1.12.2-1.6.6.jar"
             }
-            // +"thaumictinkerer" {
-            //     url = "https://launcher.towerdevs.xyz/external/thaumictinkerer-1.12.2-5.0-41d79cc.jar"
-            // }
             //+"ascension" url "https://launcher.towerdevs.xyz/external/ascension-1.0.jar"
             //+"opensolidstate" url "https://launcher.towerdevs.xyz/external/opensolidstate-1.0.jar"
         }
