@@ -405,3 +405,20 @@ recipes.addShapedMirrored("dfh/framed_black_insulated_red_alloy_wire", <projectr
     [<ore:stickWood>, null, <ore:stickWood>]
 ]);
 recipes.addShapeless("dfh/black_insulated_red_alloy_wire_unframed", <projectred-transmission:wire:16>, [<projectred-transmission:framed_wire:16>]);
+
+// Other cables...
+recipes.removeByRecipeName("projectred-transmission:framed/17_framed");
+recipes.addShapedMirrored("dfh/framed_bundled_wire", <projectred-transmission:framed_wire:17>, [
+    [<ore:stickWood>, null, <ore:stickWood>],
+    [null, <ore:projredBundledCable>, null],
+    [<ore:stickWood>, null, <ore:stickWood>]
+]);
+recipes.addShapeless("dfh/bundled_wire_unframed", <projectred-transmission:wire:17>, [<projectred-transmission:framed_wire:17>]);
+recipes.addShapeless("dfh/bundled_wire_uncoloured", <projectred-transmission:wire:17>, [<ore:projredBundledCable>]);
+recipes.removeByRecipeName("projectred-transmission:framed/34_framed");
+recipes.addShapedMirrored("dfh/framed_low_load_power_line", <projectred-transmission:framed_wire:34>, [
+    [<ore:stickWood>, null, <ore:stickWood>],
+    [null, <projectred-transmission:wire:34>, null],
+    [<ore:stickWood>, null, <ore:stickWood>]
+]);
+recipes.addShapeless("dfh/low_load_power_line_unframed", <projectred-transmission:wire:34>, [<projectred-transmission:framed_wire:34>]);
