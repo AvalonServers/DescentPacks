@@ -26,7 +26,6 @@ recipes.remove(controller);
 recipes.remove(grindstone);
 recipes.remove(inscriber);
 recipes.remove(store1x);
-recipes.remove(certusSeed);
 recipes.remove(fluixSeed);
 
 // Additions
@@ -37,12 +36,11 @@ recipes.remove(fluixSeed);
 Inscriber.addRecipe(silicon, <projectred-core:resource_item:301>, true, <appliedenergistics2:material:19>);
 
 // Make AE blocks a bit more expensive
-// controller now needs 2x enderium blocks, 2x soulforged steel blocks, 4x fluix blocks
+// controller now needs 2x enderium blocks, 2x steel blocks, 4x fluix blocks
 recipes.addShaped(controller, [[<ore:blockEnderium>, <ore:plateFluix>, <ore:blockEnderium>], [<ore:plateFluix>, engineering, <ore:plateFluix>], [<ore:blockSteel>, <ore:plateFluix>, <ore:blockSteel>]]);
 recipes.addShaped(grindstone, [[<ore:stone>, <ore:gearSteel>, <ore:stone>], [<ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>], [<ore:cobblestone>, <ore:gemQuartz>, <ore:cobblestone>]]);
 recipes.addShaped(inscriber, [[<ore:blockSteel>, <ore:craftingPiston>, <ore:blockSteel>], [<ore:crystalFluix>, null, null], [<ore:blockSteel>, <ore:craftingPiston>, <ore:blockSteel>]]);
 recipes.addShaped(store1x, [[comp, <ore:crystalCertusQuartz>, <storagedrawers:controller>], [<ore:crystalCertusQuartz>, logic, <ore:crystalCertusQuartz>], [comp, <ore:crystalCertusQuartz>, comp]]);
-recipes.addShapeless(certusSeed, [<ore:sand>, <ore:dustCertusQuartz>, <ore:dustCryotheum>]);
 recipes.addShapeless(fluixSeed, [<ore:sand>, <ore:dustFluix>, <ore:dustPetrotheum>]);
 
 // Make Cores a bit more expensive
@@ -51,3 +49,10 @@ recipes.addShapeless(fluixSeed, [<ore:sand>, <ore:dustFluix>, <ore:dustPetrotheu
 //insane magic shit
 //Infusion.registerRecipe("dustMana", "", <thermalfoundation:material:1028>, 25, [<aspect:perditio>, <aspect:machina>], <ore:dustEnderium>, [<thaumcraft:primordial_pearl>, <thaumcraft:causality_collapser>, <thaumcraft:causality_collapser>, <thaumcraft:void_seed>, <thaumcraft:ingot:1>]);
 //recipes.addShapeless(<thermalfoundation:material:72> * 2, [<ore:dustMana>, <ore:dustSteel>, <ore:dustEnder>, <appliedenergistics2:material:45>]);
+
+
+// Convert AE silicon to ProjectRed silicon!
+recipes.addShapeless(<projectred-core:resource_item:301>, [<appliedenergistics2:material:5>]);
+
+// remove old silicon recipe 
+furnace.remove(<appliedenergistics2:material:5>);

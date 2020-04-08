@@ -57,11 +57,8 @@ recipes.addShaped(<extrautils2:trashcanenergy>, [
 # ethereal glass
 val quartzGlass = <appliedenergistics2:quartz_glass>;
 recipes.remove(<extrautils2:ineffableglass:0>);
-recipes.addShaped(<extrautils2:ineffableglass:0>, [
-    [quartzGlass, quartzGlass, quartzGlass],
-    [quartzGlass, null, quartzGlass],
-    [quartzGlass, quartzGlass, quartzGlass]
-]);
+recipes.addShapeless(<extrautils2:ineffableglass:0>, [<extrautils2:ineffableglass:1>, <ore:torchRedstoneActive>]);
+recipes.addShapeless(<extrautils2:ineffableglass:0>, [<extrautils2:ineffableglass:2>]);
 
 # ineffable glass
 recipes.remove(<extrautils2:ineffableglass:2>);
@@ -70,10 +67,13 @@ recipes.addShaped(<extrautils2:ineffableglass:2>, [
     [quartzGlass, <ore:dustVoid>, quartzGlass],
     [quartzGlass, quartzGlass, quartzGlass]
 ]);
+recipes.addShapeless(<extrautils2:ineffableglass:2>, [<extrautils2:ineffableglass:0>]);
 
 # dark ineffable glass
 recipes.remove(<extrautils2:ineffableglass:3>);
 recipes.addShapeless(<extrautils2:ineffableglass:3>, [<extrautils2:ineffableglass:2>, <ore:dyeBlack>]);
+recipes.addShapeless(<extrautils2:ineffableglass:3>, [<extrautils2:ineffableglass:0>, <ore:dyeBlack>]);
+recipes.addShapeless(<extrautils2:ineffableglass:2>, [<extrautils2:ineffableglass:3>, <ore:dyeWhite>]);
 
 # terraformer
 recipes.remove(<extrautils2:terraformer:0>);
