@@ -10,7 +10,7 @@ import voodoo.data.curse.FileID
 mcVersion = "1.12.2"
 title = "Descent Frozen Hell"
 authors = listOf("CitadelCore", "Skye", "ThePiGuy24", "NickStalburg")
-version = "1.6.2.3"
+version = "1.6.2.4"
 
 modloader {
     forge(Forge_12_2.mc1_12_2_latest)
@@ -193,17 +193,6 @@ root<Curse> {
         +Mod.enderIo
         +Mod.sync
         +Mod.ftbUtilities
-        
-        // Vöidmöbile maschines
-        +Mod.minecraftTransportSimulator // Immersive Vehicles
-        +Mod.transportSimulatorOfficialVehicleSet
-        +Mod.unuPartsPack // required for all UNU mods
-        +Mod.unuCivilianPackForMts//ProjectID(292897) // unu Civillian vehicles
-        //+ProjectID(327245) // unu Millitary vehicles, Removed due to client crash when creating vehicles with tank tracks
-        +Mod.trinPartPack // required for all Trin mods
-        +Mod.immersiveVehiclesTrinCivilPackV2Extended // ProjectID(305830) // Immersive Vehicles Trin Civil Pack V2 (Extended version)
-        +Mod.mtsSeagullsMilitaryCarPack
-        +Mod.moonspireMetropolitanMotorsPackForMts // :b:us
         
         // Direct download (URL)
         withTypeClass(Direct::class).list {
