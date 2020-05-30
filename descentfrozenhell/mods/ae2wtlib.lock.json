@@ -3,10 +3,11 @@
     "common": {
         "dependencies": {
             "REQUIRED": [
-                "minecraft-transport-simulator"
+                "applied-energistics-2",
+                "p455w0rds-library"
             ]
         }
     },
-    "projectID": 292217,
-    "fileID": 2932414
+    "projectID": 304024,
+    "fileID": 2830114
 }

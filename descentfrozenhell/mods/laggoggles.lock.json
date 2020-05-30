@@ -3,8 +3,13 @@
     "common": {
         "description": "***Admin/diagnostic tool. Leave off unless asked to help test performance issues.",
         "optionalData": {
+        },
+        "dependencies": {
+            "REQUIRED": [
+                "tickcentral"
+            ]
         }
     },
     "projectID": 283525,
-    "fileID": 2901775
+    "fileID": 2947622
 }

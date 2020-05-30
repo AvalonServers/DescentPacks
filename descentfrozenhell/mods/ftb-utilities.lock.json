@@ -3,7 +3,7 @@
     "common": {
         "dependencies": {
             "REQUIRED": [
-                "ftblib",
+                "ftb-library",
                 "ftb-backups"
             ]
         }

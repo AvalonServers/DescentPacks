@@ -3,10 +3,12 @@
     "common": {
         "dependencies": {
             "REQUIRED": [
+                "ae2wtlib",
+                "p455w0rds-library",
                 "applied-energistics-2"
             ]
         }
     },
-    "projectID": 229218,
-    "fileID": 2855967
+    "projectID": 244559,
+    "fileID": 2830252
 }
