@@ -162,8 +162,11 @@ root<Curse> {
         +Mod.appliedEnergistics2
         +Mod.extracells2 {
             // pin 2.6.2 since latest is broken
-            fileID = FileID(2653854)
+            //fileID = FileID(2653854)
         }
+
+        // Wireless crafting terminal
+        +Mod.wirelessCraftingTerminal
 
         // SanAndreasP
         +Mod.immersiveCables

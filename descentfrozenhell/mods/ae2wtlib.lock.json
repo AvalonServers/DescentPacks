@@ -3,11 +3,11 @@
     "common": {
         "dependencies": {
             "REQUIRED": [
-                "ftb-library",
-                "ftb-backups"
+                "applied-energistics-2",
+                "p455w0rds-library"
             ]
         }
     },
-    "projectID": 237102,
-    "fileID": 2835289
+    "projectID": 304024,
+    "fileID": 2830114
 }
