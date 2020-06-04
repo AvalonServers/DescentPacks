@@ -10,7 +10,7 @@ import voodoo.data.curse.FileID
 mcVersion = "1.12.2"
 title = "Descent Frozen Hell"
 authors = listOf("CitadelCore", "Skye", "ThePiGuy24", "NickStalburg")
-version = "1.7"
+version = "1.7.1"
 
 modloader {
     forge(Forge_12_2.mc1_12_2_latest)
@@ -184,7 +184,6 @@ root<Curse> {
         +Mod.engineersTools
         +Mod.engineersDoors
         +Mod.immersiveFloofs
-        +Mod.immersiveEnergy
         +Mod.immersiveposts
         +Mod.tails // brötherfursed
         +Mod.justEnoughPetroleum
@@ -193,9 +192,14 @@ root<Curse> {
 
         +Mod.modularForcefieldSystem
         +Mod.nuclearcraftMod
-        +Mod.enderIo
+
         +Mod.sync
-        +Mod.ftbUtilities
+
+        // Ender IO stuff
+        +Mod.enderIo
+        +Mod.enderIoEndergy
+
+        +Mod.decocraft
         
         // Direct download (URL)
         withTypeClass(Direct::class).list {
@@ -203,7 +207,7 @@ root<Curse> {
                 useUrlTxt = false
                 url = "http://files.vexatos.com/Computronics/Computronics-1.12.2-1.6.6.jar"
             }
-            //+"ascension" url "https://launcher.towerdevs.xyz/external/ascension-1.0.jar"
+            //+"ascension" url "https://launcher.towerdevs.xyz/external/ascension-0.1.0.jar"
             //+"opensolidstate" url "https://launcher.towerdevs.xyz/external/opensolidstate-1.0.jar"
         }
 
