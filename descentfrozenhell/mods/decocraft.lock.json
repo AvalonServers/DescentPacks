@@ -3,11 +3,10 @@
     "common": {
         "dependencies": {
             "REQUIRED": [
-                "ftb-library",
-                "ftb-backups"
+                "ptrlib"
             ]
         }
     },
-    "projectID": 237102,
-    "fileID": 2835289
+    "projectID": 79616,
+    "fileID": 2777813
 }
