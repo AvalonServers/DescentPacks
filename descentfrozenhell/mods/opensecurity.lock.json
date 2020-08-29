@@ -1,12 +1,5 @@
 {
     "type": "voodoo.data.lock.LockEntry.Curse",
-    "common": {
-        "dependencies": {
-            "REQUIRED": [
-                "opencomputers"
-            ]
-        }
-    },
     "projectID": 231687,
-    "fileID": 2939430
+    "fileID": 3018667
 }
