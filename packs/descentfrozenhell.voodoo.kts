@@ -206,6 +206,9 @@ root<Curse> {
                 useUrlTxt = false
                 url = "http://files.vexatos.com/Computronics/Computronics-1.12.2-1.6.6.jar"
             }
+            +"opencomputers" {
+                url = "https://ci.cil.li/view/OpenComputers/job/OpenComputers-MC1.12/lastSuccessfulBuild/artifact/build/libs/OpenComputers-MC1.12.2-1.7.5.212.jar" // bodge for now, fix later
+            }
             //+"ascension" url "https://launcher.towerdevs.xyz/external/ascension-0.1.0.jar"
             //+"opensolidstate" url "https://launcher.towerdevs.xyz/external/opensolidstate-1.0.jar"
         }
@@ -216,11 +219,14 @@ root<Curse> {
             }
         }
 
+        // fix later
+        /*
         withTypeClass(Jenkins::class) {
             jenkinsUrl ="https://ci.cil.li/"
         }.list {
             +"opencomputers" job "OpenComputers-MC1.12"
         }
+        */
 
         // Server-side mods
         group {

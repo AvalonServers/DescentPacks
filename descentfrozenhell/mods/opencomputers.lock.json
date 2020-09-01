@@ -1,6 +1,4 @@
 {
-    "type": "voodoo.data.lock.LockEntry.Jenkins",
-    "jenkinsUrl": "https://ci.cil.li/",
-    "job": "OpenComputers-MC1.12",
-    "buildNumber": 212
+    "type": "voodoo.data.lock.LockEntry.Direct",
+    "url": "https://ci.cil.li/view/OpenComputers/job/OpenComputers-MC1.12/lastSuccessfulBuild/artifact/build/libs/OpenComputers-MC1.12.2-1.7.5.212.jar"
 }
