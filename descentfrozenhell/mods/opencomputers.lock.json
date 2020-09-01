@@ -2,5 +2,6 @@
     "type": "voodoo.data.lock.LockEntry.Jenkins",
     "jenkinsUrl": "https://ci.cil.li/",
     "job": "OpenComputers-MC1.12",
-    "buildNumber": 212
+    "buildNumber": 212,
+    "fileNameRegex": "OpenComputers-([^-]*)-([^-]*)\\.jar"
 }
