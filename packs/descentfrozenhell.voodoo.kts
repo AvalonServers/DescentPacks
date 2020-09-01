@@ -10,7 +10,7 @@ import voodoo.data.curse.FileID
 mcVersion = "1.12.2"
 title = "Descent Frozen Hell"
 authors = listOf("CitadelCore", "Skye", "ThePiGuy24", "NickStalburg")
-version = "1.7.2"
+version = "1.7.2.1"
 
 modloader {
     forge(Forge_12_2.mc1_12_2_latest)
@@ -219,7 +219,10 @@ root<Curse> {
         withTypeClass(Jenkins::class) {
             jenkinsUrl ="https://ci.cil.li/"
         }.list {
-            +"opencomputers" job "OpenComputers-MC1.12"
+            +"opencomputers" {
+                job = "OpenComputers-MC1.12"
+                fileNameRegex = "OpenComputers-([^-]*)-([^-]*)\\.jar"
+            }
         }
 
         // Server-side mods
