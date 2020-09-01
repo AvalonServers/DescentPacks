@@ -10,7 +10,7 @@ import voodoo.data.curse.FileID
 mcVersion = "1.12.2"
 title = "Descent Frozen Hell"
 authors = listOf("CitadelCore", "Skye", "ThePiGuy24", "NickStalburg")
-version = "1.7.1.1"
+version = "1.7.2"
 
 modloader {
     forge(Forge_12_2.mc1_12_2_latest)
@@ -120,7 +120,6 @@ root<Curse> {
 
         // Other
         +Mod.foamfixOptimizationMod
-        +Mod.opencomputers
         +Mod.openprinter
         +Mod.ocdevices
         +Mod.zettaIndustries
@@ -215,6 +214,12 @@ root<Curse> {
             +"thaumictinkerer" {
                 fileSrc = "thaumictinkerer-1.12.2-5.0-41d79cc.jar"
             }
+        }
+
+        withTypeClass(Jenkins::class) {
+            jenkinsUrl ="https://ci.cil.li/"
+        }.list {
+            +"opencomputers" job "OpenComputers-MC1.12"
         }
 
         // Server-side mods
