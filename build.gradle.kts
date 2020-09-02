@@ -20,14 +20,14 @@ voodoo {
     }
     addTask("packAll") {
         pack().server()
-        pack().sklauncher()
-        pack().multimcSk()
+        pack().experimental()
+        pack().multimcExperimental()
     }
     addTask("buildAndPackAll") {
         build()
         pack().server()
-        pack().sklauncher()
-        pack().multimcSk()
+        pack().experimental()
+        pack().multimcExperimental()
     }
     addTask(name = "pack_experimental") {
         pack().experimental()

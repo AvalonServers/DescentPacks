@@ -10,7 +10,7 @@ import voodoo.data.curse.FileID
 mcVersion = "1.12.2"
 title = "Descent Frozen Hell"
 authors = listOf("CitadelCore", "Skye", "ThePiGuy24", "NickStalburg")
-version = "1.7.2.1"
+version = "1.7.3"
 
 modloader {
     forge(Forge_12_2.mc1_12_2_latest)
@@ -25,7 +25,7 @@ icon = rootFolder.resolve("icon.png")
 
 pack {
     multimc {
-        skPackUrl = "https://launcher.towerdevs.xyz/packs/descent/frozenhell/descentfrozenhell.json"
+        selfupdateUrl = "https://launcher.towerdevs.xyz/packs/descent/frozenhell/descentfrozenhell.json"
     }
 }
 
@@ -36,6 +36,9 @@ root<Curse> {
         // The way these mods are parsed, the Curse URL is taken,
         // hyphens are removed and made camel case.
         // or just look into the generated constants in `.voodoo/Mod.kt`
+
+        // See if this helps with TPS...
+        +Mod.dynamicView
 
         // StimmedCow
         +Mod.stimmedcowNomorerecipeconflict

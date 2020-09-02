@@ -3,10 +3,10 @@
     "mcVersion": "1.12.2",
     "modloader": {
         "type": "Modloader.Forge",
-        "version": "1.12.2-14.23.5.2847"
+        "version": "1.12.2-14.23.5.2854"
     },
     "title": "Descent Frozen Hell",
-    "version": "1.7.2.1",
+    "version": "1.7.3",
     "authors": [
         "CitadelCore",
         "Skye",
@@ -15,7 +15,7 @@
     ],
     "packOptions": {
         "multimcOptions": {
-            "skPackUrl": "https://launcher.towerdevs.xyz/packs/descent/frozenhell/descentfrozenhell.json"
+            "selfupdateUrl": "https://launcher.towerdevs.xyz/packs/descent/frozenhell/descentfrozenhell.json"
         }
     }
 }
