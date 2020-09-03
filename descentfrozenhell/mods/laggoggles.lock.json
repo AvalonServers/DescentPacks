@@ -1,15 +1,14 @@
 {
-    "type": "voodoo.data.lock.LockEntry.Curse",
+    "type": "curse",
     "common": {
         "description": "***Admin/diagnostic tool. Leave off unless asked to help test performance issues.",
         "optionalData": {
         },
         "dependencies": {
-            "REQUIRED": [
-                "tickcentral"
-            ]
+            "tickcentral": "REQUIRED"
         }
     },
     "projectID": 283525,
-    "fileID": 2947622
+    "fileID": 2947622,
+    "skipFingerprintCheck": true
 }

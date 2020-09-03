@@ -1,13 +1,12 @@
 {
-    "type": "voodoo.data.lock.LockEntry.Curse",
+    "type": "curse",
     "common": {
         "dependencies": {
-            "REQUIRED": [
-                "codechicken-lib-1-8",
-                "thermal-foundation"
-            ]
+            "codechicken-lib-1-8": "REQUIRED",
+            "thermal-foundation": "REQUIRED"
         }
     },
     "projectID": 69163,
-    "fileID": 2926431
+    "fileID": 2926431,
+    "skipFingerprintCheck": true
 }

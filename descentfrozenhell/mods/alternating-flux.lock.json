@@ -1,12 +1,11 @@
 {
-    "type": "voodoo.data.lock.LockEntry.Curse",
+    "type": "curse",
     "common": {
         "dependencies": {
-            "REQUIRED": [
-                "immersive-engineering"
-            ]
+            "immersive-engineering": "REQUIRED"
         }
     },
     "projectID": 285135,
-    "fileID": 2693578
+    "fileID": 2693578,
+    "skipFingerprintCheck": true
 }

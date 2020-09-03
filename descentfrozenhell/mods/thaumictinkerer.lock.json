@@ -1,4 +1,4 @@
 {
-    "type": "voodoo.data.lock.LockEntry.Local",
+    "type": "local",
     "fileSrc": "thaumictinkerer-1.12.2-5.0-41d79cc.jar"
 }

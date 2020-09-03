@@ -1,13 +1,12 @@
 {
-    "type": "voodoo.data.lock.LockEntry.Curse",
+    "type": "curse",
     "common": {
         "dependencies": {
-            "REQUIRED": [
-                "applied-energistics-2",
-                "p455w0rds-library"
-            ]
+            "applied-energistics-2": "REQUIRED",
+            "p455w0rds-library": "REQUIRED"
         }
     },
     "projectID": 304024,
-    "fileID": 2830114
+    "fileID": 2830114,
+    "skipFingerprintCheck": true
 }

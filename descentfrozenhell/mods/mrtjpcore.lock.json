@@ -1,12 +1,11 @@
 {
-    "type": "voodoo.data.lock.LockEntry.Curse",
+    "type": "curse",
     "common": {
         "dependencies": {
-            "REQUIRED": [
-                "codechicken-lib-1-8"
-            ]
+            "codechicken-lib-1-8": "REQUIRED"
         }
     },
     "projectID": 229002,
-    "fileID": 2735197
+    "fileID": 2735197,
+    "skipFingerprintCheck": true
 }

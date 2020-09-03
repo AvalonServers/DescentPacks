@@ -1,11 +1,9 @@
 {
-    "type": "voodoo.data.lock.LockEntry.Curse",
+    "type": "curse",
     "common": {
         "side": "CLIENT",
         "dependencies": {
-            "REQUIRED": [
-                "jei"
-            ]
+            "jei": "REQUIRED"
         }
     },
     "projectID": 240630,

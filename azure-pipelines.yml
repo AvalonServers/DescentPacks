@@ -48,13 +48,13 @@ steps:
 - task: CopyFiles@2
   displayName: Copy client artifacts to staging directory
   inputs:
-    SourceFolder: '$(Build.SourcesDirectory)/build/_upload/experimental'
+    SourceFolder: '$(Build.SourcesDirectory)/build/_upload/voodoo'
     Contents: '**/*'
     TargetFolder: '$(Build.ArtifactStagingDirectory)/client'
 - task: CopyFiles@2
   displayName: Copy launcher artifacts to staging directory
   inputs:
-    SourceFolder: '$(Build.SourcesDirectory)/build/_upload/multimc-experimental'
+    SourceFolder: '$(Build.SourcesDirectory)/build/_upload/multimc-voodoo'
     Contents: 'descentfrozenhell.zip'
     TargetFolder: '$(Build.ArtifactStagingDirectory)/launcher'
 

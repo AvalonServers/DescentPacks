@@ -1,10 +1,11 @@
 {
-    "type": "voodoo.data.lock.LockEntry.Curse",
+    "type": "curse",
     "common": {
         "description": "***Admin/diagnostic tool. Leave off unless asked to help test performance issues.",
         "optionalData": {
         }
     },
     "projectID": 289242,
-    "fileID": 2707159
+    "fileID": 2707159,
+    "skipFingerprintCheck": true
 }
