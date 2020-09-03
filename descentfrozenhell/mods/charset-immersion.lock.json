@@ -1,12 +1,11 @@
 {
-    "type": "voodoo.data.lock.LockEntry.Curse",
+    "type": "curse",
     "common": {
         "dependencies": {
-            "REQUIRED": [
-                "charset-lib"
-            ]
+            "charset-lib": "REQUIRED"
         }
     },
     "projectID": 291374,
-    "fileID": 2745007
+    "fileID": 2745007,
+    "skipFingerprintCheck": true
 }

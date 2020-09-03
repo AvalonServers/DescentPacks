@@ -1,12 +1,11 @@
 {
-    "type": "voodoo.data.lock.LockEntry.Curse",
+    "type": "curse",
     "common": {
         "dependencies": {
-            "REQUIRED": [
-                "shadowfacts-forgelin"
-            ]
+            "shadowfacts-forgelin": "REQUIRED"
         }
     },
     "projectID": 254602,
-    "fileID": 2891841
+    "fileID": 2891841,
+    "skipFingerprintCheck": true
 }

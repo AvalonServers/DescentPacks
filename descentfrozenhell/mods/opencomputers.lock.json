@@ -1,5 +1,5 @@
 {
-    "type": "voodoo.data.lock.LockEntry.Jenkins",
+    "type": "jenkins",
     "jenkinsUrl": "https://ci.cil.li/",
     "job": "OpenComputers-MC1.12",
     "buildNumber": 212,

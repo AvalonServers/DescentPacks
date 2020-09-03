@@ -1,13 +1,12 @@
 {
-    "type": "voodoo.data.lock.LockEntry.Curse",
+    "type": "curse",
     "common": {
         "dependencies": {
-            "REQUIRED": [
-                "ender-io",
-                "guide-api"
-            ]
+            "ender-io": "REQUIRED",
+            "guide-api": "REQUIRED"
         }
     },
     "projectID": 59882,
-    "fileID": 2581227
+    "fileID": 2581227,
+    "skipFingerprintCheck": true
 }

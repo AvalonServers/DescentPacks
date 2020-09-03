@@ -1,13 +1,12 @@
 {
-    "type": "voodoo.data.lock.LockEntry.Curse",
+    "type": "curse",
     "common": {
         "dependencies": {
-            "REQUIRED": [
-                "cofh-core",
-                "cofh-world"
-            ]
+            "cofh-core": "REQUIRED",
+            "cofh-world": "REQUIRED"
         }
     },
     "projectID": 222880,
-    "fileID": 2926428
+    "fileID": 2926428,
+    "skipFingerprintCheck": true
 }

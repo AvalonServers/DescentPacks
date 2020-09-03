@@ -1,12 +1,11 @@
 {
-    "type": "voodoo.data.lock.LockEntry.Curse",
+    "type": "curse",
     "common": {
         "dependencies": {
-            "REQUIRED": [
-                "tesla-core-lib"
-            ]
+            "tesla-core-lib": "REQUIRED"
         }
     },
     "projectID": 266515,
-    "fileID": 2745321
+    "fileID": 2745321,
+    "skipFingerprintCheck": true
 }

@@ -1,12 +1,11 @@
 {
-    "type": "voodoo.data.lock.LockEntry.Curse",
+    "type": "curse",
     "common": {
         "dependencies": {
-            "REQUIRED": [
-                "avaritia-1-10"
-            ]
+            "avaritia-1-10": "REQUIRED"
         }
     },
     "projectID": 271236,
-    "fileID": 2682668
+    "fileID": 2682668,
+    "skipFingerprintCheck": true
 }

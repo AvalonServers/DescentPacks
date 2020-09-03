@@ -1,13 +1,12 @@
 {
-    "type": "voodoo.data.lock.LockEntry.Curse",
+    "type": "curse",
     "common": {
         "dependencies": {
-            "REQUIRED": [
-                "mrtjpcore",
-                "project-red-base"
-            ]
+            "mrtjpcore": "REQUIRED",
+            "project-red-base": "REQUIRED"
         }
     },
     "projectID": 229050,
-    "fileID": 2745546
+    "fileID": 2745546,
+    "skipFingerprintCheck": true
 }

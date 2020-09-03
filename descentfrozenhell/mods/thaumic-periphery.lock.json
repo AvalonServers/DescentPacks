@@ -1,13 +1,12 @@
 {
-    "type": "voodoo.data.lock.LockEntry.Curse",
+    "type": "curse",
     "common": {
         "dependencies": {
-            "REQUIRED": [
-                "baubles",
-                "thaumcraft"
-            ]
+            "baubles": "REQUIRED",
+            "thaumcraft": "REQUIRED"
         }
     },
     "projectID": 293505,
-    "fileID": 2766866
+    "fileID": 2766866,
+    "skipFingerprintCheck": true
 }

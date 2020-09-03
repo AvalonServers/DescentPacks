@@ -1,5 +1,6 @@
 {
-    "type": "voodoo.data.lock.LockEntry.Curse",
+    "type": "curse",
     "projectID": 231951,
-    "fileID": 2974106
+    "fileID": 2974106,
+    "skipFingerprintCheck": true
 }
