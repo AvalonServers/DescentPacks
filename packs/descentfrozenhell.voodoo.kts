@@ -10,7 +10,7 @@ import voodoo.data.curse.FileID
 mcVersion = "1.12.2"
 title = "Descent Frozen Hell"
 authors = listOf("CitadelCore", "Skye", "ThePiGuy24", "NickStalburg")
-version = "1.7.3.1"
+version = "1.8-indev.1"
 
 modloader {
     forge(Forge_12_2.mc1_12_2_latest)
@@ -37,7 +37,7 @@ root<Curse> {
         // hyphens are removed and made camel case.
         // or just look into the generated constants in `.voodoo/Mod.kt`
 
-        // See if this helps with TPS...
+        // This seems to help with TPS problems...
         +Mod.dynamicView
 
         // StimmedCow
@@ -295,6 +295,9 @@ root<Curse> {
                 }
                 +Mod.nbtedit {
                     description = "Can be used to view NBT trees. Developer use only."
+                }
+                +Mod.nofov {
+                    description = "Disables changes to the field of view by effects, including stuff like sprinting and potions."
                 }
             }
         }
