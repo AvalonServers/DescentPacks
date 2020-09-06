@@ -10,7 +10,7 @@ import voodoo.data.curse.FileID
 mcVersion = "1.12.2"
 title = "Descent Frozen Hell"
 authors = listOf("CitadelCore", "Skye", "ThePiGuy24", "NickStalburg")
-version = "1.8-indev.5"
+version = "1.8-indev.6"
 
 modloader {
     forge(Forge_12_2.mc1_12_2_latest)
@@ -40,6 +40,7 @@ root<Curse> {
         +Mod.boosterRockets
         +Mod.effortlessBuilding
         +Mod.onlinepictureframe
+        +Mod.advancedChimneys
 
         // TRAINS!
         +Mod.immersiveRailroading
