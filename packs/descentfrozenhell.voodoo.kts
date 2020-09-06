@@ -233,6 +233,26 @@ root<Curse> {
 
         +Mod.decocraft
         
+        // Computronics MaryTTS Stuff
+        group {
+            folder = "marytts"
+        }.list {
+            withTypeClass(Direct::class).list {
+                useUrlTxt = true
+                +"computronics_maryTTS" {
+                    url = "http://files.vexatos.com/Computronics/marytts/marytts-runtime-5.2-jar-for-computronics.jar"
+                }
+                +"computronics_maryTTS_english_language" {
+                    url = "https://files.vexatos.com/Computronics/marytts/marytts-lang-en-5.2.jar"
+                }
+            }
+            withTypeClass(Local::class).list {
+                +"compuronics_maryTTS_english_voice" {
+                    fileSrc = "voice-dfki-prudence-hsmm-5.2.jar"
+                }
+            }
+        }
+        
         // Direct download (URL)
         withTypeClass(Direct::class).list {
             +"computronics" {
