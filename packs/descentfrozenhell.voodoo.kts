@@ -37,6 +37,8 @@ root<Curse> {
         // hyphens are removed and made camel case.
         // or just look into the generated constants in `.voodoo/Mod.kt`
 
+        +Mod.onlinepictureframe
+
         // TRAINS!
         +Mod.immersiveRailroading
         //+Mod.railstuff
