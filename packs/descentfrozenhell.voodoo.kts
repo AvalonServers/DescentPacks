@@ -10,7 +10,7 @@ import voodoo.data.curse.FileID
 mcVersion = "1.12.2"
 title = "Descent Frozen Hell"
 authors = listOf("CitadelCore", "Skye", "ThePiGuy24", "NickStalburg")
-version = "1.8-indev.4"
+version = "1.8-indev.5"
 
 modloader {
     forge(Forge_12_2.mc1_12_2_latest)
@@ -38,12 +38,19 @@ root<Curse> {
         // or just look into the generated constants in `.voodoo/Mod.kt`
 
         +Mod.boosterRockets
-
+        +Mod.effortlessBuilding
         +Mod.onlinepictureframe
 
         // TRAINS!
         +Mod.immersiveRailroading
         //+Mod.railstuff
+        // Train Resource Packs
+        /*group {
+            folder = "config/immersiverailroading"
+        }.list {
+            //+TexturePack.prototypeTflPackForImmersiveRailroading
+            +TexturePack.dragonsModernBritish
+        }*/
 
         // This seems to help with TPS problems...
         +Mod.dynamicView
