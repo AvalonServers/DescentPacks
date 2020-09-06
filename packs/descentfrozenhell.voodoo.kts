@@ -10,7 +10,7 @@ import voodoo.data.curse.FileID
 mcVersion = "1.12.2"
 title = "Descent Frozen Hell"
 authors = listOf("CitadelCore", "Skye", "ThePiGuy24", "NickStalburg")
-version = "1.8-indev.1"
+version = "1.8-indev.2"
 
 modloader {
     forge(Forge_12_2.mc1_12_2_latest)
@@ -36,6 +36,10 @@ root<Curse> {
         // The way these mods are parsed, the Curse URL is taken,
         // hyphens are removed and made camel case.
         // or just look into the generated constants in `.voodoo/Mod.kt`
+
+        // TRAINS!
+        +Mod.immersiveRailroading
+        //+Mod.railstuff
 
         // This seems to help with TPS problems...
         +Mod.dynamicView
