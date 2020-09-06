@@ -10,7 +10,7 @@ import voodoo.data.curse.FileID
 mcVersion = "1.12.2"
 title = "Descent Frozen Hell"
 authors = listOf("CitadelCore", "Skye", "ThePiGuy24", "NickStalburg")
-version = "1.8-indev.6"
+version = "1.8-indev.7"
 
 modloader {
     forge(Forge_12_2.mc1_12_2_latest)
@@ -46,12 +46,23 @@ root<Curse> {
         +Mod.immersiveRailroading
         //+Mod.railstuff
         // Train Resource Packs
-        /*group {
+        group {
             folder = "config/immersiverailroading"
         }.list {
             //+TexturePack.prototypeTflPackForImmersiveRailroading
-            +TexturePack.dragonsModernBritish
-        }*/
+            //+TexturePack.dragonsModernBritish
+            withTypeClass(Direct::class).list {
+            +"infraTrainPack" {
+                //useUrlTxt = false
+                url = "https://thepiguy24.github.io/INFRATrainPack_0001.zip"
+                fileName = "INFRATrainPack.zip"
+            }
+            +"raefftechNarrowGague" {
+                url = "https://www.dropbox.com/s/kko9x8rixbqnho0/Raefftech_Narrow_Gauge_01.zip?dl=1"
+                fileName = "Raefftech_Narrow_Gauge.zip"
+            }
+        }
+        }
 
         // This seems to help with TPS problems...
         +Mod.dynamicView
