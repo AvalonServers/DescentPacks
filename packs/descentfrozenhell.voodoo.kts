@@ -114,6 +114,7 @@ root<Curse> {
         +Mod.expandedArcanum
 
         +Mod.thaumicCalculations // Thaumic Calculations
+        +Mod.thaumicAdditions
 
         // asie
         // Charset Modules
