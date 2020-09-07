@@ -1,12 +1,11 @@
 {
     "type": "curse",
     "common": {
-        "side": "CLIENT",
         "dependencies": {
-            "jei": "REQUIRED"
+            "immersive-engineering": "REQUIRED"
         }
     },
-    "projectID": 240630,
-    "fileID": 2728585,
+    "projectID": 344344,
+    "fileID": 2944142,
     "skipFingerprintCheck": true
 }

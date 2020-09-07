@@ -98,3 +98,49 @@ Centrifuge.removeRecipe(bronzeBlend);
 Centrifuge.removeRecipe(lumiumBlend);
 Centrifuge.removeRecipe(enderBlend);
 // TODO: new ones here
+
+
+
+
+// FLUXDUCT DEPRECATION STUFF HERE!
+
+// Give the fluxducts names so we can refer to them later...
+val leadstoneFluxduct = <thermaldynamics:duct_0:0>;
+val hardenedFluxduct = <thermaldynamics:duct_0:1>;
+val emptyRedstoneFluxduct = <thermaldynamics:duct_0:6>;
+val redstoneFluxduct = <thermaldynamics:duct_0:2>;
+val emptySignalumFluxduct = <thermaldynamics:duct_0:7>;
+val signalumFluxduct = <thermaldynamics:duct_0:3>;
+val emptyResonantFluxduct = <thermaldynamics:duct_0:8>;
+val resonantFluxduct = <thermaldynamics:duct_0:4>;
+val emptyCryoStablisedFluxduct = <thermaldynamics:duct_0:9>;
+val cryoStablisedFluxduct = <thermaldynamics:duct_0:5>;
+
+// Give the enderio conduits names so we can refer to them later...
+val silverConduit = <enderio:item_endergy_conduit:5>;
+val enhancedConduit = <enderio:item_power_conduit:1>;
+val energeticSilverConduit = <enderio:item_endergy_conduit:7>;
+val enderConduit = <enderio:item_power_conduit:2>;
+val crystallineConduit = <enderio:item_endergy_conduit:8>;
+val melodicConduit = <enderio:item_endergy_conduit:10>;
+val stellarConduit = <enderio:item_endergy_conduit:11>;
+
+// Remove all recipes for fluxducts!
+recipes.removeByRegex("thermaldynamics:duct_0.*");
+Transposer.removeFillRecipe(emptyRedstoneFluxduct, <liquid:redstone>);
+Transposer.removeFillRecipe(emptySignalumFluxduct, <liquid:redstone>);
+Transposer.removeFillRecipe(emptyResonantFluxduct, <liquid:redstone>);
+Transposer.removeFillRecipe(emptyCryoStablisedFluxduct, <liquid:cryotheum>);
+
+// Convert fluxducts to enderIO energy conduits
+recipes.addShapeless(silverConduit, [leadstoneFluxduct]);
+recipes.addShapeless(enhancedConduit, [hardenedFluxduct]);
+recipes.addShapeless(enhancedConduit, [emptyRedstoneFluxduct]);
+recipes.addShapeless(energeticSilverConduit, [redstoneFluxduct]);
+recipes.addShapeless(energeticSilverConduit, [emptySignalumFluxduct]);
+recipes.addShapeless(enderConduit, [signalumFluxduct]);
+recipes.addShapeless(enderConduit, [emptyResonantFluxduct]);
+recipes.addShapeless(crystallineConduit, [resonantFluxduct]);
+recipes.addShapeless(melodicConduit, [emptyCryoStablisedFluxduct]);
+recipes.addShapeless(stellarConduit, [cryoStablisedFluxduct]);
+

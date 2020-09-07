@@ -4,10 +4,10 @@
     "modloader": {
         "type": "modloader.Forge",
         "mcVersion": "1.12.2",
-        "forgeVersion": "14.23.5.2847"
+        "forgeVersion": "14.23.5.2854"
     },
     "title": "Descent Frozen Hell",
-    "version": "1.7.3",
+    "version": "1.8.0.0",
     "authors": [
         "CitadelCore",
         "Skye",

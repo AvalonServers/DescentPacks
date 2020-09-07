@@ -1,6 +1,6 @@
 plugins {
     wrapper
-    id("voodoo") version "0.5.20-SNAPSHOT"
+    id("voodoo") version "0.5.22-SNAPSHOT"
 }
 
 voodoo {
@@ -34,11 +34,14 @@ voodoo {
     }
 
     generateCurseforgeMods("Mod", "1.12", "1.12.1", "1.12.2")
-    generateCurseforgeTexturepacks("TexturePack", "1.12", "1.12.1", "1.12.2")
+    generateCurseforgeResourcepacks("ResourcePack", "1.12", "1.12.1", "1.12.2")
     generateForge("Forge_12_2", "1.12.2")
 }
 
 tasks.withType<Wrapper> {
-    gradleVersion = "6.3"
+    gradleVersion = "6.6"
     distributionType = Wrapper.DistributionType.ALL
+}
+dependencies {
+	implementation(kotlin("script-runtime"))
 }

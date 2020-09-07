@@ -1,12 +1,11 @@
 {
     "type": "curse",
     "common": {
-        "side": "CLIENT",
         "dependencies": {
-            "jei": "REQUIRED"
+            "forgeendertech": "REQUIRED"
         }
     },
-    "projectID": 240630,
-    "fileID": 2728585,
+    "projectID": 244830,
+    "fileID": 2973503,
     "skipFingerprintCheck": true
 }

@@ -2,15 +2,11 @@
 import com.skcraft.launcher.model.modpack.Recommendation
 import voodoo.data.Side
 import voodoo.data.curse.FileType
-import voodoo.provider.CurseProvider
-import voodoo.provider.DirectProvider
-import voodoo.data.curse.ProjectID
-import voodoo.data.curse.FileID
 
 mcVersion = "1.12.2"
 title = "Descent Frozen Hell"
 authors = listOf("CitadelCore", "Skye", "ThePiGuy24", "NickStalburg")
-version = "1.7.3"
+version = "1.8.0.0"
 
 modloader {
     forge(Forge_12_2.mc1_12_2_latest)
@@ -37,7 +33,38 @@ root<Curse> {
         // hyphens are removed and made camel case.
         // or just look into the generated constants in `.voodoo/Mod.kt`
 
-        // See if this helps with TPS...
+        +Mod.boosterRockets
+        +Mod.effortlessBuilding
+        +Mod.onlinepictureframe
+        +Mod.advancedChimneys
+
+        // TRAINS!
+        +Mod.immersiveRailroading
+        //+Mod.railstuff
+        // Train Resource Packs
+        
+        group {
+            folder = "config/immersiverailroading"
+        }.list {
+            //TODO: Voodoo doesn't allow you to override the folder for resource packs and mods downloaded from Curse, so wait for that to be fixed. In the mean time **MANUALLY** move the lock files to the appropriate folder every build please.
+            +ResourcePack.prototypeTflPackForImmersiveRailroading
+            +ResourcePack.dragonsModernBritish
+            +ResourcePack.smallGaugeGoodiesForImmersiveRailroading
+            +ResourcePack.matoiVanillaPackIr
+            withTypeClass(Direct::class).list {
+                +"infraTrainPack" {
+                    //useUrlTxt = false
+                    url = "https://thepiguy24.github.io/INFRATrainPack_0002.zip"
+                    fileName = "INFRATrainPack.zip"
+                }
+                +"raefftechNarrowGague" {
+                    url = "https://www.dropbox.com/s/kko9x8rixbqnho0/Raefftech_Narrow_Gauge_01.zip?dl=1"
+                    fileName = "Raefftech_Narrow_Gauge.zip"
+                }
+            }
+        }
+
+        // This seems to help with TPS problems...
         +Mod.dynamicView
 
         // StimmedCow
@@ -61,6 +88,8 @@ root<Curse> {
         +Mod.immersivePetroleum
         // FerroO2000
         +Mod.immersiveTech
+        
+        +Mod.immersiveIntelligence
 
         // Mr_TJP
         +Mod.mrtjpcore
@@ -100,6 +129,7 @@ root<Curse> {
 
         // azanor
         +Mod.thaumcraft
+        +Mod.thaumicTinkerer
         +Mod.thaumicComputers
         +Mod.thaumicEnergistics
         +Mod.thaumicAugmentation
@@ -108,6 +138,9 @@ root<Curse> {
         +Mod.thaumicPeriphery
         +Mod.engineeredGolems
         +Mod.expandedArcanum
+
+        +Mod.thaumicCalculations // Thaumic Calculations
+        +Mod.thaumicAdditions
 
         // asie
         // Charset Modules
@@ -203,6 +236,26 @@ root<Curse> {
 
         +Mod.decocraft
         
+        // Computronics MaryTTS Stuff
+        group {
+            folder = "marytts"
+        }.list {
+            withTypeClass(Direct::class).list {
+                useUrlTxt = true
+                +"computronics_maryTTS" {
+                    url = "http://files.vexatos.com/Computronics/marytts/marytts-runtime-5.2-jar-for-computronics.jar"
+                }
+                +"computronics_maryTTS_english_language" {
+                    url = "https://files.vexatos.com/Computronics/marytts/marytts-lang-en-5.2.jar"
+                }
+            }
+            withTypeClass(Local::class).list {
+                +"compuronics_maryTTS_english_voice" {
+                    fileSrc = "voice-dfki-prudence-hsmm-5.2.jar"
+                }
+            }
+        }
+        
         // Direct download (URL)
         withTypeClass(Direct::class).list {
             +"computronics" {
@@ -212,13 +265,7 @@ root<Curse> {
             //+"ascension" url "https://launcher.towerdevs.xyz/external/ascension-0.1.0.jar"
             //+"opensolidstate" url "https://launcher.towerdevs.xyz/external/opensolidstate-1.0.jar"
         }
-
-        withTypeClass(Local::class).list {
-            +"thaumictinkerer" {
-                fileSrc = "thaumictinkerer-1.12.2-5.0-41d79cc.jar"
-            }
-        }
-
+        
         withTypeClass(Jenkins::class) {
             jenkinsUrl ="https://ci.cil.li/"
         }.list {
@@ -295,6 +342,9 @@ root<Curse> {
                 }
                 +Mod.nbtedit {
                     description = "Can be used to view NBT trees. Developer use only."
+                }
+                +Mod.nofov {
+                    description = "Disables changes to the field of view by effects, including stuff like sprinting and potions."
                 }
             }
         }

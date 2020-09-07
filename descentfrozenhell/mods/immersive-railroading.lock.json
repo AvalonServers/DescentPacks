@@ -1,12 +1,11 @@
 {
     "type": "curse",
     "common": {
-        "side": "CLIENT",
         "dependencies": {
-            "jei": "REQUIRED"
+            "track-api": "REQUIRED"
         }
     },
-    "projectID": 240630,
-    "fileID": 2728585,
+    "projectID": 277736,
+    "fileID": 2913751,
     "skipFingerprintCheck": true
 }

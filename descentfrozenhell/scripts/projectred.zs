@@ -30,7 +30,7 @@ recipes.addShapedMirrored("dfh/red_alloy_wire", <projectred-transmission:wire:0>
     [<ore:ingotRedAlloy>]
 ]);
 recipes.removeByRecipeName("projectred-transmission:framed/0_framed");
-recipes.addShapedMirrored("dfh/framed_red_alloy_wire", <projectred-transmission:framed_wire:0> * 7, [
+recipes.addShapedMirrored("dfh/framed_red_alloy_wire", <projectred-transmission:framed_wire:0>, [
     [<ore:stickWood>, null, <ore:stickWood>],
     [null, <projectred-transmission:wire:0>, null],
     [<ore:stickWood>, null, <ore:stickWood>]

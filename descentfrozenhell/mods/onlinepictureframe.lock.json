@@ -1,12 +1,11 @@
 {
     "type": "curse",
     "common": {
-        "side": "CLIENT",
         "dependencies": {
-            "jei": "REQUIRED"
+            "creativecore": "REQUIRED"
         }
     },
-    "projectID": 240630,
-    "fileID": 2728585,
+    "projectID": 257815,
+    "fileID": 3047154,
     "skipFingerprintCheck": true
 }
