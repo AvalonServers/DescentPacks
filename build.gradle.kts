@@ -39,6 +39,6 @@ voodoo {
 }
 
 tasks.withType<Wrapper> {
-    gradleVersion = "6.3"
+    gradleVersion = "6.6"
     distributionType = Wrapper.DistributionType.ALL
 }
