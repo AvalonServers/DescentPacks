@@ -2,15 +2,11 @@
 import com.skcraft.launcher.model.modpack.Recommendation
 import voodoo.data.Side
 import voodoo.data.curse.FileType
-import voodoo.provider.CurseProvider
-import voodoo.provider.DirectProvider
-import voodoo.data.curse.ProjectID
-import voodoo.data.curse.FileID
 
 mcVersion = "1.12.2"
 title = "Descent Frozen Hell"
 authors = listOf("CitadelCore", "Skye", "ThePiGuy24", "NickStalburg")
-version = "1.8-indev.7"
+version = "1.8-indev.8"
 
 modloader {
     forge(Forge_12_2.mc1_12_2_latest)
@@ -46,22 +42,26 @@ root<Curse> {
         +Mod.immersiveRailroading
         //+Mod.railstuff
         // Train Resource Packs
+        
         group {
             folder = "config/immersiverailroading"
         }.list {
-            //+TexturePack.prototypeTflPackForImmersiveRailroading
-            //+TexturePack.dragonsModernBritish
+            //TODO: Voodoo doesn't allow you to override the folder for resource packs and mods downloaded from Curse, so wait for that to be fixed. In the mean time **MANUALLY** move the lock files to the appropriate folder every build please.
+            +ResourcePack.prototypeTflPackForImmersiveRailroading
+            +ResourcePack.dragonsModernBritish
+            +ResourcePack.smallGaugeGoodiesForImmersiveRailroading
+            +ResourcePack.matoiVanillaPackIr
             withTypeClass(Direct::class).list {
-            +"infraTrainPack" {
-                //useUrlTxt = false
-                url = "https://thepiguy24.github.io/INFRATrainPack_0001.zip"
-                fileName = "INFRATrainPack.zip"
+                +"infraTrainPack" {
+                    //useUrlTxt = false
+                    url = "https://thepiguy24.github.io/INFRATrainPack_0001.zip"
+                    fileName = "INFRATrainPack.zip"
+                }
+                +"raefftechNarrowGague" {
+                    url = "https://www.dropbox.com/s/kko9x8rixbqnho0/Raefftech_Narrow_Gauge_01.zip?dl=1"
+                    fileName = "Raefftech_Narrow_Gauge.zip"
+                }
             }
-            +"raefftechNarrowGague" {
-                url = "https://www.dropbox.com/s/kko9x8rixbqnho0/Raefftech_Narrow_Gauge_01.zip?dl=1"
-                fileName = "Raefftech_Narrow_Gauge.zip"
-            }
-        }
         }
 
         // This seems to help with TPS problems...

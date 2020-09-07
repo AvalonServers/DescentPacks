@@ -1,6 +1,6 @@
 plugins {
     wrapper
-    id("voodoo") version "0.5.20-SNAPSHOT"
+    id("voodoo") version "0.5.21-SNAPSHOT"
 }
 
 voodoo {
@@ -34,7 +34,7 @@ voodoo {
     }
 
     generateCurseforgeMods("Mod", "1.12", "1.12.1", "1.12.2")
-    generateCurseforgeTexturepacks("TexturePack", "1.12", "1.12.1", "1.12.2")
+    generateCurseforgeResourcepacks("ResourcePack", "1.12", "1.12.1", "1.12.2")
     generateForge("Forge_12_2", "1.12.2")
 }
 
