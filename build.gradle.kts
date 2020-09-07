@@ -42,3 +42,6 @@ tasks.withType<Wrapper> {
     gradleVersion = "6.6"
     distributionType = Wrapper.DistributionType.ALL
 }
+dependencies {
+	implementation(kotlin("script-runtime"))
+}
