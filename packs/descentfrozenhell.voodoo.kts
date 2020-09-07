@@ -6,7 +6,7 @@ import voodoo.data.curse.FileType
 mcVersion = "1.12.2"
 title = "Descent Frozen Hell"
 authors = listOf("CitadelCore", "Skye", "ThePiGuy24", "NickStalburg")
-version = "1.8-indev.11"
+version = "1.8-indev.12"
 
 modloader {
     forge(Forge_12_2.mc1_12_2_latest)
@@ -88,6 +88,8 @@ root<Curse> {
         +Mod.immersivePetroleum
         // FerroO2000
         +Mod.immersiveTech
+        
+        +Mod.immersiveIntelligence
 
         // Mr_TJP
         +Mod.mrtjpcore
