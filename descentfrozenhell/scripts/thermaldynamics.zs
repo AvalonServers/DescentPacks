@@ -98,3 +98,10 @@ Centrifuge.removeRecipe(bronzeBlend);
 Centrifuge.removeRecipe(lumiumBlend);
 Centrifuge.removeRecipe(enderBlend);
 // TODO: new ones here
+
+// Deprecate fluxducts
+recipes.removeByRegex("thermaldynamics:duct_0.*");
+Transposer.removeFillRecipe(<thermaldynamics:duct_0:6>, <liquid:redstone>);
+Transposer.removeFillRecipe(<thermaldynamics:duct_0:7>, <liquid:redstone>);
+Transposer.removeFillRecipe(<thermaldynamics:duct_0:8>, <liquid:redstone>);
+Transposer.removeFillRecipe(<thermaldynamics:duct_0:9>, <liquid:cryotheum>);
