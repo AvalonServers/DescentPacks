@@ -6,7 +6,7 @@ import voodoo.data.curse.FileType
 mcVersion = "1.12.2"
 title = "Descent Frozen Hell"
 authors = listOf("CitadelCore", "Skye", "ThePiGuy24", "NickStalburg")
-version = "1.8-indev.8"
+version = "1.8-indev.9"
 
 modloader {
     forge(Forge_12_2.mc1_12_2_latest)
@@ -127,6 +127,7 @@ root<Curse> {
 
         // azanor
         +Mod.thaumcraft
+        +Mod.thaumicTinkerer
         +Mod.thaumicComputers
         +Mod.thaumicEnergistics
         +Mod.thaumicAugmentation
@@ -262,13 +263,7 @@ root<Curse> {
             //+"ascension" url "https://launcher.towerdevs.xyz/external/ascension-0.1.0.jar"
             //+"opensolidstate" url "https://launcher.towerdevs.xyz/external/opensolidstate-1.0.jar"
         }
-
-        withTypeClass(Local::class).list {
-            +"thaumictinkerer" {
-                fileSrc = "thaumictinkerer-1.12.2-5.0-41d79cc.jar"
-            }
-        }
-
+        
         withTypeClass(Jenkins::class) {
             jenkinsUrl ="https://ci.cil.li/"
         }.list {
