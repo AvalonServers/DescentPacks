@@ -6,7 +6,7 @@ import voodoo.data.curse.FileType
 mcVersion = "1.12.2"
 title = "Descent Frozen Hell"
 authors = listOf("CitadelCore", "Skye", "ThePiGuy24", "NickStalburg")
-version = "1.8.0.2"
+version = "1.8.1.0"
 
 modloader {
     forge(Forge_12_2.mc1_12_2_latest)
