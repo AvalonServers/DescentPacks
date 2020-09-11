@@ -54,7 +54,7 @@ root<Curse> {
             withTypeClass(Direct::class).list {
                 +"infraTrainPack" {
                     //useUrlTxt = false
-                    url = "https://thepiguy24.github.io/INFRATrainPack_0003.zip"
+                    url = "https://thepiguy24.github.io/INFRATrainPack_0004.zip"
                     fileName = "INFRATrainPack.zip"
                 }
                 +"raefftechNarrowGague" {
