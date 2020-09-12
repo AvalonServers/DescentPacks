@@ -6,7 +6,7 @@ import voodoo.data.curse.FileType
 mcVersion = "1.12.2"
 title = "Descent Frozen Hell"
 authors = listOf("CitadelCore", "Skye", "ThePiGuy24", "NickStalburg")
-version = "1.8.2-indev.3"
+version = "1.8.2-indev.4"
 
 modloader {
     forge(Forge_12_2.mc1_12_2_latest)
@@ -46,8 +46,7 @@ root<Curse> {
         group {
             folder = "config/immersiverailroading"
         }.list {
-            //TODO: Voodoo doesn't allow you to override the folder for resource packs and mods downloaded from Curse, so wait for that to be fixed. In the mean time **MANUALLY** move the lock files to the appropriate folder every build please.
-            +ResourcePack.prototypeTflPackForImmersiveRailroading
+            //+ResourcePack.prototypeTflPackForImmersiveRailroading
             +ResourcePack.dragonsModernBritish
             +ResourcePack.smallGaugeGoodiesForImmersiveRailroading
             +ResourcePack.matoiVanillaPackIr
@@ -60,6 +59,10 @@ root<Curse> {
                 +"raefftechNarrowGague" {
                     url = "https://www.dropbox.com/s/kko9x8rixbqnho0/Raefftech_Narrow_Gauge_01.zip?dl=1"
                     fileName = "Raefftech_Narrow_Gauge.zip"
+                }
+                +"fixed-tfl-trains" {
+                    url = "https://skyem.co.uk/files/TFL_Pack_tom23_v100_fixed_4.zip"
+                    fileName = "TFL_Pack_tom23_v100.zip"
                 }
             }
         }
