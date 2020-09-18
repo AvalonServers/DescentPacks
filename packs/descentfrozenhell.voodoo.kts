@@ -6,7 +6,7 @@ import voodoo.data.curse.FileType
 mcVersion = "1.12.2"
 title = "Descent Frozen Hell"
 authors = listOf("CitadelCore", "Skye", "ThePiGuy24", "NickStalburg")
-version = "1.8.2-indev.4"
+version = "1.8.3.0"
 
 modloader {
     forge(Forge_12_2.mc1_12_2_latest)
@@ -53,7 +53,7 @@ root<Curse> {
             withTypeClass(Direct::class).list {
                 +"infraTrainPack" {
                     //useUrlTxt = false
-                    url = "https://thepiguy24.github.io/INFRATrainPack_0004.zip"
+                    url = "https://thepiguy24.github.io/INFRATrainPack_0005.zip"
                     fileName = "INFRATrainPack.zip"
                 }
                 +"raefftechNarrowGague" {
