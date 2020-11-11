@@ -6,7 +6,7 @@ import voodoo.data.curse.FileType
 mcVersion = "1.12.2"
 title = "Descent Frozen Hell"
 authors = listOf("CitadelCore", "Skye", "ThePiGuy24", "NickStalburg")
-version = "1.9.0.0"
+version = "1.9.0.1"
 
 modloader {
     forge(Forge_12_2.mc1_12_2_latest)
@@ -236,8 +236,13 @@ root<Curse> {
         +Mod.sync
 
         // Ender IO stuff
-        +Mod.enderIo
-        +Mod.enderIoEndergy
+        // latest versions break for some reason, temp fix:
+        +Mod.enderIo {
+            fileID = FileID(3059061)
+        }
+        +Mod.enderIoEndergy {
+            fileID = FileID(3059060)
+        }
 
         +Mod.decocraft
         
