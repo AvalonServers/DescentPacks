@@ -90,7 +90,9 @@ root<Curse> {
         // Flaxbeard
         +Mod.immersivePetroleum
         // FerroO2000
-        +Mod.immersiveTech
+        //+Mod.immersiveTech
+        // (replacement IT)
+        +Mod.mctImmersiveTechnology
         
         +Mod.immersiveIntelligence
 

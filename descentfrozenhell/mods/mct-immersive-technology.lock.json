@@ -2,10 +2,10 @@
     "type": "curse",
     "common": {
         "dependencies": {
-            "endercore": "REQUIRED"
+            "immersive-engineering": "REQUIRED"
         }
     },
-    "projectID": 64578,
-    "fileID": 3068701,
+    "projectID": 359407,
+    "fileID": 3107848,
     "skipFingerprintCheck": true
 }
