@@ -67,6 +67,16 @@ root<Curse> {
       }
     }
 
+    // Following mods are for world generation
+    +Mod.biomesOPlenty
+    +Mod.realisticOreVeins
+    +Mod.realisticTerrainGeneration
+    +Mod.climateControlGeographicraft {
+      fileID = FileID(2486285)
+    }
+    
+    +Mod.soundReloader
+    
     // To replace chisel and bits...
     +Mod.littletiles
     
