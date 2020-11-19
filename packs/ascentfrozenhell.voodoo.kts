@@ -75,8 +75,6 @@ root<Curse> {
       fileID = FileID(2486285)
     }
     
-    +Mod.soundReloader
-    
     // To replace chisel and bits...
     +Mod.littletiles
     
