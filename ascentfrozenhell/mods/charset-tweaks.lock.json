@@ -1,0 +1,11 @@
+{
+    "type": "curse",
+    "common": {
+        "dependencies": {
+            "charset-lib": "REQUIRED"
+        }
+    },
+    "projectID": 285363,
+    "fileID": 2745327,
+    "skipFingerprintCheck": true
+}

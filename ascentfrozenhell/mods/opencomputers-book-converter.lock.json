@@ -1,0 +1,11 @@
+{
+    "type": "curse",
+    "common": {
+        "dependencies": {
+            "opencomputers": "REQUIRED"
+        }
+    },
+    "projectID": 326890,
+    "fileID": 2738502,
+    "skipFingerprintCheck": true
+}

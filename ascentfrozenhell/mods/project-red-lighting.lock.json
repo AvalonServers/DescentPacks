@@ -1,0 +1,11 @@
+{
+    "type": "curse",
+    "common": {
+        "dependencies": {
+            "project-red-base": "REQUIRED"
+        }
+    },
+    "projectID": 229046,
+    "fileID": 2745549,
+    "skipFingerprintCheck": true
+}

@@ -1,0 +1,12 @@
+{
+    "type": "curse",
+    "common": {
+        "side": "CLIENT",
+        "description": "Caution: Resource heavy. Turn this off if your computer isn't powerful enough.",
+        "optionalData": {
+        }
+    },
+    "projectID": 227874,
+    "fileID": 2563244,
+    "skipFingerprintCheck": true
+}

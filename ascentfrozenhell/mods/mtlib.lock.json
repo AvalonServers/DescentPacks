@@ -1,0 +1,11 @@
+{
+    "type": "curse",
+    "common": {
+        "dependencies": {
+            "crafttweaker": "REQUIRED"
+        }
+    },
+    "projectID": 253211,
+    "fileID": 2684561,
+    "skipFingerprintCheck": true
+}

@@ -1,0 +1,11 @@
+{
+    "type": "curse",
+    "common": {
+        "dependencies": {
+            "avaritia-1-10": "REQUIRED"
+        }
+    },
+    "projectID": 271236,
+    "fileID": 3054338,
+    "skipFingerprintCheck": true
+}

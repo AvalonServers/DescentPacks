@@ -1,0 +1,12 @@
+{
+    "type": "curse",
+    "common": {
+        "dependencies": {
+            "cofh-core": "REQUIRED",
+            "cofh-world": "REQUIRED"
+        }
+    },
+    "projectID": 222880,
+    "fileID": 2926428,
+    "skipFingerprintCheck": true
+}

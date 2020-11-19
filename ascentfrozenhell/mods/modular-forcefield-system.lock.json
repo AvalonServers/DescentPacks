@@ -1,0 +1,12 @@
+{
+    "type": "curse",
+    "common": {
+        "dependencies": {
+            "ender-io": "REQUIRED",
+            "guide-api": "REQUIRED"
+        }
+    },
+    "projectID": 59882,
+    "fileID": 2581227,
+    "skipFingerprintCheck": true
+}

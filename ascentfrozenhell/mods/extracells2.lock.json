@@ -1,0 +1,11 @@
+{
+    "type": "curse",
+    "common": {
+        "dependencies": {
+            "applied-energistics-2": "REQUIRED"
+        }
+    },
+    "projectID": 229218,
+    "fileID": 2855967,
+    "skipFingerprintCheck": true
+}

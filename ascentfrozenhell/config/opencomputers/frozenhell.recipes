@@ -1,0 +1,563 @@
+# Replaced most pistons with projred motors
+# Replaced iron with steel
+# Balanced misc stuff
+
+# Disabled by Citadel for realism
+hoverboots = false
+hoverupgrade1 = false
+hoverupgrade2 = false
+tractorbeamupgrade = false
+mfu = false
+
+analyzer {
+  input: [["", torchRedstoneActive, ""]
+          ["oc:materialTransistor", "oc:circuitChip1", nuggetGold]
+          ["oc:materialTransistor", "oc:materialCircuitBoardPrinted", nuggetGold]]
+}
+
+# TODO: replace capacitor with smaller battery
+nanomachines {
+  input: [["oc:chamelium", "oc:wlanCard2", "oc:chamelium"]
+          ["oc:cpu2", "oc:materialAcid", "oc:ram1"]
+          ["oc:chamelium", "oc:capacitor", "oc:chamelium"]]
+}
+wrench {
+  input: [[ingotSteel, "", ingotSteel]
+          ["", "oc:circuitChip2", ""],
+          ["", ingotSteel, ""]]
+}
+dronecase1 {
+  input: [["oc:stoneEndstone", compass, "oc:stoneEndstone"]
+          ["oc:circuitChip1", "oc:microcontrollerCase1", "oc:circuitChip1"]
+          ["oc:stoneEndstone", "oc:componentBus2", "oc:stoneEndstone"]]
+}
+dronecase2 {
+  input: [["oc:stoneEndstone", compass, "oc:stoneEndstone"]
+          ["oc:circuitChip2", "oc:microcontrollerCase2", "oc:circuitChip2"]
+          ["oc:stoneEndstone", "oc:componentBus3", "oc:stoneEndstone"]]
+}
+microcontrollercase1 {
+  input: [[nuggetSteel, "oc:circuitChip1", nuggetSteel]
+          [redstone, chest, redstone]
+          [nuggetSteel, "oc:materialCircuitBoardPrinted", nuggetSteel]]
+}
+microcontrollercase2 {
+  input: [[nuggetElectrum, "oc:circuitChip3", nuggetElectrum]
+          [{item="immersiveengineering:metal_decoration0", subID=3}, chest, {item="immersiveengineering:metal_decoration0", subID=3}]
+          [nuggetElectrum, "oc:materialCircuitBoardPrinted", nuggetElectrum]]
+}
+terminal {
+  input: [[nuggetSteel, "oc:solarGeneratorUpgrade", nuggetSteel]
+          ["oc:circuitChip3", "oc:screen2", "oc:wlanCard2"]
+          [nuggetSteel, "oc:keyboard", nuggetSteel]]
+}
+tabletcase1 {
+  input: [[ingotElectrum, button, ingotElectrum]
+          ["oc:componentBus1", "oc:screen2", "oc:circuitChip3"]
+          [ingotElectrum, "oc:materialCircuitBoardPrinted", ingotElectrum]]
+}
+tabletcase2 {
+  input: [["oc:circuitChip2", button, ingotElectrum]
+          ["oc:componentBus3", "oc:screen2", "oc:circuitChip3"]
+          ["oc:circuitChip2", "oc:materialCircuitBoardPrinted", ingotElectrum]]
+}
+diskdrivemountable {
+  input: [[obsidian, "oc:circuitChip1", obsidian]
+          [fenceSteel, "oc:diskDrive", fenceSteel]
+          [obsidian, "oc:materialCircuitBoardPrinted", obsidian]]
+}
+eeprom {
+  input: [[nuggetGold, "oc:materialTransistor", nuggetGold]
+          [paper, "oc:circuitChip1", paper]
+          ["minecraft:clay_ball", torchRedstoneActive, "minecraft:clay_ball"]]
+}
+
+# TODO: replace circuit boards with plastic?
+floppy {
+  input: [[nuggetSteel, lever, nuggetSteel]
+          ["oc:materialCircuitBoard", "oc:materialDisk", "oc:materialCircuitBoard"]
+          [nuggetSteel, paper, nuggetSteel]]
+}
+
+# Replaced Piston with ProjectRed motor
+hdd1 {
+  input: [["oc:circuitChip1", "oc:materialDisk", ingotSteel]
+          ["oc:materialCircuitBoardPrinted", "oc:materialDisk", {item="projectred-core:resource_item", subID=410}]
+          ["oc:circuitChip1", "oc:materialDisk", ingotSteel]]
+}
+
+hdd2 {
+  input: [[ingotElectrum, "oc:hdd1", ingotElectrum]
+          ["oc:circuitChip2", "oc:materialCircuitBoardPrinted", "oc:circuitChip2"]
+          [ingotElectrum, "oc:hdd1", ingotElectrum]]
+}
+hdd3 {
+  input: [["oc:circuitChip3", "oc:hdd2", "oc:circuitChip3"]
+          ["oc:ram1", "oc:materialCircuitBoardPrinted", "oc:ram1"]
+          ["oc:circuitChip3", "oc:hdd2", "oc:circuitChip3"]]
+}
+
+abstractbuscard = false
+
+datacard1 {
+  input: [[nuggetSteel, "oc:materialALU", "oc:circuitChip2"]
+          ["", "oc:materialCard", ""]]
+}
+datacard2 {
+  input: [[{item="projectred-core:resource_item", subID=341}, "oc:cpu1", "oc:circuitChip3"]
+          ["", "oc:dataCard1", ""]]
+}
+datacard3 {
+  input: [["", chipDiamond, ""]
+          [{item="projectred-core:resource_item", subID=342}, "oc:cpu2", "oc:ram5"]
+          ["", "oc:dataCard2", ""]]
+}
+graphicscard1 {
+  input: [["oc:circuitChip1", "oc:materialALU", "oc:ram1"]
+          ["", "oc:materialCard", ""]]
+}
+graphicscard2 {
+  input: [["oc:circuitChip2", "oc:circuitChip2", "oc:ram3"]
+          ["", "oc:graphicsCard1", ""]]
+}
+graphicscard3 {
+  input: [["oc:circuitChip3", "oc:circuitChip3", "oc:ram5"]
+          ["", "oc:graphicsCard2", ""]]
+}
+internetcard {
+  input: [["oc:materialInterweb", "oc:circuitChip3", torchRedstoneActive]
+          ["", "oc:wlanCard2", obsidian]]
+}
+redstonecard1 {
+  input: [[torchRedstoneActive, "oc:circuitChip1", ""]
+          ["", "oc:materialCard", ""]]
+}
+redstonecard2 {
+  input: [[{item="immersiveengineering:wirecoil", subID=5}, "oc:circuitChip2", materialEnderPearl]
+          ["", "oc:redstoneCard1", ""]]
+}
+lancard {
+  input: [["oc:cable", "oc:circuitChip1", ""]
+          ["", "oc:materialCard", ""]]
+}
+wlancard1 {
+  input: [[materialEnderPearl, "oc:circuitChip1", ""]
+          ["", "oc:lanCard", ""]]
+}
+wlancard2 {
+  input: [[eyeOfEnder, "oc:circuitChip2", eyeOfEnder]
+          ["", "oc:lanCard", ""]]
+}
+linkedcard {
+  input: [[eyeOfEnder, "", eyeOfEnder]
+          ["oc:wlanCard2", "oc:materialInterweb", "oc:wlanCard2"]
+          ["oc:circuitChip3", "", "oc:circuitChip3"]]
+  output: 2 # Note: all resulting cards are linked to each other.
+}
+
+angelupgrade {
+  input: [[ingotSteel, eyeOfEnder, ingotSteel]
+          ["oc:circuitChip1", {item="projectred-core:resource_item", subID=410}, "oc:circuitChip1"]
+          [ingotSteel, eyeOfEnder, ingotSteel]]
+}
+batteryupgrade1 {
+  input: [[ingotSteel, nuggetElectrum, ingotSteel]
+          ["oc:materialTransistor", "oc:capacitor", "oc:materialTransistor"]
+          [ingotSteel, nuggetElectrum, ingotSteel]]
+}
+batteryupgrade2 {
+  input: [[ingotElectrum, "oc:capacitor", ingotElectrum]
+          ["oc:materialTransistor", nuggetElectrum, "oc:materialTransistor"]
+          [ingotElectrum, "oc:capacitor", ingotElectrum]]
+}
+batteryupgrade3 {
+  input: [[{item="projectred-core:resource_item", subID=104}, "oc:capacitor", {item="projectred-core:resource_item", subID=104}]
+          ["oc:materialTransistor", "oc:capacitor", "oc:materialTransistor"]
+          [{item="projectred-core:resource_item", subID=104}, "oc:capacitor", {item="projectred-core:resource_item", subID=104}]]
+}
+# TODO: buff this?
+chunkloaderupgrade {
+  input: [[ingotElectrum, blockGlass, ingotElectrum]
+          ["oc:circuitChip3", eyeOfEnder, "oc:circuitChip3"]
+          [obsidian, "oc:materialCircuitBoardPrinted", obsidian]]
+}
+craftingupgrade {
+  input: [[ingotSteel, {item="projectred-core:resource_item", subID=410}, ingotSteel]
+          ["oc:circuitChip1", workbench, "oc:circuitChip1"]
+          [ingotSteel, "oc:materialCircuitBoardPrinted", ingotSteel]]
+}
+databaseupgrade1 {
+  input: [[ingotSteel, "oc:analyzer", ingotSteel]
+          ["oc:circuitChip1", "oc:hdd1", "oc:circuitChip1"]
+          [ingotSteel, "oc:materialCircuitBoardPrinted", ingotSteel]]
+}
+databaseupgrade2 {
+  input: [[ingotSteel, "oc:analyzer", ingotSteel]
+          ["oc:circuitChip2", "oc:hdd2", "oc:circuitChip2"]
+          [ingotSteel, "oc:materialCircuitBoardPrinted", ingotSteel]]
+}
+databaseupgrade3 {
+  input: [[ingotSteel, "oc:analyzer", ingotSteel]
+          ["oc:circuitChip3", "oc:hdd3", "oc:circuitChip3"]
+          [ingotSteel, "oc:materialCircuitBoardPrinted", ingotSteel]]
+}
+experienceupgrade {
+  input: [[{item="projectred-core:resource_item", subID=513}, "oc:analyzer", {item="projectred-core:resource_item", subID=513}]
+          ["oc:circuitChip3", emerald, "oc:circuitChip3"]
+          [{item="projectred-core:resource_item", subID=513}, "oc:materialCircuitBoardPrinted", {item="projectred-core:resource_item", subID=513}]]
+}
+generatorupgrade {
+  input: [[ingotSteel, {item="projectred-core:resource_item", subID=410}, ingotSteel]
+          ["oc:circuitChip1", {item="projectred-core:resource_item", subID=410}, "oc:circuitChip1"]
+          ["oc:materialCircuitBoardPrinted", ingotSteel, "oc:materialCircuitBoardPrinted"]]
+}
+inventoryupgrade {
+  input: [[ingotSteel, hopper, ingotSteel]
+          [dispenser, chest, {item="projectred-core:resource_item", subID=410}]
+          [ingotSteel, "oc:circuitChip1", ingotSteel]]
+}
+inventorycontrollerupgrade {
+  input: [[ingotElectrum, "oc:circuitChip2", ingotElectrum]
+          [dispenser, "oc:inventoryUpgrade", {item="projectred-core:resource_item", subID=410}]
+          [ingotElectrum, "oc:materialCircuitBoardPrinted", ingotElectrum]]
+}
+leashupgrade {
+  input: [[ingotSteel, {item="minecraft:lead"}, ingotSteel]
+          [{item="minecraft:lead"}, "oc:materialCU", {item="minecraft:lead"}]
+          [ingotSteel, {item="minecraft:lead"}, ingotSteel]]
+}
+navigationupgrade {
+  input: [[ingotElectrum, compass, ingotElectrum]
+          ["oc:circuitChip3", eyeOfEnder, "oc:circuitChip3"]
+          [ingotElectrum, {item=filled_map, subID=any}, ingotElectrum]]
+}
+pistonupgrade {
+  input: [[ingotSteel, {item="projectred-core:resource_item", subID=410}, ingotSteel]
+          [stickSteel, "oc:circuitChip1", stickSteel]
+          [ingotSteel, "oc:materialCircuitBoardPrinted", ingotSteel]]
+}
+signupgrade {
+  input: [[ingotSteel, dyeBlack, ingotSteel]
+          ["oc:circuitChip1", stickSteel, "oc:circuitChip1"]
+          [ingotSteel, {item="projectred-core:resource_item", subID=410}, ingotSteel]]
+}
+solargeneratorupgrade {
+  input: [[{item="projectred-core:resource_item", subID=341}, {item="projectred-core:resource_item", subID=341}, {item="projectred-core:resource_item", subID=341}]
+          [blockGlassYellow, blockGlassYellow, blockGlassYellow]
+          ["oc:circuitChip3", "oc:generatorUpgrade", "oc:circuitChip3"]]
+}
+tankupgrade {
+  input: [[plankWood, fenceSteel, plankWood]
+          [dispenser, cauldron, {item="projectred-core:resource_item", subID=410}]
+          [plankWood, "oc:circuitChip1", plankWood]]
+}
+tankcontrollerupgrade {
+  input: [[ingotElectrum, glassBottle, ingotElectrum]
+          [dispenser, "oc:circuitChip2", {item="projectred-core:resource_item", subID=410}]
+          [ingotElectrum, "oc:materialCircuitBoardPrinted", ingotElectrum]]
+}
+tradingupgrade {
+  input: [["oc:circuitChip2", chest, "oc:circuitChip2"]
+          [emerald, "oc:circuitChip2", emerald]
+          [dropper, "oc:materialCircuitBoardPrinted", {item="projectred-core:resource_item", subID=410}]]
+}
+cardcontainer1 {
+  input: [[ingotSteel, "oc:circuitChip1", ingotSteel]
+          [{item="projectred-core:resource_item", subID=410}, chest, ""]
+          [ingotSteel, "oc:materialCard", ingotSteel]]
+}
+cardcontainer2 {
+  input: [[ingotSteel, "oc:circuitChip2", ingotSteel]
+          [{item="projectred-core:resource_item", subID=410}, chest, ""]
+          [ingotSteel, "oc:materialCard", ingotSteel]]
+}
+cardcontainer3 {
+  input: [[ingotElectrum, "oc:circuitChip2", ingotElectrum]
+          [{item="projectred-core:resource_item", subID=410}, chest, ""]
+          [ingotElectrum, "oc:materialCard", ingotElectrum]]
+}
+upgradecontainer1 {
+  input: [[ingotSteel, "oc:circuitChip1", ingotSteel]
+          [{item="projectred-core:resource_item", subID=410}, chest, ""]
+          [ingotSteel, "oc:materialCircuitBoardPrinted", ingotSteel]]
+}
+upgradecontainer2 {
+  input: [[ingotSteel, "oc:circuitChip2", ingotSteel]
+          [{item="projectred-core:resource_item", subID=410}, chest, ""]
+          [ingotSteel, "oc:materialCircuitBoardPrinted", ingotSteel]]
+}
+upgradecontainer3 {
+  input: [[ingotElectrum, "oc:circuitChip2", ingotElectrum]
+          [{item="projectred-core:resource_item", subID=410}, chest, ""]
+          [ingotElectrum, "oc:materialCircuitBoardPrinted", ingotElectrum]]
+}
+
+cuttingwire {
+  input: [[stickSteel, nuggetSteel, stickSteel]]
+}
+# TODO: modify to make realistic acid
+acid {
+  type: shapeless
+  input: [bucketWater, sugar, slimeball, dyeGreen, crystalSlag]
+}
+disk {
+  input: [["", nuggetSteel, ""]
+          [nuggetSteel, "", nuggetSteel]
+          ["", nuggetSteel, ""]]
+}
+chamelium {
+  input: [[gravel, "minecraft:clay_ball", gravel],
+          ["minecraft:clay_ball", {item=coal, subID=1}, "minecraft:clay_ball"],
+          [gravel, {item="minecraft:water_bucket"}, gravel]]
+  output: 16
+}
+endstone {
+  input: [[eyeOfEnder, "oc:chameliumBlock", eyeOfEnder]
+          ["oc:chameliumBlock", materialEnderPearl, "oc:chameliumBlock"]
+          [eyeOfEnder, "oc:chameliumBlock", eyeOfEnder]]
+  output: 4
+}
+
+buttongroup {
+  input: [[button, button, button]
+          [button, button, button]]
+}
+arrowkeys {
+  input: [["", button, ""]
+          [button, button, button]]
+}
+numpad {
+  input: [[button, button, button]
+          [button, button, button]
+          [button, button, button]]
+}
+
+# replace paper with plastic or chamelium
+transistor {
+  input: [[nuggetSteel, nuggetSteel, nuggetSteel]
+          [nuggetElectrum, "oc:chamelium", nuggetElectrum]
+          ["", redstone, ""]]
+}
+chip1 {
+  input: [[nuggetSteel, "", nuggetSteel]
+          ["oc:materialTransistor", nuggetElectrum, "oc:materialTransistor"]
+          [nuggetSteel, "", nuggetSteel]]
+}
+chip2 {
+  input: [[nuggetSteel, {item=dyePowder, subID=4}, nuggetSteel]
+          ["oc:circuitChip1", ingotElectrum, "oc:circuitChip1"]
+          [nuggetSteel, {item=dyePowder, subID=4}, nuggetSteel]]
+}
+chip3 {
+  input: [[nuggetGold, comparator, nuggetGold]
+          ["oc:circuitChip2", {item="projectred-core:resource_item", subID=342}, "oc:circuitChip2"]
+          [nuggetGold, comparator, nuggetGold]]
+}
+alu {
+  input: [[diode, torchRedstoneActive, diode]
+          ["oc:materialTransistor", "oc:materialTransistor", "oc:materialTransistor"]
+          [nuggetSteel, {item="projectred-core:resource_item", subID=320}, nuggetSteel]]
+}
+apu1 {
+  input: [[nuggetElectrum, "oc:circuitChip1", nuggetElectrum]
+          ["oc:cpu2", "oc:componentBus1", "oc:graphicsCard1"]
+          [nuggetElectrum, "oc:circuitChip1", nuggetElectrum]]
+}
+apu2 {
+  input: [[{item="projectred-core:resource_item", subID=342}, "oc:circuitChip2", {item="projectred-core:resource_item", subID=342}]
+          ["oc:cpu3", "oc:componentBus2", "oc:graphicsCard2"]
+          [{item="projectred-core:resource_item", subID=342}, "oc:circuitChip2", {item="projectred-core:resource_item", subID=342}]]
+}
+componentbus1 {
+  input: [[nuggetSteel, redstone, nuggetSteel]
+          ["oc:circuitChip1", "oc:materialCU", ""]
+          [nuggetSteel, "oc:materialCircuitBoardPrinted", nuggetSteel]]
+}
+componentbus2 {
+  input: [[nuggetElectrum, "oc:ram3", nuggetElectrum]
+          ["oc:circuitChip2", "oc:componentBus1", ""]
+          [nuggetElectrum, "oc:materialCircuitBoardPrinted", nuggetElectrum]]
+}
+componentbus3 {
+  input: [[{item="projectred-core:resource_item", subID=342}, "oc:ram5", {item="projectred-core:resource_item", subID=342}]
+          ["oc:circuitChip3", "oc:componentBus2", ""]
+          [{item="projectred-core:resource_item", subID=342}, "oc:materialCircuitBoardPrinted", {item="projectred-core:resource_item", subID=342}]]
+}
+cpu1 {
+  input: [[nuggetSteel, redstone, nuggetSteel]
+          ["oc:circuitChip1", "oc:materialCU", "oc:circuitChip1"]
+          [nuggetSteel, "oc:materialALU", nuggetSteel]]
+}
+cpu2 {
+  input: [[nuggetElectrum, "oc:ram3", nuggetElectrum]
+          ["oc:circuitChip2", "oc:cpu1", "oc:circuitChip2"]
+          [nuggetElectrum, "oc:ram3", nuggetElectrum]]
+}
+cpu3 {
+  input: [[{item="projectred-core:resource_item", subID=342}, "oc:ram5", {item="projectred-core:resource_item", subID=342}]
+          ["oc:circuitChip3", "oc:cpu2", "oc:circuitChip3"]
+          [{item="projectred-core:resource_item", subID=342}, "oc:ram5", {item="projectred-core:resource_item", subID=342}]]
+}
+cu {
+  input: [[nuggetElectrum, torchRedstoneActive, nuggetElectrum]
+          ["oc:materialTransistor", clock, "oc:materialTransistor"]
+          [nuggetElectrum, redstone, nuggetElectrum]]
+}
+
+rawcircuitboard {
+  type: shapeless
+  input: ["oc:materialCuttingWire", clay, dyeGreen]
+}
+circuitboard {
+  type: furnace
+  input: "oc:materialCircuitBoardRaw"
+}
+printedcircuitboard {
+  type: shapeless
+  input: ["oc:materialCircuitBoard", nuggetGold, "oc:materialAcid"]
+  output: 1
+}
+card {
+  input: [[nuggetSteel, "oc:circuitChip1", "oc:materialTransistor"]
+          [nuggetSteel, "oc:materialCircuitBoardPrinted", "oc:materialCircuitBoardPrinted"]
+          [nuggetSteel, nuggetGold, nuggetGold]]
+}
+
+interweb {
+  input: [[string, materialEnderPearl, string]
+          [materialEnderPearl, eyeOfEnder, materialEnderPearl]
+          [string, materialEnderPearl, string]]
+}
+
+adapter {
+  input: [[ingotSteel, "oc:cable", ingotSteel]
+          ["oc:cable", "oc:circuitChip1", "oc:cable"]
+          [ingotSteel, "oc:materialCircuitBoardPrinted", ingotSteel]]
+}
+assembler {
+  input: [[ingotSteel, workbench, ingotSteel]
+          [{item="projectred-core:resource_item", subID=410}, "oc:circuitChip2", {item="projectred-core:resource_item", subID=410}]
+          [ingotSteel, "oc:materialCircuitBoardPrinted", ingotSteel]]
+}
+cable {
+  input: [["", nuggetSteel, ""]
+          [nuggetSteel, {item="immersiveengineering:wirecoil", subID=5}, nuggetSteel]
+          ["", nuggetSteel, ""]]
+  output: 4
+}
+carpetedcapacitor {
+  type: shapeless
+  input: [carpet, "oc:capacitor"]
+}
+capacitor {
+  input: [[ingotSteel, "oc:materialTransistor", ingotSteel]
+          [nuggetSteel, {item="immersiveengineering:metal_device0", subID=0}, nuggetSteel]
+          [ingotSteel, "oc:materialCircuitBoardPrinted", ingotSteel]]
+}
+charger {
+  input: [[ingotSteel, ingotElectrum, ingotSteel]
+          ["oc:capacitor", "oc:circuitChip2", "oc:capacitor"]
+          [ingotSteel, "oc:materialCircuitBoardPrinted", ingotSteel]]
+}
+case1 {
+  input: [[ingotSteel, "oc:circuitChip1", ingotSteel]
+          [fenceSteel, chest, fenceSteel]
+          [ingotSteel, "oc:materialCircuitBoardPrinted", ingotSteel]]
+}
+case2 {
+  input: [[ingotElectrum, "oc:circuitChip2", ingotElectrum]
+          ["oc:circuitChip2", "oc:case1", "oc:circuitChip2"]
+          [ingotElectrum, "oc:materialCircuitBoardPrinted", ingotElectrum]]
+}
+case3 {
+  input: [[gemDiamond, "oc:circuitChip3", gemDiamond]
+          ["oc:circuitChip3", "oc:case2", "oc:circuitChip3"]
+          [gemDiamond, "oc:materialCircuitBoardPrinted", gemDiamond]]
+}
+# TODO: add nullifier in place of lava bucket
+disassembler {
+  input: [["oc:materialCU", paneGlass, "oc:analyzer"]
+          [{item="projectred-core:resource_item", subID=410}, "", obsidian]
+          [ingotSteel, bucketLava, ingotSteel]]
+}
+diskdrive {
+  input: [[ingotSteel, "oc:circuitChip1", ingotSteel]
+          [{item="projectred-core:resource_item", subID=410}, stickSteel, ""]
+          [ingotSteel, "oc:materialCircuitBoardPrinted", ingotSteel]]
+}
+geolyzer {
+  input: [[ingotElectrum, "oc:analyzer", ingotElectrum]
+          [eyeOfEnder, "oc:circuitChip2", eyeOfEnder]
+          [ingotElectrum, "oc:materialCircuitBoardPrinted", ingotElectrum]]
+}
+
+# TODO: replace diamond with proper lens
+hologram1 {
+  input: [["oc:circuitChip2", paneGlass, "oc:circuitChip2"]
+          ["oc:materialCircuitBoardPrinted", gemDiamond, "oc:materialCircuitBoardPrinted"]
+          [obsidian, {item="immersiveengineering:metal_device1", subID=9}, obsidian]]
+}
+hologram2 {
+  input: [["oc:circuitChip3", blockGlass, "oc:circuitChip3"]
+          ["oc:materialCircuitBoardPrinted", blockDiamond, "oc:materialCircuitBoardPrinted"]
+          [obsidian, {item="immersiveengineering:metal_device1", subID=9}, obsidian]]
+}
+keyboard {
+  input: [["oc:materialButtonGroup", "oc:materialButtonGroup", "oc:materialButtonGroup"]
+          ["oc:materialButtonGroup", "oc:materialArrowKey", "oc:materialNumPad"]]
+}
+motionsensor {
+  input: [[ingotElectrum, daylightDetector, ingotElectrum]
+          [daylightDetector, "oc:cpu2", daylightDetector]
+          [ingotElectrum, "oc:materialCircuitBoardPrinted", ingotElectrum]]
+}
+netsplitter {
+  input: [[ingotSteel, "oc:cable", ingotSteel]
+          ["oc:cable", {item="projectred-core:resource_item", subID=410}, "oc:cable"]
+          [ingotSteel, "oc:materialCircuitBoardPrinted", ingotSteel]]
+}
+printer {
+  input: [[ingotSteel, hopper, ingotSteel]
+          [{item="projectred-core:resource_item", subID=410}, "oc:circuitChip3", {item="projectred-core:resource_item", subID=410}]
+          [ingotSteel, "oc:materialCircuitBoardPrinted", ingotSteel]]
+}
+powerconverter {
+  input: [[ingotSteel, "oc:cable", ingotSteel]
+          [ingotElectrum, "oc:circuitChip1", ingotElectrum]
+          [ingotSteel, "oc:materialCircuitBoardPrinted", ingotSteel]]
+}
+powerdistributor {
+  input: [[ingotSteel, ingotElectrum, ingotSteel]
+          ["oc:cable", "oc:circuitChip1", "oc:cable"]
+          [ingotSteel, "oc:materialCircuitBoardPrinted", ingotSteel]]
+}
+rack {
+  input: [["oc:circuitChip3", "oc:wlanCard2", "oc:circuitChip3"]
+          [fenceSteel, chest, fenceSteel]
+          ["oc:relay", "oc:materialCircuitBoardPrinted","oc:powerDistributor"]]
+}
+redstone {
+  input: [[ingotSteel, "oc:circuitChip1", ingotSteel]
+          [{item="immersiveengineering:metal_decoration0", subID=3}, "oc:redstoneCard1", {item="immersiveengineering:metal_decoration0", subID=3}]
+          [ingotSteel, "oc:materialCircuitBoardPrinted", ingotSteel]]
+}
+relay {
+  input: [[ingotSteel, "oc:cable", ingotSteel]
+          ["oc:cable", "oc:lanCard", "oc:cable"]
+          [ingotSteel, "oc:materialCircuitBoardPrinted", ingotSteel]]
+}
+screen1 {
+  input: [[ingotSteel, ingotSteel, blockGlass]
+          [{item="projectred-core:resource_item", subID=500}, "oc:materialTransistor", blockGlass]
+          [ingotSteel, ingotSteel, blockGlass]]
+}
+screen2 {
+  input: [[{item="projectred-core:resource_item", subID=500}, ingotElectrum, ingotElectrum]
+          [{item="projectred-core:resource_item", subID=500}, "oc:circuitChip2", "oc:screen1"]
+          [{item="projectred-core:resource_item", subID=500}, ingotElectrum, ingotElectrum]]
+}
+screen3 {
+  input: [[{item="projectred-core:resource_item", subID=500}, obsidian, obsidian]
+          [{item="projectred-core:resource_item", subID=500}, "oc:circuitChip3", "oc:screen2"]
+          [{item="projectred-core:resource_item", subID=500}, obsidian, obsidian]]
+}

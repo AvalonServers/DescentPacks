@@ -1,0 +1,11 @@
+{
+    "type": "curse",
+    "common": {
+        "dependencies": {
+            "immersive-engineering": "REQUIRED"
+        }
+    },
+    "projectID": 359407,
+    "fileID": 3114855,
+    "skipFingerprintCheck": true
+}

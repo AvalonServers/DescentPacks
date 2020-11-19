@@ -1,0 +1,9 @@
+{
+    "type": "curse",
+    "common": {
+        "side": "CLIENT"
+    },
+    "projectID": 357178,
+    "fileID": 3076610,
+    "skipFingerprintCheck": true
+}

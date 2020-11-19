@@ -1,0 +1,12 @@
+{
+    "type": "curse",
+    "common": {
+        "dependencies": {
+            "hammer-lib": "REQUIRED",
+            "thaumcraft": "REQUIRED"
+        }
+    },
+    "projectID": 232564,
+    "fileID": 3102463,
+    "skipFingerprintCheck": true
+}

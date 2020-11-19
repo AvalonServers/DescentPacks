@@ -1,0 +1,13 @@
+{
+    "type": "curse",
+    "common": {
+        "dependencies": {
+            "ae2wtlib": "REQUIRED",
+            "p455w0rds-library": "REQUIRED",
+            "applied-energistics-2": "REQUIRED"
+        }
+    },
+    "projectID": 244559,
+    "fileID": 2830252,
+    "skipFingerprintCheck": true
+}

@@ -1,0 +1,12 @@
+{
+    "type": "curse",
+    "common": {
+        "dependencies": {
+            "thaumcraft": "REQUIRED",
+            "immersive-engineering": "REQUIRED"
+        }
+    },
+    "projectID": 307407,
+    "fileID": 2697745,
+    "skipFingerprintCheck": true
+}

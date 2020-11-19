@@ -1,0 +1,12 @@
+{
+    "type": "curse",
+    "common": {
+        "side": "SERVER",
+        "dependencies": {
+            "shadowfacts-forgelin": "REQUIRED"
+        }
+    },
+    "projectID": 287323,
+    "fileID": 2695256,
+    "skipFingerprintCheck": true
+}

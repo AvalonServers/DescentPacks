@@ -1,0 +1,11 @@
+{
+    "type": "curse",
+    "common": {
+        "dependencies": {
+            "mtlib": "REQUIRED"
+        }
+    },
+    "projectID": 220954,
+    "fileID": 2881277,
+    "skipFingerprintCheck": true
+}

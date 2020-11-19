@@ -1,0 +1,12 @@
+{
+    "type": "curse",
+    "common": {
+        "side": "CLIENT",
+        "dependencies": {
+            "jei": "REQUIRED"
+        }
+    },
+    "projectID": 240630,
+    "fileID": 2728585,
+    "skipFingerprintCheck": true
+}

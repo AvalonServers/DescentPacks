@@ -1,0 +1,12 @@
+{
+    "type": "curse",
+    "common": {
+        "dependencies": {
+            "thaumcraft": "REQUIRED",
+            "baubles": "REQUIRED"
+        }
+    },
+    "projectID": 319441,
+    "fileID": 3089750,
+    "skipFingerprintCheck": true
+}

@@ -1,0 +1,11 @@
+{
+    "type": "curse",
+    "common": {
+        "dependencies": {
+            "chameleon": "REQUIRED"
+        }
+    },
+    "projectID": 223852,
+    "fileID": 2952606,
+    "skipFingerprintCheck": true
+}

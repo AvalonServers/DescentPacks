@@ -1,0 +1,13 @@
+{
+    "type": "curse",
+    "common": {
+        "dependencies": {
+            "mrtjpcore": "REQUIRED",
+            "codechicken-lib-1-8": "REQUIRED",
+            "forge-multipart-cbe": "REQUIRED"
+        }
+    },
+    "projectID": 228702,
+    "fileID": 2745545,
+    "skipFingerprintCheck": true
+}

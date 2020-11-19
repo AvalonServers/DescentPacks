@@ -1,0 +1,15 @@
+{
+    "type": "curse",
+    "common": {
+        "side": "CLIENT",
+        "description": "Caution: Resource heavy. Disabled by default because there are a few render bugs.",
+        "optionalData": {
+        },
+        "dependencies": {
+            "shadowfacts-forgelin": "REQUIRED"
+        }
+    },
+    "projectID": 228529,
+    "fileID": 2852872,
+    "skipFingerprintCheck": true
+}

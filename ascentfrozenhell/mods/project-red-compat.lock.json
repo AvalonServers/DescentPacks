@@ -1,0 +1,12 @@
+{
+    "type": "curse",
+    "common": {
+        "dependencies": {
+            "mrtjpcore": "REQUIRED",
+            "project-red-base": "REQUIRED"
+        }
+    },
+    "projectID": 229050,
+    "fileID": 2745546,
+    "skipFingerprintCheck": true
+}
