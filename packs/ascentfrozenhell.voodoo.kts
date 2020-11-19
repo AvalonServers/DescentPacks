@@ -51,18 +51,18 @@ root<Curse> {
       +ResourcePack.smallGaugeGoodiesForImmersiveRailroading
       +ResourcePack.matoiVanillaPackIr
       withTypeClass(Direct::class).list {
-        +"infraTrainPack" {
+        +"INFRATrainPack" {
           //useUrlTxt = false
           url = "https://thepiguy24.github.io/INFRATrainPack_0005.zip"
           fileName = "INFRATrainPack.zip"
         }
-        +"raefftechNarrowGague" {
-          url = "https://www.dropbox.com/s/kko9x8rixbqnho0/Raefftech_Narrow_Gauge_01.zip?dl=1"
-          fileName = "Raefftech_Narrow_Gauge.zip"
+        +"Raefftech_Railway_Equipment" {
+          url = "https://www.dropbox.com/s/84zxpbzf32u0f2y/Raefftech_Railway_Equipment.zip?dl=1"
+          fileName = "Raefftech_Railway_Equipment.zip"
         }
-        +"fixed-tfl-trains" {
+        +"fixed_tfl_trains" {
           url = "https://skyem.co.uk/files/TFL_Pack_tom23_v100_fixed_4.zip"
-          fileName = "TFL_Pack_tom23_v100.zip"
+          fileName = "fixed_tfl_trains.zip"
         }
       }
     }
