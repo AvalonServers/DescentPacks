@@ -67,6 +67,9 @@ root<Curse> {
       }
     }
 
+    // To replace chisel and bits...
+    +Mod.littletiles
+    
     // This seems to help with TPS problems...
     +Mod.dynamicView
 
