@@ -180,8 +180,10 @@ root<Curse> {
     +Mod.integrationForegoing
     +Mod.colytra
     +Mod.moreplates
-    +Mod.journeymap
+    //+Mod.journeymap
     +Mod.gravestoneMod
+    +Mod.xaerosMinimap
+    +Mod.xaerosWorldMap
 
     +Mod.redstoneArsenal
     +Mod.icbmClassic
