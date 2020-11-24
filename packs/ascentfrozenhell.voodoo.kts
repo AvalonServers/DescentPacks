@@ -367,7 +367,6 @@ root<Curse> {
     group {
       side = Side.SERVER
     }.list {
-      +Mod.matterlink
     }
   }
 }
