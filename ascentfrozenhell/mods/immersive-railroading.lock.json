@@ -2,10 +2,11 @@
     "type": "curse",
     "common": {
         "dependencies": {
-            "track-api": "REQUIRED"
+            "track-api": "REQUIRED",
+            "universal-mod-core": "REQUIRED"
         }
     },
     "projectID": 277736,
-    "fileID": 2913751,
+    "fileID": 3137602,
     "skipFingerprintCheck": true
 }

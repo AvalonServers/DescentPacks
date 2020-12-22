@@ -6,7 +6,7 @@ import voodoo.data.curse.FileType
 mcVersion = "1.12.2"
 title = "Ascent: Frozen Hell"
 authors = listOf("CitadelCore", "Skye", "ThePiGuy24", "NickStalburg", "Raeffi")
-version = "0.0.1"
+version = "0.0.2"
 
 modloader {
   forge(Forge_12_2.mc1_12_2_latest)
@@ -150,8 +150,7 @@ root<Curse> {
     +Mod.thaumicPeriphery
     +Mod.engineeredGolems
     +Mod.expandedArcanum
-
-    +Mod.thaumicCalculations // Thaumic Calculations
+    
     +Mod.thaumicAdditions
 
     // asie
