@@ -249,6 +249,10 @@ root<Curse> {
 
     +Mod.decocraft
 
+    +Mod.trafficControl
+    +Mod.techguns
+    +Mod.worldedit
+
     // Computronics MaryTTS Stuff
     group {
       folder = "marytts"
