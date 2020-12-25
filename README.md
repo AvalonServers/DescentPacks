@@ -1,4 +1,4 @@
-# Descent: Frozen Hell
+# Ascent: Frozen Hell
 This is the pack repository for Descent Frozen Hell, used by Loiste Community, which contains configuration files.
 
 If you intend to modify configuration for this pack, create a pull request.
@@ -9,23 +9,23 @@ Build Status: [![Build Status](https://dev.azure.com/josephmarsden/DescentPacks/
 You can build the pack for testing in two easy steps:
 
 Build/Update the pack \
-`./gradlew descentfrozenhell --args "build"`
+`./gradlew ascentfrozenhell --args "build"`
 
 Run your test instance (MultiMC must be installed): \
-`./gradlew descentfrozenhell --args "test mmc"`
+`./gradlew ascentfrozenhell --args "test mmc"`
 
 Please note if you're not updating mods in the pack (for example to test with new config), there is no need to flatten and lock a new JSON.
 
 Packing for web server upload (Admin use only): \
-`./gradlew descentfrozenhell --args "pack sk"`
+`./gradlew ascentfrozenhell --args "pack sk"`
 
 Packing for Minecraft server upload (Admin use only): \
-`./gradlew descentfrozenhell --args "pack server"`
+`./gradlew ascentfrozenhell --args "pack server"`
 
 You can chain operations with `-`, so for example to rebuild and launch a test instance \
-`./gradlew descentfrozenhell --args "build - test mmc"`
+`./gradlew ascentfrozenhell --args "build - test mmc"`
 or to package for webserver and mc server \
-`./gradlew descentfrozenhell --args "pack sk - pack server"`
+`./gradlew ascentfrozenhell --args "pack sk - pack server"`
 
 ## Development
 
