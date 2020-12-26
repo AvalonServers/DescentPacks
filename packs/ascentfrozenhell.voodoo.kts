@@ -6,7 +6,7 @@ import voodoo.data.curse.FileType
 mcVersion = "1.12.2"
 title = "Ascent: Frozen Hell"
 authors = listOf("CitadelCore", "Skye", "ThePiGuy24", "NickStalburg", "Raeffi")
-version = "0.0.2"
+version = "0.0.3"
 
 modloader {
   forge(Forge_12_2.mc1_12_2_latest)
@@ -26,6 +26,7 @@ pack {
 }
 
 root<Curse> {
+  useUrlTxt = false
   releaseTypes = setOf(FileType.Release, FileType.Beta, FileType.Alpha)
   validMcVersions = setOf("1.12.2", "1.12")
   it.list {
@@ -50,9 +51,10 @@ root<Curse> {
       +ResourcePack.dragonsModernBritish
       +ResourcePack.smallGaugeGoodiesForImmersiveRailroading
       +ResourcePack.matoiVanillaPackIr
+      +ResourcePack.voxelTrainsIr
       withTypeClass(Direct::class).list {
         +"INFRATrainPack" {
-          //useUrlTxt = false
+          useUrlTxt = false
           url = "https://thepiguy24.github.io/INFRATrainPack_0005.zip"
           fileName = "INFRATrainPack.zip"
         }
@@ -183,7 +185,7 @@ root<Curse> {
     //+Mod.xaerosWorldMap
 
     +Mod.redstoneArsenal
-    +Mod.icbmClassic
+    +Mod.icbmClassic // we arent yeeting because it is fun
     +Mod.avaritia110
     +Mod.avaritiaComplement
     +Mod.moreAvaritia
@@ -230,7 +232,7 @@ root<Curse> {
     +Mod.engineersDoors
     +Mod.immersiveFloofs
     +Mod.immersiveposts
-    +Mod.tails // brötherfursed
+    +Mod.tails
     +Mod.justEnoughPetroleum
     +Mod.redstoneGaugesAndSwitches
     +Mod.thaumcraftInventoryScanning
@@ -249,12 +251,19 @@ root<Curse> {
 
     +Mod.decocraft
 
+    +Mod.trafficControl
+    +Mod.techguns
+    +Mod.worldedit
+    +Mod.schematica
+    +Mod.pollutionOfTheRealms
+    +Mod.pollutantPump
+
     // Computronics MaryTTS Stuff
     group {
       folder = "marytts"
     }.list {
       withTypeClass(Direct::class).list {
-        useUrlTxt = true
+        useUrlTxt = false
         +"computronics_maryTTS" {
           url = "http://files.vexatos.com/Computronics/marytts/marytts-runtime-5.2-jar-for-computronics.jar"
         }

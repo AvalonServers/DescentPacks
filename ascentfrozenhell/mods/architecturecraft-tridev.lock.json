@@ -2,5 +2,6 @@
     "type": "curse",
     "projectID": 277631,
     "fileID": 2750633,
+    "useUrlTxt": false,
     "skipFingerprintCheck": true
 }
