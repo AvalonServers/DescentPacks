@@ -1,0 +1,11 @@
+{
+    "type": "curse",
+    "common": {
+        "dependencies": {
+            "forgeendertech": "REQUIRED"
+        }
+    },
+    "projectID": 269973,
+    "fileID": 3106845,
+    "skipFingerprintCheck": true
+}

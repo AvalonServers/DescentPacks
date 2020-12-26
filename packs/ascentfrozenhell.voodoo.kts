@@ -6,7 +6,7 @@ import voodoo.data.curse.FileType
 mcVersion = "1.12.2"
 title = "Ascent: Frozen Hell"
 authors = listOf("CitadelCore", "Skye", "ThePiGuy24", "NickStalburg", "Raeffi")
-version = "0.0.2"
+version = "0.0.3"
 
 modloader {
   forge(Forge_12_2.mc1_12_2_latest)
@@ -50,6 +50,7 @@ root<Curse> {
       +ResourcePack.dragonsModernBritish
       +ResourcePack.smallGaugeGoodiesForImmersiveRailroading
       +ResourcePack.matoiVanillaPackIr
+      +ResourcePack.voxelTrainsIr
       withTypeClass(Direct::class).list {
         +"INFRATrainPack" {
           //useUrlTxt = false
@@ -183,7 +184,7 @@ root<Curse> {
     //+Mod.xaerosWorldMap
 
     +Mod.redstoneArsenal
-    +Mod.icbmClassic
+    +Mod.icbmClassic // we arent yeeting because it is fun
     +Mod.avaritia110
     +Mod.avaritiaComplement
     +Mod.moreAvaritia
@@ -228,9 +229,9 @@ root<Curse> {
     +Mod.engineersDecor
     +Mod.engineersTools
     +Mod.engineersDoors
-    +Mod.immersiveFloofs
+    //+Mod.immersiveFloofs
     +Mod.immersiveposts
-    +Mod.tails // brötherfursed
+    //+Mod.tails // how bout no
     +Mod.justEnoughPetroleum
     +Mod.redstoneGaugesAndSwitches
     +Mod.thaumcraftInventoryScanning
@@ -252,6 +253,9 @@ root<Curse> {
     +Mod.trafficControl
     +Mod.techguns
     +Mod.worldedit
+    +Mod.schematica
+    +Mod.pollutionOfTheRealms
+    +Mod.pollutantPump
 
     // Computronics MaryTTS Stuff
     group {
