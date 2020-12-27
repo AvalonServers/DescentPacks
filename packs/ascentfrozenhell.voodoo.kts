@@ -258,6 +258,11 @@ root<Curse> {
     //+Mod.pollutionOfTheRealms
     //+Mod.pollutantPump
 
+
+    // Weather
+	+Mod.weatherStormsTornadoes
+	
+
     // Computronics MaryTTS Stuff
     group {
       folder = "marytts"

@@ -1,0 +1,12 @@
+{
+    "type": "curse",
+    "common": {
+        "dependencies": {
+            "coroutil": "REQUIRED"
+        }
+    },
+    "projectID": 237746,
+    "fileID": 2596867,
+    "useUrlTxt": false,
+    "skipFingerprintCheck": true
+}
