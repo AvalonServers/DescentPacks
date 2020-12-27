@@ -254,8 +254,8 @@ root<Curse> {
     +Mod.techguns
     +Mod.worldedit
     +Mod.schematica
-    +Mod.pollutionOfTheRealms
-    +Mod.pollutantPump
+    //+Mod.pollutionOfTheRealms
+    //+Mod.pollutantPump
 
     // Computronics MaryTTS Stuff
     group {
