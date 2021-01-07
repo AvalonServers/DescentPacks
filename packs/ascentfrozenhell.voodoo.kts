@@ -262,9 +262,7 @@ root<Curse> {
     // Weather
 	+Mod.weatherStormsTornadoes
 	
-	// Recurrent Complex Utility
-	+Mod.recurrentComplex
-	
+
     // Computronics MaryTTS Stuff
     group {
       folder = "marytts"
