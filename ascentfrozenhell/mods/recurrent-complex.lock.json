@@ -2,11 +2,11 @@
     "type": "curse",
     "common": {
         "dependencies": {
-            "immersive-engineering": "REQUIRED"
+            "ivtoolkit": "REQUIRED"
         }
     },
-    "projectID": 359407,
-    "fileID": 3153874,
+    "projectID": 223150,
+    "fileID": 2689602,
     "useUrlTxt": false,
     "skipFingerprintCheck": true
 }
