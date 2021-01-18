@@ -1,0 +1,35 @@
+{ // custom intermediary format, subject to change
+	"info": {
+		"mcVersion": "1.12.2",
+		"packVersion": "0.0.4",
+		"authors": [
+			"skye",
+			"ThePiGuy24"
+		],
+		"modloader": "forge/14.23.5.2854"
+	},
+	"mods": {
+		"both": [ // you can just have comments whereever you like :p
+			"curseforge/booster-rockets",
+			"curseforge/effortless-building",
+			"curseforge/onlinepictureframe",
+			"curseforge/advanced-chimneys",
+			"curseforge/immersive-railroading",
+			{
+				"mod": "curseforge.resourcepack/dragons-modern-british", // note the resourcepack
+				"location": "config/immersiverailroading"
+			},
+			{
+				"mod": "direct/https://thepiguy24.github.io/INFRATrainPack_0005.zip",
+				"location": "config/immersiverailroading",
+				"filename": "INFRATrainPack.zip" // optional
+			}
+		],
+		"client": [
+		],
+		"server": [
+		],
+		"optional": [
+		]
+	}
+}

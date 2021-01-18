@@ -1,0 +1,14 @@
+{
+    "id": "ascentfrozenhell",
+    "mcVersion": "1.12.2",
+    "modloader": {
+        "type": "Forge",
+        "mcVersion": "1.12.2",
+        "forgeVersion": "14.23.5.2855"
+    },
+    "version": "0.0.1",
+    "icon": "icon_ascentfrozenhell.png",
+    "packOptions": {
+        "uploadUrl": "https://mydomain.com/mc/ascentfrozenhell"
+    }
+}
