@@ -7,7 +7,7 @@ if len(sys.argv) < 3:
 	quit()
 
 infile = sys.argv[1]
-outfile = sys.argv[2]
+outdir = sys.argv[2]
 
 infiled = ""
 with open(infile, "r") as injson:
@@ -78,7 +78,7 @@ for rems in reversed(remsec):
 
 jinfile = json.loads(ninfile)
 
-print(json.dumps(jinfile, indent = 4))
+#print(json.dumps(jinfile, indent = 4))
 
 ininfo = jinfile["info"]
 inmods = jinfile["mods"]
@@ -88,32 +88,90 @@ mlinfo = ininfo["modloader"].split("/")
 output = {
 	"$schema": "../schema/versionPack.schema.json",
 	"version": ininfo["packVersion"],
-	"srcDir": "src", # sort this out later
+	"srcDir": ininfo["packSource"],
 	"mcVersion": ininfo["mcVersion"],
-	"modLoader": {
+	"modloader": {
 		"type": "modloader." + mlinfo[0],
 		"version": mlinfo[0][0].upper()+mlinfo[0][1:]+"_"+ininfo["mcVersion"].split(".",1)[1].replace(".","_")+"/"+ininfo["mcVersion"]+"/"+mlinfo[1] # no idea how this will work with fabric as it doesnt seem to be implemented yet
 	},
-	"mods": { # here we go with the spicy part
-	}
+	"mods": [ # here we go with the spicy part
+	]
 }
 
-for mod in inmods["both"]:
-	if type(mod) == str:
-		mtype, mid = mod.split("/",1)
-		saveloc = None
-		savename = None
-	elif type(mod) == dict:
-		mtype, mid = mod["mod"].split("/",1)
-		if "location" in mod:
-			saveloc = mod["location"]
-		else:
-			saveloc = None
-		if "filename" in mod:
-			savename = mod["filename"]
-		else:
-			savename = None
-	#print(mtype, mid, saveloc, savename)
+outmeta = {
+	"$schema": "../schema/metaPack.schema.json",
+	"title": ininfo["packName"],
+	"authors": ininfo["packAuthors"],
+	"icon": ininfo["packIcon"],
+	"uploadBaseUrl": ininfo["packUrl"]
+}
 
-print("\n")
-print(json.dumps(output, indent=4))
+for modcat in inmods:
+	for mod in inmods[modcat]:
+		if type(mod) == str:
+			mtype, mid = mod.split("/",1)
+			saveloc = None
+			savename = None
+			description = None
+		elif type(mod) == dict:
+			mtype, mid = mod["mod"].split("/",1)
+			if "location" in mod:
+				saveloc = mod["location"]
+			else:
+				saveloc = None
+			if "filename" in mod:
+				savename = mod["filename"]
+			else:
+				savename = None
+			if "description" in mod:
+				description = mod["description"]
+			else:
+				description = None
+		if "." in mtype:
+			mtype, rtype = mtype.split(".",1)
+		else:
+			rtype = None
+		if mtype == "curseforge":
+			output["mods"].append({
+				"type": "curse",
+				"projectName": mlinfo[0][0].upper()+mlinfo[0][1:]+"/"+mid
+			})
+		elif mtype == "direct":
+			output["mods"].append({
+				"type": "direct",
+				"url": mid # i hope this is correct
+			})
+		elif mtype == "jenkins":
+			output["mods"].append({
+				"type": "jenkins",
+				"job": mod["job"]
+			})
+		else:
+			output["mods"].append({
+				"type": "noop",
+				"description": "unknown type: "+mtype+" ("+mid+")."
+			})
+		if saveloc:
+			output["mods"][-1]["folder"] = saveloc
+		if savename:
+			output["mods"][-1]["fileName"] = savename
+		if description:
+			output["mods"][-1]["description"] = description
+		if modcat == "client":
+			output["mods"][-1]["side"] = 0b01
+		elif modcat == "server":
+			output["mods"][-1]["side"] = 0b10
+		elif modcat == "optional":
+			output["mods"][-1]["side"] = 0b01
+			output["mods"][-1]["optional"] = True # this doesnt appear to be correct syntax but i cant find a good example of what is as kotlin and the schemas are confusing
+		#print(mtype, mid, saveloc, savename)
+
+#print(json.dumps(output, indent=4))
+#print("\n")
+#print(json.dumps(outmeta, indent=4))
+
+with open(outdir+"/modpack.meta.json", "w") as of:
+	of.write(json.dumps(outmeta, indent=4))
+
+with open(outdir+"/v"+ininfo["packVersion"]+".voodoo.json", "w") as of:
+	of.write(json.dumps(output, indent=4))

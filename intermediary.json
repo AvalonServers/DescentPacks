@@ -1,11 +1,15 @@
 { // custom intermediary format, subject to change
 	"info": {
-		"mcVersion": "1.12.2",
+		"packName": "Ascent Frozen Hell",
 		"packVersion": "0.0.4",
-		"authors": [
+		"packSource": "src",
+		"packIcon": "icon_ascentfrozenhell.png",
+		"packUrl": "https://mydomain.com/mc/",
+		"packAuthors": [
 			"skye",
 			"ThePiGuy24"
 		],
+		"mcVersion": "1.12.2",
 		"modloader": "forge/14.23.5.2854"
 	},
 	"mods": {
@@ -15,6 +19,10 @@
 			"curseforge/onlinepictureframe",
 			"curseforge/advanced-chimneys",
 			"curseforge/immersive-railroading",
+			{
+				"mod": "jenkins/https://ci.cil.li/",
+				"job": "OpenComputers-MC1.12"
+			},
 			{
 				"mod": "curseforge.resourcepack/dragons-modern-british", // note the resourcepack
 				"location": "config/immersiverailroading"
@@ -29,7 +37,8 @@
 		],
 		"server": [
 		],
-		"optional": [
+		"optional": [ // optional are disregarded on the server because they just are and i dont think anyone uses them on the server
+			"curseforge/faster-ladder-climbing"
 		]
 	}
 }

@@ -1,0 +1,10 @@
+{
+    "$schema": "../schema/metaPack.schema.json",
+    "title": "Ascent Frozen Hell",
+    "authors": [
+        "skye",
+        "ThePiGuy24"
+    ],
+    "icon": "icon_ascentfrozenhell.png",
+    "uploadBaseUrl": "https://mydomain.com/mc/"
+}
