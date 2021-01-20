@@ -8,4 +8,4 @@ Preprocessor usage:
 Use python 3  
   
 Voodoo usage:  
-idk yet
+`./voodoo compile <pack file (not the unprocessed intermediary)>`

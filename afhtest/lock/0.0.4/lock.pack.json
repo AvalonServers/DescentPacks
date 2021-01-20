@@ -1,0 +1,108 @@
+{
+    "id": "afhtest",
+    "mcVersion": "1.12.2",
+    "modloader": {
+        "type": "Forge",
+        "mcVersion": "1.12.2",
+        "forgeVersion": "14.23.5.2854"
+    },
+    "version": "0.0.4",
+    "icon": "icon_ascentfrozenhell.png",
+    "packOptions": {
+        "uploadUrl": "https://mydomain.com/mc/afhtest"
+    },
+    "entries": [
+        {
+            "type": "direct",
+            "id": "INFRATrainPack",
+            "path": "config/immersiverailroading",
+            "fileName": "INFRATrainPack.zip",
+            "url": "https://thepiguy24.github.io/INFRATrainPack_0005.zip"
+        },
+        {
+            "type": "curse",
+            "id": "advanced-chimneys",
+            "path": "mods",
+            "name": "advanced-chimneys",
+            "dependencies": {
+                "forgeendertech": "REQUIRED"
+            },
+            "projectID": 244830,
+            "fileID": 3112419
+        },
+        {
+            "type": "curse",
+            "id": "booster-rockets",
+            "path": "mods",
+            "name": "booster-rockets",
+            "projectID": 255639,
+            "fileID": 2501831
+        },
+        {
+            "type": "curse",
+            "id": "dragons-modern-british",
+            "path": "config/immersiverailroading",
+            "name": "dragons-modern-british",
+            "projectID": 367886,
+            "fileID": 3016197
+        },
+        {
+            "type": "curse",
+            "id": "effortless-building",
+            "path": "mods",
+            "name": "effortless-building",
+            "projectID": 302113,
+            "fileID": 2847346
+        },
+        {
+            "type": "curse",
+            "id": "faster-ladder-climbing",
+            "path": "mods",
+            "name": "faster-ladder-climbing",
+            "side": "CLIENT",
+            "optionalData": {
+            },
+            "projectID": 258881,
+            "fileID": 2512758
+        },
+        {
+            "type": "curse",
+            "id": "immersive-railroading",
+            "path": "mods",
+            "name": "immersive-railroading",
+            "dependencies": {
+                "track-api": "REQUIRED",
+                "universal-mod-core": "REQUIRED"
+            },
+            "projectID": 277736,
+            "fileID": 3137602
+        },
+        {
+            "type": "curse",
+            "id": "matoi-vanilla-pack-ir",
+            "path": "config/immersiverailroading",
+            "name": "matoi-vanilla-pack-ir",
+            "projectID": 349491,
+            "fileID": 3084015
+        },
+        {
+            "type": "curse",
+            "id": "onlinepictureframe",
+            "path": "mods",
+            "name": "onlinepictureframe",
+            "dependencies": {
+                "creativecore": "REQUIRED"
+            },
+            "projectID": 257815,
+            "fileID": 3047154
+        },
+        {
+            "type": "jenkins",
+            "id": "opencomputers",
+            "path": "mods",
+            "jenkinsUrl": "https://ci.cil.li/",
+            "job": "OpenComputers-MC1.12",
+            "buildNumber": 213
+        }
+    ]
+}

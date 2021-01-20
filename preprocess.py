@@ -3,7 +3,7 @@ import sys, json, time
 # arg1: input file, arg2: output folder
 
 if len(sys.argv) < 3:
-	print("preprocess.py <input file> <output file>\n")
+	print("preprocess.py <input file> <output folder>\n")
 	quit()
 
 infile = sys.argv[1]
@@ -132,20 +132,39 @@ for modcat in inmods:
 		else:
 			rtype = None
 		if mtype == "curseforge":
-			output["mods"].append({
-				"type": "curse",
-				"projectName": mlinfo[0][0].upper()+mlinfo[0][1:]+"/"+mid
-			})
+			if rtype == "resourcepack":
+				output["mods"].append({
+					"type": "curse",
+					"projectName": "Resourcepack/"+mid
+				})
+			else:
+				output["mods"].append({
+					"type": "curse",
+					"projectName": "Forge/"+mid
+				})
 		elif mtype == "direct":
 			output["mods"].append({
 				"type": "direct",
-				"url": mid # i hope this is correct
+				"directProperties": {
+					"url": mid
+				}
 			})
+			if "id" in mod:
+				output["mods"][-1]["id"] = mod["id"]
+			else:
+				output["mods"][-1]["id"] = mid.rsplit(".",1)[0].lower().replace("-","_").replace(".","_")
 		elif mtype == "jenkins":
 			output["mods"].append({
 				"type": "jenkins",
-				"job": mod["job"]
+				"jenkinsProperties": {
+					"jenkinsUrl": mid,
+					"job": mod["job"]
+				}
 			})
+			if "id" in mod:
+				output["mods"][-1]["id"] = mod["id"]
+			else:
+				output["mods"][-1]["id"] = mod["job"].lower().replace("-","_").replace(".","_")
 		else:
 			output["mods"].append({
 				"type": "noop",
@@ -158,12 +177,14 @@ for modcat in inmods:
 		if description:
 			output["mods"][-1]["description"] = description
 		if modcat == "client":
-			output["mods"][-1]["side"] = 0b01
+			output["mods"][-1]["side"] = "CLIENT"
 		elif modcat == "server":
-			output["mods"][-1]["side"] = 0b10
+			output["mods"][-1]["side"] = "SERVER"
 		elif modcat == "optional":
-			output["mods"][-1]["side"] = 0b01
-			output["mods"][-1]["optional"] = True # this doesnt appear to be correct syntax but i cant find a good example of what is as kotlin and the schemas are confusing
+			output["mods"][-1]["side"] = "CLIENT"
+			output["mods"][-1]["optional"] = {
+				"selected": False
+			}
 		#print(mtype, mid, saveloc, savename)
 
 #print(json.dumps(output, indent=4))

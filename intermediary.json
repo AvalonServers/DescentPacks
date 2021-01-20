@@ -21,7 +21,12 @@
 			"curseforge/immersive-railroading",
 			{
 				"mod": "jenkins/https://ci.cil.li/",
-				"job": "OpenComputers-MC1.12"
+				"job": "OpenComputers-MC1.12",
+				"id": "opencomputers"
+			},
+			{
+				"mod": "curseforge.resourcepack/matoi-vanilla-pack-ir",
+				"location": "config/immersiverailroading"
 			},
 			{
 				"mod": "curseforge.resourcepack/dragons-modern-british", // note the resourcepack
@@ -30,7 +35,8 @@
 			{
 				"mod": "direct/https://thepiguy24.github.io/INFRATrainPack_0005.zip",
 				"location": "config/immersiverailroading",
-				"filename": "INFRATrainPack.zip" // optional
+				"filename": "INFRATrainPack.zip", // optional
+				"id": "INFRATrainPack"
 			}
 		],
 		"client": [

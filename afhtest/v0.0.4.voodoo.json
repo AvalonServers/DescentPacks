@@ -30,24 +30,38 @@
         },
         {
             "type": "jenkins",
-            "job": "OpenComputers-MC1.12"
+            "jenkinsProperties": {
+                "jenkinsUrl": "https://ci.cil.li/",
+                "job": "OpenComputers-MC1.12"
+            },
+            "id": "opencomputers"
         },
         {
             "type": "curse",
-            "projectName": "Forge/dragons-modern-british",
+            "projectName": "Resourcepack/matoi-vanilla-pack-ir",
+            "folder": "config/immersiverailroading"
+        },
+        {
+            "type": "curse",
+            "projectName": "Resourcepack/dragons-modern-british",
             "folder": "config/immersiverailroading"
         },
         {
             "type": "direct",
-            "url": "https://thepiguy24.github.io/INFRATrainPack_0005.zip",
+            "directProperties": {
+                "url": "https://thepiguy24.github.io/INFRATrainPack_0005.zip"
+            },
+            "id": "INFRATrainPack",
             "folder": "config/immersiverailroading",
             "fileName": "INFRATrainPack.zip"
         },
         {
             "type": "curse",
             "projectName": "Forge/faster-ladder-climbing",
-            "side": 1,
-            "optional": true
+            "side": "CLIENT",
+            "optional": {
+                "selected": false
+            }
         }
     ]
 }

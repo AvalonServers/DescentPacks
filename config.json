@@ -6,6 +6,12 @@
 			"mcVersions": [
 				"1.12", "1.12.1", "1.12.2"
 			]
+		},
+		"Resourcepack": {
+			"section": "RESOURCE_PACKS",
+			"mcVersions": [
+				"1.12", "1.12.1", "1.12.2"
+			]
 		}
     },
     "forgeGenerators": {
