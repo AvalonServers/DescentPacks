@@ -20,6 +20,13 @@
             "url": "https://thepiguy24.github.io/INFRATrainPack_0005.zip"
         },
         {
+            "type": "direct",
+            "id": "Raefftech_Railway_Equipment",
+            "path": "config/immersiverailroading",
+            "fileName": "Raefftech_Railway_Equipment.zip",
+            "url": "https://www.dropbox.com/s/84zxpbzf32u0f2y/Raefftech_Railway_Equipment.zip?dl=1"
+        },
+        {
             "type": "curse",
             "id": "advanced-chimneys",
             "path": "mods",
@@ -32,11 +39,299 @@
         },
         {
             "type": "curse",
+            "id": "alternating-flux",
+            "path": "mods",
+            "name": "alternating-flux",
+            "dependencies": {
+                "immersive-engineering": "REQUIRED"
+            },
+            "projectID": 285135,
+            "fileID": 2693578
+        },
+        {
+            "type": "curse",
+            "id": "applied-energistics-2",
+            "path": "mods",
+            "name": "applied-energistics-2",
+            "projectID": 223794,
+            "fileID": 2747063
+        },
+        {
+            "type": "curse",
+            "id": "architecturecraft-tridev",
+            "path": "mods",
+            "name": "architecturecraft-tridev",
+            "projectID": 277631,
+            "fileID": 2750633
+        },
+        {
+            "type": "curse",
+            "id": "autoreglib",
+            "path": "mods",
+            "name": "autoreglib",
+            "projectID": 250363,
+            "fileID": 2746011
+        },
+        {
+            "type": "curse",
+            "id": "avaritia-1-10",
+            "path": "mods",
+            "name": "avaritia-1-10",
+            "dependencies": {
+                "codechicken-lib-1-8": "REQUIRED"
+            },
+            "projectID": 261348,
+            "fileID": 3143349
+        },
+        {
+            "type": "curse",
+            "id": "avaritia-complement",
+            "path": "mods",
+            "name": "avaritia-complement",
+            "dependencies": {
+                "avaritia-1-10": "REQUIRED"
+            },
+            "projectID": 323553,
+            "fileID": 2997023
+        },
+        {
+            "type": "curse",
+            "id": "baubles",
+            "path": "mods",
+            "name": "baubles",
+            "projectID": 227083,
+            "fileID": 2518667
+        },
+        {
+            "type": "curse",
+            "id": "better-builders-wands",
+            "path": "mods",
+            "name": "better-builders-wands",
+            "projectID": 238403,
+            "fileID": 2691084
+        },
+        {
+            "type": "curse",
+            "id": "better-foliage",
+            "path": "mods",
+            "name": "better-foliage",
+            "side": "CLIENT",
+            "description": "Caution: Resource heavy. Disabled by default because there are a few render bugs.",
+            "optionalData": {
+            },
+            "dependencies": {
+                "shadowfacts-forgelin": "REQUIRED"
+            },
+            "projectID": 228529,
+            "fileID": 2852872
+        },
+        {
+            "type": "curse",
+            "id": "biomes-o-plenty",
+            "path": "mods",
+            "name": "biomes-o-plenty",
+            "projectID": 220318,
+            "fileID": 2842510
+        },
+        {
+            "type": "curse",
             "id": "booster-rockets",
             "path": "mods",
             "name": "booster-rockets",
             "projectID": 255639,
             "fileID": 2501831
+        },
+        {
+            "type": "curse",
+            "id": "catwalks-4",
+            "path": "mods",
+            "name": "catwalks-4",
+            "projectID": 296851,
+            "fileID": 2936858
+        },
+        {
+            "type": "curse",
+            "id": "chameleon",
+            "path": "mods",
+            "name": "chameleon",
+            "projectID": 230497,
+            "fileID": 2450900
+        },
+        {
+            "type": "curse",
+            "id": "charset-block-carrying",
+            "path": "mods",
+            "name": "charset-block-carrying",
+            "dependencies": {
+                "charset-lib": "REQUIRED"
+            },
+            "projectID": 284654,
+            "fileID": 2754599
+        },
+        {
+            "type": "curse",
+            "id": "charset-immersion",
+            "path": "mods",
+            "name": "charset-immersion",
+            "dependencies": {
+                "charset-lib": "REQUIRED"
+            },
+            "projectID": 291374,
+            "fileID": 2745007
+        },
+        {
+            "type": "curse",
+            "id": "charset-lib",
+            "path": "mods",
+            "name": "charset-lib",
+            "projectID": 284523,
+            "fileID": 3066682
+        },
+        {
+            "type": "curse",
+            "id": "charset-storage-locks",
+            "path": "mods",
+            "name": "charset-storage-locks",
+            "dependencies": {
+                "charset-lib": "REQUIRED"
+            },
+            "projectID": 285358,
+            "fileID": 2816634
+        },
+        {
+            "type": "curse",
+            "id": "charset-tablet",
+            "path": "mods",
+            "name": "charset-tablet",
+            "dependencies": {
+                "charset-lib": "REQUIRED"
+            },
+            "projectID": 285310,
+            "fileID": 2745004
+        },
+        {
+            "type": "curse",
+            "id": "charset-tools",
+            "path": "mods",
+            "name": "charset-tools",
+            "projectID": 301054,
+            "fileID": 2745010
+        },
+        {
+            "type": "curse",
+            "id": "charset-tweaks",
+            "path": "mods",
+            "name": "charset-tweaks",
+            "dependencies": {
+                "charset-lib": "REQUIRED"
+            },
+            "projectID": 285363,
+            "fileID": 2745327
+        },
+        {
+            "type": "curse",
+            "id": "charsetpatches",
+            "path": "mods",
+            "name": "charsetpatches",
+            "dependencies": {
+                "charset-lib": "REQUIRED"
+            },
+            "projectID": 278527,
+            "fileID": 2748288
+        },
+        {
+            "type": "curse",
+            "id": "chisel",
+            "path": "mods",
+            "name": "chisel",
+            "dependencies": {
+                "ctm": "REQUIRED"
+            },
+            "projectID": 235279,
+            "fileID": 2915375
+        },
+        {
+            "type": "curse",
+            "id": "climate-control-geographicraft",
+            "path": "mods",
+            "name": "climate-control-geographicraft",
+            "projectID": 76544,
+            "fileID": 2497541
+        },
+        {
+            "type": "curse",
+            "id": "codechicken-lib-1-8",
+            "path": "mods",
+            "name": "codechicken-lib-1-8",
+            "projectID": 242818,
+            "fileID": 2779848
+        },
+        {
+            "type": "curse",
+            "id": "cofh-core",
+            "path": "mods",
+            "name": "cofh-core",
+            "projectID": 69162,
+            "fileID": 2920433
+        },
+        {
+            "type": "curse",
+            "id": "cofh-world",
+            "path": "mods",
+            "name": "cofh-world",
+            "projectID": 271384,
+            "fileID": 2920434
+        },
+        {
+            "type": "curse",
+            "id": "colytra",
+            "path": "mods",
+            "name": "colytra",
+            "projectID": 280200,
+            "fileID": 2828877
+        },
+        {
+            "type": "local",
+            "id": "compuronics_maryTTS_english_voice",
+            "path": "marytts",
+            "fileSrc": "voice-dfki-prudence-hsmm-5.2.jar"
+        },
+        {
+            "type": "direct",
+            "id": "computronics",
+            "path": "mods",
+            "url": "http://files.vexatos.com/Computronics/Computronics-1.12.2-1.6.6.jar"
+        },
+        {
+            "type": "direct",
+            "id": "computronics_maryTTS",
+            "path": "marytts",
+            "url": "http://files.vexatos.com/Computronics/marytts/marytts-runtime-5.2-jar-for-computronics.jar"
+        },
+        {
+            "type": "direct",
+            "id": "computronics_maryTTS_english_language",
+            "path": "marytts",
+            "url": "https://files.vexatos.com/Computronics/marytts/marytts-lang-en-5.2.jar"
+        },
+        {
+            "type": "curse",
+            "id": "crafttweaker",
+            "path": "mods",
+            "name": "crafttweaker",
+            "projectID": 239197,
+            "fileID": 3170823
+        },
+        {
+            "type": "curse",
+            "id": "decocraft",
+            "path": "mods",
+            "name": "decocraft",
+            "dependencies": {
+                "ptrlib": "REQUIRED"
+            },
+            "projectID": 79616,
+            "fileID": 2777813
         },
         {
             "type": "curse",
@@ -48,6 +343,42 @@
         },
         {
             "type": "curse",
+            "id": "dynamic-lights",
+            "path": "mods",
+            "name": "dynamic-lights",
+            "side": "CLIENT",
+            "description": "Caution: Resource heavy. Turn this off if your computer isn't powerful enough.",
+            "optionalData": {
+            },
+            "projectID": 227874,
+            "fileID": 2563244
+        },
+        {
+            "type": "curse",
+            "id": "dynamic-surroundings",
+            "path": "mods",
+            "name": "dynamic-surroundings",
+            "side": "CLIENT",
+            "description": "Caution: Resource heavy. Quite nice, has a lot of configurable features that add immersive sound/visual effects. Includes light-level overlay. (Defaults set to remove some sounds and generally be better.)",
+            "optionalData": {
+            },
+            "dependencies": {
+                "orelib": "REQUIRED",
+                "mixinbootstrap": "REQUIRED"
+            },
+            "projectID": 238891,
+            "fileID": 3098835
+        },
+        {
+            "type": "curse",
+            "id": "dynamic-view",
+            "path": "mods",
+            "name": "dynamic-view",
+            "projectID": 366140,
+            "fileID": 2898681
+        },
+        {
+            "type": "curse",
             "id": "effortless-building",
             "path": "mods",
             "name": "effortless-building",
@@ -56,14 +387,212 @@
         },
         {
             "type": "curse",
+            "id": "ender-io",
+            "path": "mods",
+            "name": "ender-io",
+            "dependencies": {
+                "endercore": "REQUIRED"
+            },
+            "projectID": 64578,
+            "fileID": 3124452
+        },
+        {
+            "type": "curse",
+            "id": "ender-io-endergy",
+            "path": "mods",
+            "name": "ender-io-endergy",
+            "projectID": 304346,
+            "fileID": 3124450
+        },
+        {
+            "type": "curse",
+            "id": "engineered-golems",
+            "path": "mods",
+            "name": "engineered-golems",
+            "dependencies": {
+                "thaumcraft": "REQUIRED",
+                "immersive-engineering": "REQUIRED"
+            },
+            "projectID": 307407,
+            "fileID": 2697745
+        },
+        {
+            "type": "curse",
+            "id": "engineers-decor",
+            "path": "mods",
+            "name": "engineers-decor",
+            "projectID": 313866,
+            "fileID": 3033266
+        },
+        {
+            "type": "curse",
+            "id": "engineers-doors",
+            "path": "mods",
+            "name": "engineers-doors",
+            "dependencies": {
+                "immersive-engineering": "REQUIRED"
+            },
+            "projectID": 291126,
+            "fileID": 3023901
+        },
+        {
+            "type": "curse",
+            "id": "engineers-tools",
+            "path": "mods",
+            "name": "engineers-tools",
+            "projectID": 319716,
+            "fileID": 2858835
+        },
+        {
+            "type": "curse",
+            "id": "expanded-arcanum",
+            "path": "mods",
+            "name": "expanded-arcanum",
+            "dependencies": {
+                "thaumcraft": "REQUIRED"
+            },
+            "projectID": 301722,
+            "fileID": 2609701
+        },
+        {
+            "type": "curse",
+            "id": "extra-utilities",
+            "path": "mods",
+            "name": "extra-utilities",
+            "projectID": 225561,
+            "fileID": 2678374
+        },
+        {
+            "type": "curse",
+            "id": "extracells2",
+            "path": "mods",
+            "name": "extracells2",
+            "dependencies": {
+                "applied-energistics-2": "REQUIRED"
+            },
+            "projectID": 229218,
+            "fileID": 2855967
+        },
+        {
+            "type": "curse",
+            "id": "fancy-block-particles",
+            "path": "mods",
+            "name": "fancy-block-particles",
+            "side": "CLIENT",
+            "description": "Caution: Resource heavy. Adds some flair to particle effects and animations. Highly configurable, costs fps. (Defaults set to be less intrusive.)",
+            "optionalData": {
+            },
+            "projectID": 254441,
+            "fileID": 2632107
+        },
+        {
+            "type": "curse",
             "id": "faster-ladder-climbing",
             "path": "mods",
             "name": "faster-ladder-climbing",
             "side": "CLIENT",
+            "description": "Helps you control ladder climb speed and allows you to go a bit faster.",
             "optionalData": {
+                "selected": true,
+                "recommendation": "starred"
             },
             "projectID": 258881,
             "fileID": 2512758
+        },
+        {
+            "type": "direct",
+            "id": "fixed_tfl_trains",
+            "path": "config/immersiverailroading",
+            "fileName": "fixed_tfl_trains.zip",
+            "url": "https://skyem.co.uk/files/TFL_Pack_tom23_v100_fixed_4.zip"
+        },
+        {
+            "type": "curse",
+            "id": "foamfix-optimization-mod",
+            "path": "mods",
+            "name": "foamfix-optimization-mod",
+            "projectID": 278494,
+            "fileID": 3137883
+        },
+        {
+            "type": "curse",
+            "id": "forge-multipart-cbe",
+            "path": "mods",
+            "name": "forge-multipart-cbe",
+            "dependencies": {
+                "codechicken-lib-1-8": "REQUIRED"
+            },
+            "projectID": 258426,
+            "fileID": 2755790
+        },
+        {
+            "type": "curse",
+            "id": "gravestone-mod",
+            "path": "mods",
+            "name": "gravestone-mod",
+            "projectID": 238551,
+            "fileID": 2744766
+        },
+        {
+            "type": "curse",
+            "id": "icbm-classic",
+            "path": "mods",
+            "name": "icbm-classic",
+            "projectID": 244451,
+            "fileID": 2918052
+        },
+        {
+            "type": "curse",
+            "id": "immersive-cables",
+            "path": "mods",
+            "name": "immersive-cables",
+            "dependencies": {
+                "immersive-engineering": "REQUIRED"
+            },
+            "projectID": 283992,
+            "fileID": 2595013
+        },
+        {
+            "type": "curse",
+            "id": "immersive-engineering",
+            "path": "mods",
+            "name": "immersive-engineering",
+            "projectID": 231951,
+            "fileID": 2974106
+        },
+        {
+            "type": "curse",
+            "id": "immersive-floofs",
+            "path": "mods",
+            "name": "immersive-floofs",
+            "dependencies": {
+                "tails": "REQUIRED",
+                "immersive-engineering": "REQUIRED"
+            },
+            "projectID": 250718,
+            "fileID": 2606613
+        },
+        {
+            "type": "curse",
+            "id": "immersive-intelligence",
+            "path": "mods",
+            "name": "immersive-intelligence",
+            "dependencies": {
+                "immersive-engineering": "REQUIRED"
+            },
+            "projectID": 344344,
+            "fileID": 2944142
+        },
+        {
+            "type": "curse",
+            "id": "immersive-petroleum",
+            "path": "mods",
+            "name": "immersive-petroleum",
+            "dependencies": {
+                "immersive-engineering": "REQUIRED"
+            },
+            "projectID": 268250,
+            "fileID": 2544919
         },
         {
             "type": "curse",
@@ -79,11 +608,226 @@
         },
         {
             "type": "curse",
+            "id": "immersiveposts",
+            "path": "mods",
+            "name": "immersiveposts",
+            "dependencies": {
+                "immersive-engineering": "REQUIRED"
+            },
+            "projectID": 314645,
+            "fileID": 2951672
+        },
+        {
+            "type": "curse",
+            "id": "industrial-foregoing",
+            "path": "mods",
+            "name": "industrial-foregoing",
+            "dependencies": {
+                "tesla-core-lib": "REQUIRED"
+            },
+            "projectID": 266515,
+            "fileID": 2745321
+        },
+        {
+            "type": "curse",
+            "id": "industrial-wires",
+            "path": "mods",
+            "name": "industrial-wires",
+            "dependencies": {
+                "immersive-engineering": "REQUIRED"
+            },
+            "projectID": 251121,
+            "fileID": 2664750
+        },
+        {
+            "type": "curse",
+            "id": "integration-foregoing",
+            "path": "mods",
+            "name": "integration-foregoing",
+            "dependencies": {
+                "gunpowderlib": "REQUIRED",
+                "industrial-foregoing": "REQUIRED"
+            },
+            "projectID": 277938,
+            "fileID": 2904594
+        },
+        {
+            "type": "curse",
+            "id": "inventory-tweaks",
+            "path": "mods",
+            "name": "inventory-tweaks",
+            "projectID": 223094,
+            "fileID": 2482481
+        },
+        {
+            "type": "curse",
+            "id": "jei",
+            "path": "mods",
+            "name": "jei",
+            "projectID": 238222,
+            "fileID": 3043174
+        },
+        {
+            "type": "curse",
+            "id": "journeymap",
+            "path": "mods",
+            "name": "journeymap",
+            "projectID": 32274,
+            "fileID": 2916002
+        },
+        {
+            "type": "curse",
+            "id": "just-enough-petroleum",
+            "path": "mods",
+            "name": "just-enough-petroleum",
+            "dependencies": {
+                "immersive-petroleum": "REQUIRED"
+            },
+            "projectID": 291727,
+            "fileID": 2549332
+        },
+        {
+            "type": "curse",
+            "id": "laggoggles",
+            "path": "mods",
+            "name": "laggoggles",
+            "description": "***Admin/diagnostic tool. Leave off unless asked to help test performance issues.",
+            "optionalData": {
+            },
+            "dependencies": {
+                "tickcentral": "REQUIRED"
+            },
+            "projectID": 283525,
+            "fileID": 2947622
+        },
+        {
+            "type": "curse",
+            "id": "littletiles",
+            "path": "mods",
+            "name": "littletiles",
+            "dependencies": {
+                "creativecore": "REQUIRED"
+            },
+            "projectID": 257818,
+            "fileID": 3178353
+        },
+        {
+            "type": "curse",
             "id": "matoi-vanilla-pack-ir",
             "path": "config/immersiverailroading",
             "name": "matoi-vanilla-pack-ir",
             "projectID": 349491,
             "fileID": 3084015
+        },
+        {
+            "type": "curse",
+            "id": "mct-immersive-technology",
+            "path": "mods",
+            "name": "mct-immersive-technology",
+            "dependencies": {
+                "immersive-engineering": "REQUIRED"
+            },
+            "projectID": 359407,
+            "fileID": 3162436
+        },
+        {
+            "type": "curse",
+            "id": "modtweaker",
+            "path": "mods",
+            "name": "modtweaker",
+            "dependencies": {
+                "mtlib": "REQUIRED"
+            },
+            "projectID": 220954,
+            "fileID": 2881277
+        },
+        {
+            "type": "curse",
+            "id": "modular-forcefield-system",
+            "path": "mods",
+            "name": "modular-forcefield-system",
+            "dependencies": {
+                "ender-io": "REQUIRED",
+                "guide-api": "REQUIRED"
+            },
+            "projectID": 59882,
+            "fileID": 2581227
+        },
+        {
+            "type": "curse",
+            "id": "more-avaritia",
+            "path": "mods",
+            "name": "more-avaritia",
+            "dependencies": {
+                "avaritia-1-10": "REQUIRED"
+            },
+            "projectID": 271236,
+            "fileID": 3054338
+        },
+        {
+            "type": "curse",
+            "id": "moreplates",
+            "path": "mods",
+            "name": "moreplates",
+            "dependencies": {
+                "morelibs": "REQUIRED"
+            },
+            "projectID": 266736,
+            "fileID": 2668113
+        },
+        {
+            "type": "curse",
+            "id": "mrtjpcore",
+            "path": "mods",
+            "name": "mrtjpcore",
+            "dependencies": {
+                "codechicken-lib-1-8": "REQUIRED"
+            },
+            "projectID": 229002,
+            "fileID": 2735197
+        },
+        {
+            "type": "curse",
+            "id": "mtlib",
+            "path": "mods",
+            "name": "mtlib",
+            "dependencies": {
+                "crafttweaker": "REQUIRED"
+            },
+            "projectID": 253211,
+            "fileID": 2684561
+        },
+        {
+            "type": "curse",
+            "id": "nofov",
+            "path": "mods",
+            "name": "nofov",
+            "side": "CLIENT",
+            "description": "Disables changes to the field of view by effects, including stuff like sprinting and potions.",
+            "optionalData": {
+            },
+            "projectID": 227965,
+            "fileID": 2432421
+        },
+        {
+            "type": "curse",
+            "id": "nuclearcraft-mod",
+            "path": "mods",
+            "name": "nuclearcraft-mod",
+            "projectID": 226254,
+            "fileID": 3074246
+        },
+        {
+            "type": "curse",
+            "id": "ocdevices",
+            "path": "mods",
+            "name": "ocdevices",
+            "dependencies": {
+                "opencomputers": "REQUIRED",
+                "commons0815": "REQUIRED"
+            },
+            "projectID": 311322,
+            "fileID": 2824169
         },
         {
             "type": "curse",
@@ -103,6 +847,472 @@
             "jenkinsUrl": "https://ci.cil.li/",
             "job": "OpenComputers-MC1.12",
             "buildNumber": 213
+        },
+        {
+            "type": "curse",
+            "id": "opencomputers-book-converter",
+            "path": "mods",
+            "name": "opencomputers-book-converter",
+            "dependencies": {
+                "opencomputers": "REQUIRED"
+            },
+            "projectID": 326890,
+            "fileID": 2738502
+        },
+        {
+            "type": "curse",
+            "id": "openeye",
+            "path": "mods",
+            "name": "openeye",
+            "description": "Automatically collects and submits crash reports. Enable if asked or wish to help sort issues with the pack.",
+            "optionalData": {
+            },
+            "projectID": 251457,
+            "fileID": 2545677
+        },
+        {
+            "type": "curse",
+            "id": "openfm",
+            "path": "mods",
+            "name": "openfm",
+            "projectID": 236839,
+            "fileID": 2598511
+        },
+        {
+            "type": "curse",
+            "id": "openprinter",
+            "path": "mods",
+            "name": "openprinter",
+            "dependencies": {
+                "opencomputers": "REQUIRED"
+            },
+            "projectID": 225127,
+            "fileID": 2817562
+        },
+        {
+            "type": "curse",
+            "id": "opensecurity",
+            "path": "mods",
+            "name": "opensecurity",
+            "projectID": 231687,
+            "fileID": 3099481
+        },
+        {
+            "type": "curse",
+            "id": "project-red-base",
+            "path": "mods",
+            "name": "project-red-base",
+            "dependencies": {
+                "mrtjpcore": "REQUIRED",
+                "codechicken-lib-1-8": "REQUIRED",
+                "forge-multipart-cbe": "REQUIRED"
+            },
+            "projectID": 228702,
+            "fileID": 2745545
+        },
+        {
+            "type": "curse",
+            "id": "project-red-compat",
+            "path": "mods",
+            "name": "project-red-compat",
+            "dependencies": {
+                "mrtjpcore": "REQUIRED",
+                "project-red-base": "REQUIRED"
+            },
+            "projectID": 229050,
+            "fileID": 2745546
+        },
+        {
+            "type": "curse",
+            "id": "project-red-fabrication",
+            "path": "mods",
+            "name": "project-red-fabrication",
+            "dependencies": {
+                "project-red-integration": "REQUIRED",
+                "project-red-base": "REQUIRED"
+            },
+            "projectID": 230111,
+            "fileID": 2745547
+        },
+        {
+            "type": "curse",
+            "id": "project-red-integration",
+            "path": "mods",
+            "name": "project-red-integration",
+            "dependencies": {
+                "project-red-base": "REQUIRED"
+            },
+            "projectID": 229045,
+            "fileID": 2745548
+        },
+        {
+            "type": "curse",
+            "id": "project-red-lighting",
+            "path": "mods",
+            "name": "project-red-lighting",
+            "dependencies": {
+                "project-red-base": "REQUIRED"
+            },
+            "projectID": 229046,
+            "fileID": 2745549
+        },
+        {
+            "type": "curse",
+            "id": "project-red-world",
+            "path": "mods",
+            "name": "project-red-world",
+            "dependencies": {
+                "project-red-base": "REQUIRED"
+            },
+            "projectID": 229049,
+            "fileID": 2745551
+        },
+        {
+            "type": "curse",
+            "id": "realistic-ore-veins",
+            "path": "mods",
+            "name": "realistic-ore-veins",
+            "projectID": 296887,
+            "fileID": 2828147
+        },
+        {
+            "type": "curse",
+            "id": "realistic-terrain-generation",
+            "path": "mods",
+            "name": "realistic-terrain-generation",
+            "projectID": 237989,
+            "fileID": 2782568
+        },
+        {
+            "type": "curse",
+            "id": "recurrent-complex",
+            "path": "mods",
+            "name": "recurrent-complex",
+            "dependencies": {
+                "ivtoolkit": "REQUIRED"
+            },
+            "projectID": 223150,
+            "fileID": 2689602
+        },
+        {
+            "type": "curse",
+            "id": "redstone-arsenal",
+            "path": "mods",
+            "name": "redstone-arsenal",
+            "dependencies": {
+                "cofh-core": "REQUIRED"
+            },
+            "projectID": 70631,
+            "fileID": 2939416
+        },
+        {
+            "type": "curse",
+            "id": "redstone-flux",
+            "path": "mods",
+            "name": "redstone-flux",
+            "projectID": 270789,
+            "fileID": 2920436
+        },
+        {
+            "type": "curse",
+            "id": "redstone-gauges-and-switches",
+            "path": "mods",
+            "name": "redstone-gauges-and-switches",
+            "projectID": 296686,
+            "fileID": 3097911
+        },
+        {
+            "type": "curse",
+            "id": "sampler",
+            "path": "mods",
+            "name": "sampler",
+            "description": "***Admin/diagnostic tool. Leave off unless asked to help test performance issues.",
+            "optionalData": {
+            },
+            "projectID": 289242,
+            "fileID": 2707159
+        },
+        {
+            "type": "curse",
+            "id": "schematica",
+            "path": "mods",
+            "name": "schematica",
+            "dependencies": {
+                "lunatriuscore": "REQUIRED"
+            },
+            "projectID": 225603,
+            "fileID": 2554100
+        },
+        {
+            "type": "curse",
+            "id": "shadowfacts-forgelin",
+            "path": "mods",
+            "name": "shadowfacts-forgelin",
+            "projectID": 248453,
+            "fileID": 2785465
+        },
+        {
+            "type": "curse",
+            "id": "small-gauge-goodies-for-immersive-railroading",
+            "path": "config/immersiverailroading",
+            "name": "small-gauge-goodies-for-immersive-railroading",
+            "projectID": 298310,
+            "fileID": 2677970
+        },
+        {
+            "type": "curse",
+            "id": "spawner-imbuer",
+            "path": "mods",
+            "name": "spawner-imbuer",
+            "projectID": 261930,
+            "fileID": 2387905
+        },
+        {
+            "type": "curse",
+            "id": "stimmedcow-nomorerecipeconflict",
+            "path": "mods",
+            "name": "stimmedcow-nomorerecipeconflict",
+            "projectID": 238123,
+            "fileID": 2671230
+        },
+        {
+            "type": "curse",
+            "id": "storage-drawers",
+            "path": "mods",
+            "name": "storage-drawers",
+            "dependencies": {
+                "chameleon": "REQUIRED"
+            },
+            "projectID": 223852,
+            "fileID": 2952606
+        },
+        {
+            "type": "curse",
+            "id": "swingthroughgrass",
+            "path": "mods",
+            "name": "swingthroughgrass",
+            "side": "SERVER",
+            "projectID": 264353,
+            "fileID": 2508268
+        },
+        {
+            "type": "curse",
+            "id": "tails",
+            "path": "mods",
+            "name": "tails",
+            "projectID": 223584,
+            "fileID": 2445532
+        },
+        {
+            "type": "curse",
+            "id": "techguns",
+            "path": "mods",
+            "name": "techguns",
+            "projectID": 244201,
+            "fileID": 2958103
+        },
+        {
+            "type": "curse",
+            "id": "tesla-core-lib",
+            "path": "mods",
+            "name": "tesla-core-lib",
+            "dependencies": {
+                "shadowfacts-forgelin": "REQUIRED"
+            },
+            "projectID": 254602,
+            "fileID": 2891841
+        },
+        {
+            "type": "curse",
+            "id": "thaumcraft",
+            "path": "mods",
+            "name": "thaumcraft",
+            "dependencies": {
+                "baubles": "REQUIRED"
+            },
+            "projectID": 223628,
+            "fileID": 2629023
+        },
+        {
+            "type": "curse",
+            "id": "thaumcraft-inventory-scanning",
+            "path": "mods",
+            "name": "thaumcraft-inventory-scanning",
+            "dependencies": {
+                "thaumcraft": "REQUIRED"
+            },
+            "projectID": 238003,
+            "fileID": 2559089
+        },
+        {
+            "type": "curse",
+            "id": "thaumic-additions",
+            "path": "mods",
+            "name": "thaumic-additions",
+            "dependencies": {
+                "hammer-lib": "REQUIRED",
+                "thaumcraft": "REQUIRED"
+            },
+            "projectID": 232564,
+            "fileID": 3102463
+        },
+        {
+            "type": "curse",
+            "id": "thaumic-augmentation",
+            "path": "mods",
+            "name": "thaumic-augmentation",
+            "dependencies": {
+                "thaumcraft": "REQUIRED",
+                "baubles": "REQUIRED"
+            },
+            "projectID": 319441,
+            "fileID": 3148983
+        },
+        {
+            "type": "curse",
+            "id": "thaumic-computers",
+            "path": "mods",
+            "name": "thaumic-computers",
+            "projectID": 293768,
+            "fileID": 2777074
+        },
+        {
+            "type": "curse",
+            "id": "thaumic-energistics",
+            "path": "mods",
+            "name": "thaumic-energistics",
+            "dependencies": {
+                "applied-energistics-2": "REQUIRED",
+                "thaumcraft": "REQUIRED"
+            },
+            "projectID": 223666,
+            "fileID": 2915506
+        },
+        {
+            "type": "curse",
+            "id": "thaumic-periphery",
+            "path": "mods",
+            "name": "thaumic-periphery",
+            "dependencies": {
+                "baubles": "REQUIRED",
+                "thaumcraft": "REQUIRED"
+            },
+            "projectID": 293505,
+            "fileID": 2766866
+        },
+        {
+            "type": "curse",
+            "id": "thaumic-tinkerer",
+            "path": "mods",
+            "name": "thaumic-tinkerer",
+            "dependencies": {
+                "thaumcraft": "REQUIRED"
+            },
+            "projectID": 75598,
+            "fileID": 2957213
+        },
+        {
+            "type": "curse",
+            "id": "the-one-probe",
+            "path": "mods",
+            "name": "the-one-probe",
+            "projectID": 245211,
+            "fileID": 2667280
+        },
+        {
+            "type": "curse",
+            "id": "thermal-expansion",
+            "path": "mods",
+            "name": "thermal-expansion",
+            "dependencies": {
+                "codechicken-lib-1-8": "REQUIRED",
+                "thermal-foundation": "REQUIRED"
+            },
+            "projectID": 69163,
+            "fileID": 2926431
+        },
+        {
+            "type": "curse",
+            "id": "top-addons",
+            "path": "mods",
+            "name": "top-addons",
+            "dependencies": {
+                "the-one-probe": "REQUIRED"
+            },
+            "projectID": 247111,
+            "fileID": 2887479
+        },
+        {
+            "type": "curse",
+            "id": "traffic-control",
+            "path": "mods",
+            "name": "traffic-control",
+            "projectID": 310701,
+            "fileID": 3150983
+        },
+        {
+            "type": "curse",
+            "id": "tree-chopper",
+            "path": "mods",
+            "name": "tree-chopper",
+            "projectID": 250241,
+            "fileID": 2492770
+        },
+        {
+            "type": "curse",
+            "id": "voxel-trains-ir",
+            "path": "config/immersiverailroading",
+            "name": "voxel-trains-ir",
+            "projectID": 355303,
+            "fileID": 3095350
+        },
+        {
+            "type": "curse",
+            "id": "wearable-backpacks",
+            "path": "mods",
+            "name": "wearable-backpacks",
+            "projectID": 257572,
+            "fileID": 2800372
+        },
+        {
+            "type": "curse",
+            "id": "weather-storms-tornadoes",
+            "path": "mods",
+            "name": "weather-storms-tornadoes",
+            "dependencies": {
+                "coroutil": "REQUIRED"
+            },
+            "projectID": 237746,
+            "fileID": 2596867
+        },
+        {
+            "type": "curse",
+            "id": "wireless-crafting-terminal",
+            "path": "mods",
+            "name": "wireless-crafting-terminal",
+            "dependencies": {
+                "ae2wtlib": "REQUIRED",
+                "p455w0rds-library": "REQUIRED",
+                "applied-energistics-2": "REQUIRED"
+            },
+            "projectID": 244559,
+            "fileID": 2830252
+        },
+        {
+            "type": "curse",
+            "id": "worldedit",
+            "path": "mods",
+            "name": "worldedit",
+            "projectID": 225608,
+            "fileID": 2941712
+        },
+        {
+            "type": "curse",
+            "id": "zetta-industries",
+            "path": "mods",
+            "name": "zetta-industries",
+            "projectID": 278475,
+            "fileID": 2636576
         }
     ]
 }

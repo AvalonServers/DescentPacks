@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import sys, json, time
 
 # arg1: input file, arg2: output folder
@@ -113,6 +115,9 @@ for modcat in inmods:
 			saveloc = None
 			savename = None
 			description = None
+			selected = False
+			recommendation = None
+			server = False
 		elif type(mod) == dict:
 			mtype, mid = mod["mod"].split("/",1)
 			if "location" in mod:
@@ -127,6 +132,18 @@ for modcat in inmods:
 				description = mod["description"]
 			else:
 				description = None
+			if "selected" in mod:
+				selected = mod["selected"]
+			else:
+				selected = False
+			if "recommendation" in mod:
+				recommendation = mod["recommendation"]
+			else:
+				recommendation = None
+			if "server" in mod:
+				server = mod["server"]
+			else:
+				server = False
 		if "." in mtype:
 			mtype, rtype = mtype.split(".",1)
 		else:
@@ -152,7 +169,7 @@ for modcat in inmods:
 			if "id" in mod:
 				output["mods"][-1]["id"] = mod["id"]
 			else:
-				output["mods"][-1]["id"] = mid.rsplit(".",1)[0].lower().replace("-","_").replace(".","_")
+				output["mods"][-1]["id"] = mid.rsplit("/",1)[1].rsplit(".",1)[0].lower().replace("-","_").replace(".","_")
 		elif mtype == "jenkins":
 			output["mods"].append({
 				"type": "jenkins",
@@ -165,6 +182,17 @@ for modcat in inmods:
 				output["mods"][-1]["id"] = mod["id"]
 			else:
 				output["mods"][-1]["id"] = mod["job"].lower().replace("-","_").replace(".","_")
+		elif mtype == "local":
+			output["mods"].append({
+				"type": "local",
+				"localProperties": {
+					"fileSrc": mid
+				}
+			})
+			if "id" in mod:
+				output["mods"][-1]["id"] = mod["id"]
+			else:
+				output["mods"][-1]["id"] = mid.rsplit("/",1)[1].rsplit(".",1)[0].lower().replace("-","_").replace(".","_")
 		else:
 			output["mods"].append({
 				"type": "noop",
@@ -181,10 +209,13 @@ for modcat in inmods:
 		elif modcat == "server":
 			output["mods"][-1]["side"] = "SERVER"
 		elif modcat == "optional":
-			output["mods"][-1]["side"] = "CLIENT"
+			if not server:
+				output["mods"][-1]["side"] = "CLIENT"
 			output["mods"][-1]["optional"] = {
-				"selected": False
+				"selected": selected
 			}
+			if recommendation:
+				output["mods"][-1]["optional"]["recommendation"] = recommendation
 		#print(mtype, mid, saveloc, savename)
 
 #print(json.dumps(output, indent=4))
