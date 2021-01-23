@@ -118,6 +118,7 @@ for modcat in inmods:
 			selected = False
 			recommendation = None
 			server = False
+			regexname = None
 		elif type(mod) == dict:
 			mtype, mid = mod["mod"].split("/",1)
 			if "location" in mod:
@@ -144,6 +145,10 @@ for modcat in inmods:
 				server = mod["server"]
 			else:
 				server = False
+			if "regexname" in mod:
+				regexname = mod["regexname"]
+			else:
+				regexname = False
 		if "." in mtype:
 			mtype, rtype = mtype.split(".",1)
 		else:
@@ -182,6 +187,8 @@ for modcat in inmods:
 				output["mods"][-1]["id"] = mod["id"]
 			else:
 				output["mods"][-1]["id"] = mod["job"].lower().replace("-","_").replace(".","_")
+			if regexname:
+				output["mods"][-1]["fileNameRegex"] = regexname
 		elif mtype == "local":
 			output["mods"].append({
 				"type": "local",

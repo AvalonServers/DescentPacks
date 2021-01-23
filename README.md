@@ -3,9 +3,15 @@ This is the pack repository for Descent Frozen Hell, used by Loiste Community, w
 
 New voodoo stuff work in progress  
 
-Preprocessor usage:  
-`preprocess.py <pack json> <output folder>`  
+## Preprocessor usage  
+`./preprocess.py <pack json> <output folder>`  
 Use python 3  
   
-Voodoo usage:  
-`./voodoo compile <pack file (not the unprocessed intermediary)>`
+## Voodoo usage  
+Current (testing) pack file is `afhtest/v0.0.4.vooodoo.json`  
+  
+Build pack:  
+`./voodoo compile <pack file>`  
+
+Test pack:  
+`./voodoo launch multimc <pack file>`

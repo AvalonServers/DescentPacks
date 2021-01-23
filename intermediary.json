@@ -217,6 +217,7 @@
 			{
 				"mod": "jenkins/https://ci.cil.li/",
 				"job": "OpenComputers-MC1.12",
+				"regexname": "OpenComputers-([^-]*)-([^-]*)\\.jar",
 				"id": "opencomputers"
 			},
 

@@ -39,6 +39,18 @@
         },
         {
             "type": "curse",
+            "id": "ae2wtlib",
+            "path": "mods",
+            "name": "wireless-crafting-terminal",
+            "dependencies": {
+                "applied-energistics-2": "REQUIRED",
+                "p455w0rds-library": "REQUIRED"
+            },
+            "projectID": 304024,
+            "fileID": 2830114
+        },
+        {
+            "type": "curse",
             "id": "alternating-flux",
             "path": "mods",
             "name": "alternating-flux",
@@ -291,6 +303,14 @@
             "fileID": 2828877
         },
         {
+            "type": "curse",
+            "id": "commons0815",
+            "path": "mods",
+            "name": "ocdevices",
+            "projectID": 346326,
+            "fileID": 3000327
+        },
+        {
             "type": "local",
             "id": "compuronics_maryTTS_english_voice",
             "path": "marytts",
@@ -316,11 +336,35 @@
         },
         {
             "type": "curse",
+            "id": "coroutil",
+            "path": "mods",
+            "name": "weather-storms-tornadoes",
+            "projectID": 237749,
+            "fileID": 2902920
+        },
+        {
+            "type": "curse",
             "id": "crafttweaker",
             "path": "mods",
             "name": "crafttweaker",
             "projectID": 239197,
             "fileID": 3170823
+        },
+        {
+            "type": "curse",
+            "id": "creativecore",
+            "path": "mods",
+            "name": "onlinepictureframe",
+            "projectID": 257814,
+            "fileID": 3173840
+        },
+        {
+            "type": "curse",
+            "id": "ctm",
+            "path": "mods",
+            "name": "chisel",
+            "projectID": 267602,
+            "fileID": 2915363
         },
         {
             "type": "curse",
@@ -403,6 +447,14 @@
             "name": "ender-io-endergy",
             "projectID": 304346,
             "fileID": 3124450
+        },
+        {
+            "type": "curse",
+            "id": "endercore",
+            "path": "mods",
+            "name": "ender-io",
+            "projectID": 231868,
+            "fileID": 2972849
         },
         {
             "type": "curse",
@@ -527,11 +579,43 @@
         },
         {
             "type": "curse",
+            "id": "forgeendertech",
+            "path": "mods",
+            "name": "advanced-chimneys",
+            "projectID": 244844,
+            "fileID": 3137504
+        },
+        {
+            "type": "curse",
             "id": "gravestone-mod",
             "path": "mods",
             "name": "gravestone-mod",
             "projectID": 238551,
             "fileID": 2744766
+        },
+        {
+            "type": "curse",
+            "id": "guide-api",
+            "path": "mods",
+            "name": "modular-forcefield-system",
+            "projectID": 228832,
+            "fileID": 2645992
+        },
+        {
+            "type": "curse",
+            "id": "gunpowderlib",
+            "path": "mods",
+            "name": "integration-foregoing",
+            "projectID": 356646,
+            "fileID": 3168863
+        },
+        {
+            "type": "curse",
+            "id": "hammer-lib",
+            "path": "mods",
+            "name": "thaumic-additions",
+            "projectID": 247401,
+            "fileID": 3157564
         },
         {
             "type": "curse",
@@ -661,6 +745,14 @@
         },
         {
             "type": "curse",
+            "id": "ivtoolkit",
+            "path": "mods",
+            "name": "recurrent-complex",
+            "projectID": 224535,
+            "fileID": 2443253
+        },
+        {
+            "type": "curse",
             "id": "jei",
             "path": "mods",
             "name": "jei",
@@ -713,6 +805,14 @@
         },
         {
             "type": "curse",
+            "id": "lunatriuscore",
+            "path": "mods",
+            "name": "schematica",
+            "projectID": 225605,
+            "fileID": 2489549
+        },
+        {
+            "type": "curse",
             "id": "matoi-vanilla-pack-ir",
             "path": "config/immersiverailroading",
             "name": "matoi-vanilla-pack-ir",
@@ -729,6 +829,15 @@
             },
             "projectID": 359407,
             "fileID": 3162436
+        },
+        {
+            "type": "curse",
+            "id": "mixinbootstrap",
+            "path": "mods",
+            "name": "dynamic-surroundings",
+            "side": "CLIENT",
+            "projectID": 357178,
+            "fileID": 3076610
         },
         {
             "type": "curse",
@@ -763,6 +872,14 @@
             },
             "projectID": 271236,
             "fileID": 3054338
+        },
+        {
+            "type": "curse",
+            "id": "morelibs",
+            "path": "mods",
+            "name": "moreplates",
+            "projectID": 304920,
+            "fileID": 2669468
         },
         {
             "type": "curse",
@@ -846,7 +963,8 @@
             "path": "mods",
             "jenkinsUrl": "https://ci.cil.li/",
             "job": "OpenComputers-MC1.12",
-            "buildNumber": 213
+            "buildNumber": 213,
+            "fileNameRegex": "OpenComputers-([^-]*)-([^-]*)\\.jar"
         },
         {
             "type": "curse",
@@ -896,6 +1014,23 @@
             "name": "opensecurity",
             "projectID": 231687,
             "fileID": 3099481
+        },
+        {
+            "type": "curse",
+            "id": "orelib",
+            "path": "mods",
+            "name": "dynamic-surroundings",
+            "side": "CLIENT",
+            "projectID": 307806,
+            "fileID": 2820815
+        },
+        {
+            "type": "curse",
+            "id": "p455w0rds-library",
+            "path": "mods",
+            "name": "wireless-crafting-terminal",
+            "projectID": 255232,
+            "fileID": 2830265
         },
         {
             "type": "curse",
@@ -966,6 +1101,14 @@
             },
             "projectID": 229049,
             "fileID": 2745551
+        },
+        {
+            "type": "curse",
+            "id": "ptrlib",
+            "path": "mods",
+            "name": "decocraft",
+            "projectID": 291499,
+            "fileID": 2685154
         },
         {
             "type": "curse",
@@ -1233,6 +1376,26 @@
         },
         {
             "type": "curse",
+            "id": "thermal-foundation",
+            "path": "mods",
+            "name": "thermal-expansion",
+            "dependencies": {
+                "cofh-core": "REQUIRED",
+                "cofh-world": "REQUIRED"
+            },
+            "projectID": 222880,
+            "fileID": 2926428
+        },
+        {
+            "type": "curse",
+            "id": "tickcentral",
+            "path": "mods",
+            "name": "laggoggles",
+            "projectID": 377201,
+            "fileID": 3140670
+        },
+        {
+            "type": "curse",
             "id": "top-addons",
             "path": "mods",
             "name": "top-addons",
@@ -1241,6 +1404,14 @@
             },
             "projectID": 247111,
             "fileID": 2887479
+        },
+        {
+            "type": "curse",
+            "id": "track-api",
+            "path": "mods",
+            "name": "immersive-railroading",
+            "projectID": 282613,
+            "fileID": 2825260
         },
         {
             "type": "curse",
@@ -1257,6 +1428,14 @@
             "name": "tree-chopper",
             "projectID": 250241,
             "fileID": 2492770
+        },
+        {
+            "type": "curse",
+            "id": "universal-mod-core",
+            "path": "mods",
+            "name": "immersive-railroading",
+            "projectID": 371784,
+            "fileID": 3141762
         },
         {
             "type": "curse",
