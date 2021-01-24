@@ -8,7 +8,7 @@ New voodoo stuff work in progress
 Use python 3  
   
 ## Voodoo usage  
-Current (testing) pack file is `afhtest/v0.0.4.vooodoo.json`  
+Current (testing) pack file is `afhtest/v0.0.4.voodoo.json`  
   
 Build pack:  
 `./voodoo compile <pack file>`  
