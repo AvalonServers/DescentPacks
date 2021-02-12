@@ -1,0 +1,66 @@
+{
+    "id": "ascentfrozenhell",
+    "mcVersion": "1.12.2",
+    "modloader": {
+        "type": "Forge",
+        "mcVersion": "1.12.2",
+        "forgeVersion": "14.23.5.2855"
+    },
+    "version": "0.0.4",
+    "icon": "icon_ascentfrozenhell.png",
+    "packOptions": {
+        "uploadUrl": "https://mydomain.com/mc/ascentfrozenhell"
+    },
+    "entries": [
+        {
+            "type": "curse",
+            "id": "advanced-chimneys",
+            "path": "mods",
+            "name": "advanced-chimneys",
+            "dependencies": {
+                "forgeendertech": "REQUIRED"
+            },
+            "projectID": 244830,
+            "fileID": 3112419
+        },
+        {
+            "type": "curse",
+            "id": "booster-rockets",
+            "path": "mods",
+            "name": "booster-rockets",
+            "projectID": 255639,
+            "fileID": 2501831
+        },
+        {
+            "type": "curse",
+            "id": "effortless-building",
+            "path": "mods",
+            "name": "effortless-building",
+            "projectID": 302113,
+            "fileID": 2847346
+        },
+        {
+            "type": "curse",
+            "id": "immersive-railroading",
+            "path": "mods",
+            "name": "immersive-railroading",
+            "dependencies": {
+                "track-api": "REQUIRED",
+                "universal-mod-core": "REQUIRED"
+            },
+            "projectID": 277736,
+            "fileID": 3137602
+        },
+        {
+            "type": "curse",
+            "id": "onlinepictureframe",
+            "path": "mods",
+            "name": "onlinepictureframe",
+            "dependencies": {
+                "creativecore": "REQUIRED"
+            },
+            "projectID": 257815,
+            "fileID": 3047154
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "$schema": "./schema/config.schema.json",
+    "curseforgeGenerators": {
+		"Forge": {
+			"section": "MODS",
+			"mcVersions": [
+				"1.12", "1.12.1", "1.12.2"
+			]
+		},
+		"Resourcepack": {
+			"section": "RESOURCE_PACKS",
+			"mcVersions": [
+				"1.12", "1.12.1", "1.12.2"
+			]
+		}
+    },
+    "forgeGenerators": {
+        "Forge_12_2": {
+          "mcVersions": [
+            "1.12.2"
+          ]
+        }
+    },
+    "fabricGenerators": {
+    },
+    "overrides": {
+    }
+}
