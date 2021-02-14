@@ -1,24 +1,50 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema",
-    "$ref": "#/definitions/x1hrwv9ae9kd1b",
+    "$ref": "#/definitions/x1m0r6ajbgpkhr",
     "definitions": {
-        "x1hrwv9ae9kd1b": {
+        "x1ndrtips0s3cv": {
+            "type": "object",
+            "additionalProperties": {
+                "$ref": "#/definitions/6cdta9iwtw5d"
+            }
+        },
+        "x2w2015zeqzgf": {
+            "type": "array",
+            "items": {
+                "$ref": "#/definitions/6cdta9iwtw5d"
+            }
+        },
+        "1kii6t544y7sx": {
+            "if": {
+                "type": "string"
+            },
+            "else": {
+                "type": "null"
+            }
+        },
+        "6cdta9iwtw5d": {
+            "type": "string"
+        },
+        "x1m0r6ajbgpkhr": {
             "type": "object",
             "properties": {
                 "$schema": {
-                    "$ref": "#/definitions/1ni5i0orzi4ev"
+                    "$ref": "#/definitions/6cdta9q4gwv7"
                 },
                 "title": {
-                    "$ref": "#/definitions/moo56pk429dt"
+                    "$ref": "#/definitions/1kii6t544y7sx"
                 },
                 "authors": {
-                    "$ref": "#/definitions/x10pw1nljfmxvj"
+                    "$ref": "#/definitions/x2w2015zeqzgf"
                 },
                 "icon": {
-                    "$ref": "#/definitions/1ni5i0nsros8x"
+                    "$ref": "#/definitions/6cdta9iwtw5d"
+                },
+                "packConfig": {
+                    "$ref": "#/definitions/142eegzpcczr5"
                 },
                 "uploadBaseUrl": {
-                    "$ref": "#/definitions/1ni5i0nsros8x"
+                    "$ref": "#/definitions/6cdta9iwtw5d"
                 }
             },
             "additionalProperties": false,
@@ -27,25 +53,17 @@
                 "uploadBaseUrl"
             ]
         },
-        "x10pw1nljfmxvj": {
-            "type": "array",
-            "items": {
-                "$ref": "#/definitions/1ni5i0nsros8x"
-            }
+        "6cdta9q4gwv7": {
+            "type": "string"
         },
-        "moo56pk429dt": {
-            "if": {
-                "type": "string"
+        "142eegzpcczr5": {
+            "type": "object",
+            "properties": {
+                "versionAlias": {
+                    "$ref": "#/definitions/x1ndrtips0s3cv"
+                }
             },
-            "else": {
-                "type": "null"
-            }
-        },
-        "1ni5i0orzi4ev": {
-            "type": "string"
-        },
-        "1ni5i0nsros8x": {
-            "type": "string"
+            "additionalProperties": false
         }
     }
 }
