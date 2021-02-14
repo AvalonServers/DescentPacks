@@ -24,5 +24,26 @@
     "fabricGenerators": {
     },
     "overrides": {
+      "server": {
+        "type": "common",
+        "side": "SERVER"
+      },
+      "client": {
+        "type": "common",
+        "side": "CLIENT"
+      },
+      "optional": {
+        "type": "common",
+        "optional": {
+            "selected": false
+        }
+      },
+      "optional_recommended": {
+        "type": "common",
+        "optional": {
+            "selected": true,
+            "recommendation": "starred"
+        }
+      }
     }
 }
