@@ -1,0 +1,613 @@
+{
+    "$schema": "../schema/versionPack.schema.json",
+    "version": "0.0.4",
+    "srcDir": "src",
+    "mcVersion": "1.12.2",
+    "modloader": {
+        "type": "modloader.forge",
+        "version": "Forge_12_2/1.12.2/14.23.5.2854"
+    },
+    "mods": {
+        "": [
+        {
+            "type": "curse",
+            "curse_projectName": "Forge/booster-rockets"
+        },
+        {
+            "type": "curse",
+            "curse_projectName": "Forge/effortless-building"
+        },
+        {
+            "type": "curse",
+            "curse_projectName": "Forge/onlinepictureframe"
+        },
+        {
+            "type": "curse",
+            "curse_projectName": "Forge/advanced-chimneys"
+        },
+        {
+            "type": "curse",
+            "curse_projectName": "Forge/immersive-railroading"
+        },
+        {
+            "type": "curse",
+            "curse_projectName": "Forge/biomes-o-plenty"
+        },
+        {
+            "type": "curse",
+            "curse_projectName": "Forge/realistic-ore-veins"
+        },
+        {
+            "type": "curse",
+            "curse_projectName": "Forge/realistic-terrain-generation"
+        },
+        {
+            "type": "curse",
+            "curse_projectName": "Forge/climate-control-geographicraft"
+        },
+        {
+            "type": "curse",
+            "curse_projectName": "Forge/littletiles"
+        },
+        {
+            "type": "curse",
+            "curse_projectName": "Forge/dynamic-view"
+        },
+        {
+            "type": "curse",
+            "curse_projectName": "Forge/stimmedcow-nomorerecipeconflict"
+        },
+        {
+            "type": "curse",
+            "curse_projectName": "Forge/opencomputers-book-converter"
+        },
+        {
+            "type": "curse",
+            "curse_projectName": "Forge/extra-utilities"
+        },
+        {
+            "type": "curse",
+            "curse_projectName": "Forge/wearable-backpacks"
+        },
+        {
+            "type": "curse",
+            "curse_projectName": "Forge/shadowfacts-forgelin"
+        },
+        {
+            "type": "curse",
+            "curse_projectName": "Forge/immersive-engineering"
+        },
+        {
+            "type": "curse",
+            "curse_projectName": "Forge/immersive-petroleum"
+        },
+        {
+            "type": "curse",
+            "curse_projectName": "Forge/mct-immersive-technology"
+        },
+        {
+            "type": "curse",
+            "curse_projectName": "Forge/immersive-intelligence"
+        },
+        {
+            "type": "curse",
+            "curse_projectName": "Forge/mrtjpcore"
+        },
+        {
+            "type": "curse",
+            "curse_projectName": "Forge/project-red-base"
+        },
+        {
+            "type": "curse",
+            "curse_projectName": "Forge/project-red-compat"
+        },
+        {
+            "type": "curse",
+            "curse_projectName": "Forge/project-red-fabrication"
+        },
+        {
+            "type": "curse",
+            "curse_projectName": "Forge/project-red-integration"
+        },
+        {
+            "type": "curse",
+            "curse_projectName": "Forge/project-red-lighting"
+        },
+        {
+            "type": "curse",
+            "curse_projectName": "Forge/project-red-world"
+        },
+        {
+            "type": "curse",
+            "curse_projectName": "Forge/codechicken-lib-1-8"
+        },
+        {
+            "type": "curse",
+            "curse_projectName": "Forge/forge-multipart-cbe"
+        },
+        {
+            "type": "curse",
+            "curse_projectName": "Forge/autoreglib"
+        },
+        {
+            "type": "curse",
+            "curse_projectName": "Forge/chisel"
+        },
+        {
+            "type": "curse",
+            "curse_projectName": "Forge/mtlib"
+        },
+        {
+            "type": "curse",
+            "curse_projectName": "Forge/crafttweaker"
+        },
+        {
+            "type": "curse",
+            "curse_projectName": "Forge/modtweaker"
+        },
+        {
+            "type": "curse",
+            "curse_projectName": "Forge/jei"
+        },
+        {
+            "type": "curse",
+            "curse_projectName": "Forge/cofh-core"
+        },
+        {
+            "type": "curse",
+            "curse_projectName": "Forge/cofh-world"
+        },
+        {
+            "type": "curse",
+            "curse_projectName": "Forge/redstone-flux"
+        },
+        {
+            "type": "curse",
+            "curse_projectName": "Forge/thermal-expansion"
+        },
+        {
+            "type": "curse",
+            "curse_projectName": "Forge/thaumcraft"
+        },
+        {
+            "type": "curse",
+            "curse_projectName": "Forge/thaumic-tinkerer"
+        },
+        {
+            "type": "curse",
+            "curse_projectName": "Forge/thaumic-computers"
+        },
+        {
+            "type": "curse",
+            "curse_projectName": "Forge/thaumic-energistics"
+        },
+        {
+            "type": "curse",
+            "curse_projectName": "Forge/thaumic-augmentation"
+        },
+        {
+            "type": "curse",
+            "curse_projectName": "Forge/baubles"
+        },
+        {
+            "type": "curse",
+            "curse_projectName": "Forge/thaumic-periphery"
+        },
+        {
+            "type": "curse",
+            "curse_projectName": "Forge/engineered-golems"
+        },
+        {
+            "type": "curse",
+            "curse_projectName": "Forge/expanded-arcanum"
+        },
+        {
+            "type": "curse",
+            "curse_projectName": "Forge/thaumic-additions"
+        },
+        {
+            "type": "curse",
+            "curse_projectName": "Forge/charset-lib"
+        },
+        {
+            "type": "curse",
+            "curse_projectName": "Forge/charset-tweaks"
+        },
+        {
+            "type": "curse",
+            "curse_projectName": "Forge/charset-immersion"
+        },
+        {
+            "type": "curse",
+            "curse_projectName": "Forge/charset-tablet"
+        },
+        {
+            "type": "curse",
+            "curse_projectName": "Forge/charset-tools"
+        },
+        {
+            "type": "curse",
+            "curse_projectName": "Forge/charset-block-carrying"
+        },
+        {
+            "type": "curse",
+            "curse_projectName": "Forge/charsetpatches"
+        },
+        {
+            "type": "curse",
+            "curse_projectName": "Forge/charset-storage-locks"
+        },
+        {
+            "type": "curse",
+            "curse_projectName": "Forge/foamfix-optimization-mod"
+        },
+        {
+            "type": "curse",
+            "curse_projectName": "Forge/openprinter"
+        },
+        {
+            "type": "curse",
+            "curse_projectName": "Forge/ocdevices"
+        },
+        {
+            "type": "curse",
+            "curse_projectName": "Forge/zetta-industries"
+        },
+        {
+            "type": "curse",
+            "curse_projectName": "Forge/the-one-probe"
+        },
+        {
+            "type": "curse",
+            "curse_projectName": "Forge/top-addons"
+        },
+        {
+            "type": "curse",
+            "curse_projectName": "Forge/spawner-imbuer"
+        },
+        {
+            "type": "curse",
+            "curse_projectName": "Forge/tesla-core-lib"
+        },
+        {
+            "type": "curse",
+            "curse_projectName": "Forge/industrial-foregoing"
+        },
+        {
+            "type": "curse",
+            "curse_projectName": "Forge/integration-foregoing"
+        },
+        {
+            "type": "curse",
+            "curse_projectName": "Forge/colytra"
+        },
+        {
+            "type": "curse",
+            "curse_projectName": "Forge/moreplates"
+        },
+        {
+            "type": "curse",
+            "curse_projectName": "Forge/journeymap"
+        },
+        {
+            "type": "curse",
+            "curse_projectName": "Forge/gravestone-mod"
+        },
+        {
+            "type": "curse",
+            "curse_projectName": "Forge/redstone-arsenal"
+        },
+        {
+            "type": "curse",
+            "curse_projectName": "Forge/icbm-classic"
+        },
+        {
+            "type": "curse",
+            "curse_projectName": "Forge/avaritia-1-10"
+        },
+        {
+            "type": "curse",
+            "curse_projectName": "Forge/avaritia-complement"
+        },
+        {
+            "type": "curse",
+            "curse_projectName": "Forge/more-avaritia"
+        },
+        {
+            "type": "curse",
+            "curse_projectName": "Forge/catwalks-4"
+        },
+        {
+            "type": "curse",
+            "curse_projectName": "Forge/tree-chopper"
+        },
+        {
+            "type": "curse",
+            "curse_projectName": "Forge/industrial-wires"
+        },
+        {
+            "type": "curse",
+            "curse_projectName": "Forge/openfm"
+        },
+        {
+            "type": "curse",
+            "curse_projectName": "Forge/chameleon"
+        },
+        {
+            "type": "curse",
+            "curse_projectName": "Forge/storage-drawers"
+        },
+        {
+            "type": "curse",
+            "curse_projectName": "Forge/applied-energistics-2"
+        },
+        {
+            "type": "curse",
+            "curse_projectName": "Forge/extracells2"
+        },
+        {
+            "type": "curse",
+            "curse_projectName": "Forge/wireless-crafting-terminal"
+        },
+        {
+            "type": "curse",
+            "curse_projectName": "Forge/immersive-cables"
+        },
+        {
+            "type": "curse",
+            "curse_projectName": "Forge/alternating-flux"
+        },
+        {
+            "type": "curse",
+            "curse_projectName": "Forge/better-builders-wands"
+        },
+        {
+            "type": "curse",
+            "curse_projectName": "Forge/inventory-tweaks"
+        },
+        {
+            "type": "curse",
+            "curse_projectName": "Forge/opensecurity"
+        },
+        {
+            "type": "curse",
+            "curse_projectName": "Forge/architecturecraft-tridev"
+        },
+        {
+            "type": "curse",
+            "curse_projectName": "Forge/engineers-decor"
+        },
+        {
+            "type": "curse",
+            "curse_projectName": "Forge/engineers-tools"
+        },
+        {
+            "type": "curse",
+            "curse_projectName": "Forge/engineers-doors"
+        },
+        {
+            "type": "curse",
+            "curse_projectName": "Forge/immersive-floofs"
+        },
+        {
+            "type": "curse",
+            "curse_projectName": "Forge/immersiveposts"
+        },
+        {
+            "type": "curse",
+            "curse_projectName": "Forge/tails"
+        },
+        {
+            "type": "curse",
+            "curse_projectName": "Forge/just-enough-petroleum"
+        },
+        {
+            "type": "curse",
+            "curse_projectName": "Forge/redstone-gauges-and-switches"
+        },
+        {
+            "type": "curse",
+            "curse_projectName": "Forge/thaumcraft-inventory-scanning"
+        },
+        {
+            "type": "curse",
+            "curse_projectName": "Forge/modular-forcefield-system"
+        },
+        {
+            "type": "curse",
+            "curse_projectName": "Forge/nuclearcraft-mod"
+        },
+        {
+            "type": "curse",
+            "curse_projectName": "Forge/ender-io"
+        },
+        {
+            "type": "curse",
+            "curse_projectName": "Forge/ender-io-endergy"
+        },
+        {
+            "type": "curse",
+            "curse_projectName": "Forge/decocraft"
+        },
+        {
+            "type": "curse",
+            "curse_projectName": "Forge/traffic-control"
+        },
+        {
+            "type": "curse",
+            "curse_projectName": "Forge/techguns"
+        },
+        {
+            "type": "curse",
+            "curse_projectName": "Forge/worldedit"
+        },
+        {
+            "type": "curse",
+            "curse_projectName": "Forge/schematica"
+        },
+        {
+            "type": "curse",
+            "curse_projectName": "Forge/weather-storms-tornadoes"
+        },
+        {
+            "type": "curse",
+            "curse_projectName": "Forge/recurrent-complex"
+        },
+        {
+            "type": "jenkins",
+            "jenkins_jenkinsUrl": "https://ci.cil.li/",
+            "jenkins_job": "OpenComputers-MC1.12",
+            "id": "opencomputers",
+            "fileNameRegex": "OpenComputers-([^-]*)-([^-]*)\\.jar"
+        },
+        {
+            "type": "direct",
+            "direct_url": "http://files.vexatos.com/Computronics/Computronics-1.12.2-1.6.6.jar",
+            "id": "computronics"
+        },
+        {
+            "type": "direct",
+            "direct_url": "http://files.vexatos.com/Computronics/marytts/marytts-runtime-5.2-jar-for-computronics.jar",
+            "id": "computronics_maryTTS",
+            "folder": "marytts"
+        },
+        {
+            "type": "direct",
+            "direct_url": "https://files.vexatos.com/Computronics/marytts/marytts-lang-en-5.2.jar",
+            "id": "computronics_maryTTS_english_language",
+            "folder": "marytts"
+        },
+        {
+            "type": "local",
+            "local_fileSrc": "voice-dfki-prudence-hsmm-5.2.jar",
+            "id": "compuronics_maryTTS_english_voice",
+            "folder": "marytts"
+        },
+        {
+            "type": "curse",
+            "curse_projectName": "Resourcepack/matoi-vanilla-pack-ir",
+            "folder": "config/immersiverailroading"
+        },
+        {
+            "type": "curse",
+            "curse_projectName": "Resourcepack/dragons-modern-british",
+            "folder": "config/immersiverailroading"
+        },
+        {
+            "type": "curse",
+            "curse_projectName": "Resourcepack/small-gauge-goodies-for-immersive-railroading",
+            "folder": "config/immersiverailroading"
+        },
+        {
+            "type": "curse",
+            "curse_projectName": "Resourcepack/voxel-trains-ir",
+            "folder": "config/immersiverailroading"
+        },
+        {
+            "type": "direct",
+            "direct_url": "https://thepiguy24.github.io/INFRATrainPack_0005.zip",
+            "id": "INFRATrainPack",
+            "folder": "config/immersiverailroading",
+            "fileName": "INFRATrainPack.zip"
+        },
+        {
+            "type": "direct",
+            "direct_url": "https://www.dropbox.com/s/84zxpbzf32u0f2y/Raefftech_Railway_Equipment.zip?dl=1",
+            "id": "Raefftech_Railway_Equipment",
+            "folder": "config/immersiverailroading",
+            "fileName": "Raefftech_Railway_Equipment.zip"
+        },
+        {
+            "type": "direct",
+            "direct_url": "https://skyem.co.uk/files/TFL_Pack_tom23_v100_fixed_4.zip",
+            "id": "fixed_tfl_trains",
+            "folder": "config/immersiverailroading",
+            "fileName": "fixed_tfl_trains.zip"
+        },
+        {
+            "type": "curse",
+            "curse_projectName": "Forge/swingthroughgrass",
+            "side": "SERVER"
+        },
+        {
+            "type": "curse",
+            "curse_projectName": "Forge/laggoggles",
+            "description": "***Admin/diagnostic tool. Leave off unless asked to help test performance issues.",
+            "optional": {
+                "selected": false
+            }
+        },
+        {
+            "type": "curse",
+            "curse_projectName": "Forge/sampler",
+            "description": "***Admin/diagnostic tool. Leave off unless asked to help test performance issues.",
+            "optional": {
+                "selected": false
+            }
+        },
+        {
+            "type": "curse",
+            "curse_projectName": "Forge/openeye",
+            "description": "Automatically collects and submits crash reports. Enable if asked or wish to help sort issues with the pack.",
+            "optional": {
+                "selected": false
+            }
+        },
+        {
+            "type": "curse",
+            "curse_projectName": "Forge/faster-ladder-climbing",
+            "description": "Helps you control ladder climb speed and allows you to go a bit faster.",
+            "side": "CLIENT",
+            "optional": {
+                "selected": true,
+                "recommendation": "starred"
+            }
+        },
+        {
+            "type": "curse",
+            "curse_projectName": "Forge/dynamic-surroundings",
+            "description": "Caution: Resource heavy. Quite nice, has a lot of configurable features that add immersive sound/visual effects. Includes light-level overlay. (Defaults set to remove some sounds and generally be better.)",
+            "side": "CLIENT",
+            "optional": {
+                "selected": false
+            }
+        },
+        {
+            "type": "curse",
+            "curse_projectName": "Forge/dynamic-lights",
+            "description": "Caution: Resource heavy. Turn this off if your computer isn't powerful enough.",
+            "side": "CLIENT",
+            "optional": {
+                "selected": false
+            }
+        },
+        {
+            "type": "curse",
+            "curse_projectName": "Forge/better-foliage",
+            "description": "Caution: Resource heavy. Disabled by default because there are a few render bugs.",
+            "side": "CLIENT",
+            "optional": {
+                "selected": false
+            }
+        },
+        {
+            "type": "curse",
+            "curse_projectName": "Forge/fancy-block-particles",
+            "description": "Caution: Resource heavy. Adds some flair to particle effects and animations. Highly configurable, costs fps. (Defaults set to be less intrusive.)",
+            "side": "CLIENT",
+            "optional": {
+                "selected": false
+            }
+        },
+        {
+            "type": "curse",
+            "curse_projectName": "Forge/nofov",
+            "description": "Disables changes to the field of view by effects, including stuff like sprinting and potions.",
+            "side": "CLIENT",
+            "optional": {
+                "selected": false
+            }
+        }
+    ]
+}
+}

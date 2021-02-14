@@ -2,6 +2,68 @@
     "$schema": "http://json-schema.org/draft-07/schema",
     "$ref": "#/definitions/16f01gsc2ppmp",
     "definitions": {
+        "1muk6oewqpo1t": {
+            "type": "object",
+            "properties": {
+                "folder": {
+                    "$ref": "#/definitions/1kii6t544y7sx"
+                },
+                "description": {
+                    "$ref": "#/definitions/1kii6t544y7sx"
+                },
+                "optional": {
+                    "$ref": "#/definitions/95lpxckehe69"
+                },
+                "side": {
+                    "enum": [
+                        "CLIENT",
+                        "SERVER",
+                        "BOTH"
+                    ],
+                    "$ref": "#/definitions/x1cmzbou8shekf"
+                },
+                "websiteUrl": {
+                    "$ref": "#/definitions/1kii6t544y7sx"
+                },
+                "packageType": {
+                    "enum": [
+                        "FOLDER",
+                        "CTOP",
+                        "SINGLEFILE",
+                        "CMOD2",
+                        "MODPACK",
+                        "MOD",
+                        "ANY"
+                    ],
+                    "$ref": "#/definitions/xaygo1sgzyqyn"
+                },
+                "version": {
+                    "$ref": "#/definitions/1kii6t544y7sx"
+                },
+                "fileName": {
+                    "$ref": "#/definitions/1kii6t544y7sx"
+                },
+                "fileNameRegex": {
+                    "$ref": "#/definitions/1kii6t544y7sx"
+                },
+                "validMcVersions": {
+                    "$ref": "#/definitions/x1atm94qhblv5r"
+                },
+                "invalidMcVersions": {
+                    "$ref": "#/definitions/x1atm94qhblv5r"
+                },
+                "direct_useOriginalUrl": {
+                    "$ref": "#/definitions/1u485b0ult91d"
+                }
+            },
+            "additionalProperties": false
+        },
+        "x2w2015zeqzgf": {
+            "type": "array",
+            "items": {
+                "$ref": "#/definitions/6cdta9iwtw5d"
+            }
+        },
         "x1o90evh20qk1r": {
             "type": "string",
             "enum": [
@@ -23,14 +85,6 @@
                 "BOTH"
             ]
         },
-        "x12jhpiu73a6tb": {
-            "if": {
-                "type": "boolean"
-            },
-            "else": {
-                "type": "null"
-            }
-        },
         "x3wcko3mv5xj3": {
             "type": "string",
             "enum": [
@@ -38,43 +92,23 @@
                 "RESOURCE_PACKS"
             ]
         },
-        "pomkscmz785d": {
-            "if": {
-                "type": "array"
-            },
-            "else": {
-                "type": "null"
-            },
-            "items": {
-                "$ref": "#/definitions/1ni5i0nsros8x"
+        "u8vbjk4a30n5": {
+            "type": "object",
+            "additionalProperties": {
+                "$ref": "#/definitions/x186d2oiqx3gn3"
             }
         },
         "xm0v4gp91e3un": {
             "type": "object",
             "properties": {
                 "include": {
-                    "$ref": "#/definitions/x10pw1nljfmxvj"
+                    "$ref": "#/definitions/x2w2015zeqzgf"
                 },
                 "exclude": {
-                    "$ref": "#/definitions/x10pw1nljfmxvj"
+                    "$ref": "#/definitions/x2w2015zeqzgf"
                 }
             },
             "additionalProperties": false
-        },
-        "1ni5i0oo4nmq7": {
-            "type": "string"
-        },
-        "x1chjl5gtbbldr": {
-            "type": "object",
-            "additionalProperties": {
-                "$ref": "#/definitions/1f2g39y1n6cjl"
-            }
-        },
-        "x3kyq2vfqsxrz": {
-            "type": "object",
-            "additionalProperties": {
-                "$ref": "#/definitions/x186d2oiqx3gn3"
-            }
         },
         "4holsd0m641t": {
             "if": {
@@ -88,73 +122,20 @@
                 "avoid"
             ]
         },
-        "1fs0fiyho660x": {
+        "xenpjj19afmyn": {
             "type": "object",
-            "properties": {
-                "folder": {
-                    "$ref": "#/definitions/moo56pk429dt"
-                },
-                "description": {
-                    "$ref": "#/definitions/moo56pk429dt"
-                },
-                "optional": {
-                    "$ref": "#/definitions/95lpxckehe69"
-                },
-                "side": {
-                    "enum": [
-                        "CLIENT",
-                        "SERVER",
-                        "BOTH"
-                    ],
-                    "$ref": "#/definitions/x1cmzbou8shekf"
-                },
-                "websiteUrl": {
-                    "$ref": "#/definitions/moo56pk429dt"
-                },
-                "packageType": {
-                    "enum": [
-                        "FOLDER",
-                        "CTOP",
-                        "SINGLEFILE",
-                        "CMOD2",
-                        "MODPACK",
-                        "MOD",
-                        "ANY"
-                    ],
-                    "$ref": "#/definitions/xaygo1sgzyqyn"
-                },
-                "version": {
-                    "$ref": "#/definitions/moo56pk429dt"
-                },
-                "fileName": {
-                    "$ref": "#/definitions/moo56pk429dt"
-                },
-                "fileNameRegex": {
-                    "$ref": "#/definitions/moo56pk429dt"
-                },
-                "validMcVersions": {
-                    "$ref": "#/definitions/pomkscmz785d"
-                },
-                "invalidMcVersions": {
-                    "$ref": "#/definitions/pomkscmz785d"
-                },
-                "jenkinsUrl": {
-                    "$ref": "#/definitions/moo56pk429dt"
-                },
-                "job": {
-                    "$ref": "#/definitions/moo56pk429dt"
-                },
-                "buildNumber": {
-                    "$ref": "#/definitions/x1af7zoz5r3oxr"
-                }
-            },
-            "additionalProperties": false
+            "additionalProperties": {
+                "$ref": "#/definitions/1f2g39y1n6cjl"
+            }
+        },
+        "6cdta9iwtw5d": {
+            "type": "string"
         },
         "x186d2oiqx3gn3": {
             "type": "object",
             "properties": {
                 "mcVersions": {
-                    "$ref": "#/definitions/x10pw1nljfmxvj"
+                    "$ref": "#/definitions/x2w2015zeqzgf"
                 }
             },
             "additionalProperties": false
@@ -163,19 +144,19 @@
             "type": "object",
             "properties": {
                 "$schema": {
-                    "$ref": "#/definitions/1ni5i0oo4nmq7"
+                    "$ref": "#/definitions/6cdta9w4b4yo"
                 },
                 "curseforgeGenerators": {
-                    "$ref": "#/definitions/x1ufrfsp6nmnlr"
+                    "$ref": "#/definitions/xwlxe69mmqp6n"
                 },
                 "forgeGenerators": {
-                    "$ref": "#/definitions/x3kyq2vfqsxrz"
+                    "$ref": "#/definitions/u8vbjk4a30n5"
                 },
                 "fabricGenerators": {
-                    "$ref": "#/definitions/x1hld9np92m03j"
+                    "$ref": "#/definitions/xjrj819p1q1of"
                 },
                 "overrides": {
-                    "$ref": "#/definitions/x1chjl5gtbbldr"
+                    "$ref": "#/definitions/xenpjj19afmyn"
                 }
             },
             "additionalProperties": false,
@@ -186,20 +167,6 @@
                 "fabricGenerators",
                 "overrides"
             ]
-        },
-        "x10pw1nljfmxvj": {
-            "type": "array",
-            "items": {
-                "$ref": "#/definitions/1ni5i0nsros8x"
-            }
-        },
-        "moo56pk429dt": {
-            "if": {
-                "type": "string"
-            },
-            "else": {
-                "type": "null"
-            }
         },
         "4gp058leuw3l": {
             "if": {
@@ -217,14 +184,6 @@
                 "$ref": "#/definitions/x1o90evh20qk1r"
             }
         },
-        "x1af7zoz5r3oxr": {
-            "if": {
-                "type": "number"
-            },
-            "else": {
-                "type": "null"
-            }
-        },
         "95lpxckehe69": {
             "if": {
                 "type": "object"
@@ -234,7 +193,7 @@
             },
             "properties": {
                 "selected": {
-                    "$ref": "#/definitions/x12jhpiu73a6tb"
+                    "$ref": "#/definitions/1u485b0ult91d"
                 },
                 "recommendation": {
                     "enum": [
@@ -249,17 +208,25 @@
             },
             "additionalProperties": false
         },
-        "1ni5i0nsros8x": {
-            "type": "string"
+        "x1atm94qhblv5r": {
+            "if": {
+                "type": "array"
+            },
+            "else": {
+                "type": "null"
+            },
+            "items": {
+                "$ref": "#/definitions/6cdta9iwtw5d"
+            }
         },
         "x1qxf8lr0t3ytb": {
             "type": "object",
             "properties": {
                 "folder": {
-                    "$ref": "#/definitions/moo56pk429dt"
+                    "$ref": "#/definitions/1kii6t544y7sx"
                 },
                 "description": {
-                    "$ref": "#/definitions/moo56pk429dt"
+                    "$ref": "#/definitions/1kii6t544y7sx"
                 },
                 "optional": {
                     "$ref": "#/definitions/95lpxckehe69"
@@ -273,7 +240,7 @@
                     "$ref": "#/definitions/x1cmzbou8shekf"
                 },
                 "websiteUrl": {
-                    "$ref": "#/definitions/moo56pk429dt"
+                    "$ref": "#/definitions/1kii6t544y7sx"
                 },
                 "packageType": {
                     "enum": [
@@ -288,87 +255,28 @@
                     "$ref": "#/definitions/xaygo1sgzyqyn"
                 },
                 "version": {
-                    "$ref": "#/definitions/moo56pk429dt"
+                    "$ref": "#/definitions/1kii6t544y7sx"
                 },
                 "fileName": {
-                    "$ref": "#/definitions/moo56pk429dt"
+                    "$ref": "#/definitions/1kii6t544y7sx"
                 },
                 "fileNameRegex": {
-                    "$ref": "#/definitions/moo56pk429dt"
+                    "$ref": "#/definitions/1kii6t544y7sx"
                 },
                 "validMcVersions": {
-                    "$ref": "#/definitions/pomkscmz785d"
+                    "$ref": "#/definitions/x1atm94qhblv5r"
                 },
                 "invalidMcVersions": {
-                    "$ref": "#/definitions/pomkscmz785d"
+                    "$ref": "#/definitions/x1atm94qhblv5r"
                 },
-                "releaseTypes": {
+                "curse_releaseTypes": {
                     "$ref": "#/definitions/4gp058leuw3l"
                 },
-                "useOriginalUrl": {
-                    "$ref": "#/definitions/x12jhpiu73a6tb"
+                "curse_useOriginalUrl": {
+                    "$ref": "#/definitions/1u485b0ult91d"
                 },
-                "skipFingerprintCheck": {
-                    "$ref": "#/definitions/x12jhpiu73a6tb"
-                }
-            },
-            "additionalProperties": false
-        },
-        "gcve8jdxjabl": {
-            "type": "object",
-            "properties": {
-                "folder": {
-                    "$ref": "#/definitions/moo56pk429dt"
-                },
-                "description": {
-                    "$ref": "#/definitions/moo56pk429dt"
-                },
-                "optional": {
-                    "$ref": "#/definitions/95lpxckehe69"
-                },
-                "side": {
-                    "enum": [
-                        "CLIENT",
-                        "SERVER",
-                        "BOTH"
-                    ],
-                    "$ref": "#/definitions/x1cmzbou8shekf"
-                },
-                "websiteUrl": {
-                    "$ref": "#/definitions/moo56pk429dt"
-                },
-                "packageType": {
-                    "enum": [
-                        "FOLDER",
-                        "CTOP",
-                        "SINGLEFILE",
-                        "CMOD2",
-                        "MODPACK",
-                        "MOD",
-                        "ANY"
-                    ],
-                    "$ref": "#/definitions/xaygo1sgzyqyn"
-                },
-                "version": {
-                    "$ref": "#/definitions/moo56pk429dt"
-                },
-                "fileName": {
-                    "$ref": "#/definitions/moo56pk429dt"
-                },
-                "fileNameRegex": {
-                    "$ref": "#/definitions/moo56pk429dt"
-                },
-                "validMcVersions": {
-                    "$ref": "#/definitions/pomkscmz785d"
-                },
-                "invalidMcVersions": {
-                    "$ref": "#/definitions/pomkscmz785d"
-                },
-                "url": {
-                    "$ref": "#/definitions/moo56pk429dt"
-                },
-                "useOriginalUrl": {
-                    "$ref": "#/definitions/x12jhpiu73a6tb"
+                "curse_skipFingerprintCheck": {
+                    "$ref": "#/definitions/1u485b0ult91d"
                 }
             },
             "additionalProperties": false
@@ -390,11 +298,61 @@
                 "ANY"
             ]
         },
-        "x1ufrfsp6nmnlr": {
+        "xffp8li28wqv3": {
             "type": "object",
-            "additionalProperties": {
-                "$ref": "#/definitions/x488mpoavabl"
-            }
+            "properties": {
+                "folder": {
+                    "$ref": "#/definitions/1kii6t544y7sx"
+                },
+                "description": {
+                    "$ref": "#/definitions/1kii6t544y7sx"
+                },
+                "optional": {
+                    "$ref": "#/definitions/95lpxckehe69"
+                },
+                "side": {
+                    "enum": [
+                        "CLIENT",
+                        "SERVER",
+                        "BOTH"
+                    ],
+                    "$ref": "#/definitions/x1cmzbou8shekf"
+                },
+                "websiteUrl": {
+                    "$ref": "#/definitions/1kii6t544y7sx"
+                },
+                "packageType": {
+                    "enum": [
+                        "FOLDER",
+                        "CTOP",
+                        "SINGLEFILE",
+                        "CMOD2",
+                        "MODPACK",
+                        "MOD",
+                        "ANY"
+                    ],
+                    "$ref": "#/definitions/xaygo1sgzyqyn"
+                },
+                "version": {
+                    "$ref": "#/definitions/1kii6t544y7sx"
+                },
+                "fileName": {
+                    "$ref": "#/definitions/1kii6t544y7sx"
+                },
+                "fileNameRegex": {
+                    "$ref": "#/definitions/1kii6t544y7sx"
+                },
+                "validMcVersions": {
+                    "$ref": "#/definitions/x1atm94qhblv5r"
+                },
+                "invalidMcVersions": {
+                    "$ref": "#/definitions/x1atm94qhblv5r"
+                },
+                "jenkins_jenkinsUrl": {
+                    "$ref": "#/definitions/1kii6t544y7sx"
+                }
+            },
+            "additionalProperties": false
         },
         "1f2g39y1n6cjl": {
             "properties": {
@@ -417,10 +375,10 @@
                     "$ref": "#/definitions/x1qxf8lr0t3ytb"
                 },
                 {
-                    "$ref": "#/definitions/gcve8jdxjabl"
+                    "$ref": "#/definitions/1muk6oewqpo1t"
                 },
                 {
-                    "$ref": "#/definitions/1fs0fiyho660x"
+                    "$ref": "#/definitions/xffp8li28wqv3"
                 },
                 {
                     "$ref": "#/definitions/u98b9e39fv29"
@@ -434,10 +392,10 @@
             "type": "object",
             "properties": {
                 "folder": {
-                    "$ref": "#/definitions/moo56pk429dt"
+                    "$ref": "#/definitions/1kii6t544y7sx"
                 },
                 "description": {
-                    "$ref": "#/definitions/moo56pk429dt"
+                    "$ref": "#/definitions/1kii6t544y7sx"
                 },
                 "optional": {
                     "$ref": "#/definitions/95lpxckehe69"
@@ -451,7 +409,7 @@
                     "$ref": "#/definitions/x1cmzbou8shekf"
                 },
                 "websiteUrl": {
-                    "$ref": "#/definitions/moo56pk429dt"
+                    "$ref": "#/definitions/1kii6t544y7sx"
                 },
                 "packageType": {
                     "enum": [
@@ -466,22 +424,22 @@
                     "$ref": "#/definitions/xaygo1sgzyqyn"
                 },
                 "version": {
-                    "$ref": "#/definitions/moo56pk429dt"
+                    "$ref": "#/definitions/1kii6t544y7sx"
                 },
                 "fileName": {
-                    "$ref": "#/definitions/moo56pk429dt"
+                    "$ref": "#/definitions/1kii6t544y7sx"
                 },
                 "fileNameRegex": {
-                    "$ref": "#/definitions/moo56pk429dt"
+                    "$ref": "#/definitions/1kii6t544y7sx"
                 },
                 "validMcVersions": {
-                    "$ref": "#/definitions/pomkscmz785d"
+                    "$ref": "#/definitions/x1atm94qhblv5r"
                 },
                 "invalidMcVersions": {
-                    "$ref": "#/definitions/pomkscmz785d"
+                    "$ref": "#/definitions/x1atm94qhblv5r"
                 },
-                "fileSrc": {
-                    "$ref": "#/definitions/moo56pk429dt"
+                "local_fileSrc": {
+                    "$ref": "#/definitions/1kii6t544y7sx"
                 }
             },
             "additionalProperties": false
@@ -490,10 +448,10 @@
             "type": "object",
             "properties": {
                 "folder": {
-                    "$ref": "#/definitions/moo56pk429dt"
+                    "$ref": "#/definitions/1kii6t544y7sx"
                 },
                 "description": {
-                    "$ref": "#/definitions/moo56pk429dt"
+                    "$ref": "#/definitions/1kii6t544y7sx"
                 },
                 "optional": {
                     "$ref": "#/definitions/95lpxckehe69"
@@ -507,7 +465,7 @@
                     "$ref": "#/definitions/x1cmzbou8shekf"
                 },
                 "websiteUrl": {
-                    "$ref": "#/definitions/moo56pk429dt"
+                    "$ref": "#/definitions/1kii6t544y7sx"
                 },
                 "packageType": {
                     "enum": [
@@ -522,25 +480,39 @@
                     "$ref": "#/definitions/xaygo1sgzyqyn"
                 },
                 "version": {
-                    "$ref": "#/definitions/moo56pk429dt"
+                    "$ref": "#/definitions/1kii6t544y7sx"
                 },
                 "fileName": {
-                    "$ref": "#/definitions/moo56pk429dt"
+                    "$ref": "#/definitions/1kii6t544y7sx"
                 },
                 "fileNameRegex": {
-                    "$ref": "#/definitions/moo56pk429dt"
+                    "$ref": "#/definitions/1kii6t544y7sx"
                 },
                 "validMcVersions": {
-                    "$ref": "#/definitions/pomkscmz785d"
+                    "$ref": "#/definitions/x1atm94qhblv5r"
                 },
                 "invalidMcVersions": {
-                    "$ref": "#/definitions/pomkscmz785d"
+                    "$ref": "#/definitions/x1atm94qhblv5r"
                 }
             },
             "additionalProperties": false
         },
-        "13g16fyht5m2p": {
+        "1xy3kesy5ce81": {
             "type": "boolean"
+        },
+        "xwlxe69mmqp6n": {
+            "type": "object",
+            "additionalProperties": {
+                "$ref": "#/definitions/x488mpoavabl"
+            }
+        },
+        "1u485b0ult91d": {
+            "if": {
+                "type": "boolean"
+            },
+            "else": {
+                "type": "null"
+            }
         },
         "x488mpoavabl": {
             "type": "object",
@@ -553,10 +525,10 @@
                     "$ref": "#/definitions/x3wcko3mv5xj3"
                 },
                 "categories": {
-                    "$ref": "#/definitions/x10pw1nljfmxvj"
+                    "$ref": "#/definitions/x2w2015zeqzgf"
                 },
                 "mcVersions": {
-                    "$ref": "#/definitions/x10pw1nljfmxvj"
+                    "$ref": "#/definitions/x2w2015zeqzgf"
                 }
             },
             "additionalProperties": false,
@@ -568,15 +540,26 @@
             "type": "object",
             "properties": {
                 "requireStable": {
-                    "$ref": "#/definitions/13g16fyht5m2p"
+                    "$ref": "#/definitions/1xy3kesy5ce81"
                 },
                 "mcVersions": {
-                    "$ref": "#/definitions/x10pw1nljfmxvj"
+                    "$ref": "#/definitions/x2w2015zeqzgf"
                 }
             },
             "additionalProperties": false
         },
-        "x1hld9np92m03j": {
+        "1kii6t544y7sx": {
+            "if": {
+                "type": "string"
+            },
+            "else": {
+                "type": "null"
+            }
+        },
+        "6cdta9w4b4yo": {
+            "type": "string"
+        },
+        "xjrj819p1q1of": {
             "type": "object",
             "additionalProperties": {
                 "$ref": "#/definitions/19ymerplvvxtt"
