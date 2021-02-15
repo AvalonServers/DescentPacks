@@ -9,6 +9,13 @@
     "version": "0.0.4",
     "icon": "icon_ascentfrozenhell.png",
     "packOptions": {
+        "multimcOptions": {
+            "instanceCfg": {
+                "MaxMemAlloc": "6144",
+                "MinMemAlloc": "1024",
+                "OverrideMemory": "true"
+            }
+        },
         "uploadUrl": "https://mydomain.com/mc/afhtest"
     },
     "entries": [
@@ -354,7 +361,7 @@
             "type": "curse",
             "id": "creativecore",
             "path": "mods",
-            "name": "onlinepictureframe",
+            "name": "littletiles",
             "projectID": 257814,
             "fileID": 3198625
         },
