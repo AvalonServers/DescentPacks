@@ -7,6 +7,15 @@
         "type": "modloader.forge",
         "version": "Forge_12_2/1.12.2/14.23.5.2854"
     },
+    "packageConfiguration": {
+        "multimc": {
+            "instanceCfg": {
+                "MaxMemAlloc": "6144",
+                "MinMemAlloc": "1024",
+                "OverrideMemory": "true"
+            }
+        }
+    },
     "mods": {
         "": [
             {
