@@ -7,7 +7,7 @@ reports/
 logs/
 
 _upload/
-.complettions/
+.completions/
 schema/
 
 wrapper/bin/
