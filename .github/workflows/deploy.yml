@@ -8,6 +8,7 @@ jobs:
   deploy:
     name: Deploy to production
     runs-on: ubuntu-latest
+    environment: prod
     steps:
       - name: Fetch repository
         uses: actions/checkout@v2
