@@ -361,7 +361,7 @@
             "type": "curse",
             "id": "creativecore",
             "path": "mods",
-            "name": "littletiles",
+            "name": "onlinepictureframe",
             "projectID": 257814,
             "fileID": 3198625
         },
@@ -1022,7 +1022,7 @@
             "path": "mods",
             "name": "opensecurity",
             "projectID": 231687,
-            "fileID": 3197882
+            "fileID": 3205788
         },
         {
             "type": "curse",

@@ -5,10 +5,9 @@ on:
   workflow_dispatch: {}
 
 jobs:
-  deploy:
-    name: Deploy to production
-    runs-on: ubuntu-latest
-    environment: prod
+  build:
+    name: Build release artifacts
+    runs-on: ubuntu-20.04
     steps:
       - name: Fetch repository
         uses: actions/checkout@v2
@@ -17,15 +16,75 @@ jobs:
         with:
           java-version: 11
           architecture: x64
-      - name: Pack server
-        run: |
-          mkdir -p _upload/server/deploy
-          ./voodoo package afhtest/modpack.meta.json5 server --uploadDir _upload/server/deploy
-      - name: Deploy to server
-        uses: appleboy/scp-action@master
+      - name: Create server package
+        run: ./voodoo package afhtest/modpack.meta.json5 server
+      - name: Create client package
+        run: ./voodoo package afhtest/modpack.meta.json5 voodoo
+      - name: Create launcher package
+        run: ./voodoo package afhtest/modpack.meta.json5 mmc-voodoo
+      - name: Upload server package
+        uses: actions/upload-artifact@v2
+        with:
+          name: server
+          path: _upload/server/afhtest_v0.0.4
+      - name: Upload client package
+        uses: actions/upload-artifact@v2
+        with:
+          name: client
+          path: _upload/voodoo
+      - name: Upload launcher package
+        uses: actions/upload-artifact@v2
+        with:
+          name: launcher
+          path: _upload/multimc-voodoo/afhtest.zip
+  # deploy-web:
+  #   name: Deploy web server
+  #   needs: ["build"]
+  #   runs-on: ubuntu-20.04
+  #   environment: prod
+  #   steps:
+  #     - name: Download client package
+  #       uses: actions/download-artifact@v2
+  #       with:
+  #         name: client
+  #         path: artifacts/client
+  #     - name: Copy files to server
+  #       uses: appleboy/scp-action@v0.1.1
+  #       with:
+  #         host: srv1.avalon.arctarus.co.uk
+  #         key: ${{ secrets.AVALON_SERVER_SSH }}
+  #         username: avalon-deploy
+  #         source: _upload/deploy/server/*
+  #         target: /var/lib/avalon/mc/ascent/
+  deploy-mc:
+    name: Deploy Minecraft server
+    needs: ["build"]
+    runs-on: ubuntu-20.04
+    environment: prod
+    steps:
+      - name: Download server package
+        uses: actions/download-artifact@v2
+        with:
+          name: server
+          path: artifacts/server
+      - name: Copy files to server
+        uses: appleboy/scp-action@v0.1.1
         with:
           host: srv1.avalon.arctarus.co.uk
           key: ${{ secrets.AVALON_SERVER_SSH }}
           username: avalon-deploy
-          source: _upload/server/deploy/*
-          target: /var/lib/avalon/mc/ascent/
+          source: artifacts/server
+          target: /var/lib/avalon/mc/ascent/installer
+          strip_components: 2
+          rm: true
+      - name: Extract files on server and restart
+        uses: appleboy/ssh-action@v0.1.4
+        with:
+          host: srv1.avalon.arctarus.co.uk
+          key: ${{ secrets.AVALON_SERVER_SSH }}
+          username: avalon-deploy
+          script: |
+            BASE_PATH=/var/lib/avalon/mc/ascent
+            # systemctl stop avalon-mc-ascent
+            java -Xmx4G -jar $BASE_PATH/installer/server-installer.jar $BASE_PATH
+            # systemctl start avalon-mc-ascent

@@ -4,7 +4,7 @@ on: push
 jobs:
   build:
     name: Test pack build
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.04
     steps:
       - name: Fetch repository
         uses: actions/checkout@v2

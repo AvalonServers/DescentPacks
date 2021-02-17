@@ -6,5 +6,10 @@
         "ThePiGuy24"
     ],
     "icon": "icon_ascentfrozenhell.png",
-    "uploadBaseUrl": "https://mydomain.com/mc/"
+    "uploadBaseUrl": "https://mydomain.com/mc/",
+    "packConfig": {
+        "versionAlias": {
+            "latest": "0.0.4"
+        }
+    }
 }
