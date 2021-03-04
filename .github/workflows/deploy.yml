@@ -61,6 +61,7 @@ jobs:
           username: avalon-deploy
           source: artifacts/client
           target: /var/lib/avalon/cdn/ascent/client
+          strip_components: 2
       - name: Copy launcher files to server
         uses: appleboy/scp-action@v0.1.1
         with:
@@ -69,6 +70,7 @@ jobs:
           username: avalon-deploy
           source: artifacts/launcher
           target: /var/lib/avalon/cdn/ascent/launcher
+          strip_components: 2
   deploy-mc:
     name: Deploy Minecraft server
     needs: ["build"]
