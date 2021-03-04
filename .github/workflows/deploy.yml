@@ -100,7 +100,7 @@ jobs:
           username: avalon-deploy
           script: |
             BASE_PATH=/var/lib/avalon/mc/ascent
-            systemctl stop avalon-mc-ascent
+            doas systemctl stop avalon-mc-ascent
             java -Xmx4G -jar $BASE_PATH/installer/server-installer.jar $BASE_PATH
             ln -sf $BASE_PATH/forge-1.12.2-14.23.5.2854.jar server.jar
-            systemctl start avalon-mc-ascent
+            doas systemctl start avalon-mc-ascent
