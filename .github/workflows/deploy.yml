@@ -37,25 +37,38 @@ jobs:
         with:
           name: launcher
           path: _upload/multimc-voodoo/afhtest.zip
-  # deploy-web:
-  #   name: Deploy web server
-  #   needs: ["build"]
-  #   runs-on: ubuntu-20.04
-  #   environment: prod
-  #   steps:
-  #     - name: Download client package
-  #       uses: actions/download-artifact@v2
-  #       with:
-  #         name: client
-  #         path: artifacts/client
-  #     - name: Copy files to server
-  #       uses: appleboy/scp-action@v0.1.1
-  #       with:
-  #         host: srv1.avalon.arctarus.co.uk
-  #         key: ${{ secrets.AVALON_SERVER_SSH }}
-  #         username: avalon-deploy
-  #         source: _upload/deploy/server/*
-  #         target: /var/lib/avalon/mc/ascent/
+  deploy-web:
+    name: Deploy web server
+    needs: ["build"]
+    runs-on: ubuntu-20.04
+    environment: prod
+    steps:
+      - name: Download client package
+        uses: actions/download-artifact@v2
+        with:
+          name: client
+          path: artifacts/client
+      - name: Download launcher package
+        uses: actions/download-artifact@v2
+        with:
+          name: launcher
+          path: artifacts/launcher
+      - name: Copy client files to server
+        uses: appleboy/scp-action@v0.1.1
+        with:
+          host: cdn.avalon.arctarus.co.uk
+          key: ${{ secrets.AVALON_SERVER_SSH }}
+          username: avalon-deploy
+          source: artifacts/client
+          target: /var/lib/avalon/cdn/ascent/client
+      - name: Copy launcher files to server
+        uses: appleboy/scp-action@v0.1.1
+        with:
+          host: cdn.avalon.arctarus.co.uk
+          key: ${{ secrets.AVALON_SERVER_SSH }}
+          username: avalon-deploy
+          source: artifacts/launcher
+          target: /var/lib/avalon/cdn/ascent/launcher
   deploy-mc:
     name: Deploy Minecraft server
     needs: ["build"]
@@ -85,6 +98,7 @@ jobs:
           username: avalon-deploy
           script: |
             BASE_PATH=/var/lib/avalon/mc/ascent
-            # systemctl stop avalon-mc-ascent
+            systemctl stop avalon-mc-ascent
             java -Xmx4G -jar $BASE_PATH/installer/server-installer.jar $BASE_PATH
-            # systemctl start avalon-mc-ascent
+            ln -sf $BASE_PATH/forge-1.12.2-14.23.5.2854.jar server.jar
+            systemctl start avalon-mc-ascent
