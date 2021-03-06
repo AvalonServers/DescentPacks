@@ -17,7 +17,7 @@
          "blocks":{
             "ore":"oreIron"
          },
-         "rarity":101,
+         "rarity":300,
          "blocks_under":[
             {
                "block":"minecraft:stone"
@@ -184,7 +184,7 @@
       "count":1,
       "min_y":0,
       "max_y":63,
-      "density":100,
+      "density":60,
       "vertical_size":15,
       "horizontal_size":250
    },
@@ -208,7 +208,7 @@
             "block":"immersiveengineering:ore",
             "meta":1
          },
-         "rarity":101,
+         "rarity":300,
          "blocks_under":[
             {
                "block":"minecraft:stone"
@@ -374,7 +374,7 @@
       "count":1,
       "min_y":0,
       "max_y":64,
-      "density":100,
+      "density":60,
       "vertical_size":30,
       "horizontal_size":200
    },
@@ -393,7 +393,7 @@
             "block":"thermalfoundation:ore",
             "meta":1
          },
-         "rarity":101,
+         "rarity":300,
          "blocks_under":[
             {
                "block":"minecraft:stone"
@@ -559,7 +559,7 @@
       "count":1,
       "min_y":0,
       "max_y":40,
-      "density":100,
+      "density":60,
       "vertical_size":30,
       "horizontal_size":200
    },
@@ -958,7 +958,7 @@
          "blocks":{
             "ore":"oreCoal"
          },
-         "rarity":101,
+         "rarity":300,
          "blocks_under":[
             {
                "block":"minecraft:stone"
@@ -1176,7 +1176,7 @@
          "block":"immersiveengineering:ore",
          "meta":0
          },
-         "rarity":101,
+         "rarity":300,
          "blocks_under":[
             {
                "block":"minecraft:stone"
@@ -1344,7 +1344,7 @@
       "count":1,
       "min_y":40,
       "max_y":72,
-      "density":100,
+      "density":60,
       "vertical_size":30,
       "horizontal_size":200
    },
@@ -1353,19 +1353,24 @@
       "ore":[
 	  {
          "block":"immersiveengineering:ore",
-         "meta":3,
+         "meta":2,
 		 "weight":90
+      },
+	  {
+         "block":"immersiveengineering:ore",
+         "meta":3,
+		 "weight":5
       },
 	  {
          "block":"immersiveintelligence:ore",
          "meta":1,
-		 "weight":10
+		 "weight":5
       }
 	  ],
       "indicator":{
          "blocks":{
          "block":"immersiveengineering:ore",
-         "meta":3
+         "meta":2
          },
          "rarity":30,
          "blocks_under":[
@@ -1534,7 +1539,7 @@
       "count":1,
       "min_y":5,
       "max_y":30,
-      "density":100,
+      "density":60,
       "vertical_size":30,
       "horizontal_size":200
    },
@@ -1549,7 +1554,7 @@
          "block":"immersiveengineering:ore",
          "meta":5
          },
-         "rarity":101,
+         "rarity":300,
          "blocks_under":[
             {
                "block":"minecraft:stone"
@@ -1731,7 +1736,7 @@
          "block":"nuclearcraft:ore",
          "meta":3
          },
-         "rarity":101,
+         "rarity":300,
          "blocks_under":[
             {
                "block":"minecraft:stone"
@@ -1921,7 +1926,7 @@
             "block":"immersiveintelligence:ore",
             "meta":3
          },
-         "rarity":101,
+         "rarity":300,
          "blocks_under":[
             {
                "block":"minecraft:stone"
