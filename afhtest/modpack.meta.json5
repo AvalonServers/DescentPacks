@@ -6,7 +6,7 @@
         "ThePiGuy24"
     ],
     "icon": "icon_ascentfrozenhell.png",
-    "uploadBaseUrl": "https://mydomain.com/mc/",
+    "uploadBaseUrl": "https://cdn.avalon.arctarus.co.uk/ascent/client/",
     "packConfig": {
         "versionAlias": {
             "latest": "0.0.4"
