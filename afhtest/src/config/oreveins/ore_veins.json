@@ -3,7 +3,7 @@
       "type":"cluster",
       "ore":[
          {
-            "ore":"oreIron",
+            "ore":"minecraft:iron_ore",
             "weight":80
          },
          {
@@ -15,7 +15,7 @@
       "stone":"minecraft:stone",
       "indicator":{
          "blocks":{
-            "ore":"oreIron"
+            "ore":"minecraft:iron_ore"
          },
          "rarity":300,
          "blocks_under":[
