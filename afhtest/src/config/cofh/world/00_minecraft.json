@@ -123,14 +123,13 @@
 		},
 
 		"coal": {
-			"enabled": false,
 			"distribution": "uniform",
 			"generator": {
 				"block": "coal_ore",
 				"material": "minecraft:stone",
-				"cluster-size": 17
+				"cluster-size": 10
 			},
-			"cluster-count": 20,
+			"cluster-count": 10,
 			"min-height": 0,
 			"max-height": 128,
 			"retrogen": false,
@@ -145,14 +144,13 @@
 		},
 
 		"iron": {
-			"enabled": false,
 			"distribution": "uniform",
 			"generator": {
 				"block": "iron_ore",
 				"material": "minecraft:stone",
 				"cluster-size": 9
 			},
-			"cluster-count": 20,
+			"cluster-count": 5,
 			"min-height": 0,
 			"max-height": 64,
 			"retrogen": false,
@@ -167,14 +165,13 @@
 		},
 
 		"gold": {
-			"enabled": false,
 			"distribution": "uniform",
 			"generator": {
 				"block": "gold_ore",
 				"material": "minecraft:stone",
 				"cluster-size": 9
 			},
-			"cluster-count": 2,
+			"cluster-count": 1,
 			"min-height": 0,
 			"max-height": 32,
 			"retrogen": false,
@@ -195,7 +192,7 @@
 				"material": "minecraft:stone",
 				"cluster-size": 8
 			},
-			"cluster-count": 8,
+			"cluster-count": 4,
 			"min-height": 0,
 			"max-height": 16,
 			"retrogen": false,
@@ -210,7 +207,6 @@
 		},
 
 		"diamond": {
-			"enabled": false,
 			"distribution": "uniform",
 			"generator": {
 				"block": "diamond_ore",
@@ -253,7 +249,7 @@
 		},
 
 		"mesa_gold": {
-			"enabled": false,
+			"enabled": true,
 			"distribution": "uniform",
 			"generator": {
 				"block": {
@@ -301,8 +297,8 @@
 				"cluster-size": 1
 			},
 			"cluster-count": {
-				"min": 2,
-				"max": 4
+				"min": 3,
+				"max": 6
 			},
 			"min-height": 4,
 			"max-height": 28,
