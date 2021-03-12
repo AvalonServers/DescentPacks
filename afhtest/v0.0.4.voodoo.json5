@@ -466,10 +466,7 @@
                 "type": "curse",
                 "curse_projectName": "Forge/chicken-chunks-1-8"
             },
-            {
-                "type": "curse",
-                "curse_projectName": "Forge/codechicken-lib-1-8"
-            },			{
+			{
                 "type": "curse",
                 "curse_projectName": "Forge/morpheus"
             },
