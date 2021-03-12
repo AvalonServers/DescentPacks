@@ -463,6 +463,14 @@
                 "curse_projectName": "Forge/recurrent-complex"
             },
             {
+                "type": "curse",
+                "curse_projectName": "Forge/chicken-chunks-1-8"
+            },
+			{
+                "type": "curse",
+                "curse_projectName": "Forge/morpheus"
+            },
+			{
                 "type": "jenkins",
                 "jenkins_jenkinsUrl": "https://ci.cil.li/",
                 "jenkins_job": "OpenComputers-MC1.12",
@@ -513,18 +521,16 @@
                 "folder": "config/immersiverailroading"
             },
             {
+                "type": "curse",
+                "curse_projectName": "Resourcepack/ir-raefftech-railway-equipment",
+                "folder": "config/immersiverailroading"
+            },
+            {
                 "type": "direct",
                 "direct_url": "https://thepiguy24.github.io/INFRATrainPack_0005.zip",
                 "id": "INFRATrainPack",
                 "folder": "config/immersiverailroading",
                 "fileName": "INFRATrainPack.zip"
-            },
-            {
-                "type": "direct",
-                "direct_url": "https://www.dropbox.com/s/84zxpbzf32u0f2y/Raefftech_Railway_Equipment.zip?dl=1",
-                "id": "Raefftech_Railway_Equipment",
-                "folder": "config/immersiverailroading",
-                "fileName": "Raefftech_Railway_Equipment.zip"
             },
             {
                 "type": "direct",
