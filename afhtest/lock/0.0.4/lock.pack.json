@@ -27,13 +27,6 @@
             "url": "https://thepiguy24.github.io/INFRATrainPack_0005.zip"
         },
         {
-            "type": "direct",
-            "id": "Raefftech_Railway_Equipment",
-            "path": "config/immersiverailroading",
-            "fileName": "Raefftech_Railway_Equipment.zip",
-            "url": "https://www.dropbox.com/s/84zxpbzf32u0f2y/Raefftech_Railway_Equipment.zip?dl=1"
-        },
-        {
             "type": "curse",
             "id": "advanced-chimneys",
             "path": "mods",
@@ -260,6 +253,17 @@
         },
         {
             "type": "curse",
+            "id": "chicken-chunks-1-8",
+            "path": "mods",
+            "name": "chicken-chunks-1-8",
+            "dependencies": {
+                "codechicken-lib-1-8": "REQUIRED"
+            },
+            "projectID": 243883,
+            "fileID": 2755785
+        },
+        {
+            "type": "curse",
             "id": "chisel",
             "path": "mods",
             "name": "chisel",
@@ -361,7 +365,7 @@
             "type": "curse",
             "id": "creativecore",
             "path": "mods",
-            "name": "onlinepictureframe",
+            "name": "littletiles",
             "projectID": 257814,
             "fileID": 3227279
         },
@@ -752,6 +756,14 @@
         },
         {
             "type": "curse",
+            "id": "ir-raefftech-railway-equipment",
+            "path": "config/immersiverailroading",
+            "name": "ir-raefftech-railway-equipment",
+            "projectID": 434152,
+            "fileID": 3236099
+        },
+        {
+            "type": "curse",
             "id": "ivtoolkit",
             "path": "mods",
             "name": "recurrent-complex",
@@ -898,6 +910,14 @@
             },
             "projectID": 266736,
             "fileID": 2668113
+        },
+        {
+            "type": "curse",
+            "id": "morpheus",
+            "path": "mods",
+            "name": "morpheus",
+            "projectID": 69118,
+            "fileID": 2664449
         },
         {
             "type": "curse",

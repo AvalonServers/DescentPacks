@@ -524,16 +524,16 @@
                 "folder": "config/immersiverailroading"
             },
             {
+                "type": "curse",
+                "curse_projectName": "Resourcepack/ir-raefftech-railway-equipment",
+                "folder": "config/immersiverailroading"
+            },
+            {
                 "type": "direct",
                 "direct_url": "https://thepiguy24.github.io/INFRATrainPack_0005.zip",
                 "id": "INFRATrainPack",
                 "folder": "config/immersiverailroading",
                 "fileName": "INFRATrainPack.zip"
-            },
-            {
-                "type": "curse",
-                "curse_projectName": "Resourcepack/ir-raefftech-railway-equipment",
-                "folder": "config/immersiverailroading"
             },
             {
                 "type": "direct",
