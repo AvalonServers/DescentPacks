@@ -493,13 +493,13 @@
                 "direct_url": "https://files.vexatos.com/Computronics/marytts/marytts-lang-en-5.2.jar",
                 "id": "computronics_maryTTS_english_language",
                 "folder": "marytts"
-            },/*
+            },
             {
                 "type": "local",
                 "local_fileSrc": "voice-dfki-prudence-hsmm-5.2.jar",
                 "id": "compuronics_maryTTS_english_voice",
                 "folder": "marytts"
-            },*/
+            },
             {
                 "type": "curse",
                 "curse_projectName": "Resourcepack/matoi-vanilla-pack-ir",

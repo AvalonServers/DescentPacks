@@ -322,6 +322,12 @@
             "fileID": 3000327
         },
         {
+            "type": "local",
+            "id": "compuronics_maryTTS_english_voice",
+            "path": "marytts",
+            "fileSrc": "voice-dfki-prudence-hsmm-5.2.jar"
+        },
+        {
             "type": "direct",
             "id": "computronics",
             "path": "mods",
