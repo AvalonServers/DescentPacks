@@ -1,0 +1,73 @@
+Vanilla:
+  minecraft:gold_ore (Gold)
+  minecraft:iron_ore (Iron)
+  minecraft:coal_ore (Coal)
+  minecraft:lapis_ore (Lapis)
+  minecraft:diamond_ore (Diamond)
+  minecraft:redstone_ore (Redstone)
+  minecraft:emerald_ore (Emerald)
+  minecraft:quartz_ore (Nether Quartz) (Nether Only)
+
+Æ:
+  appliedenergistics2:quartz_ore (Certus Quartz)
+  appliedenergistics2:charged_quartz_ore (Charged Certus Quartz)
+
+IE:
+  immersiveengineering:ore 0 (Copper)
+  immersiveengineering:ore 1 (Bauxite)
+  immersiveengineering:ore 2 (Lead)
+  immersiveengineering:ore 3 (Silver)
+  immersiveengineering:ore 4 (Nickel)
+  immersiveengineering:ore 5 (Uranium)
+
+II:
+  immersiveintelligence:ore 0 (Platinum)
+  immersiveintelligence:ore 1 (Zinc)
+  immersiveintelligence:ore 2 (Tungsten)
+  immersiveintelligence:ore 3 (Salt)
+  immersiveintelligence:ore 4 (Nether Fluorite Ore) (Nether Only)
+  immersiveintelligence:ore 4 (Nether Phosphorus Ore) (Nether Only)
+
+MFFS:
+  modularforcefieldsystem:monazit_ore (Monazit)
+
+NuclearCraft:
+  nuclearcraft:ore 0 (Copper)
+  nuclearcraft:ore 1 (Tin)
+  nuclearcraft:ore 2 (Lead)
+  nuclearcraft:ore 3 (Thorium)
+  nuclearcraft:ore 4 (Uranium)
+  nuclearcraft:ore 5 (Boron)
+  nuclearcraft:ore 6 (Lithium)
+  nuclearcraft:ore 7 (Magnesium)
+
+PR Exploration:
+  projectred-exploration:ore 0 (Ruby)
+  projectred-exploration:ore 1 (Sapphire)
+  projectred-exploration:ore 2 (Peridot)
+  projectred-exploration:ore 3 (Copper)
+  projectred-exploration:ore 4 (Tin)
+  projectred-exploration:ore 5 (Silver)
+  projectred-exploration:ore 6 (Electrotine)
+
+Thaumcraft:
+  thaumcraft:ore_amber (Amber)
+  thaumcraft:ore_cinnabar (Cinnabar)
+  thaumcraft:ore_quartz (Nether Quartz)
+
+Thermal Foundation:
+  thermalfoundation:ore 0 (Copper)
+  thermalfoundation:ore 1 (Tin)
+  thermalfoundation:ore 2 (Silver)
+  thermalfoundation:ore 3 (Lead)
+  thermalfoundation:ore 4 (AluminIum)
+  thermalfoundation:ore 5 (Nickel)
+  thermalfoundation:ore 6 (Platinum)
+  thermalfoundation:ore 7 (Iridium)
+  thermalfoundation:ore 8 (Mana Infused)
+  thermalfoundation:ore_fluid 0 (Oil Sand)
+  thermalfoundation:ore_fluid 1 (Oil Shale)
+  thermalfoundation:ore_fluid 2 (Destabilised Redstone)
+  thermalfoundation:ore_fluid 3 (Energised Netherrack)
+  thermalfoundation:ore_fluid 4 (Resonant End Stone)
+  thermalfoundation:ore_fluid 5 (Red Oil Sand)
