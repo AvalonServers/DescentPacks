@@ -6,7 +6,7 @@
         "mcVersion": "1.12.2",
         "forgeVersion": "14.23.5.2854"
     },
-    "version": "0.0.4",
+    "version": "0.0.5",
     "icon": "icon_ascentfrozenhell.png",
     "packOptions": {
         "multimcOptions": {
@@ -365,7 +365,7 @@
             "type": "curse",
             "id": "creativecore",
             "path": "mods",
-            "name": "onlinepictureframe",
+            "name": "littletiles",
             "projectID": 257814,
             "fileID": 3227279
         },
@@ -760,7 +760,7 @@
             "path": "config/immersiverailroading",
             "name": "ir-raefftech-railway-equipment",
             "projectID": 434152,
-            "fileID": 3236099
+            "fileID": 3238504
         },
         {
             "type": "curse",

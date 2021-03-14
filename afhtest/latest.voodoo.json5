@@ -1,6 +1,6 @@
 {
     "$schema": "../schema/versionPack.schema.json",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "srcDir": "src",
     "mcVersion": "1.12.2",
     "modloader": {
