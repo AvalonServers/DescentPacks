@@ -760,7 +760,7 @@
             "path": "config/immersiverailroading",
             "name": "ir-raefftech-railway-equipment",
             "projectID": 434152,
-            "fileID": 3236099
+            "fileID": 3238504
         },
         {
             "type": "curse",
@@ -1192,6 +1192,14 @@
             "name": "redstone-gauges-and-switches",
             "projectID": 296686,
             "fileID": 3097911
+        },
+        {
+            "type": "curse",
+            "id": "reload-audio-driver-rad",
+            "path": "mods",
+            "name": "reload-audio-driver-rad",
+            "projectID": 305373,
+            "fileID": 2990332
         },
         {
             "type": "curse",
