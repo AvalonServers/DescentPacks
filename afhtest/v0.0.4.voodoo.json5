@@ -471,6 +471,10 @@
                 "curse_projectName": "Forge/morpheus"
             },
 			{
+                "type": "curse",
+                "curse_projectName": "Forge/reload-audio-driver-rad"
+            },
+			{
                 "type": "jenkins",
                 "jenkins_jenkinsUrl": "https://ci.cil.li/",
                 "jenkins_job": "OpenComputers-MC1.12",
