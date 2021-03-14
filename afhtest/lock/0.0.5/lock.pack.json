@@ -1195,6 +1195,14 @@
         },
         {
             "type": "curse",
+            "id": "reload-audio-driver-rad",
+            "path": "mods",
+            "name": "reload-audio-driver-rad",
+            "projectID": 305373,
+            "fileID": 2990332
+        },
+        {
+            "type": "curse",
             "id": "sampler",
             "path": "mods",
             "name": "sampler",
