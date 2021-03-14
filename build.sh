@@ -1,2 +1,2 @@
 #!/bin/sh
-./voodoo compile afhtest/v0.0.4.voodoo.json5
+./voodoo compile afhtest/latest.voodoo.json5
