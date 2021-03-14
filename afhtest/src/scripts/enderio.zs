@@ -1,0 +1,1 @@
+recipes.remove(<enderio:block_tele_pad>);
