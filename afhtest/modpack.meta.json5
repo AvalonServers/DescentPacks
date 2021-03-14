@@ -11,7 +11,7 @@
     "uploadBaseUrl": "https://cdn.avalon.arctarus.co.uk/ascent/client/",
     "packConfig": {
         "versionAlias": {
-            "latest": "0.0.4"
+            "latest": "0.0.5"
         }
     }
 }
