@@ -436,10 +436,6 @@
             },
             {
                 "type": "curse",
-                "curse_projectName": "Forge/decocraft"
-            },
-            {
-                "type": "curse",
                 "curse_projectName": "Forge/traffic-control"
             },
             {

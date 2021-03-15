@@ -365,7 +365,7 @@
             "type": "curse",
             "id": "creativecore",
             "path": "mods",
-            "name": "onlinepictureframe",
+            "name": "littletiles",
             "projectID": 257814,
             "fileID": 3227279
         },
@@ -376,17 +376,6 @@
             "name": "chisel",
             "projectID": 267602,
             "fileID": 2915363
-        },
-        {
-            "type": "curse",
-            "id": "decocraft",
-            "path": "mods",
-            "name": "decocraft",
-            "dependencies": {
-                "ptrlib": "REQUIRED"
-            },
-            "projectID": 79616,
-            "fileID": 2777813
         },
         {
             "type": "curse",
@@ -1130,14 +1119,6 @@
             },
             "projectID": 229049,
             "fileID": 2745551
-        },
-        {
-            "type": "curse",
-            "id": "ptrlib",
-            "path": "mods",
-            "name": "decocraft",
-            "projectID": 291499,
-            "fileID": 2685154
         },
         {
             "type": "curse",
