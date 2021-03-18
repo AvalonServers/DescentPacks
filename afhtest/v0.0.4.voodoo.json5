@@ -475,6 +475,10 @@
                 "curse_projectName": "Forge/reload-audio-driver-rad"
             },
 			{
+                "type": "curse",
+                "curse_projectName": "Forge/reauth"
+            },
+			{
                 "type": "jenkins",
                 "jenkins_jenkinsUrl": "https://ci.cil.li/",
                 "jenkins_job": "OpenComputers-MC1.12",
