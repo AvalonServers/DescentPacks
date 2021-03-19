@@ -1,8 +1,0 @@
-{
-    "$schema": "../schema/metaPack.schema.json",
-    "authors": [
-        "skye"
-    ],
-    "icon": "icon_ascentfrozenhell.png",
-    "uploadBaseUrl": "https://cdn.avalon.arctarus.co.uk/ascent/client/"
-}

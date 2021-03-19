@@ -16,6 +16,8 @@ jobs:
         with:
           java-version: 11
           architecture: x64
+      - name: Build Pack (without updating mods)
+        run: ./voodoo compile afhtest/latest.voodoo.json5 --no-mod-updates
       - name: Create server package
         run: ./voodoo package afhtest/modpack.meta.json5 server
       - name: Create client package

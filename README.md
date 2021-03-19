@@ -4,7 +4,7 @@ This is the pack repository for Descent Frozen Hell, used by Loiste Community, w
 New voodoo stuff work in progress
   
 ## Voodoo usage  
-Current (testing) pack file is `afhtest/v0.0.4.voodoo.json`  
+Current (testing) pack file is `afhtest/latest.voodoo.json`  
   
 Build pack:  
 `./voodoo compile <pack file>`  
