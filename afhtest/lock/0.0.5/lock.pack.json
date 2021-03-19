@@ -365,7 +365,7 @@
             "type": "curse",
             "id": "creativecore",
             "path": "mods",
-            "name": "littletiles",
+            "name": "onlinepictureframe",
             "projectID": 257814,
             "fileID": 3227279
         },
@@ -749,7 +749,7 @@
             "path": "config/immersiverailroading",
             "name": "ir-raefftech-railway-equipment",
             "projectID": 434152,
-            "fileID": 3238504
+            "fileID": 3244109
         },
         {
             "type": "curse",
@@ -818,6 +818,36 @@
             "name": "schematica",
             "projectID": 225605,
             "fileID": 2489549
+        },
+        {
+            "type": "curse",
+            "id": "malisisblocks",
+            "path": "mods",
+            "name": "malisisblocks",
+            "dependencies": {
+                "malisiscore": "REQUIRED"
+            },
+            "projectID": 237862,
+            "fileID": 2526679
+        },
+        {
+            "type": "curse",
+            "id": "malisiscore",
+            "path": "mods",
+            "name": "malisiscore",
+            "projectID": 223896,
+            "fileID": 2680892
+        },
+        {
+            "type": "curse",
+            "id": "malisisdoors",
+            "path": "mods",
+            "name": "malisisdoors",
+            "dependencies": {
+                "malisiscore": "REQUIRED"
+            },
+            "projectID": 223891,
+            "fileID": 2526674
         },
         {
             "type": "curse",
@@ -1135,6 +1165,14 @@
             "name": "realistic-terrain-generation",
             "projectID": 237989,
             "fileID": 2782568
+        },
+        {
+            "type": "curse",
+            "id": "reauth",
+            "path": "mods",
+            "name": "reauth",
+            "projectID": 237701,
+            "fileID": 2560638
         },
         {
             "type": "curse",
