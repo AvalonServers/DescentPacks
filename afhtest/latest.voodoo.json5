@@ -479,18 +479,6 @@
                 "curse_projectName": "Forge/immersiveposts"
             },
 			{
-                "type": "curse",
-                "curse_projectName": "Forge/malisiscore"
-            },
-			{
-                "type": "curse",
-                "curse_projectName": "Forge/malisisdoors"
-            },
-			{
-                "type": "curse",
-                "curse_projectName": "Forge/malisisblocks"
-            },
-			{
                 "type": "jenkins",
                 "jenkins_jenkinsUrl": "https://ci.cil.li/",
                 "jenkins_job": "OpenComputers-MC1.12",
