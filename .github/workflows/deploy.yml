@@ -38,7 +38,7 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: launcher
-          path: _upload/multimc-voodoo/afhtest.zip
+          path: _upload/multimc-voodoo/afhtest-latest.zip
   deploy-web:
     name: Deploy web server
     needs: ["build"]
