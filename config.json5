@@ -24,6 +24,18 @@
     "fabricGenerators": {
     },
     "overrides": {
+      "@curse": {
+        "type": "curse",
+        "curse_useOriginalUrl": false
+      },
+      "@jenkins": {
+        "type": "jenkins",
+        "jenkins_useOriginalUrl": false
+      },
+      "@direct": {
+        "type": "direct",
+        "direct_useOriginalUrl": false
+      },
       "server": {
         "type": "common",
         "side": "SERVER"
