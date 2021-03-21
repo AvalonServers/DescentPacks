@@ -24,7 +24,8 @@
             "id": "INFRATrainPack",
             "path": "config/immersiverailroading",
             "fileName": "INFRATrainPack.zip",
-            "url": "https://thepiguy24.github.io/INFRATrainPack_0005.zip"
+            "url": "https://thepiguy24.github.io/INFRATrainPack_0005.zip",
+            "useOriginalUrl": false
         },
         {
             "type": "curse",
@@ -362,19 +363,22 @@
             "type": "direct",
             "id": "computronics",
             "path": "mods",
-            "url": "http://files.vexatos.com/Computronics/Computronics-1.12.2-1.6.6.jar"
+            "url": "http://files.vexatos.com/Computronics/Computronics-1.12.2-1.6.6.jar",
+            "useOriginalUrl": false
         },
         {
             "type": "direct",
             "id": "computronics_maryTTS",
             "path": "marytts",
-            "url": "http://files.vexatos.com/Computronics/marytts/marytts-runtime-5.2-jar-for-computronics.jar"
+            "url": "http://files.vexatos.com/Computronics/marytts/marytts-runtime-5.2-jar-for-computronics.jar",
+            "useOriginalUrl": false
         },
         {
             "type": "direct",
             "id": "computronics_maryTTS_english_language",
             "path": "marytts",
-            "url": "https://files.vexatos.com/Computronics/marytts/marytts-lang-en-5.2.jar"
+            "url": "https://files.vexatos.com/Computronics/marytts/marytts-lang-en-5.2.jar",
+            "useOriginalUrl": false
         },
         {
             "type": "curse",
@@ -398,7 +402,7 @@
             "type": "curse",
             "id": "creativecore",
             "path": "mods",
-            "name": "onlinepictureframe",
+            "name": "littletiles",
             "projectID": 257814,
             "fileID": 3227279,
             "useOriginalUrl": false
@@ -608,7 +612,8 @@
             "id": "fixed_tfl_trains",
             "path": "config/immersiverailroading",
             "fileName": "fixed_tfl_trains.zip",
-            "url": "https://skyem.co.uk/files/TFL_Pack_tom23_v100_fixed_4.zip"
+            "url": "https://skyem.co.uk/files/TFL_Pack_tom23_v100_fixed_4.zip",
+            "useOriginalUrl": false
         },
         {
             "type": "curse",
@@ -1076,7 +1081,8 @@
             "buildNumber": 213,
             "artifactRelativePath": "build/libs/OpenComputers-MC1.12.2-1.7.5.213.jar",
             "artifactFileName": "OpenComputers-MC1.12.2-1.7.5.213.jar",
-            "fileNameRegex": "OpenComputers-([^-]*)-([^-]*)\\.jar"
+            "fileNameRegex": "OpenComputers-([^-]*)-([^-]*)\\.jar",
+            "useOriginalUrl": false
         },
         {
             "type": "curse",
