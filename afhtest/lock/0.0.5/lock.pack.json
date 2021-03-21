@@ -35,7 +35,8 @@
                 "forgeendertech": "REQUIRED"
             },
             "projectID": 244830,
-            "fileID": 3112419
+            "fileID": 3112419,
+            "useOriginalUrl": false
         },
         {
             "type": "curse",
@@ -47,7 +48,8 @@
                 "p455w0rds-library": "REQUIRED"
             },
             "projectID": 304024,
-            "fileID": 2830114
+            "fileID": 2830114,
+            "useOriginalUrl": false
         },
         {
             "type": "curse",
@@ -58,7 +60,8 @@
                 "immersive-engineering": "REQUIRED"
             },
             "projectID": 285135,
-            "fileID": 2693578
+            "fileID": 2693578,
+            "useOriginalUrl": false
         },
         {
             "type": "curse",
@@ -66,7 +69,8 @@
             "path": "mods",
             "name": "applied-energistics-2",
             "projectID": 223794,
-            "fileID": 2747063
+            "fileID": 2747063,
+            "useOriginalUrl": false
         },
         {
             "type": "curse",
@@ -74,7 +78,8 @@
             "path": "mods",
             "name": "architecturecraft-tridev",
             "projectID": 277631,
-            "fileID": 2750633
+            "fileID": 2750633,
+            "useOriginalUrl": false
         },
         {
             "type": "curse",
@@ -82,7 +87,8 @@
             "path": "mods",
             "name": "autoreglib",
             "projectID": 250363,
-            "fileID": 2746011
+            "fileID": 2746011,
+            "useOriginalUrl": false
         },
         {
             "type": "curse",
@@ -93,7 +99,8 @@
                 "codechicken-lib-1-8": "REQUIRED"
             },
             "projectID": 261348,
-            "fileID": 3143349
+            "fileID": 3143349,
+            "useOriginalUrl": false
         },
         {
             "type": "curse",
@@ -104,7 +111,8 @@
                 "avaritia-1-10": "REQUIRED"
             },
             "projectID": 323553,
-            "fileID": 2997023
+            "fileID": 2997023,
+            "useOriginalUrl": false
         },
         {
             "type": "curse",
@@ -112,7 +120,8 @@
             "path": "mods",
             "name": "baubles",
             "projectID": 227083,
-            "fileID": 2518667
+            "fileID": 2518667,
+            "useOriginalUrl": false
         },
         {
             "type": "curse",
@@ -120,7 +129,8 @@
             "path": "mods",
             "name": "better-builders-wands",
             "projectID": 238403,
-            "fileID": 2691084
+            "fileID": 2691084,
+            "useOriginalUrl": false
         },
         {
             "type": "curse",
@@ -135,7 +145,8 @@
                 "shadowfacts-forgelin": "REQUIRED"
             },
             "projectID": 228529,
-            "fileID": 2852872
+            "fileID": 2852872,
+            "useOriginalUrl": false
         },
         {
             "type": "curse",
@@ -143,7 +154,8 @@
             "path": "mods",
             "name": "biomes-o-plenty",
             "projectID": 220318,
-            "fileID": 2842510
+            "fileID": 2842510,
+            "useOriginalUrl": false
         },
         {
             "type": "curse",
@@ -151,7 +163,8 @@
             "path": "mods",
             "name": "booster-rockets",
             "projectID": 255639,
-            "fileID": 2501831
+            "fileID": 2501831,
+            "useOriginalUrl": false
         },
         {
             "type": "curse",
@@ -159,7 +172,8 @@
             "path": "mods",
             "name": "catwalks-4",
             "projectID": 296851,
-            "fileID": 2936858
+            "fileID": 2936858,
+            "useOriginalUrl": false
         },
         {
             "type": "curse",
@@ -167,7 +181,8 @@
             "path": "mods",
             "name": "chameleon",
             "projectID": 230497,
-            "fileID": 2450900
+            "fileID": 2450900,
+            "useOriginalUrl": false
         },
         {
             "type": "curse",
@@ -178,7 +193,8 @@
                 "charset-lib": "REQUIRED"
             },
             "projectID": 284654,
-            "fileID": 2754599
+            "fileID": 2754599,
+            "useOriginalUrl": false
         },
         {
             "type": "curse",
@@ -189,7 +205,8 @@
                 "charset-lib": "REQUIRED"
             },
             "projectID": 291374,
-            "fileID": 2745007
+            "fileID": 2745007,
+            "useOriginalUrl": false
         },
         {
             "type": "curse",
@@ -197,7 +214,8 @@
             "path": "mods",
             "name": "charset-lib",
             "projectID": 284523,
-            "fileID": 3066682
+            "fileID": 3066682,
+            "useOriginalUrl": false
         },
         {
             "type": "curse",
@@ -208,7 +226,8 @@
                 "charset-lib": "REQUIRED"
             },
             "projectID": 285358,
-            "fileID": 2816634
+            "fileID": 2816634,
+            "useOriginalUrl": false
         },
         {
             "type": "curse",
@@ -219,7 +238,8 @@
                 "charset-lib": "REQUIRED"
             },
             "projectID": 285310,
-            "fileID": 2745004
+            "fileID": 2745004,
+            "useOriginalUrl": false
         },
         {
             "type": "curse",
@@ -227,7 +247,8 @@
             "path": "mods",
             "name": "charset-tools",
             "projectID": 301054,
-            "fileID": 2745010
+            "fileID": 2745010,
+            "useOriginalUrl": false
         },
         {
             "type": "curse",
@@ -238,7 +259,8 @@
                 "charset-lib": "REQUIRED"
             },
             "projectID": 285363,
-            "fileID": 2745327
+            "fileID": 2745327,
+            "useOriginalUrl": false
         },
         {
             "type": "curse",
@@ -249,7 +271,8 @@
                 "charset-lib": "REQUIRED"
             },
             "projectID": 278527,
-            "fileID": 2748288
+            "fileID": 2748288,
+            "useOriginalUrl": false
         },
         {
             "type": "curse",
@@ -260,7 +283,8 @@
                 "codechicken-lib-1-8": "REQUIRED"
             },
             "projectID": 243883,
-            "fileID": 2755785
+            "fileID": 2755785,
+            "useOriginalUrl": false
         },
         {
             "type": "curse",
@@ -271,7 +295,8 @@
                 "ctm": "REQUIRED"
             },
             "projectID": 235279,
-            "fileID": 2915375
+            "fileID": 2915375,
+            "useOriginalUrl": false
         },
         {
             "type": "curse",
@@ -279,7 +304,8 @@
             "path": "mods",
             "name": "climate-control-geographicraft",
             "projectID": 76544,
-            "fileID": 2497541
+            "fileID": 2497541,
+            "useOriginalUrl": false
         },
         {
             "type": "curse",
@@ -287,7 +313,8 @@
             "path": "mods",
             "name": "codechicken-lib-1-8",
             "projectID": 242818,
-            "fileID": 2779848
+            "fileID": 2779848,
+            "useOriginalUrl": false
         },
         {
             "type": "curse",
@@ -295,7 +322,8 @@
             "path": "mods",
             "name": "cofh-core",
             "projectID": 69162,
-            "fileID": 2920433
+            "fileID": 2920433,
+            "useOriginalUrl": false
         },
         {
             "type": "curse",
@@ -303,7 +331,8 @@
             "path": "mods",
             "name": "cofh-world",
             "projectID": 271384,
-            "fileID": 2920434
+            "fileID": 2920434,
+            "useOriginalUrl": false
         },
         {
             "type": "curse",
@@ -311,7 +340,8 @@
             "path": "mods",
             "name": "colytra",
             "projectID": 280200,
-            "fileID": 2828877
+            "fileID": 2828877,
+            "useOriginalUrl": false
         },
         {
             "type": "curse",
@@ -319,7 +349,8 @@
             "path": "mods",
             "name": "ocdevices",
             "projectID": 346326,
-            "fileID": 3000327
+            "fileID": 3000327,
+            "useOriginalUrl": false
         },
         {
             "type": "local",
@@ -351,7 +382,8 @@
             "path": "mods",
             "name": "weather-storms-tornadoes",
             "projectID": 237749,
-            "fileID": 2902920
+            "fileID": 2902920,
+            "useOriginalUrl": false
         },
         {
             "type": "curse",
@@ -359,15 +391,17 @@
             "path": "mods",
             "name": "crafttweaker",
             "projectID": 239197,
-            "fileID": 3231443
+            "fileID": 3231443,
+            "useOriginalUrl": false
         },
         {
             "type": "curse",
             "id": "creativecore",
             "path": "mods",
-            "name": "littletiles",
+            "name": "onlinepictureframe",
             "projectID": 257814,
-            "fileID": 3227279
+            "fileID": 3227279,
+            "useOriginalUrl": false
         },
         {
             "type": "curse",
@@ -375,7 +409,8 @@
             "path": "mods",
             "name": "chisel",
             "projectID": 267602,
-            "fileID": 2915363
+            "fileID": 2915363,
+            "useOriginalUrl": false
         },
         {
             "type": "curse",
@@ -383,7 +418,8 @@
             "path": "config/immersiverailroading",
             "name": "dragons-modern-british",
             "projectID": 367886,
-            "fileID": 3016197
+            "fileID": 3016197,
+            "useOriginalUrl": false
         },
         {
             "type": "curse",
@@ -395,7 +431,8 @@
             "optionalData": {
             },
             "projectID": 227874,
-            "fileID": 2563244
+            "fileID": 2563244,
+            "useOriginalUrl": false
         },
         {
             "type": "curse",
@@ -411,7 +448,8 @@
                 "mixinbootstrap": "REQUIRED"
             },
             "projectID": 238891,
-            "fileID": 3098835
+            "fileID": 3098835,
+            "useOriginalUrl": false
         },
         {
             "type": "curse",
@@ -419,7 +457,8 @@
             "path": "mods",
             "name": "dynamic-view",
             "projectID": 366140,
-            "fileID": 2898681
+            "fileID": 2898681,
+            "useOriginalUrl": false
         },
         {
             "type": "curse",
@@ -427,7 +466,8 @@
             "path": "mods",
             "name": "effortless-building",
             "projectID": 302113,
-            "fileID": 2847346
+            "fileID": 2847346,
+            "useOriginalUrl": false
         },
         {
             "type": "curse",
@@ -438,7 +478,8 @@
                 "endercore": "REQUIRED"
             },
             "projectID": 64578,
-            "fileID": 3124452
+            "fileID": 3124452,
+            "useOriginalUrl": false
         },
         {
             "type": "curse",
@@ -446,7 +487,8 @@
             "path": "mods",
             "name": "ender-io-endergy",
             "projectID": 304346,
-            "fileID": 3124450
+            "fileID": 3124450,
+            "useOriginalUrl": false
         },
         {
             "type": "curse",
@@ -454,7 +496,8 @@
             "path": "mods",
             "name": "ender-io",
             "projectID": 231868,
-            "fileID": 2972849
+            "fileID": 2972849,
+            "useOriginalUrl": false
         },
         {
             "type": "curse",
@@ -466,7 +509,8 @@
                 "immersive-engineering": "REQUIRED"
             },
             "projectID": 307407,
-            "fileID": 2697745
+            "fileID": 2697745,
+            "useOriginalUrl": false
         },
         {
             "type": "curse",
@@ -474,7 +518,8 @@
             "path": "mods",
             "name": "engineers-decor",
             "projectID": 313866,
-            "fileID": 3033266
+            "fileID": 3033266,
+            "useOriginalUrl": false
         },
         {
             "type": "curse",
@@ -485,7 +530,8 @@
                 "immersive-engineering": "REQUIRED"
             },
             "projectID": 291126,
-            "fileID": 3023901
+            "fileID": 3023901,
+            "useOriginalUrl": false
         },
         {
             "type": "curse",
@@ -493,7 +539,8 @@
             "path": "mods",
             "name": "engineers-tools",
             "projectID": 319716,
-            "fileID": 2858835
+            "fileID": 2858835,
+            "useOriginalUrl": false
         },
         {
             "type": "curse",
@@ -504,7 +551,8 @@
                 "thaumcraft": "REQUIRED"
             },
             "projectID": 301722,
-            "fileID": 2609701
+            "fileID": 2609701,
+            "useOriginalUrl": false
         },
         {
             "type": "curse",
@@ -512,7 +560,8 @@
             "path": "mods",
             "name": "extra-utilities",
             "projectID": 225561,
-            "fileID": 2678374
+            "fileID": 2678374,
+            "useOriginalUrl": false
         },
         {
             "type": "curse",
@@ -523,7 +572,8 @@
                 "applied-energistics-2": "REQUIRED"
             },
             "projectID": 229218,
-            "fileID": 2855967
+            "fileID": 2855967,
+            "useOriginalUrl": false
         },
         {
             "type": "curse",
@@ -535,7 +585,8 @@
             "optionalData": {
             },
             "projectID": 254441,
-            "fileID": 2632107
+            "fileID": 2632107,
+            "useOriginalUrl": false
         },
         {
             "type": "curse",
@@ -549,7 +600,8 @@
                 "recommendation": "starred"
             },
             "projectID": 258881,
-            "fileID": 2512758
+            "fileID": 2512758,
+            "useOriginalUrl": false
         },
         {
             "type": "direct",
@@ -564,7 +616,8 @@
             "path": "mods",
             "name": "foamfix-optimization-mod",
             "projectID": 278494,
-            "fileID": 3137883
+            "fileID": 3137883,
+            "useOriginalUrl": false
         },
         {
             "type": "curse",
@@ -575,7 +628,8 @@
                 "codechicken-lib-1-8": "REQUIRED"
             },
             "projectID": 258426,
-            "fileID": 2755790
+            "fileID": 2755790,
+            "useOriginalUrl": false
         },
         {
             "type": "curse",
@@ -583,7 +637,8 @@
             "path": "mods",
             "name": "advanced-chimneys",
             "projectID": 244844,
-            "fileID": 3137504
+            "fileID": 3137504,
+            "useOriginalUrl": false
         },
         {
             "type": "curse",
@@ -591,7 +646,8 @@
             "path": "mods",
             "name": "gravestone-mod",
             "projectID": 238551,
-            "fileID": 2744766
+            "fileID": 2744766,
+            "useOriginalUrl": false
         },
         {
             "type": "curse",
@@ -599,7 +655,8 @@
             "path": "mods",
             "name": "modular-forcefield-system",
             "projectID": 228832,
-            "fileID": 2645992
+            "fileID": 2645992,
+            "useOriginalUrl": false
         },
         {
             "type": "curse",
@@ -607,7 +664,8 @@
             "path": "mods",
             "name": "integration-foregoing",
             "projectID": 356646,
-            "fileID": 3168863
+            "fileID": 3168863,
+            "useOriginalUrl": false
         },
         {
             "type": "curse",
@@ -615,7 +673,8 @@
             "path": "mods",
             "name": "thaumic-additions",
             "projectID": 247401,
-            "fileID": 3157564
+            "fileID": 3157564,
+            "useOriginalUrl": false
         },
         {
             "type": "curse",
@@ -623,7 +682,8 @@
             "path": "mods",
             "name": "icbm-classic",
             "projectID": 244451,
-            "fileID": 2918052
+            "fileID": 2918052,
+            "useOriginalUrl": false
         },
         {
             "type": "curse",
@@ -634,7 +694,8 @@
                 "immersive-engineering": "REQUIRED"
             },
             "projectID": 283992,
-            "fileID": 2595013
+            "fileID": 2595013,
+            "useOriginalUrl": false
         },
         {
             "type": "curse",
@@ -642,7 +703,8 @@
             "path": "mods",
             "name": "immersive-engineering",
             "projectID": 231951,
-            "fileID": 2974106
+            "fileID": 2974106,
+            "useOriginalUrl": false
         },
         {
             "type": "curse",
@@ -654,7 +716,8 @@
                 "immersive-engineering": "REQUIRED"
             },
             "projectID": 250718,
-            "fileID": 2606613
+            "fileID": 2606613,
+            "useOriginalUrl": false
         },
         {
             "type": "curse",
@@ -665,7 +728,8 @@
                 "immersive-engineering": "REQUIRED"
             },
             "projectID": 344344,
-            "fileID": 2944142
+            "fileID": 2944142,
+            "useOriginalUrl": false
         },
         {
             "type": "curse",
@@ -676,7 +740,8 @@
                 "immersive-engineering": "REQUIRED"
             },
             "projectID": 268250,
-            "fileID": 2544919
+            "fileID": 2544919,
+            "useOriginalUrl": false
         },
         {
             "type": "curse",
@@ -688,7 +753,8 @@
                 "universal-mod-core": "REQUIRED"
             },
             "projectID": 277736,
-            "fileID": 3137602
+            "fileID": 3137602,
+            "useOriginalUrl": false
         },
         {
             "type": "curse",
@@ -699,7 +765,8 @@
                 "immersive-engineering": "REQUIRED"
             },
             "projectID": 314645,
-            "fileID": 2951672
+            "fileID": 2951672,
+            "useOriginalUrl": false
         },
         {
             "type": "curse",
@@ -710,7 +777,8 @@
                 "tesla-core-lib": "REQUIRED"
             },
             "projectID": 266515,
-            "fileID": 2745321
+            "fileID": 2745321,
+            "useOriginalUrl": false
         },
         {
             "type": "curse",
@@ -721,7 +789,8 @@
                 "immersive-engineering": "REQUIRED"
             },
             "projectID": 251121,
-            "fileID": 2664750
+            "fileID": 2664750,
+            "useOriginalUrl": false
         },
         {
             "type": "curse",
@@ -733,7 +802,8 @@
                 "gunpowderlib": "REQUIRED"
             },
             "projectID": 277938,
-            "fileID": 3200529
+            "fileID": 3200529,
+            "useOriginalUrl": false
         },
         {
             "type": "curse",
@@ -741,7 +811,8 @@
             "path": "mods",
             "name": "inventory-tweaks",
             "projectID": 223094,
-            "fileID": 2482481
+            "fileID": 2482481,
+            "useOriginalUrl": false
         },
         {
             "type": "curse",
@@ -749,7 +820,8 @@
             "path": "config/immersiverailroading",
             "name": "ir-raefftech-railway-equipment",
             "projectID": 434152,
-            "fileID": 3244109
+            "fileID": 3244109,
+            "useOriginalUrl": false
         },
         {
             "type": "curse",
@@ -757,7 +829,8 @@
             "path": "mods",
             "name": "recurrent-complex",
             "projectID": 224535,
-            "fileID": 2443253
+            "fileID": 2443253,
+            "useOriginalUrl": false
         },
         {
             "type": "curse",
@@ -765,7 +838,8 @@
             "path": "mods",
             "name": "jei",
             "projectID": 238222,
-            "fileID": 3043174
+            "fileID": 3043174,
+            "useOriginalUrl": false
         },
         {
             "type": "curse",
@@ -773,7 +847,8 @@
             "path": "mods",
             "name": "journeymap",
             "projectID": 32274,
-            "fileID": 2916002
+            "fileID": 2916002,
+            "useOriginalUrl": false
         },
         {
             "type": "curse",
@@ -784,7 +859,8 @@
                 "immersive-petroleum": "REQUIRED"
             },
             "projectID": 291727,
-            "fileID": 2549332
+            "fileID": 2549332,
+            "useOriginalUrl": false
         },
         {
             "type": "curse",
@@ -798,7 +874,8 @@
                 "tickcentral": "REQUIRED"
             },
             "projectID": 283525,
-            "fileID": 2947622
+            "fileID": 2947622,
+            "useOriginalUrl": false
         },
         {
             "type": "curse",
@@ -809,7 +886,8 @@
                 "creativecore": "REQUIRED"
             },
             "projectID": 257818,
-            "fileID": 3227278
+            "fileID": 3227278,
+            "useOriginalUrl": false
         },
         {
             "type": "curse",
@@ -817,7 +895,8 @@
             "path": "mods",
             "name": "schematica",
             "projectID": 225605,
-            "fileID": 2489549
+            "fileID": 2489549,
+            "useOriginalUrl": false
         },
         {
             "type": "curse",
@@ -825,7 +904,8 @@
             "path": "config/immersiverailroading",
             "name": "matoi-vanilla-pack-ir",
             "projectID": 349491,
-            "fileID": 3084015
+            "fileID": 3084015,
+            "useOriginalUrl": false
         },
         {
             "type": "curse",
@@ -836,7 +916,8 @@
                 "immersive-engineering": "REQUIRED"
             },
             "projectID": 359407,
-            "fileID": 3162436
+            "fileID": 3162436,
+            "useOriginalUrl": false
         },
         {
             "type": "curse",
@@ -845,7 +926,8 @@
             "name": "dynamic-surroundings",
             "side": "CLIENT",
             "projectID": 357178,
-            "fileID": 3076610
+            "fileID": 3076610,
+            "useOriginalUrl": false
         },
         {
             "type": "curse",
@@ -856,7 +938,8 @@
                 "mtlib": "REQUIRED"
             },
             "projectID": 220954,
-            "fileID": 2881277
+            "fileID": 2881277,
+            "useOriginalUrl": false
         },
         {
             "type": "curse",
@@ -868,7 +951,8 @@
                 "guide-api": "REQUIRED"
             },
             "projectID": 59882,
-            "fileID": 2581227
+            "fileID": 2581227,
+            "useOriginalUrl": false
         },
         {
             "type": "curse",
@@ -879,7 +963,8 @@
                 "avaritia-1-10": "REQUIRED"
             },
             "projectID": 271236,
-            "fileID": 3054338
+            "fileID": 3054338,
+            "useOriginalUrl": false
         },
         {
             "type": "curse",
@@ -887,7 +972,8 @@
             "path": "mods",
             "name": "moreplates",
             "projectID": 304920,
-            "fileID": 2669468
+            "fileID": 2669468,
+            "useOriginalUrl": false
         },
         {
             "type": "curse",
@@ -898,7 +984,8 @@
                 "morelibs": "REQUIRED"
             },
             "projectID": 266736,
-            "fileID": 2668113
+            "fileID": 2668113,
+            "useOriginalUrl": false
         },
         {
             "type": "curse",
@@ -906,7 +993,8 @@
             "path": "mods",
             "name": "morpheus",
             "projectID": 69118,
-            "fileID": 2664449
+            "fileID": 2664449,
+            "useOriginalUrl": false
         },
         {
             "type": "curse",
@@ -917,7 +1005,8 @@
                 "codechicken-lib-1-8": "REQUIRED"
             },
             "projectID": 229002,
-            "fileID": 2735197
+            "fileID": 2735197,
+            "useOriginalUrl": false
         },
         {
             "type": "curse",
@@ -928,7 +1017,8 @@
                 "crafttweaker": "REQUIRED"
             },
             "projectID": 253211,
-            "fileID": 2684561
+            "fileID": 2684561,
+            "useOriginalUrl": false
         },
         {
             "type": "curse",
@@ -940,7 +1030,8 @@
             "optionalData": {
             },
             "projectID": 227965,
-            "fileID": 2432421
+            "fileID": 2432421,
+            "useOriginalUrl": false
         },
         {
             "type": "curse",
@@ -948,7 +1039,8 @@
             "path": "mods",
             "name": "nuclearcraft-mod",
             "projectID": 226254,
-            "fileID": 3074246
+            "fileID": 3074246,
+            "useOriginalUrl": false
         },
         {
             "type": "curse",
@@ -960,7 +1052,8 @@
                 "commons0815": "REQUIRED"
             },
             "projectID": 311322,
-            "fileID": 2824169
+            "fileID": 2824169,
+            "useOriginalUrl": false
         },
         {
             "type": "curse",
@@ -971,7 +1064,8 @@
                 "creativecore": "REQUIRED"
             },
             "projectID": 257815,
-            "fileID": 3047154
+            "fileID": 3047154,
+            "useOriginalUrl": false
         },
         {
             "type": "jenkins",
@@ -993,7 +1087,8 @@
                 "opencomputers": "REQUIRED"
             },
             "projectID": 326890,
-            "fileID": 2738502
+            "fileID": 2738502,
+            "useOriginalUrl": false
         },
         {
             "type": "curse",
@@ -1004,7 +1099,8 @@
             "optionalData": {
             },
             "projectID": 251457,
-            "fileID": 2545677
+            "fileID": 2545677,
+            "useOriginalUrl": false
         },
         {
             "type": "curse",
@@ -1012,7 +1108,8 @@
             "path": "mods",
             "name": "openfm",
             "projectID": 236839,
-            "fileID": 2598511
+            "fileID": 2598511,
+            "useOriginalUrl": false
         },
         {
             "type": "curse",
@@ -1023,7 +1120,8 @@
                 "opencomputers": "REQUIRED"
             },
             "projectID": 225127,
-            "fileID": 2817562
+            "fileID": 2817562,
+            "useOriginalUrl": false
         },
         {
             "type": "curse",
@@ -1031,7 +1129,8 @@
             "path": "mods",
             "name": "opensecurity",
             "projectID": 231687,
-            "fileID": 3205788
+            "fileID": 3205788,
+            "useOriginalUrl": false
         },
         {
             "type": "curse",
@@ -1040,7 +1139,8 @@
             "name": "dynamic-surroundings",
             "side": "CLIENT",
             "projectID": 307806,
-            "fileID": 2820815
+            "fileID": 2820815,
+            "useOriginalUrl": false
         },
         {
             "type": "curse",
@@ -1048,7 +1148,8 @@
             "path": "mods",
             "name": "wireless-crafting-terminal",
             "projectID": 255232,
-            "fileID": 2830265
+            "fileID": 2830265,
+            "useOriginalUrl": false
         },
         {
             "type": "curse",
@@ -1061,7 +1162,8 @@
                 "forge-multipart-cbe": "REQUIRED"
             },
             "projectID": 228702,
-            "fileID": 2745545
+            "fileID": 2745545,
+            "useOriginalUrl": false
         },
         {
             "type": "curse",
@@ -1073,7 +1175,8 @@
                 "project-red-base": "REQUIRED"
             },
             "projectID": 229050,
-            "fileID": 2745546
+            "fileID": 2745546,
+            "useOriginalUrl": false
         },
         {
             "type": "curse",
@@ -1085,7 +1188,8 @@
                 "project-red-base": "REQUIRED"
             },
             "projectID": 230111,
-            "fileID": 2745547
+            "fileID": 2745547,
+            "useOriginalUrl": false
         },
         {
             "type": "curse",
@@ -1096,7 +1200,8 @@
                 "project-red-base": "REQUIRED"
             },
             "projectID": 229045,
-            "fileID": 2745548
+            "fileID": 2745548,
+            "useOriginalUrl": false
         },
         {
             "type": "curse",
@@ -1107,7 +1212,8 @@
                 "project-red-base": "REQUIRED"
             },
             "projectID": 229046,
-            "fileID": 2745549
+            "fileID": 2745549,
+            "useOriginalUrl": false
         },
         {
             "type": "curse",
@@ -1118,7 +1224,8 @@
                 "project-red-base": "REQUIRED"
             },
             "projectID": 229049,
-            "fileID": 2745551
+            "fileID": 2745551,
+            "useOriginalUrl": false
         },
         {
             "type": "curse",
@@ -1126,7 +1233,8 @@
             "path": "mods",
             "name": "realistic-ore-veins",
             "projectID": 296887,
-            "fileID": 2828147
+            "fileID": 2828147,
+            "useOriginalUrl": false
         },
         {
             "type": "curse",
@@ -1134,7 +1242,8 @@
             "path": "mods",
             "name": "realistic-terrain-generation",
             "projectID": 237989,
-            "fileID": 2782568
+            "fileID": 2782568,
+            "useOriginalUrl": false
         },
         {
             "type": "curse",
@@ -1142,7 +1251,8 @@
             "path": "mods",
             "name": "reauth",
             "projectID": 237701,
-            "fileID": 2560638
+            "fileID": 2560638,
+            "useOriginalUrl": false
         },
         {
             "type": "curse",
@@ -1153,7 +1263,8 @@
                 "ivtoolkit": "REQUIRED"
             },
             "projectID": 223150,
-            "fileID": 2689602
+            "fileID": 2689602,
+            "useOriginalUrl": false
         },
         {
             "type": "curse",
@@ -1164,7 +1275,8 @@
                 "cofh-core": "REQUIRED"
             },
             "projectID": 70631,
-            "fileID": 2939416
+            "fileID": 2939416,
+            "useOriginalUrl": false
         },
         {
             "type": "curse",
@@ -1172,7 +1284,8 @@
             "path": "mods",
             "name": "redstone-flux",
             "projectID": 270789,
-            "fileID": 2920436
+            "fileID": 2920436,
+            "useOriginalUrl": false
         },
         {
             "type": "curse",
@@ -1180,7 +1293,8 @@
             "path": "mods",
             "name": "redstone-gauges-and-switches",
             "projectID": 296686,
-            "fileID": 3097911
+            "fileID": 3097911,
+            "useOriginalUrl": false
         },
         {
             "type": "curse",
@@ -1188,7 +1302,8 @@
             "path": "mods",
             "name": "reload-audio-driver-rad",
             "projectID": 305373,
-            "fileID": 2990332
+            "fileID": 2990332,
+            "useOriginalUrl": false
         },
         {
             "type": "curse",
@@ -1199,7 +1314,8 @@
             "optionalData": {
             },
             "projectID": 289242,
-            "fileID": 2707159
+            "fileID": 2707159,
+            "useOriginalUrl": false
         },
         {
             "type": "curse",
@@ -1210,7 +1326,8 @@
                 "lunatriuscore": "REQUIRED"
             },
             "projectID": 225603,
-            "fileID": 2554100
+            "fileID": 2554100,
+            "useOriginalUrl": false
         },
         {
             "type": "curse",
@@ -1218,7 +1335,8 @@
             "path": "mods",
             "name": "shadowfacts-forgelin",
             "projectID": 248453,
-            "fileID": 2785465
+            "fileID": 2785465,
+            "useOriginalUrl": false
         },
         {
             "type": "curse",
@@ -1226,7 +1344,8 @@
             "path": "config/immersiverailroading",
             "name": "small-gauge-goodies-for-immersive-railroading",
             "projectID": 298310,
-            "fileID": 2677970
+            "fileID": 2677970,
+            "useOriginalUrl": false
         },
         {
             "type": "curse",
@@ -1234,7 +1353,8 @@
             "path": "mods",
             "name": "spawner-imbuer",
             "projectID": 261930,
-            "fileID": 2387905
+            "fileID": 2387905,
+            "useOriginalUrl": false
         },
         {
             "type": "curse",
@@ -1242,7 +1362,8 @@
             "path": "mods",
             "name": "stimmedcow-nomorerecipeconflict",
             "projectID": 238123,
-            "fileID": 2671230
+            "fileID": 2671230,
+            "useOriginalUrl": false
         },
         {
             "type": "curse",
@@ -1253,7 +1374,8 @@
                 "chameleon": "REQUIRED"
             },
             "projectID": 223852,
-            "fileID": 2952606
+            "fileID": 2952606,
+            "useOriginalUrl": false
         },
         {
             "type": "curse",
@@ -1262,7 +1384,8 @@
             "name": "swingthroughgrass",
             "side": "SERVER",
             "projectID": 264353,
-            "fileID": 2508268
+            "fileID": 2508268,
+            "useOriginalUrl": false
         },
         {
             "type": "curse",
@@ -1270,7 +1393,8 @@
             "path": "mods",
             "name": "tails",
             "projectID": 223584,
-            "fileID": 2445532
+            "fileID": 2445532,
+            "useOriginalUrl": false
         },
         {
             "type": "curse",
@@ -1278,7 +1402,8 @@
             "path": "mods",
             "name": "techguns",
             "projectID": 244201,
-            "fileID": 2958103
+            "fileID": 2958103,
+            "useOriginalUrl": false
         },
         {
             "type": "curse",
@@ -1289,7 +1414,8 @@
                 "shadowfacts-forgelin": "REQUIRED"
             },
             "projectID": 254602,
-            "fileID": 2891841
+            "fileID": 2891841,
+            "useOriginalUrl": false
         },
         {
             "type": "curse",
@@ -1300,7 +1426,8 @@
                 "baubles": "REQUIRED"
             },
             "projectID": 223628,
-            "fileID": 2629023
+            "fileID": 2629023,
+            "useOriginalUrl": false
         },
         {
             "type": "curse",
@@ -1311,7 +1438,8 @@
                 "thaumcraft": "REQUIRED"
             },
             "projectID": 238003,
-            "fileID": 2559089
+            "fileID": 2559089,
+            "useOriginalUrl": false
         },
         {
             "type": "curse",
@@ -1323,7 +1451,8 @@
                 "thaumcraft": "REQUIRED"
             },
             "projectID": 232564,
-            "fileID": 3102463
+            "fileID": 3102463,
+            "useOriginalUrl": false
         },
         {
             "type": "curse",
@@ -1335,7 +1464,8 @@
                 "baubles": "REQUIRED"
             },
             "projectID": 319441,
-            "fileID": 3148983
+            "fileID": 3148983,
+            "useOriginalUrl": false
         },
         {
             "type": "curse",
@@ -1343,7 +1473,8 @@
             "path": "mods",
             "name": "thaumic-computers",
             "projectID": 293768,
-            "fileID": 2777074
+            "fileID": 2777074,
+            "useOriginalUrl": false
         },
         {
             "type": "curse",
@@ -1355,7 +1486,8 @@
                 "thaumcraft": "REQUIRED"
             },
             "projectID": 223666,
-            "fileID": 2915506
+            "fileID": 2915506,
+            "useOriginalUrl": false
         },
         {
             "type": "curse",
@@ -1367,7 +1499,8 @@
                 "thaumcraft": "REQUIRED"
             },
             "projectID": 293505,
-            "fileID": 2766866
+            "fileID": 2766866,
+            "useOriginalUrl": false
         },
         {
             "type": "curse",
@@ -1378,7 +1511,8 @@
                 "thaumcraft": "REQUIRED"
             },
             "projectID": 75598,
-            "fileID": 2957213
+            "fileID": 2957213,
+            "useOriginalUrl": false
         },
         {
             "type": "curse",
@@ -1386,7 +1520,8 @@
             "path": "mods",
             "name": "the-one-probe",
             "projectID": 245211,
-            "fileID": 2667280
+            "fileID": 2667280,
+            "useOriginalUrl": false
         },
         {
             "type": "curse",
@@ -1398,7 +1533,8 @@
                 "thermal-foundation": "REQUIRED"
             },
             "projectID": 69163,
-            "fileID": 2926431
+            "fileID": 2926431,
+            "useOriginalUrl": false
         },
         {
             "type": "curse",
@@ -1410,7 +1546,8 @@
                 "cofh-world": "REQUIRED"
             },
             "projectID": 222880,
-            "fileID": 2926428
+            "fileID": 2926428,
+            "useOriginalUrl": false
         },
         {
             "type": "curse",
@@ -1418,7 +1555,8 @@
             "path": "mods",
             "name": "laggoggles",
             "projectID": 377201,
-            "fileID": 3140670
+            "fileID": 3140670,
+            "useOriginalUrl": false
         },
         {
             "type": "curse",
@@ -1429,7 +1567,8 @@
                 "the-one-probe": "REQUIRED"
             },
             "projectID": 247111,
-            "fileID": 2887479
+            "fileID": 2887479,
+            "useOriginalUrl": false
         },
         {
             "type": "curse",
@@ -1437,7 +1576,8 @@
             "path": "mods",
             "name": "immersive-railroading",
             "projectID": 282613,
-            "fileID": 2825260
+            "fileID": 2825260,
+            "useOriginalUrl": false
         },
         {
             "type": "curse",
@@ -1445,7 +1585,8 @@
             "path": "mods",
             "name": "traffic-control",
             "projectID": 310701,
-            "fileID": 3150983
+            "fileID": 3150983,
+            "useOriginalUrl": false
         },
         {
             "type": "curse",
@@ -1453,7 +1594,8 @@
             "path": "mods",
             "name": "tree-chopper",
             "projectID": 250241,
-            "fileID": 2492770
+            "fileID": 2492770,
+            "useOriginalUrl": false
         },
         {
             "type": "curse",
@@ -1461,7 +1603,8 @@
             "path": "mods",
             "name": "immersive-railroading",
             "projectID": 371784,
-            "fileID": 3141762
+            "fileID": 3141762,
+            "useOriginalUrl": false
         },
         {
             "type": "curse",
@@ -1469,7 +1612,8 @@
             "path": "config/immersiverailroading",
             "name": "voxel-trains-ir",
             "projectID": 355303,
-            "fileID": 3095350
+            "fileID": 3095350,
+            "useOriginalUrl": false
         },
         {
             "type": "curse",
@@ -1477,7 +1621,8 @@
             "path": "mods",
             "name": "wearable-backpacks",
             "projectID": 257572,
-            "fileID": 2800372
+            "fileID": 2800372,
+            "useOriginalUrl": false
         },
         {
             "type": "curse",
@@ -1488,7 +1633,8 @@
                 "coroutil": "REQUIRED"
             },
             "projectID": 237746,
-            "fileID": 2596867
+            "fileID": 2596867,
+            "useOriginalUrl": false
         },
         {
             "type": "curse",
@@ -1501,7 +1647,8 @@
                 "applied-energistics-2": "REQUIRED"
             },
             "projectID": 244559,
-            "fileID": 2830252
+            "fileID": 2830252,
+            "useOriginalUrl": false
         },
         {
             "type": "curse",
@@ -1509,7 +1656,8 @@
             "path": "mods",
             "name": "worldedit",
             "projectID": 225608,
-            "fileID": 2941712
+            "fileID": 2941712,
+            "useOriginalUrl": false
         },
         {
             "type": "curse",
@@ -1517,7 +1665,8 @@
             "path": "mods",
             "name": "zetta-industries",
             "projectID": 278475,
-            "fileID": 2636576
+            "fileID": 2636576,
+            "useOriginalUrl": false
         }
     ]
 }
