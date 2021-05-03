@@ -20,6 +20,14 @@
         "": [
             {
                 "type": "curse",
+                "curse_projectName": "Forge/redstone-control"
+            },
+            {
+                "type": "curse",
+                "curse_projectName": "Forge/sbm-cardboardboxes"
+            },
+            {
+                "type": "curse",
                 "curse_projectName": "Forge/booster-rockets"
             },
             {
@@ -462,23 +470,23 @@
                 "type": "curse",
                 "curse_projectName": "Forge/chicken-chunks-1-8"
             },
-			{
+            {
                 "type": "curse",
                 "curse_projectName": "Forge/morpheus"
             },
-			{
+            {
                 "type": "curse",
                 "curse_projectName": "Forge/reload-audio-driver-rad"
             },
-			{
+            {
                 "type": "curse",
                 "curse_projectName": "Forge/reauth"
             },
-			{
+            {
                 "type": "curse",
                 "curse_projectName": "Forge/immersiveposts"
             },
-			{
+            {
                 "type": "jenkins",
                 "jenkins_jenkinsUrl": "https://ci.cil.li/",
                 "jenkins_job": "OpenComputers-MC1.12",
