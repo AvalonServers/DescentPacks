@@ -142,11 +142,8 @@
             "description": "Caution: Resource heavy. Disabled by default because there are a few render bugs.",
             "optionalData": {
             },
-            "dependencies": {
-                "shadowfacts-forgelin": "REQUIRED"
-            },
             "projectID": 228529,
-            "fileID": 2852872,
+            "fileID": 3295738,
             "useOriginalUrl": false
         },
         {
@@ -174,6 +171,15 @@
             "name": "catwalks-4",
             "projectID": 296851,
             "fileID": 2936858,
+            "useOriginalUrl": false
+        },
+        {
+            "type": "curse",
+            "id": "cd4017be-library",
+            "path": "mods",
+            "name": "redstone-control",
+            "projectID": 229208,
+            "fileID": 3004631,
             "useOriginalUrl": false
         },
         {
@@ -350,7 +356,7 @@
             "path": "mods",
             "name": "ocdevices",
             "projectID": 346326,
-            "fileID": 3000327,
+            "fileID": 3248796,
             "useOriginalUrl": false
         },
         {
@@ -395,16 +401,16 @@
             "path": "mods",
             "name": "crafttweaker",
             "projectID": 239197,
-            "fileID": 3231443,
+            "fileID": 3294372,
             "useOriginalUrl": false
         },
         {
             "type": "curse",
             "id": "creativecore",
             "path": "mods",
-            "name": "littletiles",
+            "name": "onlinepictureframe",
             "projectID": 257814,
-            "fileID": 3227279,
+            "fileID": 3286575,
             "useOriginalUrl": false
         },
         {
@@ -825,7 +831,7 @@
             "path": "config/immersiverailroading",
             "name": "ir-raefftech-railway-equipment",
             "projectID": 434152,
-            "fileID": 3244109,
+            "fileID": 3297436,
             "useOriginalUrl": false
         },
         {
@@ -891,7 +897,7 @@
                 "creativecore": "REQUIRED"
             },
             "projectID": 257818,
-            "fileID": 3227278,
+            "fileID": 3291004,
             "useOriginalUrl": false
         },
         {
@@ -921,7 +927,7 @@
                 "immersive-engineering": "REQUIRED"
             },
             "projectID": 359407,
-            "fileID": 3162436,
+            "fileID": 3251902,
             "useOriginalUrl": false
         },
         {
@@ -1286,6 +1292,18 @@
         },
         {
             "type": "curse",
+            "id": "redstone-control",
+            "path": "mods",
+            "name": "redstone-control",
+            "dependencies": {
+                "cd4017be-library": "REQUIRED"
+            },
+            "projectID": 319994,
+            "fileID": 3005623,
+            "useOriginalUrl": false
+        },
+        {
+            "type": "curse",
             "id": "redstone-flux",
             "path": "mods",
             "name": "redstone-flux",
@@ -1321,6 +1339,15 @@
             },
             "projectID": 289242,
             "fileID": 2707159,
+            "useOriginalUrl": false
+        },
+        {
+            "type": "curse",
+            "id": "sbm-cardboardboxes",
+            "path": "mods",
+            "name": "sbm-cardboardboxes",
+            "projectID": 248343,
+            "fileID": 2707195,
             "useOriginalUrl": false
         },
         {
@@ -1457,7 +1484,7 @@
                 "thaumcraft": "REQUIRED"
             },
             "projectID": 232564,
-            "fileID": 3102463,
+            "fileID": 3280205,
             "useOriginalUrl": false
         },
         {
