@@ -1343,15 +1343,6 @@
         },
         {
             "type": "curse",
-            "id": "sbm-cardboardboxes",
-            "path": "mods",
-            "name": "sbm-cardboardboxes",
-            "projectID": 248343,
-            "fileID": 2707195,
-            "useOriginalUrl": false
-        },
-        {
-            "type": "curse",
             "id": "schematica",
             "path": "mods",
             "name": "schematica",
