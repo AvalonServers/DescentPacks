@@ -408,7 +408,7 @@
             "type": "curse",
             "id": "creativecore",
             "path": "mods",
-            "name": "onlinepictureframe",
+            "name": "littletiles",
             "projectID": 257814,
             "fileID": 3286575,
             "useOriginalUrl": false
@@ -897,7 +897,7 @@
                 "creativecore": "REQUIRED"
             },
             "projectID": 257818,
-            "fileID": 3291004,
+            "fileID": 3298136,
             "useOriginalUrl": false
         },
         {
@@ -1165,9 +1165,22 @@
         },
         {
             "type": "curse",
-            "id": "project-red-base",
+            "id": "project-red-compat",
             "path": "mods",
-            "name": "project-red-base",
+            "name": "project-red-compat",
+            "dependencies": {
+                "mrtjpcore": "REQUIRED",
+                "project-red-core": "REQUIRED"
+            },
+            "projectID": 229050,
+            "fileID": 2745546,
+            "useOriginalUrl": false
+        },
+        {
+            "type": "curse",
+            "id": "project-red-core",
+            "path": "mods",
+            "name": "project-red-core",
             "dependencies": {
                 "mrtjpcore": "REQUIRED",
                 "codechicken-lib-1-8": "REQUIRED",
@@ -1179,15 +1192,14 @@
         },
         {
             "type": "curse",
-            "id": "project-red-compat",
+            "id": "project-red-exploration",
             "path": "mods",
-            "name": "project-red-compat",
+            "name": "project-red-exploration",
             "dependencies": {
-                "mrtjpcore": "REQUIRED",
-                "project-red-base": "REQUIRED"
+                "project-red-core": "REQUIRED"
             },
-            "projectID": 229050,
-            "fileID": 2745546,
+            "projectID": 229049,
+            "fileID": 2745551,
             "useOriginalUrl": false
         },
         {
@@ -1197,10 +1209,22 @@
             "name": "project-red-fabrication",
             "dependencies": {
                 "project-red-integration": "REQUIRED",
-                "project-red-base": "REQUIRED"
+                "project-red-core": "REQUIRED"
             },
             "projectID": 230111,
             "fileID": 2745547,
+            "useOriginalUrl": false
+        },
+        {
+            "type": "curse",
+            "id": "project-red-illumination",
+            "path": "mods",
+            "name": "project-red-illumination",
+            "dependencies": {
+                "project-red-core": "REQUIRED"
+            },
+            "projectID": 229046,
+            "fileID": 2745549,
             "useOriginalUrl": false
         },
         {
@@ -1209,34 +1233,10 @@
             "path": "mods",
             "name": "project-red-integration",
             "dependencies": {
-                "project-red-base": "REQUIRED"
+                "project-red-core": "REQUIRED"
             },
             "projectID": 229045,
             "fileID": 2745548,
-            "useOriginalUrl": false
-        },
-        {
-            "type": "curse",
-            "id": "project-red-lighting",
-            "path": "mods",
-            "name": "project-red-lighting",
-            "dependencies": {
-                "project-red-base": "REQUIRED"
-            },
-            "projectID": 229046,
-            "fileID": 2745549,
-            "useOriginalUrl": false
-        },
-        {
-            "type": "curse",
-            "id": "project-red-world",
-            "path": "mods",
-            "name": "project-red-world",
-            "dependencies": {
-                "project-red-base": "REQUIRED"
-            },
-            "projectID": 229049,
-            "fileID": 2745551,
             "useOriginalUrl": false
         },
         {
