@@ -20,6 +20,10 @@
         "": [
             {
                 "type": "curse",
+                "curse_projectName": "Forge/redstone-control"
+            },
+            {
+                "type": "curse",
                 "curse_projectName": "Forge/booster-rockets"
             },
             {
@@ -104,7 +108,7 @@
             },
             {
                 "type": "curse",
-                "curse_projectName": "Forge/project-red-base"
+                "curse_projectName": "Forge/project-red-core"
             },
             {
                 "type": "curse",
@@ -120,11 +124,11 @@
             },
             {
                 "type": "curse",
-                "curse_projectName": "Forge/project-red-lighting"
+                "curse_projectName": "Forge/project-red-illumination"
             },
             {
                 "type": "curse",
-                "curse_projectName": "Forge/project-red-world"
+                "curse_projectName": "Forge/project-red-exploration"
             },
             {
                 "type": "curse",
@@ -462,23 +466,23 @@
                 "type": "curse",
                 "curse_projectName": "Forge/chicken-chunks-1-8"
             },
-			{
+            {
                 "type": "curse",
                 "curse_projectName": "Forge/morpheus"
             },
-			{
+            {
                 "type": "curse",
                 "curse_projectName": "Forge/reload-audio-driver-rad"
             },
-			{
+            {
                 "type": "curse",
                 "curse_projectName": "Forge/reauth"
             },
-			{
+            {
                 "type": "curse",
                 "curse_projectName": "Forge/immersiveposts"
             },
-			{
+            {
                 "type": "jenkins",
                 "jenkins_jenkinsUrl": "https://ci.cil.li/",
                 "jenkins_job": "OpenComputers-MC1.12",
