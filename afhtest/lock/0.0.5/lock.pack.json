@@ -131,11 +131,8 @@
             "description": "Caution: Resource heavy. Disabled by default because there are a few render bugs.",
             "optionalData": {
             },
-            "dependencies": {
-                "shadowfacts-forgelin": "REQUIRED"
-            },
             "projectID": 228529,
-            "fileID": 2852872
+            "fileID": 3295738
         },
         {
             "type": "curse",
@@ -160,6 +157,17 @@
             "name": "catwalks-4",
             "projectID": 296851,
             "fileID": 2936858
+        },
+        {
+            "type": "curse",
+            "id": "cb-multipart",
+            "path": "mods",
+            "name": "cb-multipart",
+            "dependencies": {
+                "codechicken-lib-1-8": "REQUIRED"
+            },
+            "projectID": 258426,
+            "fileID": 2755790
         },
         {
             "type": "curse",
@@ -319,7 +327,7 @@
             "path": "mods",
             "name": "ocdevices",
             "projectID": 346326,
-            "fileID": 3000327
+            "fileID": 3248796
         },
         {
             "type": "local",
@@ -359,7 +367,7 @@
             "path": "mods",
             "name": "crafttweaker",
             "projectID": 239197,
-            "fileID": 3231443
+            "fileID": 3294372
         },
         {
             "type": "curse",
@@ -367,7 +375,7 @@
             "path": "mods",
             "name": "onlinepictureframe",
             "projectID": 257814,
-            "fileID": 3227279
+            "fileID": 3321760
         },
         {
             "type": "curse",
@@ -438,7 +446,7 @@
                 "endercore": "REQUIRED"
             },
             "projectID": 64578,
-            "fileID": 3124452
+            "fileID": 3323401
         },
         {
             "type": "curse",
@@ -446,7 +454,7 @@
             "path": "mods",
             "name": "ender-io-endergy",
             "projectID": 304346,
-            "fileID": 3124450
+            "fileID": 3323398
         },
         {
             "type": "curse",
@@ -564,18 +572,7 @@
             "path": "mods",
             "name": "foamfix-optimization-mod",
             "projectID": 278494,
-            "fileID": 3137883
-        },
-        {
-            "type": "curse",
-            "id": "forge-multipart-cbe",
-            "path": "mods",
-            "name": "forge-multipart-cbe",
-            "dependencies": {
-                "codechicken-lib-1-8": "REQUIRED"
-            },
-            "projectID": 258426,
-            "fileID": 2755790
+            "fileID": 3319452
         },
         {
             "type": "curse",
@@ -749,7 +746,7 @@
             "path": "config/immersiverailroading",
             "name": "ir-raefftech-railway-equipment",
             "projectID": 434152,
-            "fileID": 3244109
+            "fileID": 3319946
         },
         {
             "type": "curse",
@@ -809,7 +806,7 @@
                 "creativecore": "REQUIRED"
             },
             "projectID": 257818,
-            "fileID": 3227278
+            "fileID": 3321759
         },
         {
             "type": "curse",
@@ -866,7 +863,7 @@
                 "immersive-engineering": "REQUIRED"
             },
             "projectID": 359407,
-            "fileID": 3162436
+            "fileID": 3251902
         },
         {
             "type": "curse",
@@ -886,7 +883,7 @@
                 "mtlib": "REQUIRED"
             },
             "projectID": 220954,
-            "fileID": 2881277
+            "fileID": 3308463
         },
         {
             "type": "curse",
@@ -958,7 +955,7 @@
                 "crafttweaker": "REQUIRED"
             },
             "projectID": 253211,
-            "fileID": 2684561
+            "fileID": 3308160
         },
         {
             "type": "curse",
@@ -1009,9 +1006,9 @@
             "path": "mods",
             "jenkinsUrl": "https://ci.cil.li/",
             "job": "OpenComputers-MC1.12",
-            "buildNumber": 213,
-            "artifactRelativePath": "build/libs/OpenComputers-MC1.12.2-1.7.5.213.jar",
-            "artifactFileName": "OpenComputers-MC1.12.2-1.7.5.213.jar",
+            "buildNumber": 217,
+            "artifactRelativePath": "build/libs/OpenComputers-MC1.12.2-1.7.5.217.jar",
+            "artifactFileName": "OpenComputers-MC1.12.2-1.7.5.217.jar",
             "fileNameRegex": "OpenComputers-([^-]*)-([^-]*)\\.jar"
         },
         {
@@ -1082,28 +1079,39 @@
         },
         {
             "type": "curse",
-            "id": "project-red-base",
+            "id": "project-red-compat",
             "path": "mods",
-            "name": "project-red-base",
+            "name": "project-red-compat",
+            "dependencies": {
+                "mrtjpcore": "REQUIRED",
+                "project-red-core": "REQUIRED"
+            },
+            "projectID": 229050,
+            "fileID": 2745546
+        },
+        {
+            "type": "curse",
+            "id": "project-red-core",
+            "path": "mods",
+            "name": "project-red-core",
             "dependencies": {
                 "mrtjpcore": "REQUIRED",
                 "codechicken-lib-1-8": "REQUIRED",
-                "forge-multipart-cbe": "REQUIRED"
+                "cb-multipart": "REQUIRED"
             },
             "projectID": 228702,
             "fileID": 2745545
         },
         {
             "type": "curse",
-            "id": "project-red-compat",
+            "id": "project-red-exploration",
             "path": "mods",
-            "name": "project-red-compat",
+            "name": "project-red-exploration",
             "dependencies": {
-                "mrtjpcore": "REQUIRED",
-                "project-red-base": "REQUIRED"
+                "project-red-core": "REQUIRED"
             },
-            "projectID": 229050,
-            "fileID": 2745546
+            "projectID": 229049,
+            "fileID": 2745551
         },
         {
             "type": "curse",
@@ -1112,10 +1120,21 @@
             "name": "project-red-fabrication",
             "dependencies": {
                 "project-red-integration": "REQUIRED",
-                "project-red-base": "REQUIRED"
+                "project-red-core": "REQUIRED"
             },
             "projectID": 230111,
             "fileID": 2745547
+        },
+        {
+            "type": "curse",
+            "id": "project-red-illumination",
+            "path": "mods",
+            "name": "project-red-illumination",
+            "dependencies": {
+                "project-red-core": "REQUIRED"
+            },
+            "projectID": 229046,
+            "fileID": 2745549
         },
         {
             "type": "curse",
@@ -1123,32 +1142,10 @@
             "path": "mods",
             "name": "project-red-integration",
             "dependencies": {
-                "project-red-base": "REQUIRED"
+                "project-red-core": "REQUIRED"
             },
             "projectID": 229045,
             "fileID": 2745548
-        },
-        {
-            "type": "curse",
-            "id": "project-red-lighting",
-            "path": "mods",
-            "name": "project-red-lighting",
-            "dependencies": {
-                "project-red-base": "REQUIRED"
-            },
-            "projectID": 229046,
-            "fileID": 2745549
-        },
-        {
-            "type": "curse",
-            "id": "project-red-world",
-            "path": "mods",
-            "name": "project-red-world",
-            "dependencies": {
-                "project-red-base": "REQUIRED"
-            },
-            "projectID": 229049,
-            "fileID": 2745551
         },
         {
             "type": "curse",
@@ -1353,7 +1350,7 @@
                 "thaumcraft": "REQUIRED"
             },
             "projectID": 232564,
-            "fileID": 3102463
+            "fileID": 3280205
         },
         {
             "type": "curse",

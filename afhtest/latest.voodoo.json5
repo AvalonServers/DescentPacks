@@ -104,7 +104,7 @@
             },
             {
                 "type": "curse",
-                "curse_projectName": "Forge/project-red-base"
+                "curse_projectName": "Forge/project-red-core"
             },
             {
                 "type": "curse",
@@ -120,11 +120,11 @@
             },
             {
                 "type": "curse",
-                "curse_projectName": "Forge/project-red-lighting"
+                "curse_projectName": "Forge/project-red-illumination"
             },
             {
                 "type": "curse",
-                "curse_projectName": "Forge/project-red-world"
+                "curse_projectName": "Forge/project-red-exploration"
             },
             {
                 "type": "curse",
@@ -132,7 +132,7 @@
             },
             {
                 "type": "curse",
-                "curse_projectName": "Forge/forge-multipart-cbe"
+                "curse_projectName": "Forge/cb-multipart"
             },
             {
                 "type": "curse",
