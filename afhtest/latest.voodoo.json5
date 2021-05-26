@@ -136,7 +136,7 @@
             },
             {
                 "type": "curse",
-                "curse_projectName": "Forge/forge-multipart-cbe"
+                "curse_projectName": "Forge/cb-multipart"
             },
             {
                 "type": "curse",
@@ -482,7 +482,7 @@
                 "type": "curse",
                 "curse_projectName": "Forge/immersiveposts"
             },
-            {
+			{
                 "type": "jenkins",
                 "jenkins_jenkinsUrl": "https://ci.cil.li/",
                 "jenkins_job": "OpenComputers-MC1.12",

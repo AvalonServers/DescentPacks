@@ -175,6 +175,18 @@
         },
         {
             "type": "curse",
+            "id": "cb-multipart",
+            "path": "mods",
+            "name": "cb-multipart",
+            "dependencies": {
+                "codechicken-lib-1-8": "REQUIRED"
+            },
+            "projectID": 258426,
+            "fileID": 2755790,
+            "useOriginalUrl": false
+        },
+        {
+            "type": "curse",
             "id": "cd4017be-library",
             "path": "mods",
             "name": "redstone-control",
@@ -408,9 +420,9 @@
             "type": "curse",
             "id": "creativecore",
             "path": "mods",
-            "name": "littletiles",
+            "name": "onlinepictureframe",
             "projectID": 257814,
-            "fileID": 3286575,
+            "fileID": 3321760,
             "useOriginalUrl": false
         },
         {
@@ -488,7 +500,7 @@
                 "endercore": "REQUIRED"
             },
             "projectID": 64578,
-            "fileID": 3124452,
+            "fileID": 3323401,
             "useOriginalUrl": false
         },
         {
@@ -497,7 +509,7 @@
             "path": "mods",
             "name": "ender-io-endergy",
             "projectID": 304346,
-            "fileID": 3124450,
+            "fileID": 3323398,
             "useOriginalUrl": false
         },
         {
@@ -627,19 +639,7 @@
             "path": "mods",
             "name": "foamfix-optimization-mod",
             "projectID": 278494,
-            "fileID": 3137883,
-            "useOriginalUrl": false
-        },
-        {
-            "type": "curse",
-            "id": "forge-multipart-cbe",
-            "path": "mods",
-            "name": "forge-multipart-cbe",
-            "dependencies": {
-                "codechicken-lib-1-8": "REQUIRED"
-            },
-            "projectID": 258426,
-            "fileID": 2755790,
+            "fileID": 3319452,
             "useOriginalUrl": false
         },
         {
@@ -831,7 +831,7 @@
             "path": "config/immersiverailroading",
             "name": "ir-raefftech-railway-equipment",
             "projectID": 434152,
-            "fileID": 3297436,
+            "fileID": 3319946,
             "useOriginalUrl": false
         },
         {
@@ -897,7 +897,7 @@
                 "creativecore": "REQUIRED"
             },
             "projectID": 257818,
-            "fileID": 3298136,
+            "fileID": 3321759,
             "useOriginalUrl": false
         },
         {
@@ -949,7 +949,7 @@
                 "mtlib": "REQUIRED"
             },
             "projectID": 220954,
-            "fileID": 2881277,
+            "fileID": 3308463,
             "useOriginalUrl": false
         },
         {
@@ -1028,7 +1028,7 @@
                 "crafttweaker": "REQUIRED"
             },
             "projectID": 253211,
-            "fileID": 2684561,
+            "fileID": 3308160,
             "useOriginalUrl": false
         },
         {
@@ -1084,9 +1084,9 @@
             "path": "mods",
             "jenkinsUrl": "https://ci.cil.li/",
             "job": "OpenComputers-MC1.12",
-            "buildNumber": 213,
-            "artifactRelativePath": "build/libs/OpenComputers-MC1.12.2-1.7.5.213.jar",
-            "artifactFileName": "OpenComputers-MC1.12.2-1.7.5.213.jar",
+            "buildNumber": 217,
+            "artifactRelativePath": "build/libs/OpenComputers-MC1.12.2-1.7.5.217.jar",
+            "artifactFileName": "OpenComputers-MC1.12.2-1.7.5.217.jar",
             "fileNameRegex": "OpenComputers-([^-]*)-([^-]*)\\.jar",
             "useOriginalUrl": false
         },
@@ -1184,7 +1184,7 @@
             "dependencies": {
                 "mrtjpcore": "REQUIRED",
                 "codechicken-lib-1-8": "REQUIRED",
-                "forge-multipart-cbe": "REQUIRED"
+                "cb-multipart": "REQUIRED"
             },
             "projectID": 228702,
             "fileID": 2745545,
