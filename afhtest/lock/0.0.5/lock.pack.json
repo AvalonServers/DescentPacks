@@ -818,36 +818,6 @@
         },
         {
             "type": "curse",
-            "id": "malisisblocks",
-            "path": "mods",
-            "name": "malisisblocks",
-            "dependencies": {
-                "malisiscore": "REQUIRED"
-            },
-            "projectID": 237862,
-            "fileID": 2526679
-        },
-        {
-            "type": "curse",
-            "id": "malisiscore",
-            "path": "mods",
-            "name": "malisiscore",
-            "projectID": 223896,
-            "fileID": 2680892
-        },
-        {
-            "type": "curse",
-            "id": "malisisdoors",
-            "path": "mods",
-            "name": "malisisdoors",
-            "dependencies": {
-                "malisiscore": "REQUIRED"
-            },
-            "projectID": 223891,
-            "fileID": 2526674
-        },
-        {
-            "type": "curse",
             "id": "matoi-vanilla-pack-ir",
             "path": "config/immersiverailroading",
             "name": "matoi-vanilla-pack-ir",
