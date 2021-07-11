@@ -413,14 +413,14 @@
             "path": "mods",
             "name": "crafttweaker",
             "projectID": 239197,
-            "fileID": 3294372,
+            "fileID": 3383242,
             "useOriginalUrl": false
         },
         {
             "type": "curse",
             "id": "creativecore",
             "path": "mods",
-            "name": "onlinepictureframe",
+            "name": "littletiles",
             "projectID": 257814,
             "fileID": 3321760,
             "useOriginalUrl": false
@@ -500,7 +500,7 @@
                 "endercore": "REQUIRED"
             },
             "projectID": 64578,
-            "fileID": 3323401,
+            "fileID": 3328811,
             "useOriginalUrl": false
         },
         {
@@ -509,7 +509,7 @@
             "path": "mods",
             "name": "ender-io-endergy",
             "projectID": 304346,
-            "fileID": 3323398,
+            "fileID": 3328808,
             "useOriginalUrl": false
         },
         {
@@ -639,7 +639,7 @@
             "path": "mods",
             "name": "foamfix-optimization-mod",
             "projectID": 278494,
-            "fileID": 3319452,
+            "fileID": 3327893,
             "useOriginalUrl": false
         },
         {
@@ -684,7 +684,7 @@
             "path": "mods",
             "name": "thaumic-additions",
             "projectID": 247401,
-            "fileID": 3157564,
+            "fileID": 3366814,
             "useOriginalUrl": false
         },
         {
@@ -751,7 +751,7 @@
                 "immersive-engineering": "REQUIRED"
             },
             "projectID": 268250,
-            "fileID": 2544919,
+            "fileID": 3382321,
             "useOriginalUrl": false
         },
         {
@@ -897,7 +897,7 @@
                 "creativecore": "REQUIRED"
             },
             "projectID": 257818,
-            "fileID": 3321759,
+            "fileID": 3351491,
             "useOriginalUrl": false
         },
         {
@@ -945,11 +945,8 @@
             "id": "modtweaker",
             "path": "mods",
             "name": "modtweaker",
-            "dependencies": {
-                "mtlib": "REQUIRED"
-            },
             "projectID": 220954,
-            "fileID": 3308463,
+            "fileID": 3368737,
             "useOriginalUrl": false
         },
         {
@@ -1050,7 +1047,7 @@
             "path": "mods",
             "name": "nuclearcraft-mod",
             "projectID": 226254,
-            "fileID": 3074246,
+            "fileID": 3328174,
             "useOriginalUrl": false
         },
         {
@@ -1488,7 +1485,7 @@
                 "baubles": "REQUIRED"
             },
             "projectID": 319441,
-            "fileID": 3148983,
+            "fileID": 3378111,
             "useOriginalUrl": false
         },
         {
@@ -1609,7 +1606,7 @@
             "path": "mods",
             "name": "traffic-control",
             "projectID": 310701,
-            "fileID": 3150983,
+            "fileID": 3330164,
             "useOriginalUrl": false
         },
         {
@@ -1636,7 +1633,7 @@
             "path": "config/immersiverailroading",
             "name": "voxel-trains-ir",
             "projectID": 355303,
-            "fileID": 3095350,
+            "fileID": 3334868,
             "useOriginalUrl": false
         },
         {
