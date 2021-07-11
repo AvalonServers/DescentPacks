@@ -420,7 +420,7 @@
             "type": "curse",
             "id": "creativecore",
             "path": "mods",
-            "name": "littletiles",
+            "name": "onlinepictureframe",
             "projectID": 257814,
             "fileID": 3321760,
             "useOriginalUrl": false
@@ -1589,6 +1589,15 @@
             },
             "projectID": 247111,
             "fileID": 2887479,
+            "useOriginalUrl": false
+        },
+        {
+            "type": "curse",
+            "id": "torchmaster",
+            "path": "mods",
+            "name": "torchmaster",
+            "projectID": 254268,
+            "fileID": 3051236,
             "useOriginalUrl": false
         },
         {

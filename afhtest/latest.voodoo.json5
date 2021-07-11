@@ -482,6 +482,10 @@
                 "type": "curse",
                 "curse_projectName": "Forge/immersiveposts"
             },
+            {
+                "type": "curse",
+                "curse_projectName": "Forge/torchmaster",
+            },
 			{
                 "type": "jenkins",
                 "jenkins_jenkinsUrl": "https://ci.cil.li/",
